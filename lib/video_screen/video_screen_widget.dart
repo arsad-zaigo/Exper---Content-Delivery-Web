@@ -46,10 +46,10 @@ class _VideoScreenWidgetState extends State<VideoScreenWidget> {
             mainAxisSize: MainAxisSize.max,
             children: [
               custom_widgets.CustomVideoPlayer(
-                width: MediaQuery.of(context).size.width,
+                width: double.infinity,
                 height: 200,
-                canTrackVideoPlayer: true,
-                disableSeekBar: true,
+                canTrackVideoPlayer: false,
+                disableSeekBar: false,
                 url:
                     'https://ak.picdn.net/shutterstock/videos/1046739475/preview/stock-footage-helpdesk-internet-online-meeting-conference-in-office-webinar-talking-on-webcam-speaker-with.webm',
               ),
