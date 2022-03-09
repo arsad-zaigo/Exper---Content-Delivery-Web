@@ -130,8 +130,11 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                             onPressed: () async {
                               await Navigator.push(
                                 context,
-                                MaterialPageRoute(
-                                  builder: (context) => VideoScreenWidget(),
+                                PageTransition(
+                                  type: PageTransitionType.fade,
+                                  duration: Duration(milliseconds: 300),
+                                  reverseDuration: Duration(milliseconds: 300),
+                                  child: VideoScreenWidget(),
                                 ),
                               );
                             },
