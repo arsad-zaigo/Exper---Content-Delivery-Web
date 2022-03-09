@@ -1,14 +1,21 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../video_screen/video_screen_widget.dart';
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CourseCardWidget extends StatefulWidget {
-  const CourseCardWidget({Key key}) : super(key: key);
+  const CourseCardWidget({
+    Key key,
+    this.imagePath,
+    this.textTitle,
+    this.duration,
+  }) : super(key: key);
+
+  final String imagePath;
+  final String textTitle;
+  final String duration;
 
   @override
   _CourseCardWidgetState createState() => _CourseCardWidgetState();
@@ -18,8 +25,8 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 350,
-      height: MediaQuery.of(context).size.height * 1,
+      width: MediaQuery.of(context).size.width * 0.9,
+      height: 600,
       decoration: BoxDecoration(
         color: Color(0x00EEEEEE),
       ),
@@ -47,7 +54,7 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
               ),
             ),
             Padding(
-              padding: EdgeInsetsDirectional.fromSTEB(30, 20, 20, 20),
+              padding: EdgeInsetsDirectional.fromSTEB(20, 10, 10, 10),
               child: Container(
                 width: MediaQuery.of(context).size.width,
                 height: 200,
@@ -55,16 +62,19 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                   color: Color(0x00EEEEEE),
                 ),
                 child: Column(
-                  mainAxisSize: MainAxisSize.max,
+                  mainAxisSize: MainAxisSize.min,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    AutoSizeText(
-                      'Fellowship in Gastroenterology',
+                    Text(
+                      widget.textTitle.maybeHandleOverflow(
+                        maxChars: 80,
+                        replacement: '…',
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF202431),
-                            fontSize: 30,
-                            fontWeight: FontWeight.bold,
+                            fontSize: 25,
+                            fontWeight: FontWeight.w600,
                             useGoogleFonts: false,
                           ),
                     ),
@@ -74,7 +84,7 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                         mainAxisSize: MainAxisSize.max,
                         children: [
                           Text(
-                            '1 Year ',
+                            widget.duration,
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'Poppins',
@@ -116,16 +126,8 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                         mainAxisAlignment: MainAxisAlignment.start,
                         children: [
                           FFButtonWidget(
-                            onPressed: () async {
-                              await Navigator.push(
-                                context,
-                                PageTransition(
-                                  type: PageTransitionType.rightToLeft,
-                                  duration: Duration(milliseconds: 300),
-                                  reverseDuration: Duration(milliseconds: 300),
-                                  child: VideoScreenWidget(),
-                                ),
-                              );
+                            onPressed: () {
+                              print('Button pressed ...');
                             },
                             text: 'Preview',
                             options: FFButtonOptions(
@@ -151,7 +153,12 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                                 EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
                             child: Text(
                               '₹24,000',
-                              style: FlutterFlowTheme.of(context).subtitle2,
+                              style: FlutterFlowTheme.of(context)
+                                  .subtitle2
+                                  .override(
+                                    fontFamily: 'Poppins',
+                                    lineHeight: 1,
+                                  ),
                             ),
                           ),
                         ],

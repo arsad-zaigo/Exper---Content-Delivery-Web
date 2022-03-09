@@ -1,3 +1,4 @@
+import '../backend/api_requests/api_calls.dart';
 import '../components/course_card_widget.dart';
 import '../components/user_profile_widget_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
@@ -52,30 +53,83 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                           ),
                         ],
                       ),
-                      Padding(
-                        padding: EdgeInsetsDirectional.fromSTEB(0, 15, 0, 0),
-                        child: Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: 600,
-                          decoration: BoxDecoration(
-                            color: Color(0x00EEEEEE),
-                          ),
-                          child: Padding(
-                            padding:
-                                EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
-                            child: ListView(
-                              padding: EdgeInsets.zero,
-                              scrollDirection: Axis.horizontal,
-                              children: [
-                                CourseCardWidget(),
-                                CourseCardWidget(),
-                                CourseCardWidget(),
-                              ],
-                            ),
-                          ),
+                      Expanded(
+                        child: FutureBuilder<ApiCallResponse>(
+                          future: CatFactCall.call(),
+                          builder: (context, snapshot) {
+                            // Customize what your widget looks like when it's loading.
+                            if (!snapshot.hasData) {
+                              return Center(
+                                child: SizedBox(
+                                  width: 50,
+                                  height: 50,
+                                  child: CircularProgressIndicator(
+                                    color: FlutterFlowTheme.of(context)
+                                        .primaryColor,
+                                  ),
+                                ),
+                              );
+                            }
+                            final listViewCatFactResponse = snapshot.data;
+                            return Builder(
+                              builder: (context) {
+                                final items = getJsonField(
+                                      (listViewCatFactResponse?.jsonBody ?? ''),
+                                      r'''$[*]''',
+                                    )?.toList() ??
+                                    [];
+                                return ListView.builder(
+                                  padding: EdgeInsets.zero,
+                                  scrollDirection: Axis.horizontal,
+                                  itemCount: items.length,
+                                  itemBuilder: (context, itemsIndex) {
+                                    final itemsItem = items[itemsIndex];
+                                    return Align(
+                                      alignment: AlignmentDirectional(0, 0),
+                                      child: Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            10, 0, 0, 0),
+                                        child: CourseCardWidget(
+                                          imagePath: getJsonField(
+                                            itemsItem,
+                                            r'''$.type''',
+                                          ),
+                                          textTitle: valueOrDefault<String>(
+                                            getJsonField(
+                                              itemsItem,
+                                              r'''$.text''',
+                                            ).toString(),
+                                            'N/A',
+                                          ),
+                                          duration: valueOrDefault<String>(
+                                            getJsonField(
+                                              itemsItem,
+                                              r'''$.updatedAt''',
+                                            ).toString(),
+                                            'N/A',
+                                          ),
+                                        ),
+                                      ),
+                                    );
+                                  },
+                                );
+                              },
+                            );
+                          },
                         ),
                       ),
                     ],
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  height: 250,
+                  decoration: BoxDecoration(
+                    color: Colors.white,
+                  ),
+                  child: Column(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [],
                   ),
                 ),
               ],
