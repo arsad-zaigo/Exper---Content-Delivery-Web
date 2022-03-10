@@ -25,7 +25,7 @@ class _VideoScreenWidgetState extends State<VideoScreenWidget> {
       key: scaffoldKey,
       appBar: AppBar(
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
-        automaticallyImplyLeading: false,
+        automaticallyImplyLeading: true,
         title: Text(
           'Page Title',
           style: FlutterFlowTheme.of(context).title2.override(
@@ -45,13 +45,20 @@ class _VideoScreenWidgetState extends State<VideoScreenWidget> {
           child: Column(
             mainAxisSize: MainAxisSize.max,
             children: [
-              custom_widgets.CustomVideoPlayer(
+              Container(
                 width: double.infinity,
                 height: 200,
-                canTrackVideoPlayer: false,
-                disableSeekBar: false,
-                url:
-                    'https://ak.picdn.net/shutterstock/videos/1046739475/preview/stock-footage-helpdesk-internet-online-meeting-conference-in-office-webinar-talking-on-webcam-speaker-with.webm',
+                decoration: BoxDecoration(
+                  color: Color(0xFFEEEEEE),
+                ),
+                child: custom_widgets.CustomVideoPlayer(
+                  width: double.infinity,
+                  height: 200,
+                  canTrackVideoPlayer: false,
+                  disableSeekBar: false,
+                  url:
+                      'https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_2mb.mp4',
+                ),
               ),
             ],
           ),

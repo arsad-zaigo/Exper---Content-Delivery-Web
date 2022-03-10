@@ -12,11 +12,15 @@ class CourseCardWidget extends StatefulWidget {
     this.imagePath,
     this.textTitle,
     this.duration,
+    this.rating,
+    this.price,
   }) : super(key: key);
 
   final String imagePath;
   final String textTitle;
   final String duration;
+  final double rating;
+  final String price;
 
   @override
   _CourseCardWidgetState createState() => _CourseCardWidgetState();
@@ -106,7 +110,7 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                             child: Text(
-                              '4.5',
+                              widget.rating.toString(),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -161,7 +165,7 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
                             child: Text(
-                              '₹24,000',
+                              widget.price,
                               style: FlutterFlowTheme.of(context)
                                   .subtitle2
                                   .override(
