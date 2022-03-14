@@ -31,7 +31,7 @@ class _MiniCourseCardWidgetState extends State<MiniCourseCardWidget> {
       padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
       child: Container(
         width: 300,
-        height: 350,
+        height: 400,
         decoration: BoxDecoration(
           color: Color(0x00EEEEEE),
         ),
@@ -50,7 +50,7 @@ class _MiniCourseCardWidgetState extends State<MiniCourseCardWidget> {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Container(
-                  height: 100,
+                  height: 150,
                   decoration: BoxDecoration(
                     color: Color(0x00EEEEEE),
                   ),
@@ -64,6 +64,7 @@ class _MiniCourseCardWidgetState extends State<MiniCourseCardWidget> {
                     ),
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
+                      mainAxisAlignment: MainAxisAlignment.end,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(

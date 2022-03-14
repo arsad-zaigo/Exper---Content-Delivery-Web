@@ -51,8 +51,8 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
               decoration: BoxDecoration(
                 color: Color(0x00EEEEEE),
               ),
-              child: Image.asset(
-                'assets/images/Pngtreebody_lungs_2845930.png',
+              child: Image.network(
+                'https://www.learningcontainer.com/wp-content/uploads/2020/08/Small-Sample-png-Image-File-Download.jpg',
                 width: 100,
                 height: 75,
                 fit: BoxFit.scaleDown,
