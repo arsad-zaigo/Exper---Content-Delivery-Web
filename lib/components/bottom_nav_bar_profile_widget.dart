@@ -114,7 +114,9 @@ class _BottomNavBarProfileWidgetState extends State<BottomNavBarProfileWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                               child: Text(
-                                'Profile',
+                                FFLocalizations.of(context).getText(
+                                  'sxi70wdc' /* Profile */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

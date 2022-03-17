@@ -10,11 +10,15 @@ class ContactProgramWebMiniWidget extends StatefulWidget {
     this.programName,
     this.personName,
     this.organizerName,
+    this.imageUrl,
+    this.bgColor,
   }) : super(key: key);
 
   final String programName;
   final String personName;
   final String organizerName;
+  final String imageUrl;
+  final Color bgColor;
 
   @override
   _ContactProgramWebMiniWidgetState createState() =>
@@ -43,7 +47,7 @@ class _ContactProgramWebMiniWidgetState
             width: 100,
             height: 100,
             decoration: BoxDecoration(
-              color: Color(0xFFF16497),
+              color: widget.bgColor,
             ),
             child: Stack(
               children: [
@@ -97,7 +101,8 @@ class _ContactProgramWebMiniWidgetState
                                   shape: BoxShape.circle,
                                 ),
                                 child: Image.network(
-                                  'https://picsum.photos/seed/57/600',
+                                  widget.imageUrl,
+                                  fit: BoxFit.fill,
                                 ),
                               ),
                             ),

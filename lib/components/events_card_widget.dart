@@ -130,7 +130,9 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Organized by',
+                                    FFLocalizations.of(context).getText(
+                                      'nrcxi6we' /* Organized by */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(

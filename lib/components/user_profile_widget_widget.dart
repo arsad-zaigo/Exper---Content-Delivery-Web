@@ -76,7 +76,9 @@ class _UserProfileWidgetWidgetState extends State<UserProfileWidgetWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Welcome',
+                                FFLocalizations.of(context).getText(
+                                  'uh4ga8l6' /* Welcome */,
+                                ),
                                 textAlign: TextAlign.start,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
@@ -89,7 +91,9 @@ class _UserProfileWidgetWidgetState extends State<UserProfileWidgetWidget> {
                                     ),
                               ),
                               Text(
-                                'User Name',
+                                FFLocalizations.of(context).getText(
+                                  '13yfsjgu' /* User Name */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

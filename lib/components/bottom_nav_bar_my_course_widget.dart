@@ -92,7 +92,9 @@ class _BottomNavBarMyCourseWidgetState
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                               child: Text(
-                                'My Courses',
+                                FFLocalizations.of(context).getText(
+                                  'ut2rqeyn' /* My Courses */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

@@ -153,7 +153,9 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
                                   ),
                                 );
                               },
-                              text: 'Preview',
+                              text: FFLocalizations.of(context).getText(
+                                '7rwp86x7' /* Preview */,
+                              ),
                               options: FFButtonOptions(
                                 width: 130,
                                 height: 40,

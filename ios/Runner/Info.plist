@@ -16,6 +16,15 @@
 	<string>Example Project</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
+	<key>CFBundleLocalizations</key>
+	<array>
+		<string>en</string>
+		<string>te</string>
+		<string>hi</string>
+		<string>ta</string>
+		<string>kn</string>
+		<string>ml</string>
+	</array>
 
 	<key>CFBundleShortVersionString</key>
 	<string>$(FLUTTER_BUILD_NAME)</string>

@@ -67,7 +67,9 @@ class _BottomNavBarHomeWidgetState extends State<BottomNavBarHomeWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                               child: Text(
-                                'Home',
+                                FFLocalizations.of(context).getText(
+                                  'jt49g8av' /* Home */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

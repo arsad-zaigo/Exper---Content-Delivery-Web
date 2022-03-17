@@ -27,7 +27,9 @@ class _VideoScreenWidgetState extends State<VideoScreenWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: true,
         title: Text(
-          'Page Title',
+          FFLocalizations.of(context).getText(
+            'lhu0uhvg' /* Page Title */,
+          ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'Poppins',
                 color: Colors.white,

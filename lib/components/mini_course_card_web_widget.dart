@@ -149,7 +149,9 @@ class _MiniCourseCardWebWidgetState extends State<MiniCourseCardWebWidget> {
                                     ),
                                   );
                                 },
-                                text: 'Preview',
+                                text: FFLocalizations.of(context).getText(
+                                  '1lf8l2ng' /* Preview */,
+                                ),
                                 options: FFButtonOptions(
                                   width: 130,
                                   height: 40,

@@ -28,8 +28,8 @@ class _SimulationWebMiniCardWidgetState
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 400,
-      height: 250,
+      width: double.infinity,
+      height: double.infinity,
       decoration: BoxDecoration(
         color: Color(0x00EEEEEE),
       ),

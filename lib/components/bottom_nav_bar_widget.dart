@@ -67,7 +67,9 @@ class _BottomNavBarWidgetState extends State<BottomNavBarWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                               child: Text(
-                                'Home',
+                                FFLocalizations.of(context).getText(
+                                  '3jvk3j0c' /* Home */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -105,7 +107,9 @@ class _BottomNavBarWidgetState extends State<BottomNavBarWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                               child: Text(
-                                'Home',
+                                FFLocalizations.of(context).getText(
+                                  '8qi0q52t' /* Home */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -143,7 +147,9 @@ class _BottomNavBarWidgetState extends State<BottomNavBarWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
                               child: Text(
-                                'Home',
+                                FFLocalizations.of(context).getText(
+                                  '3ibboxzt' /* Home */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

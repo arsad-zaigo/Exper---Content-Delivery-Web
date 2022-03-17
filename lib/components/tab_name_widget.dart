@@ -26,7 +26,9 @@ class _TabNameWidgetState extends State<TabNameWidget> {
           fit: BoxFit.contain,
         ),
         Text(
-          'Hello World',
+          FFLocalizations.of(context).getText(
+            '3b3ukxp8' /* Hello World */,
+          ),
           style: FlutterFlowTheme.of(context).bodyText1,
         ),
       ],

@@ -7,7 +7,9 @@ import '../components/contact_program_widget.dart';
 import '../components/course_card_web_flex_widget.dart';
 import '../components/course_card_web_widget.dart';
 import '../components/course_card_widget.dart';
+import '../components/events_card_mini_widget.dart';
 import '../components/events_card_widget.dart';
+import '../components/live_video_classes_web_widget.dart';
 import '../components/live_video_classes_widget.dart';
 import '../components/mini_course_card_web_widget.dart';
 import '../components/mini_course_card_widget.dart';
@@ -91,7 +93,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                 .width,
                                             height: 72,
                                             decoration: BoxDecoration(
-                                              color: Colors.white,
+                                              color:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryBackground,
                                             ),
                                             child: Row(
                                               mainAxisSize: MainAxisSize.max,
@@ -172,7 +176,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                               0),
                                                                           child:
                                                                               Text(
-                                                                            'Home',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'u9wjog6z' /* Home */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
                                                                                   fontWeight: FontWeight.normal,
@@ -252,7 +258,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 0),
                                                                             child:
                                                                                 Text(
-                                                                              'Speciality ',
+                                                                              FFLocalizations.of(context).getText(
+                                                                                'y06426sc' /* Speciality  */,
+                                                                              ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
                                                                                     color: Color(0xFF626168),
@@ -355,7 +363,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 0),
                                                                             child:
                                                                                 Text(
-                                                                              'Explore',
+                                                                              FFLocalizations.of(context).getText(
+                                                                                '1ndtnjd7' /* Explore */,
+                                                                              ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
                                                                                     color: Color(0xFF626168),
@@ -458,7 +468,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 0),
                                                                             child:
                                                                                 Text(
-                                                                              'Partners',
+                                                                              FFLocalizations.of(context).getText(
+                                                                                'xgjbie3k' /* Partners */,
+                                                                              ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
                                                                                     color: Color(0xFF626168),
@@ -509,7 +521,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                             print(
                                                                 'Button pressed ...');
                                                           },
-                                                          text: 'Signup',
+                                                          text: FFLocalizations
+                                                                  .of(context)
+                                                              .getText(
+                                                            'qn16rwok' /* Signup */,
+                                                          ),
                                                           options:
                                                               FFButtonOptions(
                                                             width: 100,
@@ -548,7 +564,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                   .fromSTEB(30,
                                                                       0, 0, 0),
                                                           child: Text(
-                                                            'LogIn',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'hv03miap' /* LogIn */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -595,7 +615,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                       MainAxisAlignment.center,
                                                   children: [
                                                     Text(
-                                                      'Advanced\nMedical Skills\nat your \nfingertips',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'snq85egz' /* Advanced
+Medical Skills
+at you... */
+                                                        ,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyText1
@@ -666,7 +693,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          '400k Alumni',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'fmquz5lu' /* 400k Alumni */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -710,7 +740,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                               0),
                                                                           child:
                                                                               Text(
-                                                                            '190+ Countries',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'nisfo46e' /* 190+ Countries */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
                                                                                   color: Color(0xFF626168),
@@ -765,7 +797,10 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                             0),
                                                                         child:
                                                                             Text(
-                                                                          '200+ Courses',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'vglajg1f' /* 200+ Courses */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -809,7 +844,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                               0),
                                                                           child:
                                                                               Text(
-                                                                            '250+ Instructors',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'e9vvbrvj' /* 250+ Instructors */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
                                                                                   color: Color(0xFF626168),
@@ -870,8 +907,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       false,
                                                                   decoration:
                                                                       InputDecoration(
-                                                                    labelText:
-                                                                        'Search Here',
+                                                                    labelText: FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '1qfljzq5' /* Search Here */,
+                                                                    ),
                                                                     enabledBorder:
                                                                         UnderlineInputBorder(
                                                                       borderSide:
@@ -1131,7 +1171,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                             30,
                                                                             0),
                                                                 child: Text(
-                                                                  'Simulations',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'r7wppjz3' /* Simulations */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -1200,7 +1244,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           30,
                                                                           0),
                                                                   child: Text(
-                                                                    'Online Events',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'jwywedxl' /* Online Events */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1270,7 +1318,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           30,
                                                                           0),
                                                                   child: Text(
-                                                                    'Contact \nProgram',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'mi7xdw1k' /* Contact 
+Program */
+                                                                      ,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1340,7 +1394,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           30,
                                                                           0),
                                                                   child: Text(
-                                                                    'Events &\nWebinars',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'fc1b9ead' /* Events &
+Webinars */
+                                                                      ,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1419,7 +1479,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                'Trending Courses',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'mhkhm03n' /* Trending Courses */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1436,7 +1500,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               ),
                                                             ),
                                                             Text(
-                                                              'View All',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'vja1oq6s' /* View All */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1558,7 +1626,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 .spaceBetween,
                                                         children: [
                                                           Text(
-                                                            'Featured',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '0tq00vnb' /* Featured */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -1573,7 +1645,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 ),
                                                           ),
                                                           Text(
-                                                            'View All',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'vb8dun32' /* View All */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -1646,10 +1722,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                         ),
                                         Container(
                                           width: double.infinity,
-                                          height: MediaQuery.of(context)
-                                                  .size
-                                                  .height *
-                                              1,
                                           decoration: BoxDecoration(
                                             color: Color(0xFFF8F8F8),
                                           ),
@@ -1661,6 +1733,8 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                               mainAxisSize: MainAxisSize.max,
                                               mainAxisAlignment:
                                                   MainAxisAlignment.center,
+                                              crossAxisAlignment:
+                                                  CrossAxisAlignment.start,
                                               children: [
                                                 Padding(
                                                   padding: EdgeInsetsDirectional
@@ -1671,11 +1745,6 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 .size
                                                                 .width *
                                                             0.4,
-                                                    height:
-                                                        MediaQuery.of(context)
-                                                                .size
-                                                                .height *
-                                                            1,
                                                     decoration: BoxDecoration(
                                                       color: Color(0x00EEEEEE),
                                                     ),
@@ -1690,33 +1759,32 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               MainAxisAlignment
                                                                   .spaceBetween,
                                                           children: [
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          40,
-                                                                          0,
-                                                                          0,
-                                                                          0),
-                                                              child: Text(
-                                                                'Simulation',
-                                                                style: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .bodyText1
-                                                                    .override(
-                                                                      fontFamily:
-                                                                          'SF Pro',
-                                                                      color: Color(
-                                                                          0xFF202431),
-                                                                      fontSize:
-                                                                          32,
-                                                                      useGoogleFonts:
-                                                                          false,
-                                                                    ),
+                                                            Text(
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'xd4fbgcg' /* Simulation */,
                                                               ),
+                                                              style: FlutterFlowTheme
+                                                                      .of(context)
+                                                                  .bodyText1
+                                                                  .override(
+                                                                    fontFamily:
+                                                                        'SF Pro',
+                                                                    color: Color(
+                                                                        0xFF202431),
+                                                                    fontSize:
+                                                                        32,
+                                                                    useGoogleFonts:
+                                                                        false,
+                                                                  ),
                                                             ),
                                                             Text(
-                                                              'View All',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'jykcuwnh' /* View All */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1734,74 +1802,113 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                             ),
                                                           ],
                                                         ),
-                                                        Expanded(
-                                                          flex: 1,
-                                                          child: Padding(
-                                                            padding:
-                                                                EdgeInsetsDirectional
-                                                                    .fromSTEB(
-                                                                        20,
-                                                                        20,
-                                                                        20,
-                                                                        20),
-                                                            child: GridView(
-                                                              padding:
-                                                                  EdgeInsets
-                                                                      .zero,
-                                                              gridDelegate:
-                                                                  SliverGridDelegateWithFixedCrossAxisCount(
-                                                                crossAxisCount:
-                                                                    2,
-                                                                crossAxisSpacing:
-                                                                    20,
-                                                                mainAxisSpacing:
-                                                                    20,
-                                                                childAspectRatio:
-                                                                    1,
-                                                              ),
-                                                              primary: false,
-                                                              scrollDirection:
-                                                                  Axis.vertical,
+                                                        Padding(
+                                                          padding:
+                                                              EdgeInsetsDirectional
+                                                                  .fromSTEB(0,
+                                                                      20, 0, 0),
+                                                          child: Container(
+                                                            width:
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width,
+                                                            height: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                0.28,
+                                                            decoration:
+                                                                BoxDecoration(
+                                                              color: Color(
+                                                                  0x00EEEEEE),
+                                                            ),
+                                                            child: Row(
+                                                              mainAxisSize:
+                                                                  MainAxisSize
+                                                                      .max,
                                                               children: [
-                                                                SimulationWebMiniCardWidget(
-                                                                  imageUrl:
-                                                                      'https://cdn.apollohospitals.com/dev-apollohospitals/2021/06/AH_logo_v-60c8405cbca3d.svg',
-                                                                  simluationName:
-                                                                      'Fellowship in Gastroenterology',
-                                                                  location:
-                                                                      'Hyderabad',
-                                                                  bgcolor: Color(
-                                                                      0xFFF28867),
+                                                                Expanded(
+                                                                  child:
+                                                                      SimulationWebMiniCardWidget(
+                                                                    imageUrl:
+                                                                        'https://cdn.apollohospitals.com/dev-apollohospitals/2021/06/AH_logo_v-60c8405cbca3d.svg',
+                                                                    simluationName:
+                                                                        'Fellowship in Gastroenterology',
+                                                                    location:
+                                                                        'Hyderabad',
+                                                                    bgcolor: Color(
+                                                                        0xFFF28867),
+                                                                  ),
                                                                 ),
-                                                                SimulationWebMiniCardWidget(
-                                                                  imageUrl:
-                                                                      'https://www.carehospitals.com/wp-content/themes/care/images/care-logo-02.svg',
-                                                                  simluationName:
-                                                                      'Fellowship in Gastroenterology',
-                                                                  location:
-                                                                      'Hyderabad',
-                                                                  bgcolor: Color(
-                                                                      0xFFF16497),
+                                                                Expanded(
+                                                                  child:
+                                                                      SimulationWebMiniCardWidget(
+                                                                    imageUrl:
+                                                                        'https://www.carehospitals.com/wp-content/themes/care/images/care-logo-02.svg',
+                                                                    simluationName:
+                                                                        'Fellowship in Gastroenterology',
+                                                                    location:
+                                                                        'Hyderabad',
+                                                                    bgcolor: Color(
+                                                                        0xFFF16497),
+                                                                  ),
                                                                 ),
-                                                                SimulationWebMiniCardWidget(
-                                                                  imageUrl:
-                                                                      'https://cdn.yashodahospitals.com/wp-content/uploads/2016/08/yashoda-hospitals-logo.png',
-                                                                  simluationName:
-                                                                      'Fellowship in Gastroenterology',
-                                                                  location:
-                                                                      'Hyderabad',
-                                                                  bgcolor: Color(
-                                                                      0xFF86C1E2),
+                                                              ],
+                                                            ),
+                                                          ),
+                                                        ),
+                                                        Padding(
+                                                          padding:
+                                                              EdgeInsetsDirectional
+                                                                  .fromSTEB(0,
+                                                                      10, 0, 0),
+                                                          child: Container(
+                                                            width:
+                                                                MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .width,
+                                                            height: MediaQuery.of(
+                                                                        context)
+                                                                    .size
+                                                                    .height *
+                                                                0.28,
+                                                            decoration:
+                                                                BoxDecoration(
+                                                              color: Color(
+                                                                  0x00EEEEEE),
+                                                            ),
+                                                            child: Row(
+                                                              mainAxisSize:
+                                                                  MainAxisSize
+                                                                      .max,
+                                                              children: [
+                                                                Expanded(
+                                                                  child:
+                                                                      SimulationWebMiniCardWidget(
+                                                                    imageUrl:
+                                                                        'https://cdn.yashodahospitals.com/wp-content/uploads/2016/08/yashoda-hospitals-logo.png',
+                                                                    simluationName:
+                                                                        'Fellowship in Gastroenterology',
+                                                                    location:
+                                                                        'Hyderabad',
+                                                                    bgcolor: Color(
+                                                                        0xFF86C1E2),
+                                                                  ),
                                                                 ),
-                                                                SimulationWebMiniCardWidget(
-                                                                  imageUrl:
-                                                                      'https://www.kimshospitals.com/_nuxt/img/kims_logo.63a8855.png',
-                                                                  simluationName:
-                                                                      'Fellowship in Gastroenterology',
-                                                                  location:
-                                                                      'Hyderabad',
-                                                                  bgcolor: Color(
-                                                                      0xFFFD6D6B),
+                                                                Expanded(
+                                                                  child:
+                                                                      SimulationWebMiniCardWidget(
+                                                                    imageUrl:
+                                                                        'https://www.kimshospitals.com/_nuxt/img/kims_logo.63a8855.png',
+                                                                    simluationName:
+                                                                        'Fellowship in Gastroenterology',
+                                                                    location:
+                                                                        'Hyderabad',
+                                                                    bgcolor: Color(
+                                                                        0xFFFD6D6B),
+                                                                  ),
                                                                 ),
                                                               ],
                                                             ),
@@ -1831,7 +1938,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 .spaceBetween,
                                                         children: [
                                                           Text(
-                                                            'Contact Program',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'btjcr41k' /* Contact Program */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -1846,7 +1957,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 ),
                                                           ),
                                                           Text(
-                                                            'View All',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'ob17iygb' /* View All */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -1883,7 +1998,7 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           context)
                                                                       .size
                                                                       .height *
-                                                                  0.35,
+                                                                  0.33,
                                                               decoration:
                                                                   BoxDecoration(
                                                                 color: Color(
@@ -1931,6 +2046,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           'Dr. Ravindra',
                                                                       organizerName:
                                                                           'Apollo Hospitals',
+                                                                      imageUrl:
+                                                                          'https://media.istockphoto.com/photos/indian-male-doctor-picture-id177373093?k=20&m=177373093&s=612x612&w=0&h=-PQwmaJszuQyxLQYuWL4VL731lr_dnhrttc4AOcB3-k=',
+                                                                      bgColor:
+                                                                          Color(
+                                                                              0xFFF28867),
                                                                     ),
                                                                   ),
                                                                   Expanded(
@@ -1939,9 +2059,14 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       programName:
                                                                           'Conferance on  Cardiopulmonary Physio',
                                                                       personName:
-                                                                          'Dr. Ravindra',
+                                                                          'Dr. Daina',
                                                                       organizerName:
                                                                           'Apollo Hospitals',
+                                                                      imageUrl:
+                                                                          'https://i2.wp.com/www.peoplesreview.com.np/wp-content/uploads/2021/05/file-20191203-66986-im7o5.jpg?fit=1200%2C1200&ssl=1',
+                                                                      bgColor:
+                                                                          Color(
+                                                                              0xFFF16497),
                                                                     ),
                                                                   ),
                                                                 ],
@@ -1958,10 +2083,303 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                           ),
                                         ),
                                         Container(
-                                          width: 100,
-                                          height: 100,
+                                          width:
+                                              MediaQuery.of(context).size.width,
                                           decoration: BoxDecoration(
-                                            color: Color(0xFFEEEEEE),
+                                            color: Color(0xFFF8F8F8),
+                                          ),
+                                          child: Container(
+                                            width: double.infinity,
+                                            decoration: BoxDecoration(
+                                              color: Color(0xFFF8F8F8),
+                                            ),
+                                            child: Padding(
+                                              padding: EdgeInsetsDirectional
+                                                  .fromSTEB(0, 80, 0, 0),
+                                              child: Row(
+                                                mainAxisSize: MainAxisSize.max,
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.start,
+                                                children: [
+                                                  Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                20, 0, 20, 0),
+                                                    child: Container(
+                                                      width:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .width *
+                                                              0.6,
+                                                      decoration: BoxDecoration(
+                                                        color:
+                                                            Color(0x00EEEEEE),
+                                                      ),
+                                                      child: Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.max,
+                                                        children: [
+                                                          Row(
+                                                            mainAxisSize:
+                                                                MainAxisSize
+                                                                    .max,
+                                                            mainAxisAlignment:
+                                                                MainAxisAlignment
+                                                                    .spaceBetween,
+                                                            children: [
+                                                              Text(
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'cmz40wxs' /* Live Video Classes */,
+                                                                ),
+                                                                style: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyText1
+                                                                    .override(
+                                                                      fontFamily:
+                                                                          'SF Pro',
+                                                                      color: Color(
+                                                                          0xFF202431),
+                                                                      fontSize:
+                                                                          32,
+                                                                      useGoogleFonts:
+                                                                          false,
+                                                                    ),
+                                                              ),
+                                                              Text(
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'hodv0usq' /* View All */,
+                                                                ),
+                                                                style: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyText1
+                                                                    .override(
+                                                                      fontFamily:
+                                                                          'SF Pro',
+                                                                      color: Color(
+                                                                          0xFF7F7F82),
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .normal,
+                                                                      useGoogleFonts:
+                                                                          false,
+                                                                    ),
+                                                              ),
+                                                            ],
+                                                          ),
+                                                          Padding(
+                                                            padding:
+                                                                EdgeInsetsDirectional
+                                                                    .fromSTEB(
+                                                                        0,
+                                                                        20,
+                                                                        0,
+                                                                        0),
+                                                            child: Container(
+                                                              width:
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width,
+                                                              height: MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height *
+                                                                  0.28,
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: Color(
+                                                                    0x00EEEEEE),
+                                                              ),
+                                                              child: Row(
+                                                                mainAxisSize:
+                                                                    MainAxisSize
+                                                                        .max,
+                                                                children: [
+                                                                  LiveVideoClassesWebWidget(
+                                                                    imageUrl:
+                                                                        'https://images.squarespace-cdn.com/content/v1/5475f6eae4b0821160f6ac3e/1587328289208-00S943RYHFJYD8HE0YSM/Make+a+Live+Class+Session+More+Effective+and+Run+Smoother.jpg',
+                                                                    topicName:
+                                                                        'Video class on Basics of Percutaneous Coronary Intervention',
+                                                                    date:
+                                                                        '12 December ',
+                                                                    bgColor: Color(
+                                                                        0xFFFD6D6B),
+                                                                  ),
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            20,
+                                                                            0,
+                                                                            0,
+                                                                            0),
+                                                                    child:
+                                                                        LiveVideoClassesWebWidget(
+                                                                      imageUrl:
+                                                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGBViKZb9aESdaLfOYNxSEydYZ2lpFE0_GGVjzzLzOu95kIFAJaMR57S91icV5fKSgw9k&usqp=CAU',
+                                                                      topicName:
+                                                                          'Video class on Basics of Percutaneous Coronary Intervention',
+                                                                      date:
+                                                                          '12 December ',
+                                                                      bgColor:
+                                                                          Color(
+                                                                              0xFFF28867),
+                                                                    ),
+                                                                  ),
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            20,
+                                                                            0,
+                                                                            0,
+                                                                            0),
+                                                                    child:
+                                                                        LiveVideoClassesWebWidget(
+                                                                      imageUrl:
+                                                                          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxRbyLpux5AciRERNCxaBto1KXLf-m6-CVkirPYDbKk7qwGHW_saanJp3lr9oY7MjjWRg&usqp=CAU',
+                                                                      topicName:
+                                                                          'Video class on Basics of Percutaneous Coronary Intervention',
+                                                                      date:
+                                                                          '12 December ',
+                                                                      bgColor:
+                                                                          Color(
+                                                                              0xFFF16497),
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                20, 0, 20, 0),
+                                                    child: Container(
+                                                      width:
+                                                          MediaQuery.of(context)
+                                                                  .size
+                                                                  .width *
+                                                              0.2,
+                                                      decoration: BoxDecoration(
+                                                        color:
+                                                            Color(0x00EEEEEE),
+                                                      ),
+                                                      child: Column(
+                                                        mainAxisSize:
+                                                            MainAxisSize.max,
+                                                        children: [
+                                                          Row(
+                                                            mainAxisSize:
+                                                                MainAxisSize
+                                                                    .max,
+                                                            mainAxisAlignment:
+                                                                MainAxisAlignment
+                                                                    .spaceBetween,
+                                                            children: [
+                                                              Text(
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'n76yz201' /* Events */,
+                                                                ),
+                                                                style: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyText1
+                                                                    .override(
+                                                                      fontFamily:
+                                                                          'SF Pro',
+                                                                      color: Color(
+                                                                          0xFF202431),
+                                                                      fontSize:
+                                                                          32,
+                                                                      useGoogleFonts:
+                                                                          false,
+                                                                    ),
+                                                              ),
+                                                              Text(
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'xv4c2h4m' /* View All */,
+                                                                ),
+                                                                style: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .bodyText1
+                                                                    .override(
+                                                                      fontFamily:
+                                                                          'SF Pro',
+                                                                      color: Color(
+                                                                          0xFF7F7F82),
+                                                                      fontWeight:
+                                                                          FontWeight
+                                                                              .normal,
+                                                                      useGoogleFonts:
+                                                                          false,
+                                                                    ),
+                                                              ),
+                                                            ],
+                                                          ),
+                                                          Padding(
+                                                            padding:
+                                                                EdgeInsetsDirectional
+                                                                    .fromSTEB(
+                                                                        0,
+                                                                        20,
+                                                                        0,
+                                                                        0),
+                                                            child: Container(
+                                                              width:
+                                                                  MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .width,
+                                                              height: MediaQuery.of(
+                                                                          context)
+                                                                      .size
+                                                                      .height *
+                                                                  0.28,
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: Color(
+                                                                    0x00EEEEEE),
+                                                              ),
+                                                              child: Row(
+                                                                mainAxisSize:
+                                                                    MainAxisSize
+                                                                        .max,
+                                                                children: [
+                                                                  EventsCardMiniWidget(
+                                                                    eventName:
+                                                                        'Conference on  Cardiopulmonary Physio',
+                                                                    dateDay:
+                                                                        '04',
+                                                                    monthDay:
+                                                                        'Dec',
+                                                                    eventOrganizaerName:
+                                                                        'Apollo Hospitals',
+                                                                  ),
+                                                                ],
+                                                              ),
+                                                            ),
+                                                          ),
+                                                        ],
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ),
                                           ),
                                         ),
                                       ],
@@ -2152,7 +2570,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                 .fromSTEB(20,
                                                                     20, 20, 20),
                                                         child: Text(
-                                                          'Categories',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '5gn54p5j' /* Categories */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -2271,7 +2693,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                               print(
                                                                   'Button pressed ...');
                                                             },
-                                                            text: 'View All',
+                                                            text: FFLocalizations
+                                                                    .of(context)
+                                                                .getText(
+                                                              '47s3vw23' /* View All */,
+                                                            ),
                                                             options:
                                                                 FFButtonOptions(
                                                               width: 130,
@@ -2329,7 +2755,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                         20,
                                                                         20),
                                                             child: Text(
-                                                              'Explore',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'xxfjf3ns' /* Explore */,
+                                                              ),
                                                               textAlign:
                                                                   TextAlign
                                                                       .start,
@@ -2416,7 +2846,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 CrossAxisAlignment.stretch,
                                                                             children: [
                                                                               Text(
-                                                                                'Simulations',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'raxoj3ih' /* Simulations */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -2496,7 +2928,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 CrossAxisAlignment.stretch,
                                                                             children: [
                                                                               Text(
-                                                                                'Online Events',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '6pq1j626' /* Online Events */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -2599,7 +3033,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 CrossAxisAlignment.stretch,
                                                                             children: [
                                                                               Text(
-                                                                                'Contact Program',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'yb3ie3ng' /* Contact Program */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -2679,7 +3115,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                                 CrossAxisAlignment.stretch,
                                                                             children: [
                                                                               Text(
-                                                                                'Events & Webinars',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'mrqwv1gb' /* Events & Webinars */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -2747,7 +3185,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           20,
                                                                           20),
                                                                   child: Text(
-                                                                    'Trending Courses',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '9o90owp0' /* Trending Courses */,
+                                                                    ),
                                                                     textAlign:
                                                                         TextAlign
                                                                             .start,
@@ -2884,8 +3326,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     print(
                                                                         'Button pressed ...');
                                                                   },
-                                                                  text:
-                                                                      'View All',
+                                                                  text: FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    '51ei47g5' /* View All */,
+                                                                  ),
                                                                   options:
                                                                       FFButtonOptions(
                                                                     width: 130,
@@ -2947,7 +3392,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           20,
                                                                           20),
                                                                   child: Text(
-                                                                    'Simulations',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '10bt72on' /* Simulations */,
+                                                                    ),
                                                                     textAlign:
                                                                         TextAlign
                                                                             .start,
@@ -3074,8 +3523,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     print(
                                                                         'Button pressed ...');
                                                                   },
-                                                                  text:
-                                                                      'View All',
+                                                                  text: FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'ofynf0i7' /* View All */,
+                                                                  ),
                                                                   options:
                                                                       FFButtonOptions(
                                                                     width: 130,
@@ -3195,7 +3647,12 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Request a call back from \nour team of expert\ncounsellors\n',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'bwf11840' /* Request a call back from 
+our ... */
+                                                                            ,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -3211,7 +3668,9 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                             print('Button pressed ...');
                                                                           },
                                                                           text:
-                                                                              'Request Call back',
+                                                                              FFLocalizations.of(context).getText(
+                                                                            'aca0hevk' /* Request Call back */,
+                                                                          ),
                                                                           options:
                                                                               FFButtonOptions(
                                                                             width:
@@ -3287,7 +3746,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           20,
                                                                           20),
                                                                   child: Text(
-                                                                    'Events',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '676t3y3o' /* Events */,
+                                                                    ),
                                                                     textAlign:
                                                                         TextAlign
                                                                             .start,
@@ -3413,8 +3876,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     print(
                                                                         'Button pressed ...');
                                                                   },
-                                                                  text:
-                                                                      'View All',
+                                                                  text: FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'cui3ssg3' /* View All */,
+                                                                  ),
                                                                   options:
                                                                       FFButtonOptions(
                                                                     width: 130,
@@ -3476,7 +3942,13 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           20,
                                                                           20),
                                                                   child: Text(
-                                                                    'Live Video Classes\n',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'ywreuvkw' /* Live Video Classes
+ */
+                                                                      ,
+                                                                    ),
                                                                     textAlign:
                                                                         TextAlign
                                                                             .start,
@@ -3597,8 +4069,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     print(
                                                                         'Button pressed ...');
                                                                   },
-                                                                  text:
-                                                                      'View All',
+                                                                  text: FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'of2w5yqw' /* View All */,
+                                                                  ),
                                                                   options:
                                                                       FFButtonOptions(
                                                                     width: 130,
@@ -3660,7 +4135,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           20,
                                                                           20),
                                                                   child: Text(
-                                                                    'Contact Programs',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'p0kait8t' /* Contact Programs */,
+                                                                    ),
                                                                     textAlign:
                                                                         TextAlign
                                                                             .start,
@@ -3781,8 +4260,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                     print(
                                                                         'Button pressed ...');
                                                                   },
-                                                                  text:
-                                                                      'View All',
+                                                                  text: FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'h5c3rdio' /* View All */,
+                                                                  ),
                                                                   options:
                                                                       FFButtonOptions(
                                                                     width: 130,
@@ -3883,7 +4365,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           0,
                                                                           0),
                                                                   child: Text(
-                                                                    'Invite your friends',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'sgf7xpoc' /* Invite your friends */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -3909,7 +4395,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                           0,
                                                                           0),
                                                                   child: Text(
-                                                                    'Enroll for the best medvarsity courses and grow your skills',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '81ls5ob8' /* Enroll for the best medvarsity... */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -3941,8 +4431,11 @@ class _HomePageWidgetState extends State<HomePageWidget> {
                                                                       print(
                                                                           'Button pressed ...');
                                                                     },
-                                                                    text:
-                                                                        'Share App',
+                                                                    text: FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'u60dnng2' /* Share App */,
+                                                                    ),
                                                                     options:
                                                                         FFButtonOptions(
                                                                       width:

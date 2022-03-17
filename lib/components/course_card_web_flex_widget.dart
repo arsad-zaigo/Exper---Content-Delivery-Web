@@ -49,7 +49,7 @@ class _CourseCardWebFlexWidgetState extends State<CourseCardWebFlexWidget> {
             children: [
               Container(
                 width: MediaQuery.of(context).size.width,
-                height: MediaQuery.of(context).size.height * 0.6,
+                height: MediaQuery.of(context).size.height * 0.55,
                 decoration: BoxDecoration(
                   color: Color(0x00EEEEEE),
                 ),
@@ -64,7 +64,7 @@ class _CourseCardWebFlexWidgetState extends State<CourseCardWebFlexWidget> {
                 ),
               ),
               Padding(
-                padding: EdgeInsetsDirectional.fromSTEB(20, 10, 10, 10),
+                padding: EdgeInsetsDirectional.fromSTEB(20, 10, 10, 30),
                 child: Container(
                   width: MediaQuery.of(context).size.width,
                   height: 100,
@@ -156,7 +156,9 @@ class _CourseCardWebFlexWidgetState extends State<CourseCardWebFlexWidget> {
                                   ),
                                 );
                               },
-                              text: 'Preview',
+                              text: FFLocalizations.of(context).getText(
+                                '7wekstxc' /* Preview */,
+                              ),
                               options: FFButtonOptions(
                                 width: 130,
                                 height: 40,

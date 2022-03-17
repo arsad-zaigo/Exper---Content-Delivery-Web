@@ -142,7 +142,9 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                                 ),
                               );
                             },
-                            text: 'Preview',
+                            text: FFLocalizations.of(context).getText(
+                              '9dyyp68a' /* Preview */,
+                            ),
                             options: FFButtonOptions(
                               width: 130,
                               height: 40,
