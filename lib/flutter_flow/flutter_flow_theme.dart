@@ -2,6 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+
 import 'package:shared_preferences/shared_preferences.dart';
 
 const kThemeModeKey = '__theme_mode__';
@@ -37,6 +38,7 @@ abstract class FlutterFlowTheme {
   Color primaryText;
   Color secondaryText;
 
+  Color primaryCTA;
   Color customColor1;
 
   TextStyle get title1 => GoogleFonts.getFont(
@@ -93,7 +95,8 @@ class LightModeTheme extends FlutterFlowTheme {
   Color primaryText = const Color(0xFF091249);
   Color secondaryText = const Color(0xFF57636C);
 
-  Color customColor1 = Color(0xFFBFC8F2);
+  Color primaryCTA = Color(0xFF3C439B);
+  Color customColor1 = Color(0xFF4D98AB);
 }
 
 class DarkModeTheme extends FlutterFlowTheme {
@@ -106,7 +109,8 @@ class DarkModeTheme extends FlutterFlowTheme {
   Color primaryText = const Color(0xFFFFFFFF);
   Color secondaryText = const Color(0xFF95A1AC);
 
-  Color customColor1 = Color(0xFFBFC8F2);
+  Color primaryCTA = Color(0xFFBFC8F2);
+  Color customColor1 = Color(0xFF4D98AB);
 }
 
 extension TextStyleHelper on TextStyle {
