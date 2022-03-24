@@ -25,6 +25,8 @@ class FFAppState {
   bool isPageThree = false;
 
   List<String> sType = [];
+
+  List<String> typeDetials = ['Docter', 'Nurse'];
 }
 
 LatLng _latLngFromString(String val) {

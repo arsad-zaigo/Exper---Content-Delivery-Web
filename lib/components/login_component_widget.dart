@@ -1079,9 +1079,6 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                               child: custom_widgets.Filterchip(
                                 width: MediaQuery.of(context).size.width * 6,
                                 height: MediaQuery.of(context).size.height * 2,
-                                list:
-                                    '[\"sdv\",\"sdv\",\"ytbbntyn\",\"sdvsdv\",\"svbtrbnytnty\",\"sdvmsdov\"]'
-                                        .toList(),
                               ),
                             ),
                           ),
@@ -1113,8 +1110,23 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                   ),
                                   FFButtonWidget(
                                     onPressed: () async {
-                                      setState(() =>
-                                          FFAppState().isPageThree = true);
+                                      ScaffoldMessenger.of(context)
+                                          .showSnackBar(
+                                        SnackBar(
+                                          content: Text(
+                                            FFAppState()
+                                                .sType
+                                                .length
+                                                .toString(),
+                                            style: TextStyle(
+                                              color: Colors.black,
+                                            ),
+                                          ),
+                                          duration:
+                                              Duration(milliseconds: 4000),
+                                          backgroundColor: Colors.white,
+                                        ),
+                                      );
                                     },
                                     text: 'Save & Next',
                                     options: FFButtonOptions(

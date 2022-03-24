@@ -11,12 +11,10 @@ class Filterchip extends StatefulWidget {
     Key key,
     this.width,
     this.height,
-    this.list,
   }) : super(key: key);
 
   final double width;
   final double height;
-  final List<String> list;
 
   @override
   _FilterchipState createState() => _FilterchipState();
@@ -27,6 +25,8 @@ class _FilterchipState extends State<Filterchip> {
   @override
   Widget build(BuildContext context) {
     return ChipsChoice<String>.multiple(
+      value: FFAppState().sType,
+      onChanged: (val) => setState(() => FFAppState().sType = val),
       wrapped: true,
       direction: Axis.horizontal,
       alignment: WrapAlignment.start,
@@ -49,7 +49,7 @@ class _FilterchipState extends State<Filterchip> {
           brightness: Brightness.light,
           padding: const EdgeInsets.fromLTRB(30, 25, 30, 25)),
       choiceItems: C2Choice.listFrom<String, String>(
-        source: widget.list,
+        source: FFAppState().typeDetials,
         value: (i, v) => v,
         label: (i, v) => v,
       ),

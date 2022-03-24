@@ -29,3 +29,22 @@ class CategoriesTypeCall {
     );
   }
 }
+
+class RandomUserCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'RandomUser',
+      apiUrl:
+          'https://randomuser.me/api/?results=10&exc=login,gender,location,email,dob,registered,phone,cell,id,picture',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+
+  static dynamic firstName(dynamic response) => getJsonField(
+        response,
+        r'''$.results[*].name.first''',
+      );
+}
