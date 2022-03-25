@@ -25,6 +25,7 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../profile/profile_widget.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -637,24 +638,21 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                       0, 0, 0),
                                                           child: InkWell(
                                                             onTap: () async {
-                                                              ScaffoldMessenger
-                                                                      .of(context)
-                                                                  .showSnackBar(
-                                                                SnackBar(
-                                                                  content: Text(
-                                                                    FFAppState()
-                                                                        .sType
-                                                                        .length
-                                                                        .toString(),
-                                                                    style:
-                                                                        TextStyle(),
-                                                                  ),
+                                                              await Navigator
+                                                                  .push(
+                                                                context,
+                                                                PageTransition(
+                                                                  type: PageTransitionType
+                                                                      .rightToLeft,
                                                                   duration: Duration(
                                                                       milliseconds:
-                                                                          4000),
-                                                                  backgroundColor:
-                                                                      Colors
-                                                                          .white,
+                                                                          300),
+                                                                  reverseDuration:
+                                                                      Duration(
+                                                                          milliseconds:
+                                                                              300),
+                                                                  child:
+                                                                      ProfileWidget(),
                                                                 ),
                                                               );
                                                             },
