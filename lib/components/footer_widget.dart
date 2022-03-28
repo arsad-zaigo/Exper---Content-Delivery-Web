@@ -24,139 +24,145 @@ class _FooterWidgetState extends State<FooterWidget> {
       child: Column(
         mainAxisSize: MainAxisSize.max,
         children: [
-          Padding(
-            padding: EdgeInsetsDirectional.fromSTEB(30, 30, 30, 0),
-            child: Row(
-              mainAxisSize: MainAxisSize.max,
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              crossAxisAlignment: CrossAxisAlignment.end,
-              children: [
-                Container(
-                  height: 500,
-                  decoration: BoxDecoration(
-                    color: Color(0x00EEEEEE),
-                  ),
-                  child: Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
-                    child: Column(
-                      mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.start,
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Text(
-                          'Learn free on the App',
-                          style:
-                              FlutterFlowTheme.of(context).bodyText1.override(
-                                    fontFamily: 'SF Pro',
-                                    color: Color(0xFF202431),
-                                    fontSize: 40,
-                                    fontWeight: FontWeight.bold,
-                                    useGoogleFonts: false,
-                                  ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
-                          child: Text(
-                            'Download the lessons and learn anytime, anywhere from\n the free courses available on our app',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'SF Pro',
-                                      color: Color(0xFF626168),
-                                      fontSize: 18,
-                                      fontWeight: FontWeight.w500,
-                                      useGoogleFonts: false,
-                                    ),
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
-                          child: Text(
-                            'Scan this QR code on your camera app to download the app',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'SF Pro',
-                                      color: Color(0xFF626168),
-                                      fontSize: 16,
-                                      fontWeight: FontWeight.normal,
-                                      useGoogleFonts: false,
-                                    ),
-                          ),
-                        ),
-                        Container(
-                          width: 500,
-                          decoration: BoxDecoration(
-                            color: Color(0x00EEEEEE),
-                          ),
-                          child: Column(
-                            mainAxisSize: MainAxisSize.max,
-                            crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              Padding(
-                                padding: EdgeInsetsDirectional.fromSTEB(
-                                    40, 20, 0, 10),
-                                child: Text(
-                                  'OR',
-                                  textAlign: TextAlign.start,
-                                  style: FlutterFlowTheme.of(context)
-                                      .bodyText1
-                                      .override(
-                                        fontFamily: 'SF Pro',
-                                        color: Color(0xFF626168),
-                                        fontSize: 16,
-                                        useGoogleFonts: false,
-                                      ),
-                                ),
-                              ),
-                              Image.asset(
-                                'assets/images/QR_code_for_mobile_English_Wikipedia_1.jpg',
-                                width: 200,
-                                height: 200,
-                                fit: BoxFit.cover,
-                              ),
-                              Padding(
-                                padding:
-                                    EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
-                                child: Row(
-                                  mainAxisSize: MainAxisSize.max,
-                                  children: [
-                                    Image.asset(
-                                      'assets/images/png-clipart-app-store-google-play-apple-apple-text-logo_1.png',
-                                      width: 100,
-                                      fit: BoxFit.cover,
-                                    ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          10, 0, 0, 0),
-                                      child: Image.asset(
-                                        'assets/images/png-clipart-app-store-google-play-apple-apple-text-logo_2.png',
-                                        width: 100,
-                                        fit: BoxFit.cover,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ],
-                    ),
-                  ),
-                ),
-                Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
-                  child: Container(
-                    height: 400,
+          Expanded(
+            child: Padding(
+              padding: EdgeInsetsDirectional.fromSTEB(30, 30, 30, 0),
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                crossAxisAlignment: CrossAxisAlignment.end,
+                children: [
+                  Container(
+                    height: 500,
                     decoration: BoxDecoration(
                       color: Color(0x00EEEEEE),
                     ),
-                    child: Image.asset(
-                      'assets/images/mcatd_1.png',
-                      fit: BoxFit.cover,
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.start,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            'Learn free on the App',
+                            style:
+                                FlutterFlowTheme.of(context).bodyText1.override(
+                                      fontFamily: 'SF Pro',
+                                      color: Color(0xFF202431),
+                                      fontSize: 40,
+                                      fontWeight: FontWeight.bold,
+                                      useGoogleFonts: false,
+                                    ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
+                            child: Text(
+                              'Download the lessons and learn anytime, anywhere from\n the free courses available on our app',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'SF Pro',
+                                    color: Color(0xFF626168),
+                                    fontSize: 18,
+                                    fontWeight: FontWeight.w500,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
+                            child: Text(
+                              'Scan this QR code on your camera app to download the app',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'SF Pro',
+                                    color: Color(0xFF626168),
+                                    fontSize: 16,
+                                    fontWeight: FontWeight.normal,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ),
+                          Container(
+                            width: 500,
+                            decoration: BoxDecoration(
+                              color: Color(0x00EEEEEE),
+                            ),
+                            child: Column(
+                              mainAxisSize: MainAxisSize.max,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      40, 20, 0, 10),
+                                  child: Text(
+                                    'OR',
+                                    textAlign: TextAlign.start,
+                                    style: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'SF Pro',
+                                          color: Color(0xFF626168),
+                                          fontSize: 16,
+                                          useGoogleFonts: false,
+                                        ),
+                                  ),
+                                ),
+                                Image.asset(
+                                  'assets/images/QR_code_for_mobile_English_Wikipedia_1.jpg',
+                                  width: 200,
+                                  height: 200,
+                                  fit: BoxFit.cover,
+                                ),
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 20, 0, 0),
+                                  child: Row(
+                                    mainAxisSize: MainAxisSize.max,
+                                    children: [
+                                      Image.asset(
+                                        'assets/images/png-clipart-app-store-google-play-apple-apple-text-logo_1.png',
+                                        width: 100,
+                                        fit: BoxFit.cover,
+                                      ),
+                                      Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            10, 0, 0, 0),
+                                        child: Image.asset(
+                                          'assets/images/png-clipart-app-store-google-play-apple-apple-text-logo_2.png',
+                                          width: 100,
+                                          fit: BoxFit.cover,
+                                        ),
+                                      ),
+                                    ],
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              ],
+                  Padding(
+                    padding: EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
+                    child: Container(
+                      height: 400,
+                      decoration: BoxDecoration(
+                        color: Color(0x00EEEEEE),
+                      ),
+                      child: Image.asset(
+                        'assets/images/mcatd_1.png',
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                ],
+              ),
             ),
           ),
           Container(

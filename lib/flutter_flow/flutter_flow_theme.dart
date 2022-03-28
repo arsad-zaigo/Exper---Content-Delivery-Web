@@ -121,6 +121,7 @@ extension TextStyleHelper on TextStyle {
     FontWeight fontWeight,
     FontStyle fontStyle,
     bool useGoogleFonts = true,
+    TextDecoration decoration,
     double lineHeight,
   }) =>
       useGoogleFonts
@@ -130,6 +131,7 @@ extension TextStyleHelper on TextStyle {
               fontSize: fontSize ?? this.fontSize,
               fontWeight: fontWeight ?? this.fontWeight,
               fontStyle: fontStyle ?? this.fontStyle,
+              decoration: decoration,
               height: lineHeight,
             )
           : copyWith(
@@ -138,6 +140,7 @@ extension TextStyleHelper on TextStyle {
               fontSize: fontSize,
               fontWeight: fontWeight,
               fontStyle: fontStyle,
+              decoration: decoration,
               height: lineHeight,
             );
 }

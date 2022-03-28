@@ -39,31 +39,34 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                     width: double.infinity,
                     height: 100,
                     decoration: BoxDecoration(
-                      color: Color(0xFFEEEEEE),
+                      color: Colors.white,
                     ),
                   ),
                 ],
               ),
               Row(
                 mainAxisSize: MainAxisSize.max,
-                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                mainAxisAlignment: MainAxisAlignment.start,
                 children: [
                   Align(
                     alignment: AlignmentDirectional(-0.85, 0.54),
-                    child: Container(
-                      width: 120,
-                      height: 120,
-                      clipBehavior: Clip.antiAlias,
-                      decoration: BoxDecoration(
-                        shape: BoxShape.circle,
-                      ),
-                      child: Image.network(
-                        'https://picsum.photos/seed/315/600',
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(80, 0, 0, 0),
+                      child: Container(
+                        width: 150,
+                        height: 150,
+                        clipBehavior: Clip.antiAlias,
+                        decoration: BoxDecoration(
+                          shape: BoxShape.circle,
+                        ),
+                        child: Image.network(
+                          'https://picsum.photos/seed/315/600',
+                        ),
                       ),
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 30),
+                    padding: EdgeInsetsDirectional.fromSTEB(20, 0, 0, 30),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -93,21 +96,24 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 30),
+                    padding: EdgeInsetsDirectional.fromSTEB(80, 0, 0, 30),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.end,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          'Credits Earned',
-                          style:
-                              FlutterFlowTheme.of(context).bodyText1.override(
-                                    fontFamily: 'SF Pro',
-                                    color: Color(0xFF7F7F82),
-                                    fontWeight: FontWeight.normal,
-                                    useGoogleFonts: false,
-                                  ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
+                          child: Text(
+                            'Credits Earned',
+                            style:
+                                FlutterFlowTheme.of(context).bodyText1.override(
+                                      fontFamily: 'SF Pro',
+                                      color: Color(0xFF7F7F82),
+                                      fontWeight: FontWeight.normal,
+                                      useGoogleFonts: false,
+                                    ),
+                          ),
                         ),
                         Text(
                           '3200 credits',
@@ -123,7 +129,7 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                     ),
                   ),
                   Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 30),
+                    padding: EdgeInsetsDirectional.fromSTEB(90, 0, 0, 30),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.end,
@@ -177,8 +183,7 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                         ),
                     elevation: 10,
                     borderSide: BorderSide(
-                      color: FlutterFlowTheme.of(context).primaryCTA,
-                      width: 1,
+                      color: Color(0x4D3C439B),
                     ),
                     borderRadius: 5,
                   ),
