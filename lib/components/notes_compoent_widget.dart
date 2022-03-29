@@ -24,8 +24,8 @@ class _NotesCompoentWidgetState extends State<NotesCompoentWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: MediaQuery.of(context).size.width,
-      height: MediaQuery.of(context).size.height * 1,
+      width: 300,
+      height: double.infinity,
       decoration: BoxDecoration(
         color: Colors.white,
         borderRadius: BorderRadius.circular(16),
@@ -71,7 +71,8 @@ class _NotesCompoentWidgetState extends State<NotesCompoentWidget> {
                 mainAxisSize: MainAxisSize.max,
                 children: [
                   Container(
-                    width: 450,
+                    width: 200,
+                    height: 100,
                     decoration: BoxDecoration(
                       color: Color(0x00EEEEEE),
                     ),

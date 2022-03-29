@@ -2097,7 +2097,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             width: MediaQuery.of(context)
                                                 .size
                                                 .width,
-                                            height: 300,
+                                            height: 500,
                                             decoration: BoxDecoration(
                                               color: Color(0xFFEEEEEE),
                                             ),
@@ -2125,46 +2125,43 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                     snapshot.data;
                                                 return Builder(
                                                   builder: (context) {
-                                                    final notesResponse =
-                                                        getJsonField(
-                                                              (gridViewNotesAPIResponse
-                                                                      ?.jsonBody ??
-                                                                  ''),
-                                                              r'''$[*]''',
-                                                            )?.toList() ??
-                                                            [];
+                                                    final notes = getJsonField(
+                                                          (gridViewNotesAPIResponse
+                                                                  ?.jsonBody ??
+                                                              ''),
+                                                          r'''$[*]''',
+                                                        )?.toList() ??
+                                                        [];
                                                     return GridView.builder(
                                                       padding: EdgeInsets.zero,
                                                       gridDelegate:
                                                           SliverGridDelegateWithFixedCrossAxisCount(
-                                                        crossAxisCount: 3,
+                                                        crossAxisCount: 2,
                                                         crossAxisSpacing: 10,
                                                         mainAxisSpacing: 10,
                                                         childAspectRatio: 1,
                                                       ),
                                                       scrollDirection:
-                                                          Axis.vertical,
-                                                      itemCount:
-                                                          notesResponse.length,
+                                                          Axis.horizontal,
+                                                      itemCount: notes.length,
                                                       itemBuilder: (context,
-                                                          notesResponseIndex) {
-                                                        final notesResponseItem =
-                                                            notesResponse[
-                                                                notesResponseIndex];
+                                                          notesIndex) {
+                                                        final notesItem =
+                                                            notes[notesIndex];
                                                         return NotesCompoentWidget(
                                                           timestamp:
                                                               getJsonField(
-                                                            notesResponseItem,
+                                                            notesItem,
                                                             r'''$.timestamp''',
                                                           ).toString(),
                                                           courseName:
                                                               getJsonField(
-                                                            notesResponseItem,
+                                                            notesItem,
                                                             r'''$.courseName''',
                                                           ).toString(),
                                                           description:
                                                               getJsonField(
-                                                            notesResponseItem,
+                                                            notesItem,
                                                             r'''$.detials''',
                                                           ).toString(),
                                                         );
