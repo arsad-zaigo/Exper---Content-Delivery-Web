@@ -29,3 +29,35 @@ class CategoriesTypeCall {
     );
   }
 }
+
+class RandomUserCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'RandomUser',
+      apiUrl:
+          'https://randomuser.me/api/?results=10&exc=login,gender,location,email,dob,registered,phone,cell,id,picture',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+
+  static dynamic firstName(dynamic response) => getJsonField(
+        response,
+        r'''$.results[*].name.first''',
+      );
+}
+
+class NotesAPICall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'Notes API',
+      apiUrl: 'https://run.mocky.io/v3/0667c5fa-954a-44bb-97ed-3da11b5d3231',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+}

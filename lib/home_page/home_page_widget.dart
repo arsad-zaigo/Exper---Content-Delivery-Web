@@ -25,8 +25,10 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../profile/profile_widget.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/scheduler.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -41,9 +43,10 @@ class HomePageWidget extends StatefulWidget {
 
 class _HomePageWidgetState extends State<HomePageWidget>
     with TickerProviderStateMixin {
+  ApiCallResponse users;
+  final scaffoldKey = GlobalKey<ScaffoldState>();
   PageController pageViewController;
   TextEditingController textController;
-  final scaffoldKey = GlobalKey<ScaffoldState>();
   final animationsMap = {
     'listViewOnPageLoadAnimation': AnimationInfo(
       curve: Curves.easeOut,
@@ -66,13 +69,21 @@ class _HomePageWidgetState extends State<HomePageWidget>
   @override
   void initState() {
     super.initState();
+    // On page load action.
+    SchedulerBinding.instance.addPostFrameCallback((_) async {
+      users = await RandomUserCall.call();
+      setState(() => FFAppState().typeDetials = getJsonField(
+            (users?.jsonBody ?? ''),
+            r'''$.results[*].name.first''',
+          ).map<String>((s) => s.toString()).toList().toList());
+    });
+
+    textController = TextEditingController();
     startPageLoadAnimations(
       animationsMap.values
           .where((anim) => anim.trigger == AnimationTrigger.onPageLoad),
       this,
     );
-
-    textController = TextEditingController();
   }
 
   @override
@@ -625,23 +636,44 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                               EdgeInsetsDirectional
                                                                   .fromSTEB(30,
                                                                       0, 0, 0),
-                                                          child: Text(
-                                                            FFLocalizations.of(
-                                                                    context)
-                                                                .getText(
-                                                              'hv03miap' /* LogIn */,
-                                                            ),
-                                                            style: FlutterFlowTheme
-                                                                    .of(context)
-                                                                .bodyText1
-                                                                .override(
-                                                                  fontFamily:
-                                                                      'SF Pro',
-                                                                  color: Color(
-                                                                      0xFF3C439B),
-                                                                  useGoogleFonts:
-                                                                      false,
+                                                          child: InkWell(
+                                                            onTap: () async {
+                                                              await Navigator
+                                                                  .push(
+                                                                context,
+                                                                PageTransition(
+                                                                  type: PageTransitionType
+                                                                      .rightToLeft,
+                                                                  duration: Duration(
+                                                                      milliseconds:
+                                                                          300),
+                                                                  reverseDuration:
+                                                                      Duration(
+                                                                          milliseconds:
+                                                                              300),
+                                                                  child:
+                                                                      ProfileWidget(),
                                                                 ),
+                                                              );
+                                                            },
+                                                            child: Text(
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'hv03miap' /* LogIn */,
+                                                              ),
+                                                              style: FlutterFlowTheme
+                                                                      .of(context)
+                                                                  .bodyText1
+                                                                  .override(
+                                                                    fontFamily:
+                                                                        'SF Pro',
+                                                                    color: Color(
+                                                                        0xFF3C439B),
+                                                                    useGoogleFonts:
+                                                                        false,
+                                                                  ),
+                                                            ),
                                                           ),
                                                         ),
                                                       ],
@@ -661,229 +693,83 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                           child: Row(
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
-                                              Container(
-                                                width: MediaQuery.of(context)
-                                                        .size
-                                                        .width *
-                                                    0.4,
-                                                height: double.infinity,
-                                                decoration: BoxDecoration(
-                                                  color: Color(0x00EEEEEE),
-                                                ),
-                                                child: Column(
-                                                  mainAxisSize:
-                                                      MainAxisSize.max,
-                                                  mainAxisAlignment:
-                                                      MainAxisAlignment.center,
-                                                  children: [
-                                                    Text(
-                                                      FFLocalizations.of(
-                                                              context)
-                                                          .getText(
-                                                        'snq85egz' /* Advanced
+                                              Expanded(
+                                                child: Container(
+                                                  width: MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                      0.3,
+                                                  height: double.infinity,
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0x00EEEEEE),
+                                                  ),
+                                                  child: Column(
+                                                    mainAxisSize:
+                                                        MainAxisSize.max,
+                                                    mainAxisAlignment:
+                                                        MainAxisAlignment
+                                                            .center,
+                                                    children: [
+                                                      Text(
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'snq85egz' /* Advanced
 Medical Skills
 at you... */
-                                                        ,
-                                                      ),
-                                                      style: FlutterFlowTheme
-                                                              .of(context)
-                                                          .bodyText1
-                                                          .override(
-                                                            fontFamily:
-                                                                'SF Pro',
-                                                            color: Color(
-                                                                0xFFE68430),
-                                                            fontSize: 54,
-                                                            fontWeight:
-                                                                FontWeight.bold,
-                                                            useGoogleFonts:
-                                                                false,
-                                                          ),
-                                                    ),
-                                                    Padding(
-                                                      padding:
-                                                          EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  0, 30, 0, 0),
-                                                      child: Container(
-                                                        width: 400,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
+                                                          ,
                                                         ),
-                                                        child: Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          30,
-                                                                          0,
-                                                                          0,
-                                                                          0),
-                                                              child: Row(
-                                                                mainAxisSize:
-                                                                    MainAxisSize
-                                                                        .max,
-                                                                mainAxisAlignment:
-                                                                    MainAxisAlignment
-                                                                        .start,
-                                                                children: [
-                                                                  Row(
-                                                                    mainAxisSize:
-                                                                        MainAxisSize
-                                                                            .max,
-                                                                    children: [
-                                                                      SvgPicture
-                                                                          .asset(
-                                                                        'assets/images/1737369_answer_circle_okay_tick_icon_1.svg',
-                                                                        width:
-                                                                            20,
-                                                                        height:
-                                                                            20,
-                                                                        fit: BoxFit
-                                                                            .cover,
-                                                                      ),
-                                                                      Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            5,
-                                                                            0,
-                                                                            0,
-                                                                            0),
-                                                                        child:
-                                                                            Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'fmquz5lu' /* 400k Alumni */,
-                                                                          ),
-                                                                          style: FlutterFlowTheme.of(context)
-                                                                              .bodyText1
-                                                                              .override(
-                                                                                fontFamily: 'SF Pro',
-                                                                                color: Color(0xFF626168),
-                                                                                fontSize: 14,
-                                                                                fontWeight: FontWeight.w500,
-                                                                                useGoogleFonts: false,
-                                                                              ),
-                                                                        ),
-                                                                      ),
-                                                                    ],
-                                                                  ),
-                                                                  Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            40,
-                                                                            0,
-                                                                            0,
-                                                                            0),
-                                                                    child: Row(
-                                                                      mainAxisSize:
-                                                                          MainAxisSize
-                                                                              .max,
-                                                                      children: [
-                                                                        SvgPicture
-                                                                            .asset(
-                                                                          'assets/images/1737369_answer_circle_okay_tick_icon_1.svg',
-                                                                          width:
-                                                                              20,
-                                                                          height:
-                                                                              20,
-                                                                          fit: BoxFit
-                                                                              .cover,
-                                                                        ),
-                                                                        Padding(
-                                                                          padding: EdgeInsetsDirectional.fromSTEB(
-                                                                              5,
-                                                                              0,
-                                                                              0,
-                                                                              0),
-                                                                          child:
-                                                                              Text(
-                                                                            FFLocalizations.of(context).getText(
-                                                                              'nisfo46e' /* 190+ Countries */,
-                                                                            ),
-                                                                            style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                  fontFamily: 'SF Pro',
-                                                                                  color: Color(0xFF626168),
-                                                                                  fontSize: 14,
-                                                                                  fontWeight: FontWeight.w500,
-                                                                                  useGoogleFonts: false,
-                                                                                ),
-                                                                          ),
-                                                                        ),
-                                                                      ],
-                                                                    ),
-                                                                  ),
-                                                                ],
-                                                              ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          30,
-                                                                          15,
-                                                                          0,
-                                                                          0),
-                                                              child: Row(
-                                                                mainAxisSize:
-                                                                    MainAxisSize
-                                                                        .max,
-                                                                mainAxisAlignment:
-                                                                    MainAxisAlignment
-                                                                        .start,
-                                                                children: [
-                                                                  Row(
-                                                                    mainAxisSize:
-                                                                        MainAxisSize
-                                                                            .max,
-                                                                    children: [
-                                                                      SvgPicture
-                                                                          .asset(
-                                                                        'assets/images/1737369_answer_circle_okay_tick_icon_1.svg',
-                                                                        width:
-                                                                            20,
-                                                                        height:
-                                                                            20,
-                                                                        fit: BoxFit
-                                                                            .cover,
-                                                                      ),
-                                                                      Padding(
-                                                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                                                            5,
-                                                                            0,
-                                                                            0,
-                                                                            0),
-                                                                        child:
-                                                                            Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'vglajg1f' /* 200+ Courses */,
-                                                                          ),
-                                                                          style: FlutterFlowTheme.of(context)
-                                                                              .bodyText1
-                                                                              .override(
-                                                                                fontFamily: 'SF Pro',
-                                                                                color: Color(0xFF626168),
-                                                                                fontSize: 14,
-                                                                                fontWeight: FontWeight.w500,
-                                                                                useGoogleFonts: false,
-                                                                              ),
-                                                                        ),
-                                                                      ),
-                                                                    ],
-                                                                  ),
-                                                                  Padding(
-                                                                    padding: EdgeInsetsDirectional
+                                                        style:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .bodyText1
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'SF Pro',
+                                                                  color: Color(
+                                                                      0xFFE68430),
+                                                                  fontSize: 54,
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .bold,
+                                                                  useGoogleFonts:
+                                                                      false,
+                                                                ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsetsDirectional
+                                                                .fromSTEB(0, 30,
+                                                                    0, 0),
+                                                        child: Container(
+                                                          width: 400,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            color: Color(
+                                                                0x00EEEEEE),
+                                                          ),
+                                                          child: Column(
+                                                            mainAxisSize:
+                                                                MainAxisSize
+                                                                    .max,
+                                                            children: [
+                                                              Padding(
+                                                                padding:
+                                                                    EdgeInsetsDirectional
                                                                         .fromSTEB(
                                                                             30,
                                                                             0,
                                                                             0,
                                                                             0),
-                                                                    child: Row(
+                                                                child: Row(
+                                                                  mainAxisSize:
+                                                                      MainAxisSize
+                                                                          .max,
+                                                                  mainAxisAlignment:
+                                                                      MainAxisAlignment
+                                                                          .start,
+                                                                  children: [
+                                                                    Row(
                                                                       mainAxisSize:
                                                                           MainAxisSize
                                                                               .max,
@@ -907,7 +793,7 @@ at you... */
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'e9vvbrvj' /* 250+ Instructors */,
+                                                                              'fmquz5lu' /* 400k Alumni */,
                                                                             ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
@@ -920,217 +806,369 @@ at you... */
                                                                         ),
                                                                       ],
                                                                     ),
-                                                                  ),
-                                                                ],
+                                                                    Padding(
+                                                                      padding: EdgeInsetsDirectional
+                                                                          .fromSTEB(
+                                                                              40,
+                                                                              0,
+                                                                              0,
+                                                                              0),
+                                                                      child:
+                                                                          Row(
+                                                                        mainAxisSize:
+                                                                            MainAxisSize.max,
+                                                                        children: [
+                                                                          SvgPicture
+                                                                              .asset(
+                                                                            'assets/images/1737369_answer_circle_okay_tick_icon_1.svg',
+                                                                            width:
+                                                                                20,
+                                                                            height:
+                                                                                20,
+                                                                            fit:
+                                                                                BoxFit.cover,
+                                                                          ),
+                                                                          Padding(
+                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                                5,
+                                                                                0,
+                                                                                0,
+                                                                                0),
+                                                                            child:
+                                                                                Text(
+                                                                              FFLocalizations.of(context).getText(
+                                                                                'nisfo46e' /* 190+ Countries */,
+                                                                              ),
+                                                                              style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                                    fontFamily: 'SF Pro',
+                                                                                    color: Color(0xFF626168),
+                                                                                    fontSize: 14,
+                                                                                    fontWeight: FontWeight.w500,
+                                                                                    useGoogleFonts: false,
+                                                                                  ),
+                                                                            ),
+                                                                          ),
+                                                                        ],
+                                                                      ),
+                                                                    ),
+                                                                  ],
+                                                                ),
                                                               ),
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                    ),
-                                                    Padding(
-                                                      padding:
-                                                          EdgeInsetsDirectional
-                                                              .fromSTEB(
-                                                                  0, 40, 0, 0),
-                                                      child: Container(
-                                                        width: MediaQuery.of(
-                                                                    context)
-                                                                .size
-                                                                .width *
-                                                            0.3,
-                                                        height: 50,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0xFFF8F8F8),
-                                                          borderRadius:
-                                                              BorderRadius
-                                                                  .circular(10),
-                                                        ),
-                                                        child: Row(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Expanded(
-                                                              child: Padding(
+                                                              Padding(
                                                                 padding:
                                                                     EdgeInsetsDirectional
                                                                         .fromSTEB(
-                                                                            20,
-                                                                            0,
+                                                                            30,
+                                                                            15,
                                                                             0,
                                                                             0),
-                                                                child:
-                                                                    TextFormField(
-                                                                  controller:
-                                                                      textController,
-                                                                  obscureText:
-                                                                      false,
-                                                                  decoration:
-                                                                      InputDecoration(
-                                                                    labelText: FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '1qfljzq5' /* Search Here */,
+                                                                child: Row(
+                                                                  mainAxisSize:
+                                                                      MainAxisSize
+                                                                          .max,
+                                                                  mainAxisAlignment:
+                                                                      MainAxisAlignment
+                                                                          .start,
+                                                                  children: [
+                                                                    Row(
+                                                                      mainAxisSize:
+                                                                          MainAxisSize
+                                                                              .max,
+                                                                      children: [
+                                                                        SvgPicture
+                                                                            .asset(
+                                                                          'assets/images/1737369_answer_circle_okay_tick_icon_1.svg',
+                                                                          width:
+                                                                              20,
+                                                                          height:
+                                                                              20,
+                                                                          fit: BoxFit
+                                                                              .cover,
+                                                                        ),
+                                                                        Padding(
+                                                                          padding: EdgeInsetsDirectional.fromSTEB(
+                                                                              5,
+                                                                              0,
+                                                                              0,
+                                                                              0),
+                                                                          child:
+                                                                              Text(
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'vglajg1f' /* 200+ Courses */,
+                                                                            ),
+                                                                            style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                                  fontFamily: 'SF Pro',
+                                                                                  color: Color(0xFF626168),
+                                                                                  fontSize: 14,
+                                                                                  fontWeight: FontWeight.w500,
+                                                                                  useGoogleFonts: false,
+                                                                                ),
+                                                                          ),
+                                                                        ),
+                                                                      ],
                                                                     ),
-                                                                    enabledBorder:
-                                                                        UnderlineInputBorder(
-                                                                      borderSide:
-                                                                          BorderSide(
-                                                                        color: Color(
-                                                                            0x00000000),
-                                                                        width:
-                                                                            1,
-                                                                      ),
-                                                                      borderRadius:
-                                                                          const BorderRadius
-                                                                              .only(
-                                                                        topLeft:
-                                                                            Radius.circular(4.0),
-                                                                        topRight:
-                                                                            Radius.circular(4.0),
+                                                                    Padding(
+                                                                      padding: EdgeInsetsDirectional
+                                                                          .fromSTEB(
+                                                                              30,
+                                                                              0,
+                                                                              0,
+                                                                              0),
+                                                                      child:
+                                                                          Row(
+                                                                        mainAxisSize:
+                                                                            MainAxisSize.max,
+                                                                        children: [
+                                                                          SvgPicture
+                                                                              .asset(
+                                                                            'assets/images/1737369_answer_circle_okay_tick_icon_1.svg',
+                                                                            width:
+                                                                                20,
+                                                                            height:
+                                                                                20,
+                                                                            fit:
+                                                                                BoxFit.cover,
+                                                                          ),
+                                                                          Padding(
+                                                                            padding: EdgeInsetsDirectional.fromSTEB(
+                                                                                5,
+                                                                                0,
+                                                                                0,
+                                                                                0),
+                                                                            child:
+                                                                                Text(
+                                                                              FFLocalizations.of(context).getText(
+                                                                                'e9vvbrvj' /* 250+ Instructors */,
+                                                                              ),
+                                                                              style: FlutterFlowTheme.of(context).bodyText1.override(
+                                                                                    fontFamily: 'SF Pro',
+                                                                                    color: Color(0xFF626168),
+                                                                                    fontSize: 14,
+                                                                                    fontWeight: FontWeight.w500,
+                                                                                    useGoogleFonts: false,
+                                                                                  ),
+                                                                            ),
+                                                                          ),
+                                                                        ],
                                                                       ),
                                                                     ),
-                                                                    focusedBorder:
-                                                                        UnderlineInputBorder(
-                                                                      borderSide:
-                                                                          BorderSide(
-                                                                        color: Color(
-                                                                            0x00000000),
-                                                                        width:
-                                                                            1,
-                                                                      ),
-                                                                      borderRadius:
-                                                                          const BorderRadius
-                                                                              .only(
-                                                                        topLeft:
-                                                                            Radius.circular(4.0),
-                                                                        topRight:
-                                                                            Radius.circular(4.0),
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                  style: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyText1
-                                                                      .override(
-                                                                        fontFamily:
-                                                                            'SF Pro',
-                                                                        color: Color(
-                                                                            0xFFBBBBBD),
-                                                                        fontWeight:
-                                                                            FontWeight.w500,
-                                                                        useGoogleFonts:
-                                                                            false,
-                                                                      ),
+                                                                  ],
                                                                 ),
                                                               ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          0,
-                                                                          20,
-                                                                          0),
-                                                              child: SvgPicture
-                                                                  .asset(
-                                                                'assets/images/Vector.svg',
-                                                                width: 20,
-                                                                height: 20,
-                                                                fit: BoxFit
-                                                                    .contain,
-                                                              ),
-                                                            ),
-                                                          ],
+                                                            ],
+                                                          ),
                                                         ),
                                                       ),
-                                                    ),
-                                                  ],
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsetsDirectional
+                                                                .fromSTEB(0, 40,
+                                                                    0, 0),
+                                                        child: Container(
+                                                          width: MediaQuery.of(
+                                                                      context)
+                                                                  .size
+                                                                  .width *
+                                                              0.3,
+                                                          height: 50,
+                                                          decoration:
+                                                              BoxDecoration(
+                                                            color: Color(
+                                                                0xFFF8F8F8),
+                                                            borderRadius:
+                                                                BorderRadius
+                                                                    .circular(
+                                                                        10),
+                                                          ),
+                                                          child: Row(
+                                                            mainAxisSize:
+                                                                MainAxisSize
+                                                                    .max,
+                                                            children: [
+                                                              Expanded(
+                                                                child: Padding(
+                                                                  padding: EdgeInsetsDirectional
+                                                                      .fromSTEB(
+                                                                          20,
+                                                                          0,
+                                                                          0,
+                                                                          0),
+                                                                  child:
+                                                                      TextFormField(
+                                                                    controller:
+                                                                        textController,
+                                                                    obscureText:
+                                                                        false,
+                                                                    decoration:
+                                                                        InputDecoration(
+                                                                      labelText:
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                        '1qfljzq5' /* Search Here */,
+                                                                      ),
+                                                                      enabledBorder:
+                                                                          UnderlineInputBorder(
+                                                                        borderSide:
+                                                                            BorderSide(
+                                                                          color:
+                                                                              Color(0x00000000),
+                                                                          width:
+                                                                              1,
+                                                                        ),
+                                                                        borderRadius:
+                                                                            const BorderRadius.only(
+                                                                          topLeft:
+                                                                              Radius.circular(4.0),
+                                                                          topRight:
+                                                                              Radius.circular(4.0),
+                                                                        ),
+                                                                      ),
+                                                                      focusedBorder:
+                                                                          UnderlineInputBorder(
+                                                                        borderSide:
+                                                                            BorderSide(
+                                                                          color:
+                                                                              Color(0x00000000),
+                                                                          width:
+                                                                              1,
+                                                                        ),
+                                                                        borderRadius:
+                                                                            const BorderRadius.only(
+                                                                          topLeft:
+                                                                              Radius.circular(4.0),
+                                                                          topRight:
+                                                                              Radius.circular(4.0),
+                                                                        ),
+                                                                      ),
+                                                                    ),
+                                                                    style: FlutterFlowTheme.of(
+                                                                            context)
+                                                                        .bodyText1
+                                                                        .override(
+                                                                          fontFamily:
+                                                                              'SF Pro',
+                                                                          color:
+                                                                              Color(0xFFBBBBBD),
+                                                                          fontWeight:
+                                                                              FontWeight.w500,
+                                                                          useGoogleFonts:
+                                                                              false,
+                                                                        ),
+                                                                  ),
+                                                                ),
+                                                              ),
+                                                              Padding(
+                                                                padding:
+                                                                    EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            0,
+                                                                            0,
+                                                                            20,
+                                                                            0),
+                                                                child:
+                                                                    SvgPicture
+                                                                        .asset(
+                                                                  'assets/images/Vector.svg',
+                                                                  width: 20,
+                                                                  height: 20,
+                                                                  fit: BoxFit
+                                                                      .contain,
+                                                                ),
+                                                              ),
+                                                            ],
+                                                          ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
                                                 ),
                                               ),
-                                              Container(
-                                                width: MediaQuery.of(context)
-                                                        .size
-                                                        .width *
-                                                    0.7,
-                                                height: double.infinity,
-                                                decoration: BoxDecoration(
-                                                  color: Color(0x00EEEEEE),
-                                                ),
-                                                child: Padding(
-                                                  padding: EdgeInsetsDirectional
-                                                      .fromSTEB(0, 80, 0, 20),
-                                                  child: FutureBuilder<
-                                                      ApiCallResponse>(
-                                                    future:
-                                                        GetCoursesOnDashboardCall
-                                                            .call(),
-                                                    builder:
-                                                        (context, snapshot) {
-                                                      // Customize what your widget looks like when it's loading.
-                                                      if (!snapshot.hasData) {
-                                                        return Center(
-                                                          child: SizedBox(
-                                                            width: 70,
-                                                            height: 70,
-                                                            child:
-                                                                SpinKitCubeGrid(
-                                                              color: FlutterFlowTheme
-                                                                      .of(context)
-                                                                  .primaryColor,
-                                                              size: 70,
+                                              Expanded(
+                                                child: Container(
+                                                  width: MediaQuery.of(context)
+                                                          .size
+                                                          .width *
+                                                      0.8,
+                                                  height: double.infinity,
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0x00EEEEEE),
+                                                  ),
+                                                  child: Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                0, 80, 0, 20),
+                                                    child: FutureBuilder<
+                                                        ApiCallResponse>(
+                                                      future:
+                                                          GetCoursesOnDashboardCall
+                                                              .call(),
+                                                      builder:
+                                                          (context, snapshot) {
+                                                        // Customize what your widget looks like when it's loading.
+                                                        if (!snapshot.hasData) {
+                                                          return Center(
+                                                            child: SizedBox(
+                                                              width: 70,
+                                                              height: 70,
+                                                              child:
+                                                                  SpinKitCubeGrid(
+                                                                color: FlutterFlowTheme.of(
+                                                                        context)
+                                                                    .primaryColor,
+                                                                size: 70,
+                                                              ),
                                                             ),
-                                                          ),
+                                                          );
+                                                        }
+                                                        final listViewGetCoursesOnDashboardResponse =
+                                                            snapshot.data;
+                                                        return Builder(
+                                                          builder: (context) {
+                                                            final homeItems =
+                                                                getJsonField(
+                                                                      (listViewGetCoursesOnDashboardResponse
+                                                                              ?.jsonBody ??
+                                                                          ''),
+                                                                      r'''$[*]''',
+                                                                    )?.toList() ??
+                                                                    [];
+                                                            return ListView
+                                                                .builder(
+                                                              padding:
+                                                                  EdgeInsets
+                                                                      .zero,
+                                                              scrollDirection:
+                                                                  Axis.horizontal,
+                                                              itemCount:
+                                                                  homeItems
+                                                                      .length,
+                                                              itemBuilder: (context,
+                                                                  homeItemsIndex) {
+                                                                final homeItemsItem =
+                                                                    homeItems[
+                                                                        homeItemsIndex];
+                                                                return CourseCardWebWidget(
+                                                                  courseTitle:
+                                                                      getJsonField(
+                                                                    homeItemsItem,
+                                                                    r'''$.title''',
+                                                                  ).toString(),
+                                                                  duration:
+                                                                      '2 Hours',
+                                                                  rating: '4.5',
+                                                                  price:
+                                                                      '\$400000',
+                                                                );
+                                                              },
+                                                            ).animated([
+                                                              animationsMap[
+                                                                  'listViewOnPageLoadAnimation']
+                                                            ]);
+                                                          },
                                                         );
-                                                      }
-                                                      final listViewGetCoursesOnDashboardResponse =
-                                                          snapshot.data;
-                                                      return Builder(
-                                                        builder: (context) {
-                                                          final homeItems =
-                                                              getJsonField(
-                                                                    (listViewGetCoursesOnDashboardResponse
-                                                                            ?.jsonBody ??
-                                                                        ''),
-                                                                    r'''$[*]''',
-                                                                  )?.toList() ??
-                                                                  [];
-                                                          return ListView
-                                                              .builder(
-                                                            padding:
-                                                                EdgeInsets.zero,
-                                                            scrollDirection:
-                                                                Axis.horizontal,
-                                                            itemCount: homeItems
-                                                                .length,
-                                                            itemBuilder: (context,
-                                                                homeItemsIndex) {
-                                                              final homeItemsItem =
-                                                                  homeItems[
-                                                                      homeItemsIndex];
-                                                              return CourseCardWebWidget(
-                                                                courseTitle:
-                                                                    getJsonField(
-                                                                  homeItemsItem,
-                                                                  r'''$.title''',
-                                                                ).toString(),
-                                                                duration:
-                                                                    '2 Hours',
-                                                                rating: '4.5',
-                                                                price:
-                                                                    '\$400000',
-                                                              );
-                                                            },
-                                                          ).animated([
-                                                            animationsMap[
-                                                                'listViewOnPageLoadAnimation']
-                                                          ]);
-                                                        },
-                                                      );
-                                                    },
+                                                      },
+                                                    ),
                                                   ),
                                                 ),
                                               ),

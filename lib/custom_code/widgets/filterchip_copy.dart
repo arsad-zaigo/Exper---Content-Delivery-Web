@@ -6,8 +6,8 @@ import 'package:flutter/material.dart';
 // Begin custom widget code
 import 'package:chips_choice/chips_choice.dart';
 
-class Filterchip extends StatefulWidget {
-  const Filterchip({
+class FilterchipCopy extends StatefulWidget {
+  const FilterchipCopy({
     Key key,
     this.width,
     this.height,
@@ -21,18 +21,18 @@ class Filterchip extends StatefulWidget {
   final bool isWrapped;
 
   @override
-  _FilterchipState createState() => _FilterchipState();
+  _FilterchipCopyState createState() => _FilterchipCopyState();
 }
 
-class _FilterchipState extends State<Filterchip> {
+class _FilterchipCopyState extends State<FilterchipCopy> {
   List<String> result = [];
   @override
   Widget build(BuildContext context) {
     var directions = widget.isVertical ? Axis.vertical : Axis.horizontal;
 
-    return ChipsChoice<String>.multiple(
-      value: FFAppState().sType,
-      onChanged: (val) => setState(() => FFAppState().sType = val),
+    return ChipsChoice<String>.single(
+      value: FFAppState().selectedDays,
+      onChanged: (val) => setState(() => FFAppState().selectedDays = val),
       wrapped: widget.isWrapped,
       direction: directions,
       alignment: WrapAlignment.start,

@@ -25,6 +25,14 @@ class FFAppState {
   bool isPageThree = false;
 
   List<String> sType = [];
+
+  List<String> typeDetials = ['Docter', 'Nurse'];
+
+  bool isPageFour = false;
+
+  String selectedDays = '';
+
+  bool isPageFirst = true;
 }
 
 LatLng _latLngFromString(String val) {

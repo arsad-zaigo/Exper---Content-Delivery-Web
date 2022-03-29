@@ -1,3 +1,4 @@
+import '../backend/api_requests/api_calls.dart';
 import '../components/progress_bar_widget.dart';
 import '../flutter_flow/flutter_flow_checkbox_group.dart';
 import '../flutter_flow/flutter_flow_drop_down.dart';
@@ -18,6 +19,13 @@ class LoginComponentWidget extends StatefulWidget {
 }
 
 class _LoginComponentWidgetState extends State<LoginComponentWidget> {
+  Map<ApiCallResponse, bool> checkboxListTileValueMap = {};
+  List<ApiCallResponse> get checkboxListTileCheckedItems =>
+      checkboxListTileValueMap.entries
+          .where((e) => e.value)
+          .map((e) => e.key)
+          .toList();
+
   List<String> checkboxGroupValues;
   TextEditingController textController1;
   TextEditingController textController2;
@@ -49,191 +57,199 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
   Widget build(BuildContext context) {
     return Stack(
       children: [
-        Container(
-          width: double.infinity,
-          height: double.infinity,
-          decoration: BoxDecoration(
-            color: Color(0x00FFFFFF),
-          ),
-          child: Card(
-            clipBehavior: Clip.antiAliasWithSaveLayer,
-            color: Colors.white,
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.only(
-                bottomLeft: Radius.circular(0),
-                bottomRight: Radius.circular(0),
-                topLeft: Radius.circular(20),
-                topRight: Radius.circular(20),
-              ),
+        if (FFAppState().isPageFirst ?? true)
+          Container(
+            width: double.infinity,
+            height: double.infinity,
+            decoration: BoxDecoration(
+              color: Color(0x00FFFFFF),
             ),
-            child: Row(
-              mainAxisSize: MainAxisSize.max,
-              children: [
-                Container(
-                  width: MediaQuery.of(context).size.width * 0.3,
-                  height: MediaQuery.of(context).size.height * 1,
-                  decoration: BoxDecoration(
-                    color: Color(0x2EAFB1CC),
-                  ),
-                  child: Column(
-                    mainAxisSize: MainAxisSize.max,
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      SvgPicture.asset(
-                        'assets/images/undraw_knowledge_re_leit_1.svg',
-                        width: 250,
-                        height: 300,
-                        fit: BoxFit.cover,
-                      ),
-                    ],
-                  ),
+            child: Card(
+              clipBehavior: Clip.antiAliasWithSaveLayer,
+              color: Colors.white,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.only(
+                  bottomLeft: Radius.circular(0),
+                  bottomRight: Radius.circular(0),
+                  topLeft: Radius.circular(20),
+                  topRight: Radius.circular(20),
                 ),
-                Container(
-                  width: MediaQuery.of(context).size.width * 0.5,
-                  height: MediaQuery.of(context).size.height * 1,
-                  decoration: BoxDecoration(
-                    color: Color(0x00EEEEEE),
-                  ),
-                  child: Padding(
-                    padding: EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
+              ),
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Container(
+                    width: MediaQuery.of(context).size.width * 0.3,
+                    height: MediaQuery.of(context).size.height * 1,
+                    decoration: BoxDecoration(
+                      color: Color(0x2EAFB1CC),
+                    ),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
                       mainAxisAlignment: MainAxisAlignment.center,
-                      crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         SvgPicture.asset(
-                          'assets/images/logo_1.svg',
-                          width: 130,
-                          height: 45,
-                          fit: BoxFit.contain,
+                          'assets/images/undraw_knowledge_re_leit_1.svg',
+                          width: 250,
+                          height: 300,
+                          fit: BoxFit.cover,
                         ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
-                          child: Text(
-                            'Enter your mobile number to \nstart learning',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'SF Pro',
-                                      color: Color(0xFF202431),
-                                      fontSize: 24,
-                                      useGoogleFonts: false,
-                                    ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    width: MediaQuery.of(context).size.width * 0.5,
+                    height: MediaQuery.of(context).size.height * 1,
+                    decoration: BoxDecoration(
+                      color: Color(0x00EEEEEE),
+                    ),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          SvgPicture.asset(
+                            'assets/images/logo_1.svg',
+                            width: 130,
+                            height: 45,
+                            fit: BoxFit.contain,
                           ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
-                          child: Text(
-                            'Mobile Number',
-                            style:
-                                FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'SF Pro',
-                                      color: Color(0xFF626168),
-                                      fontWeight: FontWeight.normal,
-                                      useGoogleFonts: false,
-                                    ),
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
-                          child: Container(
-                            width: MediaQuery.of(context).size.width * 0.4,
-                            decoration: BoxDecoration(
-                              color: Color(0xFFEEEEEE),
-                              borderRadius: BorderRadius.circular(8),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
+                            child: Text(
+                              'Enter your mobile number to \nstart learning',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'SF Pro',
+                                    color: Color(0xFF202431),
+                                    fontSize: 24,
+                                    useGoogleFonts: false,
+                                  ),
                             ),
-                            child: Padding(
-                              padding:
-                                  EdgeInsetsDirectional.fromSTEB(10, 0, 10, 0),
-                              child: TextFormField(
-                                controller: textController1,
-                                obscureText: false,
-                                decoration: InputDecoration(
-                                  hintText: 'Enter mobile number',
-                                  enabledBorder: InputBorder.none,
-                                  focusedBorder: InputBorder.none,
-                                ),
-                                style: FlutterFlowTheme.of(context)
-                                    .bodyText1
-                                    .override(
-                                      fontFamily: 'SF Pro',
-                                      color: Colors.black,
-                                      fontWeight: FontWeight.normal,
-                                      useGoogleFonts: false,
-                                    ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
+                            child: Text(
+                              'Mobile Number',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'SF Pro',
+                                    color: Color(0xFF626168),
+                                    fontWeight: FontWeight.normal,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ),
+                          Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
+                            child: Container(
+                              width: MediaQuery.of(context).size.width * 0.4,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFEEEEEE),
+                                borderRadius: BorderRadius.circular(8),
                               ),
-                            ),
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
-                          child: Row(
-                            mainAxisSize: MainAxisSize.max,
-                            children: [
-                              Expanded(
-                                child: FlutterFlowCheckboxGroup(
-                                  initiallySelected: checkboxGroupValues != null
-                                      ? checkboxGroupValues
-                                      : [],
-                                  options: ['Remember Me'],
-                                  onChanged: (val) =>
-                                      setState(() => checkboxGroupValues = val),
-                                  activeColor: Color(0xFF626168),
-                                  checkColor: Colors.white,
-                                  checkboxBorderColor: Color(0xFF95A1AC),
-                                  textStyle: FlutterFlowTheme.of(context)
+                              child: Padding(
+                                padding: EdgeInsetsDirectional.fromSTEB(
+                                    10, 0, 10, 0),
+                                child: TextFormField(
+                                  controller: textController1,
+                                  obscureText: false,
+                                  decoration: InputDecoration(
+                                    hintText: 'Enter mobile number',
+                                    enabledBorder: InputBorder.none,
+                                    focusedBorder: InputBorder.none,
+                                  ),
+                                  style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
                                         fontFamily: 'SF Pro',
-                                        color: Color(0xFF626168),
+                                        color: Colors.black,
                                         fontWeight: FontWeight.normal,
                                         useGoogleFonts: false,
                                       ),
                                 ),
                               ),
-                            ],
-                          ),
-                        ),
-                        Padding(
-                          padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
-                          child: Container(
-                            width: 400,
-                            decoration: BoxDecoration(
-                              color: Color(0xFFEEEEEE),
                             ),
-                            child: FFButtonWidget(
-                              onPressed: () async {
-                                setState(() => FFAppState().isPageOne = true);
-                              },
-                              text: 'Send OTP',
-                              options: FFButtonOptions(
-                                width: 130,
-                                height: 40,
-                                color: Color(0xFF3C439B),
-                                textStyle: FlutterFlowTheme.of(context)
-                                    .subtitle2
-                                    .override(
-                                      fontFamily: 'SF Pro',
-                                      color: Colors.white,
-                                      fontWeight: FontWeight.w500,
-                                      useGoogleFonts: false,
-                                    ),
-                                borderSide: BorderSide(
-                                  color: Colors.transparent,
-                                  width: 1,
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
+                            child: Row(
+                              mainAxisSize: MainAxisSize.max,
+                              children: [
+                                Expanded(
+                                  child: FlutterFlowCheckboxGroup(
+                                    initiallySelected:
+                                        checkboxGroupValues != null
+                                            ? checkboxGroupValues
+                                            : [],
+                                    options: ['Remember Me'],
+                                    onChanged: (val) => setState(
+                                        () => checkboxGroupValues = val),
+                                    activeColor: Color(0xFF626168),
+                                    checkColor: Colors.white,
+                                    checkboxBorderColor: Color(0xFF95A1AC),
+                                    textStyle: FlutterFlowTheme.of(context)
+                                        .bodyText1
+                                        .override(
+                                          fontFamily: 'SF Pro',
+                                          color: Color(0xFF626168),
+                                          fontWeight: FontWeight.normal,
+                                          useGoogleFonts: false,
+                                        ),
+                                  ),
                                 ),
-                                borderRadius: 12,
+                              ],
+                            ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
+                            child: Container(
+                              width: 400,
+                              decoration: BoxDecoration(
+                                color: Color(0xFFEEEEEE),
+                              ),
+                              child: FFButtonWidget(
+                                onPressed: () async {
+                                  setState(() => FFAppState().isPageOne = true);
+                                },
+                                text: 'Send OTP',
+                                options: FFButtonOptions(
+                                  width: 130,
+                                  height: 40,
+                                  color: Color(0xFF3C439B),
+                                  textStyle: FlutterFlowTheme.of(context)
+                                      .subtitle2
+                                      .override(
+                                        fontFamily: 'SF Pro',
+                                        color: Colors.white,
+                                        fontWeight: FontWeight.w500,
+                                        useGoogleFonts: false,
+                                      ),
+                                  borderSide: BorderSide(
+                                    color: Colors.transparent,
+                                    width: 1,
+                                  ),
+                                  borderRadius: 12,
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
           ),
-        ),
         if (FFAppState().isPageOne ?? true)
           Container(
             width: double.infinity,
@@ -1079,9 +1095,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                               child: custom_widgets.Filterchip(
                                 width: MediaQuery.of(context).size.width * 6,
                                 height: MediaQuery.of(context).size.height * 2,
-                                list:
-                                    '[\"sdv\",\"sdv\",\"ytbbntyn\",\"sdvsdv\",\"svbtrbnytnty\",\"sdvmsdov\"]'
-                                        .toList(),
+                                isVertical: false,
                               ),
                             ),
                           ),
@@ -1113,8 +1127,266 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                   ),
                                   FFButtonWidget(
                                     onPressed: () async {
+                                      setState(
+                                          () => FFAppState().isPageFour = true);
+                                    },
+                                    text: 'Save & Next',
+                                    options: FFButtonOptions(
+                                      width: 150,
+                                      height: 40,
+                                      color: Color(0xFF3C439B),
+                                      textStyle: FlutterFlowTheme.of(context)
+                                          .subtitle2
+                                          .override(
+                                            fontFamily: 'SF Pro',
+                                            color: Colors.white,
+                                            fontWeight: FontWeight.normal,
+                                            useGoogleFonts: false,
+                                          ),
+                                      borderSide: BorderSide(
+                                        color: Colors.transparent,
+                                        width: 1,
+                                      ),
+                                      borderRadius: 12,
+                                    ),
+                                  ),
+                                ],
+                              ),
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        if (FFAppState().isPageFour ?? true)
+          Container(
+            width: double.infinity,
+            height: double.infinity,
+            decoration: BoxDecoration(
+              color: Color(0xFFEEEEEE),
+            ),
+            child: Card(
+              clipBehavior: Clip.antiAliasWithSaveLayer,
+              color: Colors.white,
+              child: Row(
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Container(
+                    width: MediaQuery.of(context).size.width * 0.3,
+                    height: MediaQuery.of(context).size.height * 1,
+                    decoration: BoxDecoration(
+                      color: Color(0x2EAFB1CC),
+                    ),
+                    child: Column(
+                      mainAxisSize: MainAxisSize.max,
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: [
+                        SvgPicture.asset(
+                          'assets/images/undraw_pie_graph_re_fvol_1.svg',
+                          width: 350,
+                          height: 250,
+                          fit: BoxFit.contain,
+                        ),
+                      ],
+                    ),
+                  ),
+                  Container(
+                    width: MediaQuery.of(context).size.width * 0.5,
+                    height: MediaQuery.of(context).size.height * 1,
+                    decoration: BoxDecoration(
+                      color: Color(0x00EEEEEE),
+                    ),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(50, 0, 0, 0),
+                      child: Column(
+                        mainAxisSize: MainAxisSize.max,
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
+                            child: Text(
+                              'Create Profile',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'SF Pro',
+                                    color: Color(0xFF202431),
+                                    fontSize: 24,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 32, 0, 0),
+                            child: Text(
+                              'Select Preferences',
+                              style: FlutterFlowTheme.of(context)
+                                  .bodyText1
+                                  .override(
+                                    fontFamily: 'SF Pro',
+                                    color: Color(0xFF626168),
+                                    fontWeight: FontWeight.normal,
+                                    useGoogleFonts: false,
+                                  ),
+                            ),
+                          ),
+                          Container(
+                            width: 500,
+                            decoration: BoxDecoration(
+                              color: Color(0x00EEEEEE),
+                            ),
+                            child: Padding(
+                              padding:
+                                  EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
+                              child: ProgressBarWidget(
+                                progress: 500.0,
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 10, 0, 10),
+                            child: Container(
+                              width: 600,
+                              height: 300,
+                              decoration: BoxDecoration(
+                                color: Color(0x00EEEEEE),
+                              ),
+                              child: FutureBuilder<ApiCallResponse>(
+                                future: GetCoursesOnDashboardCall.call(),
+                                builder: (context, snapshot) {
+                                  // Customize what your widget looks like when it's loading.
+                                  if (!snapshot.hasData) {
+                                    return Center(
+                                      child: SizedBox(
+                                        width: 70,
+                                        height: 70,
+                                        child: SpinKitCubeGrid(
+                                          color: FlutterFlowTheme.of(context)
+                                              .primaryColor,
+                                          size: 70,
+                                        ),
+                                      ),
+                                    );
+                                  }
+                                  final listViewGetCoursesOnDashboardResponse =
+                                      snapshot.data;
+                                  return Builder(
+                                    builder: (context) {
+                                      final items = getJsonField(
+                                            (listViewGetCoursesOnDashboardResponse
+                                                    ?.jsonBody ??
+                                                ''),
+                                            r'''$[*]''',
+                                          )?.toList() ??
+                                          [];
+                                      return ListView.builder(
+                                        padding: EdgeInsets.zero,
+                                        scrollDirection: Axis.vertical,
+                                        itemCount: items.length,
+                                        itemBuilder: (context, itemsIndex) {
+                                          final itemsItem = items[itemsIndex];
+                                          return Theme(
+                                            data: ThemeData(
+                                              unselectedWidgetColor:
+                                                  Color(0xFF95A1AC),
+                                            ),
+                                            child: CheckboxListTile(
+                                              value: checkboxListTileValueMap[
+                                                  itemsItem] ??= false,
+                                              onChanged: (newValue) => setState(
+                                                  () =>
+                                                      checkboxListTileValueMap[
+                                                              itemsItem] =
+                                                          newValue),
+                                              title: Text(
+                                                getJsonField(
+                                                  itemsItem,
+                                                  r'''$.title''',
+                                                ).toString(),
+                                                style:
+                                                    FlutterFlowTheme.of(context)
+                                                        .title3
+                                                        .override(
+                                                          fontFamily: 'SF Pro',
+                                                          useGoogleFonts: false,
+                                                        ),
+                                              ),
+                                              subtitle: Text(
+                                                getJsonField(
+                                                  itemsItem,
+                                                  r'''$.price''',
+                                                ).toString(),
+                                                style:
+                                                    FlutterFlowTheme.of(context)
+                                                        .subtitle2
+                                                        .override(
+                                                          fontFamily: 'SF Pro',
+                                                          fontWeight:
+                                                              FontWeight.normal,
+                                                          useGoogleFonts: false,
+                                                        ),
+                                              ),
+                                              tileColor: Color(0xFFF5F5F5),
+                                              activeColor:
+                                                  FlutterFlowTheme.of(context)
+                                                      .primaryColor,
+                                              dense: false,
+                                              controlAffinity:
+                                                  ListTileControlAffinity
+                                                      .trailing,
+                                            ),
+                                          );
+                                        },
+                                      );
+                                    },
+                                  );
+                                },
+                              ),
+                            ),
+                          ),
+                          Padding(
+                            padding:
+                                EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
+                            child: Container(
+                              width: MediaQuery.of(context).size.width,
+                              decoration: BoxDecoration(
+                                color: Color(0x00EEEEEE),
+                              ),
+                              child: Row(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: [
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 0, 40, 0),
+                                    child: Text(
+                                      'Skip',
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'SF Pro',
+                                            fontWeight: FontWeight.bold,
+                                            useGoogleFonts: false,
+                                          ),
+                                    ),
+                                  ),
+                                  FFButtonWidget(
+                                    onPressed: () async {
+                                      Navigator.pop(context);
                                       setState(() =>
-                                          FFAppState().isPageThree = true);
+                                          FFAppState().isPageFour = false);
+                                      setState(() =>
+                                          FFAppState().isPageThree = false);
+                                      setState(
+                                          () => FFAppState().isPageTwo = false);
                                     },
                                     text: 'Save & Next',
                                     options: FFButtonOptions(
