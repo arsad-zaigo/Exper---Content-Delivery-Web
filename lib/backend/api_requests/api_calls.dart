@@ -61,3 +61,16 @@ class NotesAPICall {
     );
   }
 }
+
+class CatgoirtyMutipleCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'CatgoirtyMutiple',
+      apiUrl: 'https://run.mocky.io/v3/ff4fb6d9-28b3-42c0-b1a5-aa4b7b4598ba',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+}

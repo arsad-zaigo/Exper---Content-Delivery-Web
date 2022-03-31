@@ -14,6 +14,8 @@ class FFAppState {
 
   Future initializePersistedState() async {
     prefs = await SharedPreferences.getInstance();
+    _notificationState =
+        prefs.getBool('ff_notificationState') ?? _notificationState;
   }
 
   SharedPreferences prefs;
@@ -33,6 +35,13 @@ class FFAppState {
   String selectedDays = '';
 
   bool isPageFirst = true;
+
+  bool _notificationState = true;
+  bool get notificationState => _notificationState;
+  set notificationState(bool _value) {
+    _notificationState = _value;
+    prefs.setBool('ff_notificationState', _value);
+  }
 }
 
 LatLng _latLngFromString(String val) {

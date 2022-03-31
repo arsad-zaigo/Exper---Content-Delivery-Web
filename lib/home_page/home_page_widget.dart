@@ -25,6 +25,7 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../live_video_classes1/live_video_classes1_widget.dart';
 import '../profile/profile_widget.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
@@ -1303,72 +1304,86 @@ at you... */
                                                               EdgeInsetsDirectional
                                                                   .fromSTEB(10,
                                                                       0, 0, 0),
-                                                          child: Container(
-                                                            width: 267,
-                                                            height: 90,
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              color: Color(
-                                                                  0xFF787895),
-                                                              borderRadius:
-                                                                  BorderRadius
-                                                                      .circular(
-                                                                          24),
-                                                            ),
-                                                            child: Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              mainAxisAlignment:
-                                                                  MainAxisAlignment
-                                                                      .spaceBetween,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          15,
-                                                                          15,
-                                                                          15,
-                                                                          15),
-                                                                  child:
-                                                                      SvgPicture
-                                                                          .asset(
-                                                                    'assets/images/Group_427319099.svg',
-                                                                    width: 100,
-                                                                    height: 100,
-                                                                    fit: BoxFit
-                                                                        .contain,
-                                                                  ),
+                                                          child: InkWell(
+                                                            onTap: () async {
+                                                              await Navigator
+                                                                  .push(
+                                                                context,
+                                                                MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          LiveVideoClasses1Widget(),
                                                                 ),
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          0,
-                                                                          30,
-                                                                          0),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'jwywedxl' /* Online Events */,
+                                                              );
+                                                            },
+                                                            child: Container(
+                                                              width: 267,
+                                                              height: 90,
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: Color(
+                                                                    0xFF787895),
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            24),
+                                                              ),
+                                                              child: Row(
+                                                                mainAxisSize:
+                                                                    MainAxisSize
+                                                                        .max,
+                                                                mainAxisAlignment:
+                                                                    MainAxisAlignment
+                                                                        .spaceBetween,
+                                                                children: [
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            15,
+                                                                            15,
+                                                                            15,
+                                                                            15),
+                                                                    child: SvgPicture
+                                                                        .asset(
+                                                                      'assets/images/Group_427319099.svg',
+                                                                      width:
+                                                                          100,
+                                                                      height:
+                                                                          100,
+                                                                      fit: BoxFit
+                                                                          .contain,
                                                                     ),
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Colors.white,
-                                                                          fontWeight:
-                                                                              FontWeight.w500,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
                                                                   ),
-                                                                ),
-                                                              ],
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            0,
+                                                                            0,
+                                                                            30,
+                                                                            0),
+                                                                    child: Text(
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'jwywedxl' /* Online Events */,
+                                                                      ),
+                                                                      style: FlutterFlowTheme.of(
+                                                                              context)
+                                                                          .bodyText1
+                                                                          .override(
+                                                                            fontFamily:
+                                                                                'SF Pro',
+                                                                            color:
+                                                                                Colors.white,
+                                                                            fontWeight:
+                                                                                FontWeight.w500,
+                                                                            useGoogleFonts:
+                                                                                false,
+                                                                          ),
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
                                                             ),
                                                           ),
                                                         ),
@@ -5279,7 +5294,7 @@ Webinars */
                                                 children: [
                                                   Row(
                                                     mainAxisSize:
-                                                        MainAxisSize.min,
+                                                        MainAxisSize.max,
                                                     mainAxisAlignment:
                                                         MainAxisAlignment
                                                             .spaceBetween,
@@ -5598,7 +5613,7 @@ Webinars */
                                                         SingleChildScrollView(
                                                       child: Column(
                                                         mainAxisSize:
-                                                            MainAxisSize.min,
+                                                            MainAxisSize.max,
                                                         crossAxisAlignment:
                                                             CrossAxisAlignment
                                                                 .start,
@@ -6559,22 +6574,25 @@ our ... */
                                                                       ],
                                                                     ),
                                                                   ),
-                                                                  Stack(
-                                                                    children: [
-                                                                      Align(
-                                                                        alignment: AlignmentDirectional(
-                                                                            0,
-                                                                            15.63),
-                                                                        child: Image
-                                                                            .asset(
-                                                                          'assets/images/man_(1).png',
-                                                                          height:
-                                                                              200,
-                                                                          fit: BoxFit
-                                                                              .cover,
+                                                                  Expanded(
+                                                                    child:
+                                                                        Stack(
+                                                                      children: [
+                                                                        Align(
+                                                                          alignment: AlignmentDirectional(
+                                                                              0,
+                                                                              15.63),
+                                                                          child:
+                                                                              Image.asset(
+                                                                            'assets/images/man_(1).png',
+                                                                            height:
+                                                                                200,
+                                                                            fit:
+                                                                                BoxFit.cover,
+                                                                          ),
                                                                         ),
-                                                                      ),
-                                                                    ],
+                                                                      ],
+                                                                    ),
                                                                   ),
                                                                 ],
                                                               ),

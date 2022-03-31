@@ -189,7 +189,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                         checkboxGroupValues != null
                                             ? checkboxGroupValues
                                             : [],
-                                    options: ['Remember Me'],
+                                    options: ['Remember Me'].toList(),
                                     onChanged: (val) => setState(
                                         () => checkboxGroupValues = val),
                                     activeColor: Color(0xFF626168),
