@@ -1,9 +1,14 @@
+import '../backend/api_requests/api_calls.dart';
 import '../components/actionbar_widget.dart';
+import '../components/f_a_q_item_component_widget.dart';
+import '../components/footer_widget.dart';
 import '../components/instructor_card_widget.dart';
+import '../components/mini_course_card_web_widget.dart';
 import '../components/review_component_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../live_video_classes_attend_screen/live_video_classes_attend_screen_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -633,47 +638,53 @@ class _LiveVideoPageFullScreenWidgetState
                                         ),
                                       ],
                                     ),
-                                    Padding(
-                                      padding: EdgeInsetsDirectional.fromSTEB(
-                                          0, 20, 0, 0),
-                                      child: Row(
-                                        mainAxisSize: MainAxisSize.max,
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.spaceBetween,
-                                        children: [
-                                          Column(
+                                    Stack(
+                                      children: [
+                                        Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 20, 0, 0),
+                                          child: Row(
                                             mainAxisSize: MainAxisSize.max,
-                                            crossAxisAlignment:
-                                                CrossAxisAlignment.start,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceBetween,
                                             children: [
-                                              Row(
+                                              Column(
                                                 mainAxisSize: MainAxisSize.max,
                                                 crossAxisAlignment:
-                                                    CrossAxisAlignment.end,
+                                                    CrossAxisAlignment.start,
                                                 children: [
-                                                  Text(
-                                                    '₹ 14,799 ',
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .bodyText1
-                                                        .override(
-                                                          fontFamily: 'SF Pro',
-                                                          color:
-                                                              Color(0xFFF5821F),
-                                                          fontSize: 18,
-                                                          useGoogleFonts: false,
-                                                        ),
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(
-                                                                3, 0, 0, 0),
-                                                    child: Text(
-                                                      '₹ 14,799',
-                                                      style:
-                                                          FlutterFlowTheme.of(
-                                                                  context)
+                                                  Row(
+                                                    mainAxisSize:
+                                                        MainAxisSize.max,
+                                                    crossAxisAlignment:
+                                                        CrossAxisAlignment.end,
+                                                    children: [
+                                                      Text(
+                                                        '₹ 14,799 ',
+                                                        style:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .bodyText1
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'SF Pro',
+                                                                  color: Color(
+                                                                      0xFFF5821F),
+                                                                  fontSize: 18,
+                                                                  useGoogleFonts:
+                                                                      false,
+                                                                ),
+                                                      ),
+                                                      Padding(
+                                                        padding:
+                                                            EdgeInsetsDirectional
+                                                                .fromSTEB(
+                                                                    3, 0, 0, 0),
+                                                        child: Text(
+                                                          '₹ 14,799',
+                                                          style: FlutterFlowTheme
+                                                                  .of(context)
                                                               .bodyText1
                                                               .override(
                                                                 fontFamily:
@@ -687,94 +698,182 @@ class _LiveVideoPageFullScreenWidgetState
                                                                 useGoogleFonts:
                                                                     false,
                                                               ),
+                                                        ),
+                                                      ),
+                                                    ],
+                                                  ),
+                                                  Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                0, 5, 0, 0),
+                                                    child: Text(
+                                                      '(Exluding All Taxes) ',
+                                                      style:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .bodyText1
+                                                              .override(
+                                                                fontFamily:
+                                                                    'SF Pro',
+                                                                color: Color(
+                                                                    0xFFB5B5B5),
+                                                                fontSize: 12,
+                                                                useGoogleFonts:
+                                                                    false,
+                                                              ),
                                                     ),
                                                   ),
                                                 ],
                                               ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(0, 5, 0, 0),
-                                                child: Text(
-                                                  '(Exluding All Taxes) ',
-                                                  style: FlutterFlowTheme.of(
-                                                          context)
-                                                      .bodyText1
-                                                      .override(
-                                                        fontFamily: 'SF Pro',
+                                              Row(
+                                                mainAxisSize: MainAxisSize.max,
+                                                children: [
+                                                  FFButtonWidget(
+                                                    onPressed: () {
+                                                      print(
+                                                          'Button pressed ...');
+                                                    },
+                                                    text: 'Talk to us',
+                                                    options: FFButtonOptions(
+                                                      width: 150,
+                                                      height: 50,
+                                                      color: Color(0xFF202431),
+                                                      textStyle:
+                                                          FlutterFlowTheme.of(
+                                                                  context)
+                                                              .subtitle2
+                                                              .override(
+                                                                fontFamily:
+                                                                    'SF Pro',
+                                                                color: Colors
+                                                                    .white,
+                                                                fontSize: 14,
+                                                                fontWeight:
+                                                                    FontWeight
+                                                                        .w500,
+                                                                useGoogleFonts:
+                                                                    false,
+                                                              ),
+                                                      borderSide: BorderSide(
                                                         color:
-                                                            Color(0xFFB5B5B5),
-                                                        fontSize: 12,
-                                                        useGoogleFonts: false,
+                                                            Colors.transparent,
+                                                        width: 1,
                                                       ),
-                                                ),
-                                              ),
-                                            ],
-                                          ),
-                                          Row(
-                                            mainAxisSize: MainAxisSize.max,
-                                            children: [
-                                              FFButtonWidget(
-                                                onPressed: () {
-                                                  print('Button pressed ...');
-                                                },
-                                                text: 'Talk to us',
-                                                options: FFButtonOptions(
-                                                  width: 150,
-                                                  height: 50,
-                                                  color: Color(0xFF202431),
-                                                  textStyle: FlutterFlowTheme
-                                                          .of(context)
-                                                      .subtitle2
-                                                      .override(
-                                                        fontFamily: 'SF Pro',
-                                                        color: Colors.white,
-                                                        fontSize: 14,
-                                                        fontWeight:
-                                                            FontWeight.w500,
-                                                        useGoogleFonts: false,
-                                                      ),
-                                                  borderSide: BorderSide(
-                                                    color: Colors.transparent,
-                                                    width: 1,
-                                                  ),
-                                                  borderRadius: 12,
-                                                ),
-                                              ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(10, 0, 0, 0),
-                                                child: FFButtonWidget(
-                                                  onPressed: () {
-                                                    print('Button pressed ...');
-                                                  },
-                                                  text: 'Enroll Now',
-                                                  options: FFButtonOptions(
-                                                    width: 150,
-                                                    height: 50,
-                                                    color: Color(0xFFF5821F),
-                                                    textStyle: FlutterFlowTheme
-                                                            .of(context)
-                                                        .subtitle2
-                                                        .override(
-                                                          fontFamily: 'SF Pro',
-                                                          color: Colors.white,
-                                                          fontSize: 14,
-                                                          fontWeight:
-                                                              FontWeight.w500,
-                                                          useGoogleFonts: false,
-                                                        ),
-                                                    borderSide: BorderSide(
-                                                      color: Colors.transparent,
-                                                      width: 1,
+                                                      borderRadius: 12,
                                                     ),
-                                                    borderRadius: 12,
+                                                  ),
+                                                  Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                10, 0, 0, 0),
+                                                    child: FFButtonWidget(
+                                                      onPressed: () {
+                                                        print(
+                                                            'Button pressed ...');
+                                                      },
+                                                      text: 'Enroll Now',
+                                                      options: FFButtonOptions(
+                                                        width: 150,
+                                                        height: 50,
+                                                        color:
+                                                            Color(0xFFF5821F),
+                                                        textStyle:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .subtitle2
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'SF Pro',
+                                                                  color: Colors
+                                                                      .white,
+                                                                  fontSize: 14,
+                                                                  fontWeight:
+                                                                      FontWeight
+                                                                          .w500,
+                                                                  useGoogleFonts:
+                                                                      false,
+                                                                ),
+                                                        borderSide: BorderSide(
+                                                          color: Colors
+                                                              .transparent,
+                                                          width: 1,
+                                                        ),
+                                                        borderRadius: 12,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                ],
+                                              ),
+                                            ],
+                                          ),
+                                        ),
+                                        Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  0, 20, 0, 0),
+                                          child: Row(
+                                            mainAxisSize: MainAxisSize.max,
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.spaceBetween,
+                                            children: [
+                                              Expanded(
+                                                child: Container(
+                                                  width: 100,
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0xFFEEEEEE),
+                                                  ),
+                                                  child: Padding(
+                                                    padding:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                2, 0, 0, 0),
+                                                    child: FFButtonWidget(
+                                                      onPressed: () async {
+                                                        await Navigator.push(
+                                                          context,
+                                                          MaterialPageRoute(
+                                                            builder: (context) =>
+                                                                LiveVideoClassesAttendScreenWidget(),
+                                                          ),
+                                                        );
+                                                      },
+                                                      text:
+                                                          'Your live video class will start in : 03 Days & 06 Hours',
+                                                      options: FFButtonOptions(
+                                                        width: 130,
+                                                        height: 60,
+                                                        color:
+                                                            Color(0xFF59AC58),
+                                                        textStyle:
+                                                            FlutterFlowTheme.of(
+                                                                    context)
+                                                                .subtitle2
+                                                                .override(
+                                                                  fontFamily:
+                                                                      'SF Pro',
+                                                                  color: Colors
+                                                                      .white,
+                                                                  fontSize: 18,
+                                                                  useGoogleFonts:
+                                                                      false,
+                                                                ),
+                                                        borderSide: BorderSide(
+                                                          color: Colors
+                                                              .transparent,
+                                                          width: 1,
+                                                        ),
+                                                        borderRadius: 12,
+                                                      ),
+                                                    ),
                                                   ),
                                                 ),
                                               ),
                                             ],
                                           ),
-                                        ],
-                                      ),
+                                        ),
+                                      ],
                                     ),
                                     Padding(
                                       padding: EdgeInsetsDirectional.fromSTEB(
@@ -975,6 +1074,50 @@ class _LiveVideoPageFullScreenWidgetState
                                         ),
                                       ],
                                     ),
+                                    Column(
+                                      mainAxisSize: MainAxisSize.max,
+                                      children: [
+                                        Container(
+                                          width: double.infinity,
+                                          decoration: BoxDecoration(
+                                            color: Color(0x00EEEEEE),
+                                          ),
+                                          child: Padding(
+                                            padding:
+                                                EdgeInsetsDirectional.fromSTEB(
+                                                    0, 20, 0, 0),
+                                            child: Text(
+                                              'FAQ',
+                                              style: FlutterFlowTheme.of(
+                                                      context)
+                                                  .bodyText1
+                                                  .override(
+                                                    fontFamily: 'SF Pro',
+                                                    color: Color(0xFF626168),
+                                                    fontSize: 18,
+                                                    fontWeight: FontWeight.w500,
+                                                    useGoogleFonts: false,
+                                                  ),
+                                            ),
+                                          ),
+                                        ),
+                                        FAQItemComponentWidget(
+                                          title: 'Lorem Ipsum',
+                                          detials:
+                                              'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+                                        ),
+                                        FAQItemComponentWidget(
+                                          title: 'Lorem ipsum',
+                                          detials:
+                                              'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+                                        ),
+                                        FAQItemComponentWidget(
+                                          title: 'Lorem ipsum',
+                                          detials:
+                                              'Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.',
+                                        ),
+                                      ],
+                                    ),
                                   ],
                                 ),
                               ),
@@ -983,6 +1126,107 @@ class _LiveVideoPageFullScreenWidgetState
                         ),
                       ],
                     ),
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(100, 0, 100, 0),
+                  child: Row(
+                    mainAxisSize: MainAxisSize.max,
+                    children: [
+                      Text(
+                        'Saved courses',
+                        style: FlutterFlowTheme.of(context).bodyText1.override(
+                              fontFamily: 'SF Pro',
+                              color: Color(0xFF202431),
+                              fontSize: 32,
+                              useGoogleFonts: false,
+                            ),
+                      ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsetsDirectional.fromSTEB(100, 0, 0, 0),
+                  child: Container(
+                    width: double.infinity,
+                    height: 350,
+                    decoration: BoxDecoration(
+                      color: Color(0x00EEEEEE),
+                    ),
+                    child: Padding(
+                      padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
+                      child: FutureBuilder<ApiCallResponse>(
+                        future: GetCoursesOnDashboardCall.call(),
+                        builder: (context, snapshot) {
+                          // Customize what your widget looks like when it's loading.
+                          if (!snapshot.hasData) {
+                            return Center(
+                              child: SizedBox(
+                                width: 70,
+                                height: 70,
+                                child: SpinKitCubeGrid(
+                                  color:
+                                      FlutterFlowTheme.of(context).primaryColor,
+                                  size: 70,
+                                ),
+                              ),
+                            );
+                          }
+                          final listViewGetCoursesOnDashboardResponse =
+                              snapshot.data;
+                          return Builder(
+                            builder: (context) {
+                              final savedItems = getJsonField(
+                                    (listViewGetCoursesOnDashboardResponse
+                                            ?.jsonBody ??
+                                        ''),
+                                    r'''$[*]''',
+                                  )?.toList() ??
+                                  [];
+                              return ListView.builder(
+                                padding: EdgeInsets.zero,
+                                scrollDirection: Axis.horizontal,
+                                itemCount: savedItems.length,
+                                itemBuilder: (context, savedItemsIndex) {
+                                  final savedItemsItem =
+                                      savedItems[savedItemsIndex];
+                                  return MiniCourseCardWebWidget(
+                                    title: getJsonField(
+                                      savedItemsItem,
+                                      r'''$.title''',
+                                    ).toString(),
+                                    duriation: getJsonField(
+                                      savedItemsItem,
+                                      r'''$.year''',
+                                    ).toString(),
+                                    rating: getJsonField(
+                                      savedItemsItem,
+                                      r'''$.rating''',
+                                    ).toString(),
+                                    price: getJsonField(
+                                      savedItemsItem,
+                                      r'''$.price''',
+                                    ).toString(),
+                                    bgcolor: Color(0xFFF37F5A),
+                                  );
+                                },
+                              );
+                            },
+                          );
+                        },
+                      ),
+                    ),
+                  ),
+                ),
+                Container(
+                  width: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Color(0xFFEEEEEE),
+                  ),
+                  child: Container(
+                    height: 1500,
+                    decoration: BoxDecoration(),
+                    child: FooterWidget(),
                   ),
                 ),
               ],

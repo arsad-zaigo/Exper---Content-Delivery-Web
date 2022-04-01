@@ -16,6 +16,7 @@ class FFAppState {
     prefs = await SharedPreferences.getInstance();
     _notificationState =
         prefs.getBool('ff_notificationState') ?? _notificationState;
+    _accessToken = prefs.getString('ff_accessToken') ?? _accessToken;
   }
 
   SharedPreferences prefs;
@@ -41,6 +42,13 @@ class FFAppState {
   set notificationState(bool _value) {
     _notificationState = _value;
     prefs.setBool('ff_notificationState', _value);
+  }
+
+  String _accessToken = '';
+  String get accessToken => _accessToken;
+  set accessToken(String _value) {
+    _accessToken = _value;
+    prefs.setString('ff_accessToken', _value);
   }
 }
 
