@@ -1313,11 +1313,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 ).toString(),
                                                 style:
                                                     FlutterFlowTheme.of(context)
-                                                        .title3
-                                                        .override(
-                                                          fontFamily: 'SF Pro',
-                                                          useGoogleFonts: false,
-                                                        ),
+                                                        .title3,
                                               ),
                                               subtitle: Text(
                                                 getJsonField(

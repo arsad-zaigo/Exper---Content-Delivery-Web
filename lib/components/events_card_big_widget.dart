@@ -5,8 +5,8 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class EventsCardWidget extends StatefulWidget {
-  const EventsCardWidget({
+class EventsCardBigWidget extends StatefulWidget {
+  const EventsCardBigWidget({
     Key key,
     this.eventName,
     this.dateDay,
@@ -22,10 +22,10 @@ class EventsCardWidget extends StatefulWidget {
   final Color bgColor;
 
   @override
-  _EventsCardWidgetState createState() => _EventsCardWidgetState();
+  _EventsCardBigWidgetState createState() => _EventsCardBigWidgetState();
 }
 
-class _EventsCardWidgetState extends State<EventsCardWidget> {
+class _EventsCardBigWidgetState extends State<EventsCardBigWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
@@ -69,19 +69,22 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
                     padding: EdgeInsetsDirectional.fromSTEB(20, 30, 20, 30),
                     child: Column(
                       mainAxisSize: MainAxisSize.max,
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      mainAxisAlignment: MainAxisAlignment.end,
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(
-                          widget.eventName,
-                          textAlign: TextAlign.start,
-                          style:
-                              FlutterFlowTheme.of(context).bodyText1.override(
-                                    fontFamily: 'SF Pro',
-                                    color: Colors.white,
-                                    fontSize: 16,
-                                    useGoogleFonts: false,
-                                  ),
+                        Padding(
+                          padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 20),
+                          child: Text(
+                            widget.eventName,
+                            textAlign: TextAlign.start,
+                            style:
+                                FlutterFlowTheme.of(context).bodyText1.override(
+                                      fontFamily: 'SF Pro',
+                                      color: Colors.white,
+                                      fontSize: 24,
+                                      useGoogleFonts: false,
+                                    ),
+                          ),
                         ),
                         Row(
                           mainAxisSize: MainAxisSize.max,
@@ -97,17 +100,21 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
                                 mainAxisSize: MainAxisSize.max,
                                 mainAxisAlignment: MainAxisAlignment.center,
                                 children: [
-                                  Text(
-                                    widget.dateDay,
-                                    style: FlutterFlowTheme.of(context)
-                                        .bodyText1
-                                        .override(
-                                          fontFamily: 'SF Pro',
-                                          color: Colors.white,
-                                          fontSize: 16,
-                                          fontWeight: FontWeight.w800,
-                                          useGoogleFonts: false,
-                                        ),
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 1, 0, 0),
+                                    child: Text(
+                                      widget.dateDay,
+                                      style: FlutterFlowTheme.of(context)
+                                          .bodyText1
+                                          .override(
+                                            fontFamily: 'SF Pro',
+                                            color: Colors.white,
+                                            fontSize: 16,
+                                            fontWeight: FontWeight.w800,
+                                            useGoogleFonts: false,
+                                          ),
+                                    ),
                                   ),
                                   Text(
                                     widget.monthDay,
@@ -134,14 +141,14 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
                                 children: [
                                   Text(
                                     FFLocalizations.of(context).getText(
-                                      'nrcxi6we' /* Organized by */,
+                                      '3v7iyo3l' /* Organized by */,
                                     ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
                                           fontFamily: 'SF Pro',
                                           color: Colors.white,
-                                          fontSize: 13,
+                                          fontSize: 15,
                                           fontWeight: FontWeight.normal,
                                           useGoogleFonts: false,
                                         ),
@@ -153,7 +160,7 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
                                         .override(
                                           fontFamily: 'SF Pro',
                                           color: Colors.white,
-                                          fontSize: 15,
+                                          fontSize: 18,
                                           fontWeight: FontWeight.bold,
                                           useGoogleFonts: false,
                                         ),

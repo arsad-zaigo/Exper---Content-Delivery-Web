@@ -176,10 +176,11 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                     height: 40,
                     color: Colors.white,
                     textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'SF Pro',
                           color: Color(0xFF3C439B),
                           fontSize: 12,
                           fontWeight: FontWeight.w500,
+                          useGoogleFonts: false,
                         ),
                     elevation: 10,
                     borderSide: BorderSide(

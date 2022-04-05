@@ -92,8 +92,9 @@ class _MiniCourseCardWidgetState extends State<MiniCourseCardWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'SF Pro',
                                       color: Colors.white,
+                                      useGoogleFonts: false,
                                     ),
                               ),
                               Padding(

@@ -56,10 +56,11 @@ class _ChatCompontentWidgetState extends State<ChatCompontentWidget> {
                           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie ',
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
-                                    fontFamily: 'Poppins',
+                                    fontFamily: 'SF Pro',
                                     color: Color(0xFF7F7F82),
                                     fontSize: 12,
                                     fontWeight: FontWeight.normal,
+                                    useGoogleFonts: false,
                                   ),
                         ),
                       ),

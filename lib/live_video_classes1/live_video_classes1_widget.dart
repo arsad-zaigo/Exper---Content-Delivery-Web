@@ -6,6 +6,7 @@ import '../components/live_video_classes_web_widget.dart';
 import '../flutter_flow/flutter_flow_drop_down.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
+import '../live_video_classes_attend_screen/live_video_classes_attend_screen_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -188,13 +189,18 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                           borderRadius:
                                               BorderRadius.circular(10),
                                         ),
-                                        child:
-                                            LiveVideoClassCompoentSingleWidget(
-                                          imageUrl:
-                                              'https://unsplash.com/photos/OhKElOkQ3RE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjF8fHBlcnNvbnxlbnwwfHx8fDE2NDg3MDM2NTg&force=true&w=1920',
-                                          title:
-                                              'Video class on Basics of Percutaneous Coronary Intervention',
-                                          date: '12 December ',
+                                        child: InkWell(
+                                          onTap: () async {
+                                            Navigator.pop(context);
+                                          },
+                                          child:
+                                              LiveVideoClassCompoentSingleWidget(
+                                            imageUrl:
+                                                'https://unsplash.com/photos/OhKElOkQ3RE/download?ixid=MnwxMjA3fDB8MXxzZWFyY2h8MjF8fHBlcnNvbnxlbnwwfHx8fDE2NDg3MDM2NTg&force=true&w=1920',
+                                            title:
+                                                'Video class on Basics of Percutaneous Coronary Intervention',
+                                            date: '12 December ',
+                                          ),
                                         ),
                                       ),
                                       Expanded(
@@ -248,28 +254,41 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                                         (context, itemssIndex) {
                                                       final itemssItem =
                                                           itemss[itemssIndex];
-                                                      return LiveVideoClassesWebWidget(
-                                                        imageUrl:
-                                                            valueOrDefault<
-                                                                String>(
-                                                          getJsonField(
-                                                            itemssItem,
-                                                            r'''$.imageurl''',
+                                                      return InkWell(
+                                                        onTap: () async {
+                                                          await Navigator.push(
+                                                            context,
+                                                            MaterialPageRoute(
+                                                              builder: (context) =>
+                                                                  LiveVideoClassesAttendScreenWidget(),
+                                                            ),
+                                                          );
+                                                        },
+                                                        child:
+                                                            LiveVideoClassesWebWidget(
+                                                          imageUrl:
+                                                              valueOrDefault<
+                                                                  String>(
+                                                            getJsonField(
+                                                              itemssItem,
+                                                              r'''$.imageurl''',
+                                                            ),
+                                                            'https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
                                                           ),
-                                                          'https://images.unsplash.com/flagged/photo-1570612861542-284f4c12e75f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80',
+                                                          topicName:
+                                                              getJsonField(
+                                                            itemssItem,
+                                                            r'''$.title''',
+                                                          ).toString(),
+                                                          date: getJsonField(
+                                                            itemssItem,
+                                                            r'''$.coursecount''',
+                                                          ).toString(),
+                                                          bgColor:
+                                                              FlutterFlowTheme.of(
+                                                                      context)
+                                                                  .alternate,
                                                         ),
-                                                        topicName: getJsonField(
-                                                          itemssItem,
-                                                          r'''$.title''',
-                                                        ).toString(),
-                                                        date: getJsonField(
-                                                          itemssItem,
-                                                          r'''$.coursecount''',
-                                                        ).toString(),
-                                                        bgColor:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .alternate,
                                                       );
                                                     },
                                                   );

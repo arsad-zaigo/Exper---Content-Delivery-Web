@@ -20,6 +20,8 @@ import '../components/simulation_mini_widget.dart';
 import '../components/simulation_web_mini_card_widget.dart';
 import '../components/user_profile_widget_widget.dart';
 import '../components/web_testo_widget.dart';
+import '../contact_program_main/contact_program_main_widget.dart';
+import '../events/events_widget.dart';
 import '../flutter_flow/flutter_flow_animations.dart';
 import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
@@ -27,6 +29,7 @@ import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../live_video_classes1/live_video_classes1_widget.dart';
 import '../profile/profile_widget.dart';
+import '../simulation/simulation_widget.dart';
 import 'package:expandable/expandable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
@@ -1229,74 +1232,85 @@ at you... */
                                                           MainAxisAlignment
                                                               .center,
                                                       children: [
-                                                        Container(
-                                                          width: 267,
-                                                          height: 90,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            color: Color(
-                                                                0xFF787895),
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        24),
-                                                          ),
-                                                          child: Row(
-                                                            mainAxisSize:
-                                                                MainAxisSize
-                                                                    .max,
-                                                            mainAxisAlignment:
-                                                                MainAxisAlignment
-                                                                    .spaceBetween,
-                                                            children: [
-                                                              Padding(
-                                                                padding:
-                                                                    EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            15,
-                                                                            15,
-                                                                            15,
-                                                                            15),
-                                                                child:
-                                                                    SvgPicture
-                                                                        .asset(
-                                                                  'assets/images/Group_427319098.svg',
-                                                                  width: 100,
-                                                                  height: 100,
-                                                                  fit: BoxFit
-                                                                      .contain,
-                                                                ),
+                                                        InkWell(
+                                                          onTap: () async {
+                                                            await Navigator
+                                                                .push(
+                                                              context,
+                                                              MaterialPageRoute(
+                                                                builder:
+                                                                    (context) =>
+                                                                        SimulationWidget(),
                                                               ),
-                                                              Padding(
-                                                                padding:
-                                                                    EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            0,
-                                                                            0,
-                                                                            30,
-                                                                            0),
-                                                                child: Text(
-                                                                  FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'r7wppjz3' /* Simulations */,
+                                                            );
+                                                          },
+                                                          child: Container(
+                                                            width: 267,
+                                                            height: 90,
+                                                            decoration:
+                                                                BoxDecoration(
+                                                              color: Color(
+                                                                  0xFF787895),
+                                                              borderRadius:
+                                                                  BorderRadius
+                                                                      .circular(
+                                                                          24),
+                                                            ),
+                                                            child: Row(
+                                                              mainAxisSize:
+                                                                  MainAxisSize
+                                                                      .max,
+                                                              mainAxisAlignment:
+                                                                  MainAxisAlignment
+                                                                      .spaceBetween,
+                                                              children: [
+                                                                Padding(
+                                                                  padding: EdgeInsetsDirectional
+                                                                      .fromSTEB(
+                                                                          15,
+                                                                          15,
+                                                                          15,
+                                                                          15),
+                                                                  child:
+                                                                      SvgPicture
+                                                                          .asset(
+                                                                    'assets/images/Group_427319098.svg',
+                                                                    width: 100,
+                                                                    height: 100,
+                                                                    fit: BoxFit
+                                                                        .contain,
                                                                   ),
-                                                                  style: FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .bodyText1
-                                                                      .override(
-                                                                        fontFamily:
-                                                                            'SF Pro',
-                                                                        color: Colors
-                                                                            .white,
-                                                                        fontWeight:
-                                                                            FontWeight.w500,
-                                                                        useGoogleFonts:
-                                                                            false,
-                                                                      ),
                                                                 ),
-                                                              ),
-                                                            ],
+                                                                Padding(
+                                                                  padding: EdgeInsetsDirectional
+                                                                      .fromSTEB(
+                                                                          0,
+                                                                          0,
+                                                                          30,
+                                                                          0),
+                                                                  child: Text(
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'r7wppjz3' /* Simulations */,
+                                                                    ),
+                                                                    style: FlutterFlowTheme.of(
+                                                                            context)
+                                                                        .bodyText1
+                                                                        .override(
+                                                                          fontFamily:
+                                                                              'SF Pro',
+                                                                          color:
+                                                                              Colors.white,
+                                                                          fontWeight:
+                                                                              FontWeight.w500,
+                                                                          useGoogleFonts:
+                                                                              false,
+                                                                        ),
+                                                                  ),
+                                                                ),
+                                                              ],
+                                                            ),
                                                           ),
                                                         ),
                                                         Padding(
@@ -1392,74 +1406,88 @@ at you... */
                                                               EdgeInsetsDirectional
                                                                   .fromSTEB(10,
                                                                       0, 0, 0),
-                                                          child: Container(
-                                                            width: 267,
-                                                            height: 90,
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              color: Color(
-                                                                  0xFF787895),
-                                                              borderRadius:
-                                                                  BorderRadius
-                                                                      .circular(
-                                                                          24),
-                                                            ),
-                                                            child: Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              mainAxisAlignment:
-                                                                  MainAxisAlignment
-                                                                      .spaceBetween,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          15,
-                                                                          15,
-                                                                          15,
-                                                                          15),
-                                                                  child:
-                                                                      SvgPicture
-                                                                          .asset(
-                                                                    'assets/images/Group_427319100.svg',
-                                                                    width: 100,
-                                                                    height: 100,
-                                                                    fit: BoxFit
-                                                                        .contain,
-                                                                  ),
+                                                          child: InkWell(
+                                                            onTap: () async {
+                                                              await Navigator
+                                                                  .push(
+                                                                context,
+                                                                MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          ContactProgramMainWidget(),
                                                                 ),
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          0,
-                                                                          30,
-                                                                          0),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'mi7xdw1k' /* Contact 
-Program */
-                                                                      ,
+                                                              );
+                                                            },
+                                                            child: Container(
+                                                              width: 267,
+                                                              height: 90,
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: Color(
+                                                                    0xFF787895),
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            24),
+                                                              ),
+                                                              child: Row(
+                                                                mainAxisSize:
+                                                                    MainAxisSize
+                                                                        .max,
+                                                                mainAxisAlignment:
+                                                                    MainAxisAlignment
+                                                                        .spaceBetween,
+                                                                children: [
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            15,
+                                                                            15,
+                                                                            15,
+                                                                            15),
+                                                                    child: SvgPicture
+                                                                        .asset(
+                                                                      'assets/images/Group_427319100.svg',
+                                                                      width:
+                                                                          100,
+                                                                      height:
+                                                                          100,
+                                                                      fit: BoxFit
+                                                                          .contain,
                                                                     ),
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Colors.white,
-                                                                          fontWeight:
-                                                                              FontWeight.w500,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
                                                                   ),
-                                                                ),
-                                                              ],
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            0,
+                                                                            0,
+                                                                            30,
+                                                                            0),
+                                                                    child: Text(
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'mi7xdw1k' /* Contact 
+Program */
+                                                                        ,
+                                                                      ),
+                                                                      style: FlutterFlowTheme.of(
+                                                                              context)
+                                                                          .bodyText1
+                                                                          .override(
+                                                                            fontFamily:
+                                                                                'SF Pro',
+                                                                            color:
+                                                                                Colors.white,
+                                                                            fontWeight:
+                                                                                FontWeight.w500,
+                                                                            useGoogleFonts:
+                                                                                false,
+                                                                          ),
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
                                                             ),
                                                           ),
                                                         ),
@@ -1468,74 +1496,88 @@ Program */
                                                               EdgeInsetsDirectional
                                                                   .fromSTEB(10,
                                                                       0, 0, 0),
-                                                          child: Container(
-                                                            width: 267,
-                                                            height: 90,
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              color: Color(
-                                                                  0xFF787895),
-                                                              borderRadius:
-                                                                  BorderRadius
-                                                                      .circular(
-                                                                          24),
-                                                            ),
-                                                            child: Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              mainAxisAlignment:
-                                                                  MainAxisAlignment
-                                                                      .spaceBetween,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          15,
-                                                                          15,
-                                                                          15,
-                                                                          15),
-                                                                  child:
-                                                                      SvgPicture
-                                                                          .asset(
-                                                                    'assets/images/Group_427319101.svg',
-                                                                    width: 100,
-                                                                    height: 100,
-                                                                    fit: BoxFit
-                                                                        .contain,
-                                                                  ),
+                                                          child: InkWell(
+                                                            onTap: () async {
+                                                              await Navigator
+                                                                  .push(
+                                                                context,
+                                                                MaterialPageRoute(
+                                                                  builder:
+                                                                      (context) =>
+                                                                          EventsWidget(),
                                                                 ),
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          0,
-                                                                          30,
-                                                                          0),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'fc1b9ead' /* Events &
-Webinars */
-                                                                      ,
+                                                              );
+                                                            },
+                                                            child: Container(
+                                                              width: 267,
+                                                              height: 90,
+                                                              decoration:
+                                                                  BoxDecoration(
+                                                                color: Color(
+                                                                    0xFF787895),
+                                                                borderRadius:
+                                                                    BorderRadius
+                                                                        .circular(
+                                                                            24),
+                                                              ),
+                                                              child: Row(
+                                                                mainAxisSize:
+                                                                    MainAxisSize
+                                                                        .max,
+                                                                mainAxisAlignment:
+                                                                    MainAxisAlignment
+                                                                        .spaceBetween,
+                                                                children: [
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            15,
+                                                                            15,
+                                                                            15,
+                                                                            15),
+                                                                    child: SvgPicture
+                                                                        .asset(
+                                                                      'assets/images/Group_427319101.svg',
+                                                                      width:
+                                                                          100,
+                                                                      height:
+                                                                          100,
+                                                                      fit: BoxFit
+                                                                          .contain,
                                                                     ),
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Colors.white,
-                                                                          fontWeight:
-                                                                              FontWeight.w500,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
                                                                   ),
-                                                                ),
-                                                              ],
+                                                                  Padding(
+                                                                    padding: EdgeInsetsDirectional
+                                                                        .fromSTEB(
+                                                                            0,
+                                                                            0,
+                                                                            30,
+                                                                            0),
+                                                                    child: Text(
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'fc1b9ead' /* Events &
+Webinars */
+                                                                        ,
+                                                                      ),
+                                                                      style: FlutterFlowTheme.of(
+                                                                              context)
+                                                                          .bodyText1
+                                                                          .override(
+                                                                            fontFamily:
+                                                                                'SF Pro',
+                                                                            color:
+                                                                                Colors.white,
+                                                                            fontWeight:
+                                                                                FontWeight.w500,
+                                                                            useGoogleFonts:
+                                                                                false,
+                                                                          ),
+                                                                    ),
+                                                                  ),
+                                                                ],
+                                                              ),
                                                             ),
                                                           ),
                                                         ),
@@ -4815,8 +4857,9 @@ Webinars */
                                                                               Text(
                                                                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'Poppins',
+                                                                                      fontFamily: 'SF Pro',
                                                                                       color: Color(0x8A000000),
+                                                                                      useGoogleFonts: false,
                                                                                     ),
                                                                               ),
                                                                               Padding(
@@ -4932,8 +4975,9 @@ Webinars */
                                                                               Text(
                                                                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'Poppins',
+                                                                                      fontFamily: 'SF Pro',
                                                                                       color: Color(0x8A000000),
+                                                                                      useGoogleFonts: false,
                                                                                     ),
                                                                               ),
                                                                               Padding(
@@ -5049,8 +5093,9 @@ Webinars */
                                                                               Text(
                                                                                 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'Poppins',
+                                                                                      fontFamily: 'SF Pro',
                                                                                       color: Color(0x8A000000),
+                                                                                      useGoogleFonts: false,
                                                                                     ),
                                                                               ),
                                                                               Padding(
@@ -6723,6 +6768,8 @@ our ... */
                                                                                 'Dec',
                                                                             eventOrganizaerName:
                                                                                 'Apollo Hospital',
+                                                                            bgColor:
+                                                                                FlutterFlowTheme.of(context).customColor1,
                                                                           );
                                                                         },
                                                                       );

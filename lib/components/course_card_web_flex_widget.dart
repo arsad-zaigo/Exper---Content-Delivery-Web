@@ -104,9 +104,10 @@ class _CourseCardWebFlexWidgetState extends State<CourseCardWebFlexWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
-                                    fontFamily: 'Poppins',
+                                    fontFamily: 'SF Pro',
                                     color: Color(0xFF202431),
                                     fontSize: 18,
+                                    useGoogleFonts: false,
                                   ),
                             ),
                             Padding(
@@ -186,9 +187,10 @@ class _CourseCardWebFlexWidgetState extends State<CourseCardWebFlexWidget> {
                                 style: FlutterFlowTheme.of(context)
                                     .subtitle2
                                     .override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'SF Pro',
                                       fontSize: 18,
                                       fontWeight: FontWeight.normal,
+                                      useGoogleFonts: false,
                                       lineHeight: 1,
                                     ),
                               ),

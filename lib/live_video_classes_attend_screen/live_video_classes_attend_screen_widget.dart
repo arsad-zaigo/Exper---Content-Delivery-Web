@@ -96,8 +96,8 @@ class _LiveVideoClassesAttendScreenWidgetState
                                   color: Color(0xFF626168),
                                   size: 18,
                                 ),
-                                onPressed: () {
-                                  print('IconButton pressed ...');
+                                onPressed: () async {
+                                  Navigator.pop(context);
                                 },
                               ),
                               Text(
