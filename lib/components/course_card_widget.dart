@@ -93,8 +93,9 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                             widget.duration,
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
-                                      fontFamily: 'Poppins',
+                                      fontFamily: 'SF Pro',
                                       color: Color(0xFF7F7F82),
+                                      useGoogleFonts: false,
                                     ),
                           ),
                           Padding(
@@ -172,7 +173,8 @@ class _CourseCardWidgetState extends State<CourseCardWidget> {
                               style: FlutterFlowTheme.of(context)
                                   .subtitle2
                                   .override(
-                                    fontFamily: 'Poppins',
+                                    fontFamily: 'SF Pro',
+                                    useGoogleFonts: false,
                                     lineHeight: 1,
                                   ),
                             ),

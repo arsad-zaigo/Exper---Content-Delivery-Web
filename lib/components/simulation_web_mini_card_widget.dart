@@ -123,9 +123,10 @@ class _SimulationWebMiniCardWidgetState
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Poppins',
+                                        fontFamily: 'SF Pro',
                                         color: Colors.white,
                                         fontWeight: FontWeight.w500,
+                                        useGoogleFonts: false,
                                       ),
                                 ),
                               ],

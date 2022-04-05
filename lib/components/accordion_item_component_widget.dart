@@ -62,8 +62,9 @@ class _AccordionItemComponentWidgetState
                 child: Text(
                   widget.body,
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'SF Pro',
                         color: Color(0x8A000000),
+                        useGoogleFonts: false,
                       ),
                 ),
               ),

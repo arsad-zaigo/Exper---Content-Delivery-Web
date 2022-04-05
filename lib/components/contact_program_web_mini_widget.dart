@@ -103,7 +103,7 @@ class _ContactProgramWebMiniWidgetState
                                 ),
                                 child: Image.network(
                                   widget.imageUrl,
-                                  fit: BoxFit.fill,
+                                  fit: BoxFit.cover,
                                 ),
                               ),
                             ),

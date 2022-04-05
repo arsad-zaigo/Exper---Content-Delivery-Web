@@ -32,9 +32,10 @@ class _VideoScreenWidgetState extends State<VideoScreenWidget> {
             'lhu0uhvg' /* Page Title */,
           ),
           style: FlutterFlowTheme.of(context).title2.override(
-                fontFamily: 'Poppins',
+                fontFamily: 'SF Pro',
                 color: Colors.white,
                 fontSize: 22,
+                useGoogleFonts: false,
               ),
         ),
         actions: [],

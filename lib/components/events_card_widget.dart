@@ -12,12 +12,14 @@ class EventsCardWidget extends StatefulWidget {
     this.dateDay,
     this.monthDay,
     this.eventOrganizaerName,
+    this.bgColor,
   }) : super(key: key);
 
   final String eventName;
   final String dateDay;
   final String monthDay;
   final String eventOrganizaerName;
+  final Color bgColor;
 
   @override
   _EventsCardWidgetState createState() => _EventsCardWidgetState();
@@ -44,7 +46,7 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
             width: 100,
             height: 100,
             decoration: BoxDecoration(
-              color: Color(0xFF86C1E2),
+              color: widget.bgColor,
             ),
             child: Stack(
               children: [

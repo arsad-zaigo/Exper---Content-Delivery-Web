@@ -194,10 +194,11 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
-                                        fontFamily: 'Poppins',
+                                        fontFamily: 'SF Pro',
                                         color: Colors.white,
                                         fontSize: 18,
                                         fontWeight: FontWeight.w500,
+                                        useGoogleFonts: false,
                                       ),
                                 ),
                                 Padding(

@@ -2,6 +2,7 @@
 import '../../flutter_flow/flutter_flow_theme.dart';
 import '../../flutter_flow/flutter_flow_util.dart';
 import 'index.dart'; // Imports other custom widgets
+import '../../flutter_flow/custom_functions.dart'; // Imports custom functions
 import 'package:flutter/material.dart';
 // Begin custom widget code
 import 'package:chips_choice/chips_choice.dart';
@@ -39,7 +40,7 @@ class _FilterchipState extends State<Filterchip> {
       mainAxisAlignment: MainAxisAlignment.spaceAround,
       spacing: 10,
       runSpacing: 10,
-      padding: const EdgeInsets.fromLTRB(15, 0, 15, 10),
+      padding: const EdgeInsets.fromLTRB(0, 0, 15, 10),
       choiceStyle: const C2ChoiceStyle(
           borderRadius: BorderRadius.all(Radius.circular(5)),
           showCheckmark: false,

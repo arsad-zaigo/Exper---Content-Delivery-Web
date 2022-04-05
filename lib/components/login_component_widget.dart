@@ -189,7 +189,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                         checkboxGroupValues != null
                                             ? checkboxGroupValues
                                             : [],
-                                    options: ['Remember Me'],
+                                    options: ['Remember Me'].toList(),
                                     onChanged: (val) => setState(
                                         () => checkboxGroupValues = val),
                                     activeColor: Color(0xFF626168),
@@ -1313,11 +1313,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 ).toString(),
                                                 style:
                                                     FlutterFlowTheme.of(context)
-                                                        .title3
-                                                        .override(
-                                                          fontFamily: 'SF Pro',
-                                                          useGoogleFonts: false,
-                                                        ),
+                                                        .title3,
                                               ),
                                               subtitle: Text(
                                                 getJsonField(

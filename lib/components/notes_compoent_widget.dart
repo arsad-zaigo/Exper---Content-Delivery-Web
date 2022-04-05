@@ -41,10 +41,11 @@ class _NotesCompoentWidgetState extends State<NotesCompoentWidget> {
                 Text(
                   widget.timestamp,
                   style: FlutterFlowTheme.of(context).bodyText1.override(
-                        fontFamily: 'Poppins',
+                        fontFamily: 'SF Pro',
                         color: Color(0xFFBBBBBD),
                         fontSize: 12,
                         fontWeight: FontWeight.w500,
+                        useGoogleFonts: false,
                       ),
                 ),
               ],
@@ -57,9 +58,10 @@ class _NotesCompoentWidgetState extends State<NotesCompoentWidget> {
                   child: Text(
                     widget.courseName,
                     style: FlutterFlowTheme.of(context).bodyText1.override(
-                          fontFamily: 'Poppins',
+                          fontFamily: 'SF Pro',
                           color: Color(0xFF202431),
                           fontWeight: FontWeight.w500,
+                          useGoogleFonts: false,
                         ),
                   ),
                 ),
@@ -79,9 +81,10 @@ class _NotesCompoentWidgetState extends State<NotesCompoentWidget> {
                     child: Text(
                       widget.description.maybeHandleOverflow(maxChars: 15),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
-                            fontFamily: 'Poppins',
+                            fontFamily: 'SF Pro',
                             color: Color(0xFF626168),
                             fontWeight: FontWeight.w500,
+                            useGoogleFonts: false,
                           ),
                     ),
                   ),
