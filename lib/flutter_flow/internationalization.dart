@@ -280,7 +280,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'kvxrpjf5': {
+    'ffnbq3vz': {
       'en': 'Select a course that you require',
       'hi': '',
       'kn': '',
@@ -288,7 +288,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'slwm9fw9': {
+    '2qr0i8wl': {
       'en': 'Select date & time to\nbook counselling',
       'hi': '',
       'kn': '',
@@ -296,7 +296,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bs4ffpv4': {
+    'wl6oytsu': {
       'en': 'Understand the curriculum\nand know the course',
       'hi': '',
       'kn': '',
@@ -304,7 +304,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0z70e0cd': {
+    '9jp8amzw': {
       'en': 'Get Certification from\nMedvaristy & Apply for Jobs',
       'hi': '',
       'kn': '',
@@ -312,7 +312,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '22ihmxcr': {
+    'dtk5z0h7': {
       'en': 'Why choose us?\n',
       'hi': '',
       'kn': '',
@@ -320,7 +320,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'shy2igx3': {
+    '8b8dhi13': {
       'en':
           'Amet minim mollit non deserunt ullamco est sit aliqua dolor  do amet sint. Velit officia consequat duis enim velit mollit. ',
       'hi': '',
@@ -329,7 +329,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'w6rtmnyp': {
+    'l2wf55mh': {
       'en': 'Certification Ready',
       'hi': '',
       'kn': '',
@@ -337,7 +337,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'm28cd43a': {
+    'lw2tr6av': {
       'en': 'Select a course that you require',
       'hi': '',
       'kn': '',
@@ -345,7 +345,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yuhwz691': {
+    'jv4uzvdw': {
       'en': 'Contact Program',
       'hi': '',
       'kn': '',
@@ -353,7 +353,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'y0r0f8jz': {
+    'vjj3fsdw': {
       'en': 'Understand the curriculum\nand know the course',
       'hi': '',
       'kn': '',
@@ -361,7 +361,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qvw8bscz': {
+    'hh312e3z': {
       'en': 'Gamification',
       'hi': '',
       'kn': '',
@@ -369,7 +369,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'i6vhdfmz': {
+    '6bwd2sv5': {
       'en': 'Get Certification from\nMedvaristy & Apply for Jobs',
       'hi': '',
       'kn': '',
@@ -377,7 +377,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'uvu35e3q': {
+    'cchwb1nz': {
       'en': 'Simulation Program',
       'hi': '',
       'kn': '',
@@ -385,7 +385,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4trcimq1': {
+    'vaqh7ni1': {
       'en': 'Select a course that you require',
       'hi': '',
       'kn': '',
@@ -393,7 +393,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'f6y32hkq': {
+    'y5frnr0m': {
       'en': 'Accurate Reports',
       'hi': '',
       'kn': '',
@@ -401,7 +401,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'soce9owt': {
+    'adv17by4': {
       'en': 'Understand the curriculum\nand know the course',
       'hi': '',
       'kn': '',
@@ -409,7 +409,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zogr1k4l': {
+    'jfj9bewf': {
       'en': 'Best Course Prices',
       'hi': '',
       'kn': '',
@@ -417,7 +417,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '26ml5lqs': {
+    'gmmh8o94': {
       'en': 'Get Certification from\nMedvaristy & Apply for Jobs',
       'hi': '',
       'kn': '',
@@ -425,7 +425,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0ypz2oeq': {
+    'vm1feln6': {
       'en': 'Numbers that matter',
       'hi': '',
       'kn': '',
@@ -433,7 +433,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'k2j1bkbi': {
+    '26u9awwz': {
       'en': '10000+',
       'hi': '',
       'kn': '',
@@ -441,7 +441,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'n36ieq4i': {
+    'qomfvxuv': {
       'en': 'Courses Completed',
       'hi': '',
       'kn': '',
@@ -449,7 +449,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rafci44m': {
+    '1g05dna4': {
       'en': '1980+',
       'hi': '',
       'kn': '',
@@ -457,7 +457,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2i15kiyj': {
+    '2lcphg2c': {
       'en': 'Happy customers',
       'hi': '',
       'kn': '',
@@ -465,7 +465,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2bdi7ofr': {
+    'cq6ucwrn': {
       'en': '700',
       'hi': '',
       'kn': '',
@@ -473,7 +473,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6qyrfbt7': {
+    'jmrenzon': {
       'en': 'Certified Instructors',
       'hi': '',
       'kn': '',
@@ -481,7 +481,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'igu5vsb0': {
+    'brdp95jo': {
       'en': '100+',
       'hi': '',
       'kn': '',
@@ -489,7 +489,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'jt49jxt5': {
+    'mu8xclcr': {
       'en': 'Certifications',
       'hi': '',
       'kn': '',
@@ -497,7 +497,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6bu7b6dt': {
+    'kn4vi33j': {
       'en': 'Testimonials',
       'hi': '',
       'kn': '',
@@ -505,7 +505,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ze8rxqt7': {
+    'm0twiw37': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -513,7 +513,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4al6jrru': {
+    'w87l9dbb': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -522,7 +522,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pdlowk25': {
+    'fra7xam8': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -530,7 +530,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6hsi76nf': {
+    '2kartaai': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -538,7 +538,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9m2uz855': {
+    '4alhtjv0': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -546,7 +546,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3y51l44q': {
+    'e48hpb2d': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -555,7 +555,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zn1922rq': {
+    'zo5g1bnj': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -563,7 +563,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wig6aj4i': {
+    '0fzlejav': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -571,7 +571,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'w1ajw8j4': {
+    'rgck4au2': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -579,7 +579,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ys9bbx2p': {
+    'fq0ojcsq': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -588,7 +588,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wy7dj2yw': {
+    'b5k2chic': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -596,7 +596,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mo5awt4u': {
+    '86br9v4x': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -612,7 +612,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'eeybwv5y': {
+    '59e8lr9y': {
       'en': 'Medvarsity Support',
       'hi': '',
       'kn': '',
@@ -628,7 +628,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '455a40fl': {
+    'bp66xhkf': {
       'en': 'Frequently asked questions',
       'hi': '',
       'kn': '',
@@ -636,7 +636,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pl9ztcsi': {
+    'i9xedmd0': {
       'en': 'Course related',
       'hi': '',
       'kn': '',
@@ -644,7 +644,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'jw35zvlb': {
+    '7rbryi3u': {
       'en': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
       'hi': '',
       'kn': '',
@@ -652,7 +652,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0xush5ok': {
+    'j3r09341': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -661,7 +661,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'akgsc7xp': {
+    'kkrcxslg': {
       'en': 'Course related',
       'hi': '',
       'kn': '',
@@ -669,7 +669,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    's05yj2yh': {
+    'etnc1lw3': {
       'en': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
       'hi': '',
       'kn': '',
@@ -677,7 +677,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9k8u4f76': {
+    'fifi71kv': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -686,7 +686,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'w1tq8iex': {
+    'fk19lgv0': {
       'en': 'Course related',
       'hi': '',
       'kn': '',
@@ -694,7 +694,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'tgg84fu2': {
+    'mpj81p81': {
       'en': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
       'hi': '',
       'kn': '',
@@ -702,7 +702,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'stmx38p1': {
+    'kk47wv25': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -727,7 +727,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2yf7w4vu': {
+    'xzlmvrjh': {
       'en': 'INVITE NOW >',
       'hi': '',
       'kn': '',
@@ -941,7 +941,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Profile
   {
-    'jqs75izh': {
+    'eos71572': {
       'en': 'My Goals',
       'hi': '',
       'kn': '',
@@ -949,7 +949,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'w8tomlxh': {
+    'b9kockpy': {
       'en': 'Current Streak',
       'hi': '',
       'kn': '',
@@ -957,7 +957,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '85mip44m': {
+    'oauqhn7c': {
       'en': '3 Days',
       'hi': '',
       'kn': '',
@@ -965,7 +965,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3k2hg887': {
+    'diqray0e': {
       'en': 'Longest Streak',
       'hi': '',
       'kn': '',
@@ -973,7 +973,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gn0vimii': {
+    'b5bprv4w': {
       'en': '7 Days',
       'hi': '',
       'kn': '',
@@ -981,7 +981,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ono77i3k': {
+    'h033720r': {
       'en': 'Activity',
       'hi': '',
       'kn': '',
@@ -989,7 +989,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ufew8f4d': {
+    'ur83v0zv': {
       'en': 'Courses',
       'hi': '',
       'kn': '',
@@ -997,7 +997,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4f3kwmjd': {
+    'aq3pnpuf': {
       'en': '7 Courses',
       'hi': '',
       'kn': '',
@@ -1005,7 +1005,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'edjyxz4g': {
+    '290f0bsj': {
       'en': 'Courses',
       'hi': '',
       'kn': '',
@@ -1013,7 +1013,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nu0k5hy7': {
+    'vsnawme0': {
       'en': '7 Courses',
       'hi': '',
       'kn': '',
@@ -1021,7 +1021,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'e3s81wqv': {
+    'xi5uv0qb': {
       'en': 'Courses',
       'hi': '',
       'kn': '',
@@ -1029,7 +1029,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2ygtifko': {
+    'qc4s3nhi': {
       'en': '7 Courses',
       'hi': '',
       'kn': '',
@@ -1037,7 +1037,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'tlk7sx29': {
+    '729cg9lw': {
       'en': 'Courses',
       'hi': '',
       'kn': '',
@@ -1045,7 +1045,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'koi8r265': {
+    'xen5b2am': {
       'en': '7 Courses',
       'hi': '',
       'kn': '',
@@ -1053,7 +1053,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0o9gox8v': {
+    'b4qxlt0y': {
       'en': 'Personal Details',
       'hi': '',
       'kn': '',
@@ -1061,7 +1061,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6f56peaj': {
+    't275gory': {
       'en': 'Email id',
       'hi': '',
       'kn': '',
@@ -1069,7 +1069,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'sjpd2gue': {
+    'uhoqja00': {
       'en': 'john@nhslondon.com',
       'hi': '',
       'kn': '',
@@ -1077,7 +1077,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wok3mcnq': {
+    '5lmmzgg2': {
       'en': 'Contact',
       'hi': '',
       'kn': '',
@@ -1085,7 +1085,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qnyzd5i5': {
+    't6tmfa8t': {
       'en': '+91 7894005897',
       'hi': '',
       'kn': '',
@@ -1093,7 +1093,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xbz66gwh': {
+    'jwbikj0b': {
       'en': 'Gender',
       'hi': '',
       'kn': '',
@@ -1101,7 +1101,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xlsgbrdi': {
+    'forpvfcj': {
       'en': 'Male',
       'hi': '',
       'kn': '',
@@ -1109,7 +1109,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xp0c452t': {
+    'j7cltd1l': {
       'en': 'Location',
       'hi': '',
       'kn': '',
@@ -1117,7 +1117,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rdudapkv': {
+    'mllkol1z': {
       'en': 'Hyderabad',
       'hi': '',
       'kn': '',
@@ -1125,7 +1125,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zeh0m6jk': {
+    'zzcf539a': {
       'en': 'Interests',
       'hi': '',
       'kn': '',
@@ -1133,7 +1133,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yiecey2b': {
+    '7fvtc64s': {
       'en': '3 Interests',
       'hi': '',
       'kn': '',
@@ -1141,7 +1141,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nod7adas': {
+    'b3vmqbsq': {
       'en': 'Diabetes',
       'hi': '',
       'kn': '',
@@ -1149,7 +1149,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '869tvkyp': {
+    '0v21t91v': {
       'en': 'General Surgery',
       'hi': '',
       'kn': '',
@@ -1157,7 +1157,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vi4715vp': {
+    'byuc8fcs': {
       'en': 'Ciritical Care',
       'hi': '',
       'kn': '',
@@ -1181,7 +1181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ubs595zs': {
+    'in4lijb1': {
       'en': 'INVITE NOW    >',
       'hi': '',
       'kn': '',
@@ -1189,7 +1189,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'eod4tjat': {
+    'abcv4265': {
       'en': 'Saved courses',
       'hi': '',
       'kn': '',
@@ -1197,7 +1197,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xwkglsj4': {
+    'w3mev5w5': {
       'en': 'Saved courses',
       'hi': '',
       'kn': '',
@@ -1205,7 +1205,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'sfackdpq': {
+    'rp18v8v5': {
       'en': 'Saved Simulation',
       'hi': '',
       'kn': '',
@@ -1213,7 +1213,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9ukw6w6n': {
+    'o5gic5ns': {
       'en': 'Saved Notes',
       'hi': '',
       'kn': '',
@@ -1221,7 +1221,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'h0v0tqu0': {
+    'm9n8gz1y': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1232,7 +1232,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // ProfileSettings
   {
-    'dxwfaxrc': {
+    's7va75g6': {
       'en': 'Edit Profile',
       'hi': '',
       'kn': '',
@@ -1240,7 +1240,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'egjlmy8f': {
+    'g6xnfv4f': {
       'en': 'Add',
       'hi': '',
       'kn': '',
@@ -1248,7 +1248,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'jpunslr3': {
+    'o3lsuerl': {
       'en': 'Personal Details',
       'hi': '',
       'kn': '',
@@ -1256,7 +1256,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'k1ctlrpl': {
+    'x230d10v': {
       'en': 'First Name*',
       'hi': '',
       'kn': '',
@@ -1264,7 +1264,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'drsq0tau': {
+    'd8w4cnzx': {
       'en': 'Last Name*',
       'hi': '',
       'kn': '',
@@ -1272,7 +1272,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'cuu8ca72': {
+    '7s46x2gb': {
       'en': 'Email*',
       'hi': '',
       'kn': '',
@@ -1280,7 +1280,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ul961352': {
+    'j2zb2m7z': {
       'en': 'Option 1',
       'hi': '',
       'kn': '',
@@ -1288,7 +1288,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '09io75mc': {
+    'b25w8h90': {
       'en': 'Speciality*',
       'hi': '',
       'kn': '',
@@ -1296,7 +1296,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'm4scb1pe': {
+    'abe7kbwf': {
       'en': 'Select your subject interests',
       'hi': '',
       'kn': '',
@@ -1304,7 +1304,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xx7wbnyz': {
+    'y2ecqsa7': {
       'en': 'We will recommend contents based on your interest',
       'hi': '',
       'kn': '',
@@ -1312,7 +1312,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0phgndgp': {
+    'gsa56r4c': {
       'en': 'Select your subject interests',
       'hi': '',
       'kn': '',
@@ -1320,7 +1320,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '5e383u2h': {
+    '0vvstyvn': {
       'en': 'We will recommend contents based on your interest',
       'hi': '',
       'kn': '',
@@ -1328,7 +1328,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1sk468ii': {
+    'ffrurkcv': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1339,7 +1339,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Settings
   {
-    'jh0rbr64': {
+    'tcwfj10s': {
       'en': 'Settings',
       'hi': '',
       'kn': '',
@@ -1347,7 +1347,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'q5zbrc1q': {
+    '2g53pogp': {
       'en': 'Contact Us',
       'hi': '',
       'kn': '',
@@ -1355,7 +1355,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '01qh0jze': {
+    'gc7ypnpz': {
       'en': 'Language',
       'hi': '',
       'kn': '',
@@ -1363,7 +1363,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'tujqtd6g': {
+    'g1vph99q': {
       'en': 'Notifications',
       'hi': '',
       'kn': '',
@@ -1371,7 +1371,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ngknkrr2': {
+    'mlnyfv53': {
       'en': 'Feedback ',
       'hi': '',
       'kn': '',
@@ -1379,7 +1379,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'c4jdg8be': {
+    'cgtjkafa': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1390,7 +1390,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // LiveVideoPageFullScreen
   {
-    'v695vt8m': {
+    '47i81ihq': {
       'en': 'Video class on Basics of Percutaneous Coronary Intervention',
       'hi': '',
       'kn': '',
@@ -1398,7 +1398,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1qnk17ey': {
+    '5zisity1': {
       'en': 'Skill Level',
       'hi': '',
       'kn': '',
@@ -1406,7 +1406,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ztwrm1wk': {
+    'itatmgqn': {
       'en': 'Intermediate',
       'hi': '',
       'kn': '',
@@ -1414,7 +1414,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xnf14js6': {
+    '06fh4hs5': {
       'en': 'Students Enrolled',
       'hi': '',
       'kn': '',
@@ -1422,7 +1422,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '7cem56ug': {
+    'mmvf0byy': {
       'en': '143',
       'hi': '',
       'kn': '',
@@ -1430,7 +1430,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'j8jctiko': {
+    'y18b2hb7': {
       'en': 'Credits',
       'hi': '',
       'kn': '',
@@ -1438,7 +1438,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wuhdykiz': {
+    'he55r4rt': {
       'en': '5',
       'hi': '',
       'kn': '',
@@ -1446,7 +1446,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '73uvi8jw': {
+    '6r3bw3x1': {
       'en': 'Start Date ',
       'hi': '',
       'kn': '',
@@ -1454,7 +1454,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2jd5nayd': {
+    '8feo8ctb': {
       'en': '30th Jan 2022',
       'hi': '',
       'kn': '',
@@ -1462,7 +1462,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6b2bs226': {
+    '2fw9q358': {
       'en': 'Start Date ',
       'hi': '',
       'kn': '',
@@ -1470,7 +1470,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bt4m6nsa': {
+    '39de2y4o': {
       'en': '30th Jan 2022',
       'hi': '',
       'kn': '',
@@ -1478,7 +1478,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '09ouzliu': {
+    '669l6t6t': {
       'en': 'Total classes',
       'hi': '',
       'kn': '',
@@ -1486,7 +1486,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'legzzumn': {
+    'ulpp6nmo': {
       'en': '01',
       'hi': '',
       'kn': '',
@@ -1494,7 +1494,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'likzhu2i': {
+    'dg0c4zaw': {
       'en': '₹ 14,799 ',
       'hi': '',
       'kn': '',
@@ -1502,7 +1502,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qawpqftb': {
+    'tg6x15d7': {
       'en': '₹ 14,799',
       'hi': '',
       'kn': '',
@@ -1510,7 +1510,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zkcc2zhw': {
+    'ovi519mm': {
       'en': '(Exluding All Taxes) ',
       'hi': '',
       'kn': '',
@@ -1518,7 +1518,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'v27e8jrx': {
+    'hmxedduy': {
       'en': 'Talk to us',
       'hi': '',
       'kn': '',
@@ -1526,7 +1526,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '7lqb3mb2': {
+    '5x2ood3h': {
       'en': 'Enroll Now',
       'hi': '',
       'kn': '',
@@ -1534,7 +1534,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ex36lnbk': {
+    'u3vatdz4': {
       'en': 'Your live video class will start in : 03 Days & 06 Hours',
       'hi': '',
       'kn': '',
@@ -1542,7 +1542,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9vxhex78': {
+    'wps0nfwt': {
       'en': 'About program',
       'hi': '',
       'kn': '',
@@ -1550,7 +1550,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zjz4lk84': {
+    '5ormjz31': {
       'en':
           'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their experiences and their vision for the future.The talks present great insights on how to sustain the... Read more',
       'hi': '',
@@ -1559,7 +1559,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'fpqya8tv': {
+    '72d85u6s': {
       'en': 'About Instructor',
       'hi': '',
       'kn': '',
@@ -1567,7 +1567,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rmjw87a1': {
+    'lmq73h6g': {
       'en': 'Sample Certificate',
       'hi': '',
       'kn': '',
@@ -1575,7 +1575,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u2bnpjyy': {
+    's4udkhl1': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -1583,7 +1583,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pjxpqnvk': {
+    'y9c2adrh': {
       'en': 'View All',
       'hi': '',
       'kn': '',
@@ -1591,7 +1591,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '7tmojnc1': {
+    'jykvpoxz': {
       'en': 'FAQ',
       'hi': '',
       'kn': '',
@@ -1599,7 +1599,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'of3256bs': {
+    'pt78747v': {
       'en': 'Saved courses',
       'hi': '',
       'kn': '',
@@ -1607,7 +1607,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9m5x1bem': {
+    'wbrcuz41': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1618,7 +1618,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // LiveVideoClasses1
   {
-    'siolkb3u': {
+    'fcqer662': {
       'en': 'Live Video Classes',
       'hi': '',
       'kn': '',
@@ -1626,7 +1626,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ttjbngj9': {
+    'qszlogis': {
       'en': 'Search Here',
       'hi': '',
       'kn': '',
@@ -1634,7 +1634,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4tucv4xd': {
+    'mjnrdlwi': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -1642,7 +1642,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '20tby9xu': {
+    '32nbulnm': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -1650,7 +1650,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'j077kkaj': {
+    'kewjl6qc': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1661,7 +1661,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // LiveVideoClassesAttendScreen
   {
-    'ac7o6rdm': {
+    'oknpq3vp': {
       'en': 'Fellowship in Clinical Cardiology ',
       'hi': '',
       'kn': '',
@@ -1669,7 +1669,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'kp3lihsf': {
+    '994k1cr3': {
       'en': 'Back',
       'hi': '',
       'kn': '',
@@ -1677,7 +1677,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'at4mj61c': {
+    'b0p9vd5m': {
       'en': 'Notes',
       'hi': '',
       'kn': '',
@@ -1685,7 +1685,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '48875897': {
+    '2r7dy5v2': {
       'en': 'Write notes here',
       'hi': '',
       'kn': '',
@@ -1693,7 +1693,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0cp8f7p7': {
+    'ps3js9mx': {
       'en': 'Done',
       'hi': '',
       'kn': '',
@@ -1701,7 +1701,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gmkfnlv7': {
+    'nhtszq3d': {
       'en': 'Chat',
       'hi': '',
       'kn': '',
@@ -1709,7 +1709,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'cdnoo27m': {
+    'aw8abl4k': {
       'en': 'Rajeev shukla',
       'hi': '',
       'kn': '',
@@ -1717,7 +1717,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'uxt9mtw5': {
+    'wzqy4j5p': {
       'en': 'Write Here',
       'hi': '',
       'kn': '',
@@ -1725,7 +1725,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'n5w1rsqt': {
+    '6l1xm23h': {
       'en': 'Attendees',
       'hi': '',
       'kn': '',
@@ -1733,7 +1733,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dcdqos8o': {
+    'pusgtr42': {
       'en': 'Introduction to Cardiopulmonary Physiotherapy',
       'hi': '',
       'kn': '',
@@ -1741,7 +1741,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yos3rnjg': {
+    'j4ety3ux': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in.',
       'hi': '',
@@ -1750,7 +1750,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ap0nc7r1': {
+    'ef9hs9y7': {
       'en': 'Saved courses',
       'hi': '',
       'kn': '',
@@ -1758,7 +1758,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1hxoxrvo': {
+    'r944njkv': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1769,7 +1769,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // ContactProgramMain
   {
-    'gfr83ej5': {
+    '8exhv6i6': {
       'en': 'Contact Program',
       'hi': '',
       'kn': '',
@@ -1777,7 +1777,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u46acsb9': {
+    'n3uh5950': {
       'en': 'Search Here',
       'hi': '',
       'kn': '',
@@ -1785,7 +1785,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rdiwqgm7': {
+    '139thx3m': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -1793,7 +1793,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'jkqdr90b': {
+    'gz2ehzor': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -1801,7 +1801,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3whp7432': {
+    'qc2tfz2w': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -1812,7 +1812,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // ContactProgramPageFullScreen
   {
-    '5ut0a2hx': {
+    'g3ob5e3k': {
       'en': 'Conferance on  Cardiopulmonary Physio',
       'hi': '',
       'kn': '',
@@ -1820,7 +1820,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1thnat64': {
+    'pg5wrtm9': {
       'en':
           'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their ... Read more',
       'hi': '',
@@ -1829,7 +1829,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    't5xaissh': {
+    'bywx3pcd': {
       'en': 'Skill Level',
       'hi': '',
       'kn': '',
@@ -1837,7 +1837,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ih48myph': {
+    '35pu9r4z': {
       'en': 'Intermediate',
       'hi': '',
       'kn': '',
@@ -1845,7 +1845,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '7yo3kb0k': {
+    'geo9k3x6': {
       'en': 'Students Enrolled',
       'hi': '',
       'kn': '',
@@ -1853,7 +1853,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'k042hokh': {
+    'vdolhgs2': {
       'en': '143',
       'hi': '',
       'kn': '',
@@ -1861,7 +1861,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'maxu1uez': {
+    'jkr1hlzx': {
       'en': 'Credits',
       'hi': '',
       'kn': '',
@@ -1869,7 +1869,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8i6tlfp9': {
+    'ny9sazcx': {
       'en': '5',
       'hi': '',
       'kn': '',
@@ -1877,7 +1877,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'x116hne1': {
+    '7b13x30u': {
       'en': 'Start Date ',
       'hi': '',
       'kn': '',
@@ -1885,7 +1885,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8emdpam2': {
+    't6uphgld': {
       'en': '30th Jan 2022',
       'hi': '',
       'kn': '',
@@ -1893,7 +1893,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'e3ygmx0o': {
+    '2zh8th77': {
       'en': 'Start Time ',
       'hi': '',
       'kn': '',
@@ -1901,7 +1901,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'g4skzwi6': {
+    'n5tvyxxc': {
       'en': '06:30 PM',
       'hi': '',
       'kn': '',
@@ -1909,7 +1909,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '23txl8rr': {
+    'zm3kit2w': {
       'en': 'Total classes',
       'hi': '',
       'kn': '',
@@ -1917,7 +1917,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bac1khcy': {
+    't9lo5c1y': {
       'en': '01',
       'hi': '',
       'kn': '',
@@ -1925,7 +1925,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '24l21lrx': {
+    'yibn9oxq': {
       'en': '₹ 14,799 ',
       'hi': '',
       'kn': '',
@@ -1933,7 +1933,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rpefmyfy': {
+    'pqpbgvuu': {
       'en': '₹ 14,799',
       'hi': '',
       'kn': '',
@@ -1941,7 +1941,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'va6w81af': {
+    'v1h3c4h0': {
       'en': '(Exluding All Taxes) ',
       'hi': '',
       'kn': '',
@@ -1949,7 +1949,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pe43i51u': {
+    'crcom4ah': {
       'en': 'Talk to us',
       'hi': '',
       'kn': '',
@@ -1957,7 +1957,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u2fptlys': {
+    'w7f8r7vw': {
       'en': 'Enroll Now',
       'hi': '',
       'kn': '',
@@ -1965,7 +1965,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8ms8nmwn': {
+    'smze4c8z': {
       'en': 'Your live video class will start in : 03 Days & 06 Hours',
       'hi': '',
       'kn': '',
@@ -1973,7 +1973,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mzmk71b5': {
+    'a2k3j7r8': {
       'en': 'About program',
       'hi': '',
       'kn': '',
@@ -1981,7 +1981,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3e25esnx': {
+    'x7grd9a5': {
       'en':
           'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their experiences and their vision for the future.The talks present great insights on how to sustain the... Read more',
       'hi': '',
@@ -1990,7 +1990,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'igmlxz92': {
+    'dvo1lue3': {
       'en': 'About Instructor',
       'hi': '',
       'kn': '',
@@ -1998,7 +1998,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'cvf5i5ub': {
+    'ifnywwlp': {
       'en': 'Sample Certificate',
       'hi': '',
       'kn': '',
@@ -2006,7 +2006,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'x8mcy60d': {
+    'w5sn8666': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2014,7 +2014,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qvpjhi6i': {
+    '3erwcvaj': {
       'en': 'View All',
       'hi': '',
       'kn': '',
@@ -2022,7 +2022,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'h163fnkz': {
+    '3z8xqmow': {
       'en': 'FAQ',
       'hi': '',
       'kn': '',
@@ -2030,7 +2030,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '36omvgz8': {
+    'hwxrj0t6': {
       'en': 'Saved courses',
       'hi': '',
       'kn': '',
@@ -2038,7 +2038,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6e0d6biq': {
+    'wdve7ty6': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -2049,7 +2049,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Simulation
   {
-    'el6zzt6b': {
+    'n6tn6nwm': {
       'en': 'Simulations',
       'hi': '',
       'kn': '',
@@ -2057,7 +2057,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ktbphj2u': {
+    '3neh8tf9': {
       'en': 'Search Here',
       'hi': '',
       'kn': '',
@@ -2065,7 +2065,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zyc90qke': {
+    '9wfmg1oy': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -2073,7 +2073,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qtq871qr': {
+    'cavg5tmy': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -2081,7 +2081,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dc6duf00': {
+    'fy326jjw': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -2092,7 +2092,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // SimulationFullScreen
   {
-    'ts04ml26': {
+    'qttugigf': {
       'en': 'Conferance on  Cardiopulmonary Physio',
       'hi': '',
       'kn': '',
@@ -2100,7 +2100,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pdepcj1d': {
+    'wuv5iiis': {
       'en':
           'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their ... Read more',
       'hi': '',
@@ -2109,7 +2109,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4xrbuliu': {
+    'vp1pt2h6': {
       'en': 'Skill Level',
       'hi': '',
       'kn': '',
@@ -2117,7 +2117,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'lwqwh8qh': {
+    'bgizo3z1': {
       'en': 'Intermediate',
       'hi': '',
       'kn': '',
@@ -2125,7 +2125,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'so0s44pj': {
+    'lu792p23': {
       'en': 'Students Enrolled',
       'hi': '',
       'kn': '',
@@ -2133,7 +2133,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ku0dh6mi': {
+    'k7i4p3nc': {
       'en': '143',
       'hi': '',
       'kn': '',
@@ -2141,7 +2141,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u91rxsg2': {
+    'qtojbo2r': {
       'en': 'Credits',
       'hi': '',
       'kn': '',
@@ -2149,7 +2149,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'crmf0olh': {
+    'kdg6l29y': {
       'en': '5',
       'hi': '',
       'kn': '',
@@ -2157,7 +2157,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '5wjwf1lc': {
+    '6pkgv3f7': {
       'en': 'Start Date ',
       'hi': '',
       'kn': '',
@@ -2165,7 +2165,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yu0k23zc': {
+    'etrzoe9z': {
       'en': '30th Jan 2022',
       'hi': '',
       'kn': '',
@@ -2173,7 +2173,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'kyrtymde': {
+    'dx8u6ejw': {
       'en': 'Start Time ',
       'hi': '',
       'kn': '',
@@ -2181,7 +2181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rtmx7m6i': {
+    'xjptvj1m': {
       'en': '06:30 PM',
       'hi': '',
       'kn': '',
@@ -2189,7 +2189,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'opic3ez2': {
+    'jwe388jn': {
       'en': 'Total classes',
       'hi': '',
       'kn': '',
@@ -2197,7 +2197,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'fh31ysg0': {
+    'lguygiec': {
       'en': '01',
       'hi': '',
       'kn': '',
@@ -2205,7 +2205,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xfx68899': {
+    'rlan1iv5': {
       'en': '₹ 14,799 ',
       'hi': '',
       'kn': '',
@@ -2213,7 +2213,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '29blrkja': {
+    'nmu6nd3f': {
       'en': '₹ 14,799',
       'hi': '',
       'kn': '',
@@ -2221,7 +2221,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ejpldxhh': {
+    's76b58qd': {
       'en': '(Exluding All Taxes) ',
       'hi': '',
       'kn': '',
@@ -2229,7 +2229,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'peegqz3e': {
+    'kd9l9nke': {
       'en': 'Talk to us',
       'hi': '',
       'kn': '',
@@ -2237,7 +2237,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zw8ay4zw': {
+    '1h72544w': {
       'en': 'Enroll Now',
       'hi': '',
       'kn': '',
@@ -2245,7 +2245,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    't2mpbste': {
+    'hohy46ip': {
       'en': 'Your live video class will start in : 03 Days & 06 Hours',
       'hi': '',
       'kn': '',
@@ -2253,7 +2253,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nas0qua6': {
+    'nmiwec26': {
       'en': 'Workshop Overview',
       'hi': '',
       'kn': '',
@@ -2261,7 +2261,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zebx6w8r': {
+    'g9k5gcmg': {
       'en':
           'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their experiences and their vision for the future.The talks present great insights on how to sustain the... Read more',
       'hi': '',
@@ -2270,7 +2270,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'c0ltfjgh': {
+    '9yxv5k7m': {
       'en': 'Programme Outline',
       'hi': '',
       'kn': '',
@@ -2278,7 +2278,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'cgqxn5f2': {
+    'j47zggw9': {
       'en': 'Sample Certificate',
       'hi': '',
       'kn': '',
@@ -2286,7 +2286,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '71zgz9og': {
+    'mym1s70l': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -2297,7 +2297,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Events
   {
-    'mla97gc6': {
+    '6m7wzbxj': {
       'en': 'Events',
       'hi': '',
       'kn': '',
@@ -2305,7 +2305,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u74nlujq': {
+    'qzwug2s8': {
       'en': 'Search Here',
       'hi': '',
       'kn': '',
@@ -2313,7 +2313,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '20pd3lm5': {
+    'ikr0tm4g': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -2321,7 +2321,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '27czra8x': {
+    'hmi35z5w': {
       'en': 'Trending Courses',
       'hi': '',
       'kn': '',
@@ -2329,7 +2329,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'hk6r4b3g': {
+    'vpi368j3': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -2340,7 +2340,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // Course
   {
-    '45w1rj5j': {
+    'spauh411': {
       'en': 'Fellowship in Critical Care\nMedicine - 2021 Edition',
       'hi': '',
       'kn': '',
@@ -2348,7 +2348,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'n44lvcnn': {
+    'w4hkn2wk': {
       'en':
           'An opportunity to learn new courses online just by one click Certificate Course in Vaccine Administration',
       'hi': '',
@@ -2357,7 +2357,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'j5jtuv29': {
+    '1cf7qy45': {
       'en': '₹ 14,799',
       'hi': '',
       'kn': '',
@@ -2365,7 +2365,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'f19uocih': {
+    'o2j0o5cg': {
       'en': 'Buy Now',
       'hi': '',
       'kn': '',
@@ -2373,7 +2373,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3rvf8xd0': {
+    'dvdq3t0j': {
       'en': 'Enquiry Now',
       'hi': '',
       'kn': '',
@@ -2381,7 +2381,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rs65m3he': {
+    'gi8honrx': {
       'en': 'Overview',
       'hi': '',
       'kn': '',
@@ -2389,7 +2389,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'in2s3viq': {
+    'l19i2lti': {
       'en':
           'The Fellowship in Clinical Cardiology marks your entry into the prestigious field of cardiology. Cardiac disease is the most common cause of global mortality. Thus, there is a huge demand for medical graduates and general practitioners with a deep understanding of cardiology topics. \n\nThis course is the final step in becoming a cardiology expert and addresses the pathophysiological basis, clinical features, diagnosis, and evidence-based medical management for major cardiac diseases, permitting you to administer the optimum care to cardiac cases. The experience of 3 months of practical training in a leading corporate hospital guided by expert cardiologists gives you a much-needed clinical experience. \n\nThe Medvarsity Learning Design framework (Certificate, Advanced Certificate, and Fellowship) is based on Kirkpatrick’s model of e-learning and allows the systematic consumption and application of the content. \n\nThis course is certified by the AHERF, and our current alumni work at hospitals like Apollo, Medanta, Billroth Hospitals, and Columbia Asia Hospitals. \n\nWe at Medvarsity strive to equip every physician with the ability to fast-track their career and enable them to better serve the communities in which they practice. Join us, and let us impact healthcare through education.',
       'hi': '',
@@ -2398,7 +2398,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bakyvfo4': {
+    'fvnjenli': {
       'en': 'Highlights',
       'hi': '',
       'kn': '',
@@ -2406,7 +2406,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'aj304u1i': {
+    'h92ost2w': {
       'en': 'Tab View 2',
       'hi': '',
       'kn': '',
@@ -2414,7 +2414,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8udo123w': {
+    'hkixfc17': {
       'en': 'Curriculum',
       'hi': '',
       'kn': '',
@@ -2422,7 +2422,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'g1o26g5y': {
+    '6we2a61z': {
       'en': 'Tab View 3',
       'hi': '',
       'kn': '',
@@ -2430,7 +2430,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'hk09lndj': {
+    '47f7c9xv': {
       'en': 'Partner',
       'hi': '',
       'kn': '',
@@ -2438,7 +2438,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u6nauyir': {
+    'dch50227': {
       'en': 'Tab View 4',
       'hi': '',
       'kn': '',
@@ -2446,7 +2446,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1nis4ykz': {
+    '10ndyaxq': {
       'en': 'Faculty',
       'hi': '',
       'kn': '',
@@ -2454,7 +2454,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xkezlcv7': {
+    'dldzqkhe': {
       'en': 'Tab View 5',
       'hi': '',
       'kn': '',
@@ -2462,7 +2462,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '825hn1rv': {
+    '89809m4f': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2470,7 +2470,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ml2qu7r9': {
+    'x78tdufs': {
       'en': 'Vittorio Rivabella',
       'hi': '',
       'kn': '',
@@ -2478,7 +2478,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'd8wwkmgx': {
+    'dlxkadbh': {
       'en': '4 days ago',
       'hi': '',
       'kn': '',
@@ -2486,7 +2486,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'h9k5z6q9': {
+    '9vogr8fs': {
       'en': 'Hello World',
       'hi': '',
       'kn': '',
@@ -2494,7 +2494,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'oxi8xp3i': {
+    'rq0rhgva': {
       'en':
           'Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra.Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra ',
       'hi': '',
@@ -2503,7 +2503,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pv1n3xb6': {
+    'g8faq656': {
       'en': 'FAQs',
       'hi': '',
       'kn': '',
@@ -2511,7 +2511,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mgwsmu85': {
+    '5kmlpwhd': {
       'en': 'Course Related',
       'hi': '',
       'kn': '',
@@ -2519,7 +2519,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pj3l7pkm': {
+    'alrlv8af': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -2528,7 +2528,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ti6bgteh': {
+    'n4xmnc2v': {
       'en': 'Course Related',
       'hi': '',
       'kn': '',
@@ -2536,7 +2536,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dyp964zz': {
+    'limao2ll': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -2545,7 +2545,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'x3cdds0y': {
+    'kb6okjmq': {
       'en': 'Course Related',
       'hi': '',
       'kn': '',
@@ -2553,7 +2553,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '56uinaxp': {
+    '9nvzws9s': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -2562,7 +2562,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zqut5cn8': {
+    'da4vciuz': {
       'en': 'Course Related',
       'hi': '',
       'kn': '',
@@ -2570,7 +2570,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'sm7k5x56': {
+    'kclfv3er': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -2579,7 +2579,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bg63y7z0': {
+    'yz9ts2zm': {
       'en': 'Course Related',
       'hi': '',
       'kn': '',
@@ -2587,7 +2587,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nlx1b1mn': {
+    '1h0iahlq': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -2596,7 +2596,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '60ogg6g5': {
+    '30gp6ezq': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2604,7 +2604,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1mbapytp': {
+    'k65qqmmx': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2612,7 +2612,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'f6vpfsx1': {
+    'y97s1zvg': {
       'en': 'Course Validity',
       'hi': '',
       'kn': '',
@@ -2620,7 +2620,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9awnajnu': {
+    'gtxl7m8a': {
       'en': 'Sample Certificate',
       'hi': '',
       'kn': '',
@@ -2628,7 +2628,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'd8nuf9hz': {
+    'ywb7cmil': {
       'en': 'Course Elgibility',
       'hi': '',
       'kn': '',
@@ -2636,7 +2636,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '38crtu9r': {
+    '0ld8ydhx': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2644,7 +2644,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gbbdwoli': {
+    'pmlt3d72': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2652,7 +2652,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zrom0l7q': {
+    'tlqqr6a3': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -2660,7 +2660,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rjj90vh8': {
+    'aca9d2o8': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -2671,7 +2671,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // RnDScreen
   {
-    'nseaueib': {
+    '44oh23em': {
       'en': 'Page Title',
       'hi': '',
       'kn': '',
@@ -2679,7 +2679,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'avplv01e': {
+    'xzgnm2gv': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -2922,7 +2922,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'scrb519g': {
+    'rki20ze8': {
       'en': 'Select a course that you require',
       'hi': '',
       'kn': '',
@@ -2930,7 +2930,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gy0r3meg': {
+    '358h17ys': {
       'en': 'Select date & time to\nbook counselling',
       'hi': '',
       'kn': '',
@@ -2938,7 +2938,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3huzqoay': {
+    'd6v6unks': {
       'en': 'Understand the curriculum\nand know the course',
       'hi': '',
       'kn': '',
@@ -2946,7 +2946,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wydekt9e': {
+    '1euhwt6e': {
       'en': 'Get Certification from\nMedvaristy & Apply for Jobs',
       'hi': '',
       'kn': '',
@@ -2954,7 +2954,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'oot07m3z': {
+    'xzdk0qgt': {
       'en': 'Why choose us?\n',
       'hi': '',
       'kn': '',
@@ -2962,7 +2962,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'a80wd67l': {
+    'wn5xr7g4': {
       'en':
           'Amet minim mollit non deserunt ullamco est sit aliqua dolor  do amet sint. Velit officia consequat duis enim velit mollit. ',
       'hi': '',
@@ -2971,7 +2971,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '32qgm94c': {
+    '6vlafhn8': {
       'en': 'Certification Ready',
       'hi': '',
       'kn': '',
@@ -2979,7 +2979,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ao41xysm': {
+    'sxo7m47j': {
       'en': 'Select a course that you require',
       'hi': '',
       'kn': '',
@@ -2987,7 +2987,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'z25wryju': {
+    'lp8e8fs2': {
       'en': 'Contact Program',
       'hi': '',
       'kn': '',
@@ -2995,7 +2995,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nz952h9u': {
+    'p58f3hx9': {
       'en': 'Understand the curriculum\nand know the course',
       'hi': '',
       'kn': '',
@@ -3003,7 +3003,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dhomdlx9': {
+    '0e4hrctc': {
       'en': 'Gamification',
       'hi': '',
       'kn': '',
@@ -3011,7 +3011,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'lh6ce0gx': {
+    'abw34eat': {
       'en': 'Get Certification from\nMedvaristy & Apply for Jobs',
       'hi': '',
       'kn': '',
@@ -3019,7 +3019,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'srwvd7b7': {
+    'j2vvux9k': {
       'en': 'Simulation Program',
       'hi': '',
       'kn': '',
@@ -3027,7 +3027,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'valjfd48': {
+    'q0b1m8t2': {
       'en': 'Select a course that you require',
       'hi': '',
       'kn': '',
@@ -3035,7 +3035,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'l14zdknm': {
+    '7us2zngs': {
       'en': 'Accurate Reports',
       'hi': '',
       'kn': '',
@@ -3043,7 +3043,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mmzqsp50': {
+    'e7uf4gg8': {
       'en': 'Understand the curriculum\nand know the course',
       'hi': '',
       'kn': '',
@@ -3051,7 +3051,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rzwxar6j': {
+    'k35hprvu': {
       'en': 'Best Course Prices',
       'hi': '',
       'kn': '',
@@ -3059,7 +3059,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'og0exi2p': {
+    'xmz5noez': {
       'en': 'Get Certification from\nMedvaristy & Apply for Jobs',
       'hi': '',
       'kn': '',
@@ -3067,7 +3067,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u1meailv': {
+    '0mzapdmq': {
       'en': 'Numbers that matter',
       'hi': '',
       'kn': '',
@@ -3075,7 +3075,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '20r0y1iw': {
+    '9mgia6in': {
       'en': '10000+',
       'hi': '',
       'kn': '',
@@ -3083,7 +3083,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'w2ribjip': {
+    'hvc0apm9': {
       'en': 'Courses Completed',
       'hi': '',
       'kn': '',
@@ -3091,7 +3091,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xcu4m1p5': {
+    '57j6xitk': {
       'en': '1980+',
       'hi': '',
       'kn': '',
@@ -3099,7 +3099,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'jpp6iszl': {
+    'kius328k': {
       'en': 'Happy customers',
       'hi': '',
       'kn': '',
@@ -3107,7 +3107,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'py0f3xu6': {
+    'qabjza3w': {
       'en': '700',
       'hi': '',
       'kn': '',
@@ -3115,7 +3115,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3gtewzq9': {
+    'in3ocx8s': {
       'en': 'Certified Instructors',
       'hi': '',
       'kn': '',
@@ -3123,7 +3123,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0x04f74m': {
+    'zzzk6rf2': {
       'en': '100+',
       'hi': '',
       'kn': '',
@@ -3131,7 +3131,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'm3f4ud7r': {
+    'vez11upq': {
       'en': 'Certifications',
       'hi': '',
       'kn': '',
@@ -3139,7 +3139,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zbtfhkmg': {
+    '5f6jwu6y': {
       'en': 'Testimonials',
       'hi': '',
       'kn': '',
@@ -3147,7 +3147,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ognquyyi': {
+    'izaxfej2': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -3155,7 +3155,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'n7gqs31k': {
+    '6il52u1h': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -3164,7 +3164,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '49gqriq7': {
+    'oy8jucyh': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -3172,7 +3172,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yo6ah583': {
+    '2di44wry': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -3180,7 +3180,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mri6sw22': {
+    'dw4cwz2l': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -3188,7 +3188,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'd4ovjowr': {
+    'hymfxgio': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -3197,7 +3197,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gzjxs6cc': {
+    'ahhk3o25': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -3205,7 +3205,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '22wvzkaa': {
+    'cgy8fegc': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -3213,7 +3213,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6zbwluu1': {
+    '71sq54wf': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -3221,7 +3221,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vs2zzdgv': {
+    'k03y3y2v': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -3230,7 +3230,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mk7fr8tj': {
+    'mnqwk3zf': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -3238,7 +3238,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '09lqrskj': {
+    '43qwqw4r': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -3254,7 +3254,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gtshlpm3': {
+    'qcs8smvf': {
       'en': 'Medvarsity Support',
       'hi': '',
       'kn': '',
@@ -3270,7 +3270,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'eue55k6k': {
+    '5gc5e1cu': {
       'en': 'Frequently asked questions',
       'hi': '',
       'kn': '',
@@ -3278,7 +3278,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3pv3qwyo': {
+    '9uy5rvvh': {
       'en': 'Course related',
       'hi': '',
       'kn': '',
@@ -3286,7 +3286,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'uxoxjjj8': {
+    'qfngkijp': {
       'en': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
       'hi': '',
       'kn': '',
@@ -3294,7 +3294,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'okroj1df': {
+    'oivvb6hq': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -3303,7 +3303,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ecde36vu': {
+    'tvy7eqom': {
       'en': 'Course related',
       'hi': '',
       'kn': '',
@@ -3311,7 +3311,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ds6n1sy6': {
+    'bcfmi1ye': {
       'en': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
       'hi': '',
       'kn': '',
@@ -3319,7 +3319,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xbjs885c': {
+    'q2mjdfpu': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -3328,7 +3328,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'uka5dtz4': {
+    'aiizfdva': {
       'en': 'Course related',
       'hi': '',
       'kn': '',
@@ -3336,7 +3336,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'esbf0sp0': {
+    'ujnsnicv': {
       'en': 'Lorem ipsum dolor sit amet, consectetur adipiscing...',
       'hi': '',
       'kn': '',
@@ -3344,7 +3344,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zt85f887': {
+    'dga2ibak': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -3369,7 +3369,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2z0oese4': {
+    '2npdn8o2': {
       'en': 'INVITE NOW >',
       'hi': '',
       'kn': '',
@@ -3388,7 +3388,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // CourseNewBeforeBuy
   {
-    'mudvxagl': {
+    'gdx02oij': {
       'en': 'Fellowship in Critical Care\nMedicine - 2021 Edition',
       'hi': '',
       'kn': '',
@@ -3396,7 +3396,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'k6z7snnf': {
+    'xorr0ckl': {
       'en':
           'An opportunity to learn new courses online just by one click Certificate Course in Vaccine Administration',
       'hi': '',
@@ -3405,7 +3405,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qiyeapvb': {
+    '8rtvwpnl': {
       'en': '₹ 14,799',
       'hi': '',
       'kn': '',
@@ -3413,7 +3413,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4o4rkcfu': {
+    'rzod4rlm': {
       'en': 'Buy Now',
       'hi': '',
       'kn': '',
@@ -3421,7 +3421,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dgg23fxs': {
+    'tw9yka63': {
       'en': 'Enquiry Now',
       'hi': '',
       'kn': '',
@@ -3429,7 +3429,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u8t5zlbe': {
+    'mzx0duna': {
       'en': 'Who is the Course for',
       'hi': '',
       'kn': '',
@@ -3437,7 +3437,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u6ia2nhh': {
+    'uzxsxhis': {
       'en': 'Meet your Instructor',
       'hi': '',
       'kn': '',
@@ -3445,7 +3445,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rmydmdcd': {
+    '0h7ma52g': {
       'en': 'Critical Care',
       'hi': '',
       'kn': '',
@@ -3453,7 +3453,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'i7nuc0lh': {
+    'q9hil58t': {
       'en': 'Dr. Sai Praveen Haranath',
       'hi': '',
       'kn': '',
@@ -3461,7 +3461,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wmwticsi': {
+    'lksf6k7u': {
       'en':
           'Senior Consultant – Pulmonary and Critical Care Medicine,\n Apollo Hospitals',
       'hi': '',
@@ -3470,7 +3470,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ul56a0m5': {
+    'p5f0zufw': {
       'en':
           'MBBS, AB (American Board Certified) Internal Medicine, Pulmonary\n and Critical Care Medicine, MPH, FCCP',
       'hi': '',
@@ -3479,7 +3479,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pcg1rr66': {
+    '4hxfwoho': {
       'en': 'Testimonials',
       'hi': '',
       'kn': '',
@@ -3487,7 +3487,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bc15t3bf': {
+    '4yl5aff8': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -3495,7 +3495,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'eiqt64pd': {
+    '8oaxkoil': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -3504,7 +3504,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0va5f445': {
+    '89l0zer2': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -3512,7 +3512,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rsakl2my': {
+    'yvwwmt1a': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -3520,7 +3520,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zzdt8iw1': {
+    'm3bxrqzk': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -3528,7 +3528,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vic0bgnq': {
+    'jt1v6p68': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -3537,7 +3537,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3tjwk01t': {
+    'k3jkm0jc': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -3545,7 +3545,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wje1vnn5': {
+    'k7yysp9q': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -3553,7 +3553,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u5keq7c0': {
+    'a6u59h2m': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -3561,7 +3561,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '48chxesu': {
+    'r7g5ohxn': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -3570,7 +3570,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '5mz2rktl': {
+    '5g7r55se': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -3578,7 +3578,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bo26klbx': {
+    '2g99cyip': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -3586,7 +3586,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ci2ublzu': {
+    'hq48lnl0': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -3597,7 +3597,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // CourseNewAfterBuy
   {
-    'vo4xzh9t': {
+    'ctbzmqq1': {
       'en': 'Fellowship in Critical Care\nMedicine - 2021 Edition',
       'hi': '',
       'kn': '',
@@ -3605,7 +3605,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ie5bvcjk': {
+    'rvajczrq': {
       'en':
           'An opportunity to learn new courses online just by one click Certificate Course in Vaccine Administration',
       'hi': '',
@@ -3614,7 +3614,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'o1d3vkth': {
+    'tnvvy0va': {
       'en': '₹ 14,799',
       'hi': '',
       'kn': '',
@@ -3622,7 +3622,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wyctwc9n': {
+    'nmzn82ki': {
       'en': 'Buy Now',
       'hi': '',
       'kn': '',
@@ -3630,7 +3630,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zeidrj2l': {
+    'fuxjluhg': {
       'en': 'Enquiry Now',
       'hi': '',
       'kn': '',
@@ -3638,7 +3638,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'cz0zbhr8': {
+    'uoedz60r': {
       'en': 'What you’ll learn',
       'hi': '',
       'kn': '',
@@ -3646,7 +3646,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4shh94y3': {
+    'sekvtdx2': {
       'en':
           'The intensive care unit (ICU) is an area specialized where skilled personnel and sophisticated equipment are readily available to manage critically ill patients. It is the most expensive, technologically advanced, and resource-intensive area of medical care. The current trend is that the anesthesia and internal medicine departments share the responsibility of managing these beds. There is a strong demand to increase the ICU beds in all hospitals due to the rise in the aging population and the increasing burden of diseases. However, there is a paucity of trained specialists in critical care medicine.\n\nThe Certificate in Critical Care Medicine is designed to address this acute shortage of trained professionals to manage critical care units. It will impart the knowledge and skills needed to provide critical care to patients admitted to the ICU.\n\nIn this course, you will learn: \n· Functioning of the ICU\n· Skills required for resuscitation\n· Initial management of acutely ill patients\n·  Investigations ordered in the ICU and their interpretation\n· To gain practical knowledge about the usage of fluids, blood products, and drugs in the ICU\n·  To manage some common problems seen in the ICU, such as acid-base and electrolyte abnormalities',
       'hi': '',
@@ -3655,7 +3655,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4v4kqfbn': {
+    '1ldkrgfi': {
       'en': 'Learning Path',
       'hi': '',
       'kn': '',
@@ -3663,7 +3663,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mbz1kkbr': {
+    '0jm6w37a': {
       'en': 'Description',
       'hi': '',
       'kn': '',
@@ -3671,7 +3671,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'f3sq46am': {
+    '3bwp4oy0': {
       'en':
           'The Fellowship in Clinical Cardiology marks your entry into the prestigious field of cardiology. Cardiac disease is the most common cause of global mortality. Thus, there is a huge demand for medical graduates and general practitioners with a deep understanding of cardiology topics.\n\nThis course is the final step in becoming a cardiology expert and addresses the pathophysiological basis, clinical features, diagnosis, and evidence-based medical management for major cardiac diseases, permitting you to administer the optimum care to cardiac cases. The experience of 3 months of practical training in a leading corporate hospital guided by expert cardiologists gives you a much-needed clinical experience.\n\nThe Medvarsity Learning Design framework (Certificate, Advanced Certificate, and Fellowship) is based on Kirkpatrick’s model of e-learning and allows the systematic consumption and application of the content. \n\nThis course is certified by the AHERF, and our current alumni work at hospitals like Apollo, Medanta, Billroth Hospitals, and Columbia Asia Hospitals.\n\nWe at Medvarsity strive to equip every physician with the ability to fast-track their career and enable them to better serve the communities in which they practice. Join us, and let us impact healthcare through education.\n',
       'hi': '',
@@ -3680,7 +3680,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yipwd1oa': {
+    'gb0i26bj': {
       'en': 'Learning is better with cohorts',
       'hi': '',
       'kn': '',
@@ -3688,7 +3688,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '5t2crfwa': {
+    'wp6v6qdg': {
       'en': 'Powerful Framework',
       'hi': '',
       'kn': '',
@@ -3696,7 +3696,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nv7zuuok': {
+    '15lbwin5': {
       'en':
           'The Fellowship in Clinical Cardiology marks your entry into the prestigious field of cardiology. Cardiac disease is the most common cause of global mortality. Thus, there is a huge demand for medical graduates and general practitioners with a deep understanding of cardiology topics.',
       'hi': '',
@@ -3705,7 +3705,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'lnbewcna': {
+    '51nwcoxg': {
       'en': 'Reviews',
       'hi': '',
       'kn': '',
@@ -3713,7 +3713,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3cljmnkg': {
+    'xlp78xn3': {
       'en': 'View All',
       'hi': '',
       'kn': '',
@@ -3721,7 +3721,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'muuzt3hj': {
+    'ekb6ddgs': {
       'en': 'FAQ',
       'hi': '',
       'kn': '',
@@ -3729,7 +3729,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mcdl4nmw': {
+    'b8qt0kd9': {
       'en': 'Duration',
       'hi': '',
       'kn': '',
@@ -3737,7 +3737,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'egp08145': {
+    'j72gahav': {
       'en': '12 Months',
       'hi': '',
       'kn': '',
@@ -3745,7 +3745,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'az4jb6ze': {
+    'jzbjvgtj': {
       'en': 'Level',
       'hi': '',
       'kn': '',
@@ -3753,7 +3753,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'iqq2ftnp': {
+    'tu4v6q24': {
       'en': 'Beginner',
       'hi': '',
       'kn': '',
@@ -3761,7 +3761,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '7eso7b42': {
+    'kyo3475p': {
       'en': 'Course Validity',
       'hi': '',
       'kn': '',
@@ -3769,7 +3769,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8gwtkzad': {
+    'nhy1kuon': {
       'en':
           '· 13 Months\n\n· There will be an extra charge for the extension of the course validity.',
       'hi': '',
@@ -3778,7 +3778,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'z60px4af': {
+    'uqo9r51n': {
       'en': 'Sample Certificate',
       'hi': '',
       'kn': '',
@@ -3786,7 +3786,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '02c5xdul': {
+    'mqmd2flh': {
       'en': 'Course Elgibility',
       'hi': '',
       'kn': '',
@@ -3794,7 +3794,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'r8o81ssp': {
+    'icvk0xe8': {
       'en':
           '• Students who completed Session 1 & Session 2.\n\n\n• MBBS graduates with MCI/State Medical Council registration.',
       'hi': '',
@@ -3803,7 +3803,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3s29nyn1': {
+    '7zecf6as': {
       'en': 'EMI Options',
       'hi': '',
       'kn': '',
@@ -3811,7 +3811,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'm3zt56ql': {
+    'n6ctrno0': {
       'en': 'Starting at Rs.14,575/-                            ',
       'hi': '',
       'kn': '',
@@ -3819,7 +3819,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'brejahy8': {
+    'bakhxcll': {
       'en': 'View more',
       'hi': '',
       'kn': '',
@@ -3827,7 +3827,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '91zpbnws': {
+    '89e6h80b': {
       'en': 'Available Payment Options',
       'hi': '',
       'kn': '',
@@ -3835,7 +3835,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'zu7vwyfy': {
+    's66vzm4v': {
       'en': 'Credit / Debit',
       'hi': '',
       'kn': '',
@@ -3843,7 +3843,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '486xpqhd': {
+    'qgx6qr2n': {
       'en': 'UPI',
       'hi': '',
       'kn': '',
@@ -3851,7 +3851,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ys0rx84m': {
+    'n3j6sh2j': {
       'en': 'Netbanking',
       'hi': '',
       'kn': '',
@@ -3859,7 +3859,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0581c9mk': {
+    'aqsolwnz': {
       'en': 'Wallet',
       'hi': '',
       'kn': '',
@@ -3883,7 +3883,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'y2x6k3lo': {
+    '8gzr940j': {
       'en': 'INVITE NOW >',
       'hi': '',
       'kn': '',
@@ -3891,7 +3891,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'j2y0pc5v': {
+    'k6oif65g': {
       'en': 'Saved courses',
       'hi': '',
       'kn': '',
@@ -3899,7 +3899,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'wnj70ztq': {
+    'qxbzu14a': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -3910,7 +3910,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // ViewCoursesFromCatgoery
   {
-    'kz5nv38w': {
+    'l7w35lf2': {
       'en': 'Course List',
       'hi': '',
       'kn': '',
@@ -3918,7 +3918,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ytmiqkld': {
+    'rj9iebft': {
       'en': 'Categories',
       'hi': '',
       'kn': '',
@@ -3926,7 +3926,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'hoctivih': {
+    'aenf2i9v': {
       'en': 'Cardiology',
       'hi': '',
       'kn': '',
@@ -3934,7 +3934,158 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gje3mbou': {
+    'z48bcf3f': {
+      'en': 'Home',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+  },
+  // MyCourses
+  {
+    'iqnyt60j': {
+      'en': 'My Courses',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'exksjh6a': {
+      'en': 'Upskill. Anytime. Anywhere',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'c94p2uxm': {
+      'en':
+          'Download the lessons to learn anytime, anywhere from the best courses available on our app',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'htd6d1g1': {
+      'en': 'Scan this QR code on your camera app to download the app',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '5v577s1j': {
+      'en': 'OR',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'y3ssmws8': {
+      'en': 'Invite your friends',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'h822ljzi': {
+      'en': 'Enroll for the best medvarsity courses and grow your skills',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'zotybgw4': {
+      'en': 'INVITE NOW >',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'cb7jld2m': {
+      'en': 'Home',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+  },
+  // CourseProgressPage
+  {
+    '47fa4rh1': {
+      'en': 'My courses  / Fellowship in Critical Care Medicine - 2021 Edition',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'zzj4vlv0': {
+      'en': '06',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '6m6hz0o9': {
+      'en': 'Credits ',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'reiva2xs': {
+      'en': '06',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'agtprur7': {
+      'en': 'Points',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'h3a07vgz': {
+      'en': 'Fellowship in Critical Care Medicine - 2021 Edition',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '99oo6ujo': {
+      'en': '20 % completed',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '9o93e6vf': {
+      'en': 'Check Progress',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '5o0w9vqi': {
       'en': 'Home',
       'hi': '',
       'kn': '',
@@ -4101,7 +4252,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // webTesto
   {
-    'w21k3z7t': {
+    'kbm2qa36': {
       'en': 'Efficient Collaborating',
       'hi': '',
       'kn': '',
@@ -4109,7 +4260,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'fntjyc92': {
+    'zhhiznoz': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
       'hi': '',
@@ -4118,7 +4269,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'o65jktll': {
+    'p56nj9uo': {
       'en': 'Theresa Webb',
       'hi': '',
       'kn': '',
@@ -4126,7 +4277,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'el7ix1u7': {
+    '3xypsx6u': {
       'en': 'Manager - Engineering',
       'hi': '',
       'kn': '',
@@ -4137,7 +4288,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // AccordionItemComponent
   {
-    'huul0fcf': {
+    'trry1btl': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
       'hi': '',
@@ -4149,7 +4300,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // footer
   {
-    't7tdt1bu': {
+    'wzn81mcv': {
       'en': 'Learn free on the App',
       'hi': '',
       'kn': '',
@@ -4157,7 +4308,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'oive6fhu': {
+    '0vf4r4j8': {
       'en':
           'Download the lessons and learn anytime, anywhere from\n the free courses available on our app',
       'hi': '',
@@ -4166,7 +4317,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'x205mql2': {
+    'kflg0845': {
       'en': 'Scan this QR code on your camera app to download the app',
       'hi': '',
       'kn': '',
@@ -4174,7 +4325,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'enfhoq5s': {
+    '4ubgwhd8': {
       'en': 'OR',
       'hi': '',
       'kn': '',
@@ -4182,7 +4333,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3xzcksv6': {
+    '586ilxhw': {
       'en': 'Follow us',
       'hi': '',
       'kn': '',
@@ -4190,7 +4341,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ddgjeaxk': {
+    'gliq3dqv': {
       'en': 'Company',
       'hi': '',
       'kn': '',
@@ -4198,7 +4349,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '34hdfnpi': {
+    'mx7ej7fp': {
       'en': 'About Us',
       'hi': '',
       'kn': '',
@@ -4206,7 +4357,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'du08ek2d': {
+    'ubh7ef4h': {
       'en': 'Careers',
       'hi': '',
       'kn': '',
@@ -4214,7 +4365,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'olpkld5m': {
+    '3m598351': {
       'en': 'In the media',
       'hi': '',
       'kn': '',
@@ -4222,7 +4373,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1h5sr6wj': {
+    'p6qoxfw1': {
       'en': 'Alumni speak',
       'hi': '',
       'kn': '',
@@ -4230,7 +4381,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8h5gxk2h': {
+    'vq9bca7y': {
       'en': 'Contact  Us',
       'hi': '',
       'kn': '',
@@ -4238,7 +4389,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'esmrw2ed': {
+    'qlybjt79': {
       'en': 'Work with Us',
       'hi': '',
       'kn': '',
@@ -4246,7 +4397,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0w1e8d4i': {
+    'b6660544': {
       'en': 'About Us',
       'hi': '',
       'kn': '',
@@ -4254,7 +4405,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yu9959ga': {
+    'f83kzxmp': {
       'en': 'Careers',
       'hi': '',
       'kn': '',
@@ -4262,7 +4413,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bz4c65hk': {
+    'dkpzrt30': {
       'en': 'In the media',
       'hi': '',
       'kn': '',
@@ -4270,7 +4421,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'sbjv37ol': {
+    'lltybdrt': {
       'en': 'Alumni speak',
       'hi': '',
       'kn': '',
@@ -4278,7 +4429,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '68m5x1f9': {
+    '43qtwesy': {
       'en': 'Contact  Us',
       'hi': '',
       'kn': '',
@@ -4286,7 +4437,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'xyzgf966': {
+    '112shr33': {
       'en': 'Discover',
       'hi': '',
       'kn': '',
@@ -4294,7 +4445,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3w99sces': {
+    'mh5ppv16': {
       'en': 'About Us',
       'hi': '',
       'kn': '',
@@ -4302,7 +4453,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0dye2wcf': {
+    'u76efse5': {
       'en': 'Careers',
       'hi': '',
       'kn': '',
@@ -4310,7 +4461,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1q55y5i1': {
+    'ml9rp9yz': {
       'en': 'In the media',
       'hi': '',
       'kn': '',
@@ -4318,7 +4469,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'hgooa6dm': {
+    'ikuoa3ku': {
       'en': 'Alumni speak',
       'hi': '',
       'kn': '',
@@ -4326,7 +4477,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'c3w3r23w': {
+    'hu9eo8u0': {
       'en': 'Contact  Us',
       'hi': '',
       'kn': '',
@@ -4334,7 +4485,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vcct0n7c': {
+    'm7fczurl': {
       'en': 'For Business',
       'hi': '',
       'kn': '',
@@ -4342,7 +4493,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '529295cx': {
+    '4dy3x70u': {
       'en': 'About Us',
       'hi': '',
       'kn': '',
@@ -4350,7 +4501,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'u8trhcx4': {
+    '1g95hppi': {
       'en': 'Careers',
       'hi': '',
       'kn': '',
@@ -4358,7 +4509,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pkb97yvo': {
+    'zb79lxiv': {
       'en': 'In the media',
       'hi': '',
       'kn': '',
@@ -4366,7 +4517,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'fzw39e3o': {
+    'memegvtw': {
       'en': 'Alumni speak',
       'hi': '',
       'kn': '',
@@ -4374,7 +4525,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'x4d4g7mg': {
+    'ml3mbr9f': {
       'en': 'Contact  Us',
       'hi': '',
       'kn': '',
@@ -4382,7 +4533,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'y3lpv90g': {
+    '96sem1gr': {
       'en': 'Learn On the Go!',
       'hi': '',
       'kn': '',
@@ -4390,7 +4541,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'pfmu10q3': {
+    'sve8f9c6': {
       'en': 'Trending Post Graduate Programs',
       'hi': '',
       'kn': '',
@@ -4398,7 +4549,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'w5st58k0': {
+    '56hx7si8': {
       'en':
           'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
       'hi': '',
@@ -4407,7 +4558,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'yod3oh78': {
+    '83y2mfvx': {
       'en': 'Trending Post Graduate Programs',
       'hi': '',
       'kn': '',
@@ -4415,7 +4566,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ksqn13p6': {
+    'bdts73b4': {
       'en':
           'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
       'hi': '',
@@ -4424,7 +4575,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'b4w9ahjf': {
+    'ec5f5ux6': {
       'en': 'Trending Post Graduate Programs',
       'hi': '',
       'kn': '',
@@ -4432,7 +4583,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mg2wlwqy': {
+    '3mf5981o': {
       'en':
           'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
       'hi': '',
@@ -4441,7 +4592,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6ggrvy6g': {
+    'h8zrrf4g': {
       'en': 'Trending Post Graduate Programs',
       'hi': '',
       'kn': '',
@@ -4449,7 +4600,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vaslnrns': {
+    '8i5sfpr1': {
       'en':
           'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
       'hi': '',
@@ -4458,7 +4609,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'r1g4q4jj': {
+    'pyuns5zn': {
       'en': '• Terms of Use',
       'hi': '',
       'kn': '',
@@ -4466,7 +4617,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9c8ml29h': {
+    '7z3d09nw': {
       'en': '• Privacy Policy',
       'hi': '',
       'kn': '',
@@ -4474,7 +4625,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rzkpoc39': {
+    'hjj6baig': {
       'en': '• Refund Policy',
       'hi': '',
       'kn': '',
@@ -4482,7 +4633,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ijlxr4hx': {
+    'ty9814wd': {
       'en': '• Reschedule Policy',
       'hi': '',
       'kn': '',
@@ -4490,7 +4641,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'g73765ag': {
+    '8n1o22wf': {
       'en': '• Country',
       'hi': '',
       'kn': '',
@@ -4498,7 +4649,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'tekbmw2k': {
+    'b60xzxbi': {
       'en':
           '@ 2009-2021 - Simplilearn Solutions. All Rights Reserved. The certification names are the trademarks of their respective owners.\n',
       'hi': '',
@@ -4510,7 +4661,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // loginComponent
   {
-    '7j2j20y9': {
+    'xpvm4nyh': {
       'en': 'Enter your mobile number to \nstart learning',
       'hi': '',
       'kn': '',
@@ -4518,7 +4669,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '12ppu4nv': {
+    '46ymyd3x': {
       'en': 'Mobile Number',
       'hi': '',
       'kn': '',
@@ -4526,7 +4677,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1cuywimm': {
+    'l9d5vijn': {
       'en': 'Enter mobile number',
       'hi': '',
       'kn': '',
@@ -4534,7 +4685,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'jeklkonj': {
+    'k22t0byx': {
       'en': 'Remember Me',
       'hi': '',
       'kn': '',
@@ -4542,7 +4693,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'o8ddelek': {
+    'hd4j41bn': {
       'en': 'Send OTP',
       'hi': '',
       'kn': '',
@@ -4550,7 +4701,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'e9f2om9g': {
+    'plvyj706': {
       'en': 'Enter your mobile number to \nstart learning',
       'hi': '',
       'kn': '',
@@ -4558,7 +4709,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mykqt1f0': {
+    'b6cmrtby': {
       'en': 'Mobile Number',
       'hi': '',
       'kn': '',
@@ -4566,7 +4717,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6avrl82a': {
+    '2juevik9': {
       'en': 'Field is required',
       'hi': '',
       'kn': '',
@@ -4574,7 +4725,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9zbv1z2i': {
+    '8n1x153h': {
       'en': 'Please enter the OTP',
       'hi': '',
       'kn': '',
@@ -4582,7 +4733,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'cegdrrce': {
+    '1owb5q70': {
       'en': 'Didnt recieve OTP ?',
       'hi': '',
       'kn': '',
@@ -4590,7 +4741,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dmw625ct': {
+    'fcyr1jsm': {
       'en': 'Resend',
       'hi': '',
       'kn': '',
@@ -4598,7 +4749,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'bisyhm14': {
+    'itvgspnt': {
       'en': 'Log In',
       'hi': '',
       'kn': '',
@@ -4606,7 +4757,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vugqtecu': {
+    '9mrubgvb': {
       'en': 'Create Profile',
       'hi': '',
       'kn': '',
@@ -4614,7 +4765,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2q0g6yeu': {
+    'kenjjqh4': {
       'en': 'Add Personal Details',
       'hi': '',
       'kn': '',
@@ -4622,7 +4773,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '9eptibc8': {
+    'twhso83i': {
       'en': 'Add',
       'hi': '',
       'kn': '',
@@ -4630,7 +4781,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '6mjz980j': {
+    'ma2hgeav': {
       'en': 'Personal Details',
       'hi': '',
       'kn': '',
@@ -4638,7 +4789,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'kosxcmyv': {
+    'dykqcet2': {
       'en': 'First Name*',
       'hi': '',
       'kn': '',
@@ -4646,7 +4797,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'axful6ik': {
+    'mdeu6vyj': {
       'en': 'Last Name*',
       'hi': '',
       'kn': '',
@@ -4654,7 +4805,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ez3z95ui': {
+    'jhncprga': {
       'en': 'Email*',
       'hi': '',
       'kn': '',
@@ -4662,7 +4813,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'q7v10mo6': {
+    'krvic4f7': {
       'en': 'Option 1',
       'hi': '',
       'kn': '',
@@ -4670,7 +4821,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'nflot5yh': {
+    '53xotdtg': {
       'en': 'Speciality*',
       'hi': '',
       'kn': '',
@@ -4678,7 +4829,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mapjnd45': {
+    'q1flhdn9': {
       'en': 'Skip',
       'hi': '',
       'kn': '',
@@ -4686,7 +4837,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '3oy8favg': {
+    '2y82ltsa': {
       'en': 'Save & Next',
       'hi': '',
       'kn': '',
@@ -4694,7 +4845,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '0qnilkak': {
+    'txy2egja': {
       'en': 'Create Profile',
       'hi': '',
       'kn': '',
@@ -4702,7 +4853,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '60hv72p7': {
+    'dkrdiahv': {
       'en': 'Select Preferences',
       'hi': '',
       'kn': '',
@@ -4710,7 +4861,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'd4nhu5m4': {
+    '9yzgakls': {
       'en': 'Skip',
       'hi': '',
       'kn': '',
@@ -4718,7 +4869,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'f6qxtes0': {
+    '26omwrnq': {
       'en': 'Save & Next',
       'hi': '',
       'kn': '',
@@ -4726,7 +4877,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '2ut7m4ur': {
+    'ffatf0lj': {
       'en': 'Create Profile',
       'hi': '',
       'kn': '',
@@ -4734,7 +4885,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'hgrsuozi': {
+    'swzv9p0c': {
       'en': 'Select Preferences',
       'hi': '',
       'kn': '',
@@ -4742,7 +4893,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '8bs1b5u0': {
+    'nlq0ooua': {
       'en': 'Skip',
       'hi': '',
       'kn': '',
@@ -4750,7 +4901,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'urmk8fd0': {
+    'l09iyumm': {
       'en': 'Save & Next',
       'hi': '',
       'kn': '',
@@ -4812,7 +4963,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // UserProfileWeb
   {
-    'ljtjbrdk': {
+    '17n7pvom': {
       'en': 'Dr. John Meridian',
       'hi': '',
       'kn': '',
@@ -4820,7 +4971,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'h2cty0gb': {
+    '0a2ldeiu': {
       'en': 'Pulmonologist',
       'hi': '',
       'kn': '',
@@ -4828,7 +4979,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'awuim4fo': {
+    'ifm8figy': {
       'en': 'Credits Earned',
       'hi': '',
       'kn': '',
@@ -4836,7 +4987,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'onfxpkbr': {
+    'lowkp7q4': {
       'en': '3200 credits',
       'hi': '',
       'kn': '',
@@ -4844,7 +4995,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vu1jeydh': {
+    'j7jgho90': {
       'en': 'Total Points',
       'hi': '',
       'kn': '',
@@ -4852,7 +5003,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'gwtqq7xm': {
+    'vrggk7dh': {
       'en': '150 Points',
       'hi': '',
       'kn': '',
@@ -4860,7 +5011,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'dzewpgc4': {
+    '6vu9st2s': {
       'en': 'Edit Profile',
       'hi': '',
       'kn': '',
@@ -4871,7 +5022,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // activityCompontent
   {
-    'knr58uuo': {
+    '8alt9b94': {
       'en': 'Hello World',
       'hi': '',
       'kn': '',
@@ -4879,7 +5030,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'hdcdf6j9': {
+    'cv24zck8': {
       'en': 'Hello World',
       'hi': '',
       'kn': '',
@@ -4890,7 +5041,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // ReviewComponent
   {
-    'etlz2qhk': {
+    'dftmwlnl': {
       'en': 'Vittorio Rivabella',
       'hi': '',
       'kn': '',
@@ -4898,7 +5049,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'uneqnnvn': {
+    '0bssah1k': {
       'en': '4 days ago',
       'hi': '',
       'kn': '',
@@ -4906,7 +5057,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'rin9rm4n': {
+    'de7j692t': {
       'en': '2.5',
       'hi': '',
       'kn': '',
@@ -4914,7 +5065,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'mqsuccq8': {
+    'khyoosrn': {
       'en':
           'Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra.Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra ',
       'hi': '',
@@ -4926,7 +5077,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // CircleProgressbar
   {
-    'f1vs4rsq': {
+    'ma1pdqu5': {
       'en': '2.4',
       'hi': '',
       'kn': '',
@@ -4937,7 +5088,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // chatCompontent
   {
-    '8cl9zs9w': {
+    'vestr9i3': {
       'en':
           'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie ',
       'hi': '',
@@ -4946,7 +5097,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'h1l1e2lz': {
+    'k85lpw6k': {
       'en': '12:42',
       'hi': '',
       'kn': '',
@@ -4957,7 +5108,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // attendessItem
   {
-    'z89wgj45': {
+    '34vpluoq': {
       'en': 'Name of the participant',
       'hi': '',
       'kn': '',
@@ -4965,7 +5116,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'qo9jys15': {
+    '75br7x8h': {
       'en': 'Joined at 06:45am',
       'hi': '',
       'kn': '',
@@ -4973,7 +5124,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'lh2xxn8e': {
+    '3h4cgao2': {
       'en': 'Chat',
       'hi': '',
       'kn': '',
@@ -4984,7 +5135,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // ProgrammeOutline
   {
-    'nshm2lhj': {
+    'uevc9mpy': {
       'en': '09:00 am - 09:30 am',
       'hi': '',
       'kn': '',
@@ -4992,7 +5143,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'h86gqre3': {
+    '8yvfp3jj': {
       'en': 'Registrations and breakfast',
       'hi': '',
       'kn': '',
@@ -5014,7 +5165,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // PlainCard
   {
-    'fejd7xkb': {
+    'r48ibg32': {
       'en': 'MODULE 1',
       'hi': '',
       'kn': '',
@@ -5022,7 +5173,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '4ai3aogm': {
+    'b4xhwy5e': {
       'en': 'Introduction \n(Video Bytes)',
       'hi': '',
       'kn': '',
@@ -5030,7 +5181,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'ddbcuvhs': {
+    'fdcqx3jm': {
       'en': '18 Lessons',
       'hi': '',
       'kn': '',
@@ -5038,7 +5189,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    '1d9o48xf': {
+    '56g7fo6m': {
       'en': '| 120 Videos  |',
       'hi': '',
       'kn': '',
@@ -5046,7 +5197,7 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'ta': '',
       'te': '',
     },
-    'vxilakpr': {
+    'msbu43tw': {
       'en': '05 Events',
       'hi': '',
       'kn': '',
@@ -5057,8 +5208,78 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
   },
   // LearningPathComponent
   {
-    'i7s8t8ys': {
+    'smhrpb37': {
       'en': 'Preview',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+  },
+  // MyLearningPathComponentWithProgress
+  {
+    'ih961q3h': {
+      'en': '4 Videos',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '22iqaozz': {
+      'en': '4 Videos',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'aacvw3ck': {
+      'en': '4 Videos',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'dli3k2w8': {
+      'en': '20 % completed',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'yll2obw3': {
+      'en': 'Continue Learning ',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+  },
+  // MyLearningPathComponentWithouProgressandContinou
+  {
+    'yfos330e': {
+      'en': '4 Videos',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    '4pqq4s8q': {
+      'en': '4 Videos',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'la6e9lpo': {
+      'en': '4 Videos',
       'hi': '',
       'kn': '',
       'ml': '',
