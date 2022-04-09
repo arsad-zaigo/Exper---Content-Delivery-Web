@@ -1,24 +1,16 @@
 import '../backend/api_requests/api_calls.dart';
 import '../components/bottom_nav_bar_home_widget.dart';
-import '../components/categories_widget.dart';
 import '../components/contact_program_big_web_widget.dart';
 import '../components/contact_program_web_mini_widget.dart';
-import '../components/contact_program_widget.dart';
 import '../components/course_card_web_flex_widget.dart';
 import '../components/course_card_web_widget.dart';
-import '../components/course_card_widget.dart';
 import '../components/events_card_mini_widget.dart';
-import '../components/events_card_widget.dart';
 import '../components/footer_widget.dart';
 import '../components/immersive_mini_view_widget.dart';
 import '../components/live_video_classes_web_widget.dart';
-import '../components/live_video_classes_widget.dart';
 import '../components/login_component_widget.dart';
 import '../components/mini_course_card_web_widget.dart';
-import '../components/mini_course_card_widget.dart';
-import '../components/simulation_mini_widget.dart';
 import '../components/simulation_web_mini_card_widget.dart';
-import '../components/user_profile_widget_widget.dart';
 import '../components/web_testo_widget.dart';
 import '../contact_program_main/contact_program_main_widget.dart';
 import '../events/events_widget.dart';
@@ -38,14 +30,14 @@ import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
-class HomePageWidget extends StatefulWidget {
-  const HomePageWidget({Key key}) : super(key: key);
+class HomePageCopyWidget extends StatefulWidget {
+  const HomePageCopyWidget({Key key}) : super(key: key);
 
   @override
-  _HomePageWidgetState createState() => _HomePageWidgetState();
+  _HomePageCopyWidgetState createState() => _HomePageCopyWidgetState();
 }
 
-class _HomePageWidgetState extends State<HomePageWidget>
+class _HomePageCopyWidgetState extends State<HomePageCopyWidget>
     with TickerProviderStateMixin {
   ApiCallResponse users;
   final scaffoldKey = GlobalKey<ScaffoldState>();
@@ -78,7 +70,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
       users = await RandomUserCall.call();
       setState(() => FFAppState().typeDetials = getJsonField(
             (users?.jsonBody ?? ''),
-            r'''$.results[*].name.first''',
+            r'''$[*]''',
           ).map<String>((s) => s.toString()).toList().toList());
     });
 
@@ -226,7 +218,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'u9wjog6z' /* Home */,
+                                                                              'eo6cwm9s' /* Home */,
                                                                             ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
@@ -308,7 +300,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                             child:
                                                                                 Text(
                                                                               FFLocalizations.of(context).getText(
-                                                                                'y06426sc' /* Speciality  */,
+                                                                                'bpsvmhva' /* Speciality  */,
                                                                               ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
@@ -413,7 +405,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                             child:
                                                                                 Text(
                                                                               FFLocalizations.of(context).getText(
-                                                                                '1ndtnjd7' /* Explore */,
+                                                                                'o9n48wys' /* Explore */,
                                                                               ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
@@ -518,7 +510,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                                             child:
                                                                                 Text(
                                                                               FFLocalizations.of(context).getText(
-                                                                                'xgjbie3k' /* Partners */,
+                                                                                'dpihqusa' /* Partners */,
                                                                               ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
@@ -601,12 +593,12 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                           text: FFLocalizations
                                                                   .of(context)
                                                               .getText(
-                                                            'qn16rwok' /* Signup */,
+                                                            'nms3w9jj' /* Signup */,
                                                           ),
                                                           options:
                                                               FFButtonOptions(
                                                             width: 100,
-                                                            height: 35,
+                                                            height: 40,
                                                             color: Color(
                                                                 0xFF3C439B),
                                                             textStyle:
@@ -664,7 +656,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'hv03miap' /* LogIn */,
+                                                                'qg1lvsww' /* LogIn */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -718,7 +710,7 @@ class _HomePageWidgetState extends State<HomePageWidget>
                                                         FFLocalizations.of(
                                                                 context)
                                                             .getText(
-                                                          'snq85egz' /* Advanced
+                                                          '7tfx54sy' /* Advanced
 Medical Skills
 at you... */
                                                           ,
@@ -797,7 +789,7 @@ at you... */
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'fmquz5lu' /* 400k Alumni */,
+                                                                              'nf1ntlkk' /* 400k Alumni */,
                                                                             ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
@@ -841,7 +833,7 @@ at you... */
                                                                             child:
                                                                                 Text(
                                                                               FFLocalizations.of(context).getText(
-                                                                                'nisfo46e' /* 190+ Countries */,
+                                                                                'cpm3yehi' /* 190+ Countries */,
                                                                               ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
@@ -898,7 +890,7 @@ at you... */
                                                                           child:
                                                                               Text(
                                                                             FFLocalizations.of(context).getText(
-                                                                              'vglajg1f' /* 200+ Courses */,
+                                                                              'p74wo5e8' /* 200+ Courses */,
                                                                             ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
@@ -942,7 +934,7 @@ at you... */
                                                                             child:
                                                                                 Text(
                                                                               FFLocalizations.of(context).getText(
-                                                                                'e9vvbrvj' /* 250+ Instructors */,
+                                                                                'akuwyics' /* 250+ Instructors */,
                                                                               ),
                                                                               style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                     fontFamily: 'SF Pro',
@@ -1008,7 +1000,7 @@ at you... */
                                                                       labelText:
                                                                           FFLocalizations.of(context)
                                                                               .getText(
-                                                                        '1qfljzq5' /* Search Here */,
+                                                                        'vkoovfbr' /* Search Here */,
                                                                       ),
                                                                       enabledBorder:
                                                                           UnderlineInputBorder(
@@ -1246,11 +1238,11 @@ at you... */
                                                           },
                                                           child: Container(
                                                             width: 267,
-                                                            height: 90,
+                                                            height: 80,
                                                             decoration:
                                                                 BoxDecoration(
                                                               color: Color(
-                                                                  0xFF787895),
+                                                                  0xFFEF9233),
                                                               borderRadius:
                                                                   BorderRadius
                                                                       .circular(
@@ -1262,7 +1254,7 @@ at you... */
                                                                       .max,
                                                               mainAxisAlignment:
                                                                   MainAxisAlignment
-                                                                      .spaceBetween,
+                                                                      .center,
                                                               children: [
                                                                 Padding(
                                                                   padding: EdgeInsetsDirectional
@@ -1292,7 +1284,7 @@ at you... */
                                                                     FFLocalizations.of(
                                                                             context)
                                                                         .getText(
-                                                                      'r7wppjz3' /* Simulations */,
+                                                                      'm6wyhxvu' /* Simulations */,
                                                                     ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
@@ -1302,6 +1294,8 @@ at you... */
                                                                               'SF Pro',
                                                                           color:
                                                                               Colors.white,
+                                                                          fontSize:
+                                                                              16,
                                                                           fontWeight:
                                                                               FontWeight.w500,
                                                                           useGoogleFonts:
@@ -1332,11 +1326,11 @@ at you... */
                                                             },
                                                             child: Container(
                                                               width: 267,
-                                                              height: 90,
+                                                              height: 80,
                                                               decoration:
                                                                   BoxDecoration(
                                                                 color: Color(
-                                                                    0xFF787895),
+                                                                    0xFF5AA9F8),
                                                                 borderRadius:
                                                                     BorderRadius
                                                                         .circular(
@@ -1379,7 +1373,7 @@ at you... */
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'jwywedxl' /* Online Events */,
+                                                                        'm6pryf7d' /* Online Events */,
                                                                       ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
@@ -1389,6 +1383,8 @@ at you... */
                                                                                 'SF Pro',
                                                                             color:
                                                                                 Colors.white,
+                                                                            fontSize:
+                                                                                16,
                                                                             fontWeight:
                                                                                 FontWeight.w500,
                                                                             useGoogleFonts:
@@ -1420,11 +1416,11 @@ at you... */
                                                             },
                                                             child: Container(
                                                               width: 267,
-                                                              height: 90,
+                                                              height: 80,
                                                               decoration:
                                                                   BoxDecoration(
                                                                 color: Color(
-                                                                    0xFF787895),
+                                                                    0xFF46BECB),
                                                                 borderRadius:
                                                                     BorderRadius
                                                                         .circular(
@@ -1467,8 +1463,8 @@ at you... */
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'mi7xdw1k' /* Contact 
-Program */
+                                                                        'e3w4ui26' /* Events
+ & Webinars */
                                                                         ,
                                                                       ),
                                                                       style: FlutterFlowTheme.of(
@@ -1479,6 +1475,8 @@ Program */
                                                                                 'SF Pro',
                                                                             color:
                                                                                 Colors.white,
+                                                                            fontSize:
+                                                                                16,
                                                                             fontWeight:
                                                                                 FontWeight.w500,
                                                                             useGoogleFonts:
@@ -1510,11 +1508,11 @@ Program */
                                                             },
                                                             child: Container(
                                                               width: 267,
-                                                              height: 90,
+                                                              height: 80,
                                                               decoration:
                                                                   BoxDecoration(
                                                                 color: Color(
-                                                                    0xFF787895),
+                                                                    0xFF8D6AE2),
                                                                 borderRadius:
                                                                     BorderRadius
                                                                         .circular(
@@ -1557,9 +1555,7 @@ Program */
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'fc1b9ead' /* Events &
-Webinars */
-                                                                        ,
+                                                                        '38kh94lx' /* Contact Program */,
                                                                       ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
@@ -1569,6 +1565,8 @@ Webinars */
                                                                                 'SF Pro',
                                                                             color:
                                                                                 Colors.white,
+                                                                            fontSize:
+                                                                                16,
                                                                             fontWeight:
                                                                                 FontWeight.w500,
                                                                             useGoogleFonts:
@@ -1616,7 +1614,7 @@ Webinars */
                                                         MediaQuery.of(context)
                                                                 .size
                                                                 .height *
-                                                            1,
+                                                            1.1,
                                                     decoration: BoxDecoration(
                                                       color: Color(0x00EEEEEE),
                                                     ),
@@ -1643,7 +1641,7 @@ Webinars */
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'mhkhm03n' /* Trending Courses */,
+                                                                  'kuh14flk' /* Trending Courses */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -1664,7 +1662,7 @@ Webinars */
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'vja1oq6s' /* View All */,
+                                                                'usdnf9ya' /* View All */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -1701,13 +1699,12 @@ Webinars */
                                                                 crossAxisCount:
                                                                     2,
                                                                 crossAxisSpacing:
-                                                                    20,
+                                                                    10,
                                                                 mainAxisSpacing:
-                                                                    20,
+                                                                    10,
                                                                 childAspectRatio:
                                                                     1,
                                                               ),
-                                                              shrinkWrap: true,
                                                               scrollDirection:
                                                                   Axis.vertical,
                                                               children: [
@@ -1771,7 +1768,7 @@ Webinars */
                                                   height: MediaQuery.of(context)
                                                           .size
                                                           .height *
-                                                      1,
+                                                      1.1,
                                                   decoration: BoxDecoration(
                                                     color: Color(0x00EEEEEE),
                                                   ),
@@ -1790,7 +1787,7 @@ Webinars */
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              '0tq00vnb' /* Featured */,
+                                                              '0wbcfxka' /* Featured */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1809,7 +1806,7 @@ Webinars */
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'vb8dun32' /* View All */,
+                                                              'rlh0yh70' /* View All */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -1924,7 +1921,7 @@ Webinars */
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'xd4fbgcg' /* Simulation */,
+                                                                '8jphymfz' /* Simulation */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -1944,7 +1941,7 @@ Webinars */
                                                               FFLocalizations.of(
                                                                       context)
                                                                   .getText(
-                                                                'jykcuwnh' /* View All */,
+                                                                'b88z5k49' /* View All */,
                                                               ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
@@ -2102,7 +2099,7 @@ Webinars */
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'btjcr41k' /* Contact Program */,
+                                                              'u8p7jivo' /* Contact Program */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -2121,7 +2118,7 @@ Webinars */
                                                             FFLocalizations.of(
                                                                     context)
                                                                 .getText(
-                                                              'ob17iygb' /* View All */,
+                                                              'o7qvqg3g' /* View All */,
                                                             ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
@@ -2296,7 +2293,7 @@ Webinars */
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'cmz40wxs' /* Live Video Classes */,
+                                                                  'jq82v442' /* Live Video Classes */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -2316,7 +2313,7 @@ Webinars */
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'hodv0usq' /* View All */,
+                                                                  'pjcgohis' /* View All */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -2453,7 +2450,7 @@ Webinars */
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'n76yz201' /* Events */,
+                                                                  'aowwgchd' /* Events */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -2473,7 +2470,7 @@ Webinars */
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'xv4c2h4m' /* View All */,
+                                                                  'a6cg36vj' /* View All */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -2596,7 +2593,7 @@ Webinars */
                                                                 FFLocalizations.of(
                                                                         context)
                                                                     .getText(
-                                                                  'n7s4ib6l' /* An Immersive Learning Experien... */,
+                                                                  'rlyef0x0' /* An Immersive Learning Experien... */,
                                                                 ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
@@ -4540,7 +4537,7 @@ Webinars */
                                                                       FFLocalizations.of(
                                                                               context)
                                                                           .getText(
-                                                                        'bm9q6kf6' /* For queries, feedback & assist... */,
+                                                                        'cval3xmp' /* For queries, feedback & assist... */,
                                                                       ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
@@ -4607,7 +4604,7 @@ Webinars */
                                                                             },
                                                                             text:
                                                                                 FFLocalizations.of(context).getText(
-                                                                              'x1x8n6eg' /* Request Call back */,
+                                                                              '9hpxm69t' /* Request Call back */,
                                                                             ),
                                                                             options:
                                                                                 FFButtonOptions(
@@ -5215,7 +5212,7 @@ Webinars */
                                                                             Text(
                                                                           FFLocalizations.of(context)
                                                                               .getText(
-                                                                            'dswlcf4v' /* Invite your friends */,
+                                                                            '0tadltck' /* Invite your friends */,
                                                                           ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
@@ -5238,7 +5235,7 @@ Webinars */
                                                                             Text(
                                                                           FFLocalizations.of(context)
                                                                               .getText(
-                                                                            'h04hg2kh' /* Enroll for the best medvarsity... */,
+                                                                            'r0fcr5da' /* Enroll for the best medvarsity... */,
                                                                           ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
@@ -5301,2176 +5298,6 @@ Webinars */
                                     ),
                                   ),
                                 ),
-                              ),
-                            ),
-                          if (responsiveVisibility(
-                            context: context,
-                            tabletLandscape: false,
-                            desktop: false,
-                          ))
-                            SingleChildScrollView(
-                              child: Column(
-                                mainAxisSize: MainAxisSize.max,
-                                children: [
-                                  Stack(
-                                    children: [
-                                      SingleChildScrollView(
-                                        child: Column(
-                                          mainAxisSize: MainAxisSize.max,
-                                          children: [
-                                            Container(
-                                              width: MediaQuery.of(context)
-                                                  .size
-                                                  .width,
-                                              height: 700,
-                                              decoration: BoxDecoration(
-                                                color: Color(0xFFFD6D6B),
-                                                borderRadius: BorderRadius.only(
-                                                  bottomLeft:
-                                                      Radius.circular(40),
-                                                  bottomRight:
-                                                      Radius.circular(0),
-                                                  topLeft: Radius.circular(0),
-                                                  topRight: Radius.circular(0),
-                                                ),
-                                              ),
-                                              child: Column(
-                                                mainAxisSize: MainAxisSize.max,
-                                                children: [
-                                                  Row(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    mainAxisAlignment:
-                                                        MainAxisAlignment
-                                                            .spaceBetween,
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .start,
-                                                    children: [
-                                                      Expanded(
-                                                        child:
-                                                            UserProfileWidgetWidget(),
-                                                      ),
-                                                    ],
-                                                  ),
-                                                  Expanded(
-                                                    child: FutureBuilder<
-                                                        ApiCallResponse>(
-                                                      future:
-                                                          GetCoursesOnDashboardCall
-                                                              .call(),
-                                                      builder:
-                                                          (context, snapshot) {
-                                                        // Customize what your widget looks like when it's loading.
-                                                        if (!snapshot.hasData) {
-                                                          return Center(
-                                                            child: SizedBox(
-                                                              width: 70,
-                                                              height: 70,
-                                                              child:
-                                                                  SpinKitCubeGrid(
-                                                                color: FlutterFlowTheme.of(
-                                                                        context)
-                                                                    .primaryColor,
-                                                                size: 70,
-                                                              ),
-                                                            ),
-                                                          );
-                                                        }
-                                                        final listViewGetCoursesOnDashboardResponse =
-                                                            snapshot.data;
-                                                        return Builder(
-                                                          builder: (context) {
-                                                            final items =
-                                                                getJsonField(
-                                                                      (listViewGetCoursesOnDashboardResponse
-                                                                              ?.jsonBody ??
-                                                                          ''),
-                                                                      r'''$[*]''',
-                                                                    )?.toList() ??
-                                                                    [];
-                                                            return ListView
-                                                                .builder(
-                                                              padding:
-                                                                  EdgeInsets
-                                                                      .zero,
-                                                              scrollDirection:
-                                                                  Axis.horizontal,
-                                                              itemCount:
-                                                                  items.length,
-                                                              itemBuilder:
-                                                                  (context,
-                                                                      itemsIndex) {
-                                                                final itemsItem =
-                                                                    items[
-                                                                        itemsIndex];
-                                                                return Align(
-                                                                  alignment:
-                                                                      AlignmentDirectional(
-                                                                          0, 0),
-                                                                  child:
-                                                                      Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            10,
-                                                                            0,
-                                                                            0,
-                                                                            0),
-                                                                    child:
-                                                                        CourseCardWidget(
-                                                                      imagePath:
-                                                                          getJsonField(
-                                                                        itemsItem,
-                                                                        r'''$.imageurl''',
-                                                                      ),
-                                                                      textTitle:
-                                                                          valueOrDefault<
-                                                                              String>(
-                                                                        getJsonField(
-                                                                          itemsItem,
-                                                                          r'''$.title''',
-                                                                        ).toString(),
-                                                                        'N/A',
-                                                                      ),
-                                                                      duration:
-                                                                          valueOrDefault<
-                                                                              String>(
-                                                                        getJsonField(
-                                                                          itemsItem,
-                                                                          r'''$.year''',
-                                                                        ).toString(),
-                                                                        'N/A',
-                                                                      ),
-                                                                      rating:
-                                                                          getJsonField(
-                                                                        itemsItem,
-                                                                        r'''$.rating''',
-                                                                      ),
-                                                                      price:
-                                                                          getJsonField(
-                                                                        itemsItem,
-                                                                        r'''$.price''',
-                                                                      ).toString(),
-                                                                    ),
-                                                                  ),
-                                                                );
-                                                              },
-                                                            );
-                                                          },
-                                                        );
-                                                      },
-                                                    ),
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
-                                            Container(
-                                              width: double.infinity,
-                                              height: 4000,
-                                              decoration: BoxDecoration(
-                                                color: Colors.white,
-                                              ),
-                                              child: Column(
-                                                mainAxisSize: MainAxisSize.max,
-                                                children: [
-                                                  Column(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    crossAxisAlignment:
-                                                        CrossAxisAlignment
-                                                            .start,
-                                                    children: [
-                                                      Padding(
-                                                        padding:
-                                                            EdgeInsetsDirectional
-                                                                .fromSTEB(20,
-                                                                    20, 20, 20),
-                                                        child: Text(
-                                                          FFLocalizations.of(
-                                                                  context)
-                                                              .getText(
-                                                            '5gn54p5j' /* Categories */,
-                                                          ),
-                                                          style: FlutterFlowTheme
-                                                                  .of(context)
-                                                              .bodyText1
-                                                              .override(
-                                                                fontFamily:
-                                                                    'SF Pro',
-                                                                color: Color(
-                                                                    0xFF7F7F82),
-                                                                fontSize: 20,
-                                                                useGoogleFonts:
-                                                                    false,
-                                                              ),
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 250,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: FutureBuilder<
-                                                            ApiCallResponse>(
-                                                          future:
-                                                              CategoriesTypeCall
-                                                                  .call(),
-                                                          builder: (context,
-                                                              snapshot) {
-                                                            // Customize what your widget looks like when it's loading.
-                                                            if (!snapshot
-                                                                .hasData) {
-                                                              return Center(
-                                                                child: SizedBox(
-                                                                  width: 70,
-                                                                  height: 70,
-                                                                  child:
-                                                                      SpinKitCubeGrid(
-                                                                    color: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .primaryColor,
-                                                                    size: 70,
-                                                                  ),
-                                                                ),
-                                                              );
-                                                            }
-                                                            final listViewCategoriesTypeResponse =
-                                                                snapshot.data;
-                                                            return Builder(
-                                                              builder:
-                                                                  (context) {
-                                                                final catogery =
-                                                                    getJsonField(
-                                                                          (listViewCategoriesTypeResponse?.jsonBody ??
-                                                                              ''),
-                                                                          r'''$[*]''',
-                                                                        )?.toList() ??
-                                                                        [];
-                                                                return ListView
-                                                                    .builder(
-                                                                  padding:
-                                                                      EdgeInsets
-                                                                          .zero,
-                                                                  scrollDirection:
-                                                                      Axis.horizontal,
-                                                                  itemCount:
-                                                                      catogery
-                                                                          .length,
-                                                                  itemBuilder:
-                                                                      (context,
-                                                                          catogeryIndex) {
-                                                                    final catogeryItem =
-                                                                        catogery[
-                                                                            catogeryIndex];
-                                                                    return CategoriesWidget(
-                                                                      imageUrl:
-                                                                          getJsonField(
-                                                                        catogeryItem,
-                                                                        r'''$.imageurl''',
-                                                                      ),
-                                                                      typeName:
-                                                                          getJsonField(
-                                                                        catogeryItem,
-                                                                        r'''$.title''',
-                                                                      ).toString(),
-                                                                      count:
-                                                                          getJsonField(
-                                                                        catogeryItem,
-                                                                        r'''$.coursecount''',
-                                                                      ).toString(),
-                                                                    );
-                                                                  },
-                                                                );
-                                                              },
-                                                            );
-                                                          },
-                                                        ),
-                                                      ),
-                                                      Padding(
-                                                        padding:
-                                                            EdgeInsetsDirectional
-                                                                .fromSTEB(20,
-                                                                    10, 20, 0),
-                                                        child: Container(
-                                                          width: MediaQuery.of(
-                                                                  context)
-                                                              .size
-                                                              .width,
-                                                          height: 45,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            color: Color(
-                                                                0x00EEEEEE),
-                                                          ),
-                                                          child: FFButtonWidget(
-                                                            onPressed: () {
-                                                              print(
-                                                                  'Button pressed ...');
-                                                            },
-                                                            text: FFLocalizations
-                                                                    .of(context)
-                                                                .getText(
-                                                              '47s3vw23' /* View All */,
-                                                            ),
-                                                            options:
-                                                                FFButtonOptions(
-                                                              width: 130,
-                                                              height: 40,
-                                                              color: Color(
-                                                                  0xFFF3F2F2),
-                                                              textStyle:
-                                                                  FlutterFlowTheme.of(
-                                                                          context)
-                                                                      .subtitle2
-                                                                      .override(
-                                                                        fontFamily:
-                                                                            'SF Pro',
-                                                                        color: Color(
-                                                                            0xFF7F7F82),
-                                                                        fontWeight:
-                                                                            FontWeight.normal,
-                                                                        useGoogleFonts:
-                                                                            false,
-                                                                      ),
-                                                              elevation: 0,
-                                                              borderSide:
-                                                                  BorderSide(
-                                                                color: Colors
-                                                                    .transparent,
-                                                                width: 1,
-                                                              ),
-                                                              borderRadius: 12,
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        EdgeInsetsDirectional
-                                                            .fromSTEB(
-                                                                1, 0, 0, 0),
-                                                    child:
-                                                        SingleChildScrollView(
-                                                      child: Column(
-                                                        mainAxisSize:
-                                                            MainAxisSize.max,
-                                                        crossAxisAlignment:
-                                                            CrossAxisAlignment
-                                                                .start,
-                                                        children: [
-                                                          Padding(
-                                                            padding:
-                                                                EdgeInsetsDirectional
-                                                                    .fromSTEB(
-                                                                        20,
-                                                                        20,
-                                                                        20,
-                                                                        20),
-                                                            child: Text(
-                                                              FFLocalizations.of(
-                                                                      context)
-                                                                  .getText(
-                                                                'xxfjf3ns' /* Explore */,
-                                                              ),
-                                                              textAlign:
-                                                                  TextAlign
-                                                                      .start,
-                                                              style: FlutterFlowTheme
-                                                                      .of(context)
-                                                                  .bodyText1
-                                                                  .override(
-                                                                    fontFamily:
-                                                                        'SF Pro',
-                                                                    color: Color(
-                                                                        0xFF7F7F82),
-                                                                    fontSize:
-                                                                        20,
-                                                                    useGoogleFonts:
-                                                                        false,
-                                                                  ),
-                                                            ),
-                                                          ),
-                                                          Container(
-                                                            width:
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                            height: 100,
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              color: Color(
-                                                                  0x00EEEEEE),
-                                                            ),
-                                                            child: Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              mainAxisAlignment:
-                                                                  MainAxisAlignment
-                                                                      .spaceEvenly,
-                                                              children: [
-                                                                Container(
-                                                                  width: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .width *
-                                                                      0.5,
-                                                                  height: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .height *
-                                                                      1,
-                                                                  decoration:
-                                                                      BoxDecoration(
-                                                                    color: Color(
-                                                                        0x00EEEEEE),
-                                                                  ),
-                                                                  child:
-                                                                      Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            5,
-                                                                            0,
-                                                                            5,
-                                                                            0),
-                                                                    child: Card(
-                                                                      clipBehavior:
-                                                                          Clip.antiAliasWithSaveLayer,
-                                                                      color: Color(
-                                                                          0xFFEF9233),
-                                                                      elevation:
-                                                                          0,
-                                                                      shape:
-                                                                          RoundedRectangleBorder(
-                                                                        borderRadius:
-                                                                            BorderRadius.circular(25),
-                                                                      ),
-                                                                      child:
-                                                                          Stack(
-                                                                        children: [
-                                                                          Column(
-                                                                            mainAxisSize:
-                                                                                MainAxisSize.max,
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.center,
-                                                                            crossAxisAlignment:
-                                                                                CrossAxisAlignment.stretch,
-                                                                            children: [
-                                                                              Text(
-                                                                                FFLocalizations.of(context).getText(
-                                                                                  'raxoj3ih' /* Simulations */,
-                                                                                ),
-                                                                                textAlign: TextAlign.center,
-                                                                                style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'SF Pro',
-                                                                                      color: Colors.white,
-                                                                                      fontSize: 17,
-                                                                                      useGoogleFonts: false,
-                                                                                    ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                          Stack(
-                                                                            children: [
-                                                                              Column(
-                                                                                mainAxisSize: MainAxisSize.max,
-                                                                                mainAxisAlignment: MainAxisAlignment.end,
-                                                                                children: [
-                                                                                  Image.asset(
-                                                                                    'assets/images/cardbg.png',
-                                                                                    width: 70,
-                                                                                    height: 70,
-                                                                                    fit: BoxFit.cover,
-                                                                                  ),
-                                                                                ],
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ],
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                                Container(
-                                                                  width: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .width *
-                                                                      0.5,
-                                                                  height: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .height *
-                                                                      1,
-                                                                  decoration:
-                                                                      BoxDecoration(
-                                                                    color: Color(
-                                                                        0x00EEEEEE),
-                                                                  ),
-                                                                  child:
-                                                                      Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            5,
-                                                                            0,
-                                                                            10,
-                                                                            0),
-                                                                    child: Card(
-                                                                      clipBehavior:
-                                                                          Clip.antiAliasWithSaveLayer,
-                                                                      color: Color(
-                                                                          0xFF5AA9F8),
-                                                                      elevation:
-                                                                          0,
-                                                                      shape:
-                                                                          RoundedRectangleBorder(
-                                                                        borderRadius:
-                                                                            BorderRadius.circular(25),
-                                                                      ),
-                                                                      child:
-                                                                          Stack(
-                                                                        children: [
-                                                                          Column(
-                                                                            mainAxisSize:
-                                                                                MainAxisSize.max,
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.center,
-                                                                            crossAxisAlignment:
-                                                                                CrossAxisAlignment.stretch,
-                                                                            children: [
-                                                                              Text(
-                                                                                FFLocalizations.of(context).getText(
-                                                                                  '6pq1j626' /* Online Events */,
-                                                                                ),
-                                                                                textAlign: TextAlign.center,
-                                                                                style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'SF Pro',
-                                                                                      color: Colors.white,
-                                                                                      fontSize: 17,
-                                                                                      useGoogleFonts: false,
-                                                                                    ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                          Stack(
-                                                                            children: [
-                                                                              Column(
-                                                                                mainAxisSize: MainAxisSize.max,
-                                                                                mainAxisAlignment: MainAxisAlignment.end,
-                                                                                children: [
-                                                                                  Image.asset(
-                                                                                    'assets/images/cardbg.png',
-                                                                                    width: 70,
-                                                                                    height: 70,
-                                                                                    fit: BoxFit.cover,
-                                                                                  ),
-                                                                                ],
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ],
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                          ),
-                                                          Container(
-                                                            width:
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                            height: 100,
-                                                            decoration:
-                                                                BoxDecoration(
-                                                              color: Color(
-                                                                  0x00EEEEEE),
-                                                            ),
-                                                            child: Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              mainAxisAlignment:
-                                                                  MainAxisAlignment
-                                                                      .spaceEvenly,
-                                                              children: [
-                                                                Container(
-                                                                  width: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .width *
-                                                                      0.5,
-                                                                  height: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .height *
-                                                                      1,
-                                                                  decoration:
-                                                                      BoxDecoration(
-                                                                    color: Color(
-                                                                        0x00EEEEEE),
-                                                                  ),
-                                                                  child:
-                                                                      Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            5,
-                                                                            0,
-                                                                            5,
-                                                                            0),
-                                                                    child: Card(
-                                                                      clipBehavior:
-                                                                          Clip.antiAliasWithSaveLayer,
-                                                                      color: Color(
-                                                                          0xFF8D6AE2),
-                                                                      elevation:
-                                                                          0,
-                                                                      shape:
-                                                                          RoundedRectangleBorder(
-                                                                        borderRadius:
-                                                                            BorderRadius.circular(25),
-                                                                      ),
-                                                                      child:
-                                                                          Stack(
-                                                                        children: [
-                                                                          Column(
-                                                                            mainAxisSize:
-                                                                                MainAxisSize.max,
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.center,
-                                                                            crossAxisAlignment:
-                                                                                CrossAxisAlignment.stretch,
-                                                                            children: [
-                                                                              Text(
-                                                                                FFLocalizations.of(context).getText(
-                                                                                  'yb3ie3ng' /* Contact Program */,
-                                                                                ),
-                                                                                textAlign: TextAlign.center,
-                                                                                style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'SF Pro',
-                                                                                      color: Colors.white,
-                                                                                      fontSize: 17,
-                                                                                      useGoogleFonts: false,
-                                                                                    ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                          Stack(
-                                                                            children: [
-                                                                              Column(
-                                                                                mainAxisSize: MainAxisSize.max,
-                                                                                mainAxisAlignment: MainAxisAlignment.end,
-                                                                                children: [
-                                                                                  Image.asset(
-                                                                                    'assets/images/cardbg.png',
-                                                                                    width: 70,
-                                                                                    height: 70,
-                                                                                    fit: BoxFit.cover,
-                                                                                  ),
-                                                                                ],
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ],
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                                Container(
-                                                                  width: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .width *
-                                                                      0.5,
-                                                                  height: MediaQuery.of(
-                                                                              context)
-                                                                          .size
-                                                                          .height *
-                                                                      1,
-                                                                  decoration:
-                                                                      BoxDecoration(
-                                                                    color: Color(
-                                                                        0x00EEEEEE),
-                                                                  ),
-                                                                  child:
-                                                                      Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            5,
-                                                                            0,
-                                                                            10,
-                                                                            0),
-                                                                    child: Card(
-                                                                      clipBehavior:
-                                                                          Clip.antiAliasWithSaveLayer,
-                                                                      color: Color(
-                                                                          0xFF46BECB),
-                                                                      elevation:
-                                                                          0,
-                                                                      shape:
-                                                                          RoundedRectangleBorder(
-                                                                        borderRadius:
-                                                                            BorderRadius.circular(25),
-                                                                      ),
-                                                                      child:
-                                                                          Stack(
-                                                                        children: [
-                                                                          Column(
-                                                                            mainAxisSize:
-                                                                                MainAxisSize.max,
-                                                                            mainAxisAlignment:
-                                                                                MainAxisAlignment.center,
-                                                                            crossAxisAlignment:
-                                                                                CrossAxisAlignment.stretch,
-                                                                            children: [
-                                                                              Text(
-                                                                                FFLocalizations.of(context).getText(
-                                                                                  'mrqwv1gb' /* Events & Webinars */,
-                                                                                ),
-                                                                                textAlign: TextAlign.center,
-                                                                                style: FlutterFlowTheme.of(context).bodyText1.override(
-                                                                                      fontFamily: 'SF Pro',
-                                                                                      color: Colors.white,
-                                                                                      fontSize: 17,
-                                                                                      useGoogleFonts: false,
-                                                                                    ),
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                          Stack(
-                                                                            children: [
-                                                                              Column(
-                                                                                mainAxisSize: MainAxisSize.max,
-                                                                                mainAxisAlignment: MainAxisAlignment.end,
-                                                                                children: [
-                                                                                  Image.asset(
-                                                                                    'assets/images/cardbg.png',
-                                                                                    width: 70,
-                                                                                    height: 70,
-                                                                                    fit: BoxFit.cover,
-                                                                                  ),
-                                                                                ],
-                                                                              ),
-                                                                            ],
-                                                                          ),
-                                                                        ],
-                                                                      ),
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                          ),
-                                                        ],
-                                                      ),
-                                                    ),
-                                                  ),
-                                                  Column(
-                                                    mainAxisSize:
-                                                        MainAxisSize.max,
-                                                    children: [
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 540,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          20,
-                                                                          20,
-                                                                          20),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '9o90owp0' /* Trending Courses */,
-                                                                    ),
-                                                                    textAlign:
-                                                                        TextAlign
-                                                                            .start,
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontSize:
-                                                                              20,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                            Container(
-                                                              width: double
-                                                                  .infinity,
-                                                              height: 400,
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                color: Color(
-                                                                    0x00EEEEEE),
-                                                              ),
-                                                              child: FutureBuilder<
-                                                                  ApiCallResponse>(
-                                                                future:
-                                                                    GetCoursesOnDashboardCall
-                                                                        .call(),
-                                                                builder: (context,
-                                                                    snapshot) {
-                                                                  // Customize what your widget looks like when it's loading.
-                                                                  if (!snapshot
-                                                                      .hasData) {
-                                                                    return Center(
-                                                                      child:
-                                                                          SizedBox(
-                                                                        width:
-                                                                            70,
-                                                                        height:
-                                                                            70,
-                                                                        child:
-                                                                            SpinKitCubeGrid(
-                                                                          color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
-                                                                          size:
-                                                                              70,
-                                                                        ),
-                                                                      ),
-                                                                    );
-                                                                  }
-                                                                  final listViewGetCoursesOnDashboardResponse =
-                                                                      snapshot
-                                                                          .data;
-                                                                  return Builder(
-                                                                    builder:
-                                                                        (context) {
-                                                                      final item =
-                                                                          getJsonField(
-                                                                                (listViewGetCoursesOnDashboardResponse?.jsonBody ?? ''),
-                                                                                r'''$[*]''',
-                                                                              )?.toList() ??
-                                                                              [];
-                                                                      return ListView
-                                                                          .builder(
-                                                                        padding:
-                                                                            EdgeInsets.zero,
-                                                                        shrinkWrap:
-                                                                            true,
-                                                                        scrollDirection:
-                                                                            Axis.horizontal,
-                                                                        itemCount:
-                                                                            item.length,
-                                                                        itemBuilder:
-                                                                            (context,
-                                                                                itemIndex) {
-                                                                          final itemItem =
-                                                                              item[itemIndex];
-                                                                          return MiniCourseCardWidget(
-                                                                            textTitle:
-                                                                                getJsonField(
-                                                                              itemItem,
-                                                                              r'''$.title''',
-                                                                            ).toString(),
-                                                                            duration:
-                                                                                getJsonField(
-                                                                              itemItem,
-                                                                              r'''$.year''',
-                                                                            ).toString(),
-                                                                            rating:
-                                                                                getJsonField(
-                                                                              itemItem,
-                                                                              r'''$.rating''',
-                                                                            ),
-                                                                            price:
-                                                                                getJsonField(
-                                                                              itemItem,
-                                                                              r'''$.price''',
-                                                                            ).toString(),
-                                                                          );
-                                                                        },
-                                                                      );
-                                                                    },
-                                                                  );
-                                                                },
-                                                              ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          10,
-                                                                          20,
-                                                                          0),
-                                                              child: Container(
-                                                                width: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                                height: 45,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  color: Color(
-                                                                      0x00EEEEEE),
-                                                                ),
-                                                                child:
-                                                                    FFButtonWidget(
-                                                                  onPressed:
-                                                                      () {
-                                                                    print(
-                                                                        'Button pressed ...');
-                                                                  },
-                                                                  text: FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    '51ei47g5' /* View All */,
-                                                                  ),
-                                                                  options:
-                                                                      FFButtonOptions(
-                                                                    width: 130,
-                                                                    height: 40,
-                                                                    color: Color(
-                                                                        0xFFF3F2F2),
-                                                                    textStyle: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .subtitle2
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                    elevation:
-                                                                        0,
-                                                                    borderSide:
-                                                                        BorderSide(
-                                                                      color: Colors
-                                                                          .transparent,
-                                                                      width: 1,
-                                                                    ),
-                                                                    borderRadius:
-                                                                        12,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 540,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          20,
-                                                                          20,
-                                                                          20),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '10bt72on' /* Simulations */,
-                                                                    ),
-                                                                    textAlign:
-                                                                        TextAlign
-                                                                            .start,
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontSize:
-                                                                              20,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                            Container(
-                                                              width: double
-                                                                  .infinity,
-                                                              height: 400,
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                color: Color(
-                                                                    0x00EEEEEE),
-                                                              ),
-                                                              child: FutureBuilder<
-                                                                  ApiCallResponse>(
-                                                                future:
-                                                                    GetCoursesOnDashboardCall
-                                                                        .call(),
-                                                                builder: (context,
-                                                                    snapshot) {
-                                                                  // Customize what your widget looks like when it's loading.
-                                                                  if (!snapshot
-                                                                      .hasData) {
-                                                                    return Center(
-                                                                      child:
-                                                                          SizedBox(
-                                                                        width:
-                                                                            70,
-                                                                        height:
-                                                                            70,
-                                                                        child:
-                                                                            SpinKitCubeGrid(
-                                                                          color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
-                                                                          size:
-                                                                              70,
-                                                                        ),
-                                                                      ),
-                                                                    );
-                                                                  }
-                                                                  final listViewGetCoursesOnDashboardResponse =
-                                                                      snapshot
-                                                                          .data;
-                                                                  return Builder(
-                                                                    builder:
-                                                                        (context) {
-                                                                      final item1 =
-                                                                          getJsonField(
-                                                                                (listViewGetCoursesOnDashboardResponse?.jsonBody ?? ''),
-                                                                                r'''$[*]''',
-                                                                              )?.toList() ??
-                                                                              [];
-                                                                      return ListView
-                                                                          .builder(
-                                                                        padding:
-                                                                            EdgeInsets.zero,
-                                                                        shrinkWrap:
-                                                                            true,
-                                                                        scrollDirection:
-                                                                            Axis.horizontal,
-                                                                        itemCount:
-                                                                            item1.length,
-                                                                        itemBuilder:
-                                                                            (context,
-                                                                                item1Index) {
-                                                                          final item1Item =
-                                                                              item1[item1Index];
-                                                                          return SimulationMiniWidget(
-                                                                            simulationName:
-                                                                                getJsonField(
-                                                                              item1Item,
-                                                                              r'''$.title''',
-                                                                            ).toString(),
-                                                                            location:
-                                                                                getJsonField(
-                                                                              item1Item,
-                                                                              r'''$.price''',
-                                                                            ).toString(),
-                                                                          );
-                                                                        },
-                                                                      );
-                                                                    },
-                                                                  );
-                                                                },
-                                                              ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          10,
-                                                                          20,
-                                                                          0),
-                                                              child: Container(
-                                                                width: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                                height: 45,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  color: Color(
-                                                                      0x00EEEEEE),
-                                                                ),
-                                                                child:
-                                                                    FFButtonWidget(
-                                                                  onPressed:
-                                                                      () {
-                                                                    print(
-                                                                        'Button pressed ...');
-                                                                  },
-                                                                  text: FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'ofynf0i7' /* View All */,
-                                                                  ),
-                                                                  options:
-                                                                      FFButtonOptions(
-                                                                    width: 130,
-                                                                    height: 40,
-                                                                    color: Color(
-                                                                        0xFFF3F2F2),
-                                                                    textStyle: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .subtitle2
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                    elevation:
-                                                                        0,
-                                                                    borderSide:
-                                                                        BorderSide(
-                                                                      color: Colors
-                                                                          .transparent,
-                                                                      width: 1,
-                                                                    ),
-                                                                    borderRadius:
-                                                                        12,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 250,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00ED8C6E),
-                                                        ),
-                                                        child: Padding(
-                                                          padding:
-                                                              EdgeInsetsDirectional
-                                                                  .fromSTEB(
-                                                                      20,
-                                                                      20,
-                                                                      20,
-                                                                      20),
-                                                          child: Card(
-                                                            clipBehavior: Clip
-                                                                .antiAliasWithSaveLayer,
-                                                            color: Color(
-                                                                0xFFF5F5F5),
-                                                            shape:
-                                                                RoundedRectangleBorder(
-                                                              borderRadius:
-                                                                  BorderRadius
-                                                                      .circular(
-                                                                          20),
-                                                            ),
-                                                            child: Container(
-                                                              width: 100,
-                                                              height: 100,
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                gradient:
-                                                                    LinearGradient(
-                                                                  colors: [
-                                                                    Color(
-                                                                        0xFFED8C6E),
-                                                                    Color(
-                                                                        0xFFFFDED4)
-                                                                  ],
-                                                                  stops: [
-                                                                    0.5,
-                                                                    1
-                                                                  ],
-                                                                  begin:
-                                                                      AlignmentDirectional(
-                                                                          0.87,
-                                                                          -1),
-                                                                  end:
-                                                                      AlignmentDirectional(
-                                                                          -0.87,
-                                                                          1),
-                                                                ),
-                                                              ),
-                                                              child: Row(
-                                                                mainAxisSize:
-                                                                    MainAxisSize
-                                                                        .max,
-                                                                mainAxisAlignment:
-                                                                    MainAxisAlignment
-                                                                        .spaceBetween,
-                                                                children: [
-                                                                  Padding(
-                                                                    padding: EdgeInsetsDirectional
-                                                                        .fromSTEB(
-                                                                            10,
-                                                                            25,
-                                                                            0,
-                                                                            20),
-                                                                    child:
-                                                                        Column(
-                                                                      mainAxisSize:
-                                                                          MainAxisSize
-                                                                              .max,
-                                                                      mainAxisAlignment:
-                                                                          MainAxisAlignment
-                                                                              .start,
-                                                                      crossAxisAlignment:
-                                                                          CrossAxisAlignment
-                                                                              .start,
-                                                                      children: [
-                                                                        Text(
-                                                                          FFLocalizations.of(context)
-                                                                              .getText(
-                                                                            'bwf11840' /* Request a call back from 
-our ... */
-                                                                            ,
-                                                                          ),
-                                                                          style: FlutterFlowTheme.of(context)
-                                                                              .bodyText1
-                                                                              .override(
-                                                                                fontFamily: 'SF Pro',
-                                                                                fontSize: 16,
-                                                                                fontWeight: FontWeight.normal,
-                                                                                useGoogleFonts: false,
-                                                                              ),
-                                                                        ),
-                                                                        FFButtonWidget(
-                                                                          onPressed:
-                                                                              () {
-                                                                            print('Button pressed ...');
-                                                                          },
-                                                                          text:
-                                                                              FFLocalizations.of(context).getText(
-                                                                            'aca0hevk' /* Request Call back */,
-                                                                          ),
-                                                                          options:
-                                                                              FFButtonOptions(
-                                                                            width:
-                                                                                160,
-                                                                            height:
-                                                                                40,
-                                                                            color:
-                                                                                Color(0xFF20204F),
-                                                                            textStyle: FlutterFlowTheme.of(context).subtitle2.override(
-                                                                                  fontFamily: 'SF Pro',
-                                                                                  color: Colors.white,
-                                                                                  fontSize: 14,
-                                                                                  fontWeight: FontWeight.normal,
-                                                                                  useGoogleFonts: false,
-                                                                                ),
-                                                                            borderSide:
-                                                                                BorderSide(
-                                                                              color: Colors.transparent,
-                                                                              width: 1,
-                                                                            ),
-                                                                            borderRadius:
-                                                                                12,
-                                                                          ),
-                                                                        ),
-                                                                      ],
-                                                                    ),
-                                                                  ),
-                                                                  Expanded(
-                                                                    child:
-                                                                        Stack(
-                                                                      children: [
-                                                                        Align(
-                                                                          alignment: AlignmentDirectional(
-                                                                              0,
-                                                                              15.63),
-                                                                          child:
-                                                                              Image.asset(
-                                                                            'assets/images/man_(1).png',
-                                                                            height:
-                                                                                200,
-                                                                            fit:
-                                                                                BoxFit.cover,
-                                                                          ),
-                                                                        ),
-                                                                      ],
-                                                                    ),
-                                                                  ),
-                                                                ],
-                                                              ),
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 350,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          20,
-                                                                          20,
-                                                                          20),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '676t3y3o' /* Events */,
-                                                                    ),
-                                                                    textAlign:
-                                                                        TextAlign
-                                                                            .start,
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontSize:
-                                                                              20,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                            Container(
-                                                              width: double
-                                                                  .infinity,
-                                                              height: 200,
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                color: Color(
-                                                                    0x00EEEEEE),
-                                                              ),
-                                                              child: FutureBuilder<
-                                                                  ApiCallResponse>(
-                                                                future:
-                                                                    GetCoursesOnDashboardCall
-                                                                        .call(),
-                                                                builder: (context,
-                                                                    snapshot) {
-                                                                  // Customize what your widget looks like when it's loading.
-                                                                  if (!snapshot
-                                                                      .hasData) {
-                                                                    return Center(
-                                                                      child:
-                                                                          SizedBox(
-                                                                        width:
-                                                                            70,
-                                                                        height:
-                                                                            70,
-                                                                        child:
-                                                                            SpinKitCubeGrid(
-                                                                          color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
-                                                                          size:
-                                                                              70,
-                                                                        ),
-                                                                      ),
-                                                                    );
-                                                                  }
-                                                                  final listViewGetCoursesOnDashboardResponse =
-                                                                      snapshot
-                                                                          .data;
-                                                                  return Builder(
-                                                                    builder:
-                                                                        (context) {
-                                                                      final item3 =
-                                                                          getJsonField(
-                                                                                (listViewGetCoursesOnDashboardResponse?.jsonBody ?? ''),
-                                                                                r'''$[*]''',
-                                                                              )?.toList() ??
-                                                                              [];
-                                                                      return ListView
-                                                                          .builder(
-                                                                        padding:
-                                                                            EdgeInsets.zero,
-                                                                        scrollDirection:
-                                                                            Axis.horizontal,
-                                                                        itemCount:
-                                                                            item3.length,
-                                                                        itemBuilder:
-                                                                            (context,
-                                                                                item3Index) {
-                                                                          final item3Item =
-                                                                              item3[item3Index];
-                                                                          return EventsCardWidget(
-                                                                            eventName:
-                                                                                getJsonField(
-                                                                              item3Item,
-                                                                              r'''$.title''',
-                                                                            ).toString(),
-                                                                            dateDay:
-                                                                                '05',
-                                                                            monthDay:
-                                                                                'Dec',
-                                                                            eventOrganizaerName:
-                                                                                'Apollo Hospital',
-                                                                            bgColor:
-                                                                                FlutterFlowTheme.of(context).customColor1,
-                                                                          );
-                                                                        },
-                                                                      );
-                                                                    },
-                                                                  );
-                                                                },
-                                                              ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          10,
-                                                                          20,
-                                                                          0),
-                                                              child: Container(
-                                                                width: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                                height: 45,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  color: Color(
-                                                                      0x00EEEEEE),
-                                                                ),
-                                                                child:
-                                                                    FFButtonWidget(
-                                                                  onPressed:
-                                                                      () {
-                                                                    print(
-                                                                        'Button pressed ...');
-                                                                  },
-                                                                  text: FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'cui3ssg3' /* View All */,
-                                                                  ),
-                                                                  options:
-                                                                      FFButtonOptions(
-                                                                    width: 130,
-                                                                    height: 40,
-                                                                    color: Color(
-                                                                        0xFFF3F2F2),
-                                                                    textStyle: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .subtitle2
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                    elevation:
-                                                                        0,
-                                                                    borderSide:
-                                                                        BorderSide(
-                                                                      color: Colors
-                                                                          .transparent,
-                                                                      width: 1,
-                                                                    ),
-                                                                    borderRadius:
-                                                                        12,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 540,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          20,
-                                                                          20,
-                                                                          20),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'ywreuvkw' /* Live Video Classes
- */
-                                                                      ,
-                                                                    ),
-                                                                    textAlign:
-                                                                        TextAlign
-                                                                            .start,
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontSize:
-                                                                              20,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                            Container(
-                                                              width: double
-                                                                  .infinity,
-                                                              height: 350,
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                color: Color(
-                                                                    0x00EEEEEE),
-                                                              ),
-                                                              child: FutureBuilder<
-                                                                  ApiCallResponse>(
-                                                                future:
-                                                                    GetCoursesOnDashboardCall
-                                                                        .call(),
-                                                                builder: (context,
-                                                                    snapshot) {
-                                                                  // Customize what your widget looks like when it's loading.
-                                                                  if (!snapshot
-                                                                      .hasData) {
-                                                                    return Center(
-                                                                      child:
-                                                                          SizedBox(
-                                                                        width:
-                                                                            70,
-                                                                        height:
-                                                                            70,
-                                                                        child:
-                                                                            SpinKitCubeGrid(
-                                                                          color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
-                                                                          size:
-                                                                              70,
-                                                                        ),
-                                                                      ),
-                                                                    );
-                                                                  }
-                                                                  final listViewGetCoursesOnDashboardResponse =
-                                                                      snapshot
-                                                                          .data;
-                                                                  return Builder(
-                                                                    builder:
-                                                                        (context) {
-                                                                      final item4 =
-                                                                          getJsonField(
-                                                                                (listViewGetCoursesOnDashboardResponse?.jsonBody ?? ''),
-                                                                                r'''$[*]''',
-                                                                              )?.toList() ??
-                                                                              [];
-                                                                      return ListView
-                                                                          .builder(
-                                                                        padding:
-                                                                            EdgeInsets.zero,
-                                                                        scrollDirection:
-                                                                            Axis.horizontal,
-                                                                        itemCount:
-                                                                            item4.length,
-                                                                        itemBuilder:
-                                                                            (context,
-                                                                                item4Index) {
-                                                                          final item4Item =
-                                                                              item4[item4Index];
-                                                                          return LiveVideoClassesWidget(
-                                                                            imageUrl:
-                                                                                'https://picsum.photos/200',
-                                                                            topicName:
-                                                                                'Topic Name',
-                                                                            date:
-                                                                                'Dec 2022',
-                                                                          );
-                                                                        },
-                                                                      );
-                                                                    },
-                                                                  );
-                                                                },
-                                                              ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          10,
-                                                                          20,
-                                                                          0),
-                                                              child: Container(
-                                                                width: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                                height: 45,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  color: Color(
-                                                                      0x00EEEEEE),
-                                                                ),
-                                                                child:
-                                                                    FFButtonWidget(
-                                                                  onPressed:
-                                                                      () {
-                                                                    print(
-                                                                        'Button pressed ...');
-                                                                  },
-                                                                  text: FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'of2w5yqw' /* View All */,
-                                                                  ),
-                                                                  options:
-                                                                      FFButtonOptions(
-                                                                    width: 130,
-                                                                    height: 40,
-                                                                    color: Color(
-                                                                        0xFFF3F2F2),
-                                                                    textStyle: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .subtitle2
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                    elevation:
-                                                                        0,
-                                                                    borderSide:
-                                                                        BorderSide(
-                                                                      color: Colors
-                                                                          .transparent,
-                                                                      width: 1,
-                                                                    ),
-                                                                    borderRadius:
-                                                                        12,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: double.infinity,
-                                                        height: 350,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: Column(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          children: [
-                                                            Row(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          20,
-                                                                          20,
-                                                                          20),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'p0kait8t' /* Contact Programs */,
-                                                                    ),
-                                                                    textAlign:
-                                                                        TextAlign
-                                                                            .start,
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontSize:
-                                                                              20,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                            Container(
-                                                              width: double
-                                                                  .infinity,
-                                                              height: 200,
-                                                              decoration:
-                                                                  BoxDecoration(
-                                                                color: Color(
-                                                                    0x00EEEEEE),
-                                                              ),
-                                                              child: FutureBuilder<
-                                                                  ApiCallResponse>(
-                                                                future:
-                                                                    GetCoursesOnDashboardCall
-                                                                        .call(),
-                                                                builder: (context,
-                                                                    snapshot) {
-                                                                  // Customize what your widget looks like when it's loading.
-                                                                  if (!snapshot
-                                                                      .hasData) {
-                                                                    return Center(
-                                                                      child:
-                                                                          SizedBox(
-                                                                        width:
-                                                                            70,
-                                                                        height:
-                                                                            70,
-                                                                        child:
-                                                                            SpinKitCubeGrid(
-                                                                          color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
-                                                                          size:
-                                                                              70,
-                                                                        ),
-                                                                      ),
-                                                                    );
-                                                                  }
-                                                                  final listViewGetCoursesOnDashboardResponse =
-                                                                      snapshot
-                                                                          .data;
-                                                                  return Builder(
-                                                                    builder:
-                                                                        (context) {
-                                                                      final item5 =
-                                                                          getJsonField(
-                                                                                (listViewGetCoursesOnDashboardResponse?.jsonBody ?? ''),
-                                                                                r'''$[*]''',
-                                                                              )?.toList() ??
-                                                                              [];
-                                                                      return ListView
-                                                                          .builder(
-                                                                        padding:
-                                                                            EdgeInsets.zero,
-                                                                        scrollDirection:
-                                                                            Axis.horizontal,
-                                                                        itemCount:
-                                                                            item5.length,
-                                                                        itemBuilder:
-                                                                            (context,
-                                                                                item5Index) {
-                                                                          final item5Item =
-                                                                              item5[item5Index];
-                                                                          return ContactProgramWidget(
-                                                                            programName:
-                                                                                'Program Name',
-                                                                            personName:
-                                                                                'Person Name',
-                                                                            organizerName:
-                                                                                'Organizatation Name',
-                                                                          );
-                                                                        },
-                                                                      );
-                                                                    },
-                                                                  );
-                                                                },
-                                                              ),
-                                                            ),
-                                                            Padding(
-                                                              padding:
-                                                                  EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          20,
-                                                                          10,
-                                                                          20,
-                                                                          0),
-                                                              child: Container(
-                                                                width: MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                                height: 45,
-                                                                decoration:
-                                                                    BoxDecoration(
-                                                                  color: Color(
-                                                                      0x00EEEEEE),
-                                                                ),
-                                                                child:
-                                                                    FFButtonWidget(
-                                                                  onPressed:
-                                                                      () {
-                                                                    print(
-                                                                        'Button pressed ...');
-                                                                  },
-                                                                  text: FFLocalizations.of(
-                                                                          context)
-                                                                      .getText(
-                                                                    'h5c3rdio' /* View All */,
-                                                                  ),
-                                                                  options:
-                                                                      FFButtonOptions(
-                                                                    width: 130,
-                                                                    height: 40,
-                                                                    color: Color(
-                                                                        0xFFF3F2F2),
-                                                                    textStyle: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .subtitle2
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF7F7F82),
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                    elevation:
-                                                                        0,
-                                                                    borderSide:
-                                                                        BorderSide(
-                                                                      color: Colors
-                                                                          .transparent,
-                                                                      width: 1,
-                                                                    ),
-                                                                    borderRadius:
-                                                                        12,
-                                                                  ),
-                                                                ),
-                                                              ),
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                      Padding(
-                                                        padding:
-                                                            EdgeInsetsDirectional
-                                                                .fromSTEB(20,
-                                                                    10, 20, 10),
-                                                        child: Container(
-                                                          width:
-                                                              double.infinity,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            color: Color(
-                                                                0x00EEEEEE),
-                                                            borderRadius:
-                                                                BorderRadius
-                                                                    .circular(
-                                                                        30),
-                                                            border: Border.all(
-                                                              color: Color(
-                                                                  0x47BDBDBD),
-                                                              width: 2,
-                                                            ),
-                                                          ),
-                                                          child: Padding(
-                                                            padding:
-                                                                EdgeInsetsDirectional
-                                                                    .fromSTEB(
-                                                                        20,
-                                                                        10,
-                                                                        20,
-                                                                        10),
-                                                            child: Column(
-                                                              mainAxisSize:
-                                                                  MainAxisSize
-                                                                      .max,
-                                                              crossAxisAlignment:
-                                                                  CrossAxisAlignment
-                                                                      .start,
-                                                              children: [
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          20,
-                                                                          0,
-                                                                          0),
-                                                                  child:
-                                                                      SvgPicture
-                                                                          .asset(
-                                                                    'assets/images/image_114.svg',
-                                                                    width: double
-                                                                        .infinity,
-                                                                    height: 150,
-                                                                    fit: BoxFit
-                                                                        .contain,
-                                                                  ),
-                                                                ),
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          10,
-                                                                          0,
-                                                                          0,
-                                                                          0),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'sgf7xpoc' /* Invite your friends */,
-                                                                    ),
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF30304E),
-                                                                          fontSize:
-                                                                              18,
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          10,
-                                                                          5,
-                                                                          0,
-                                                                          0),
-                                                                  child: Text(
-                                                                    FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      '81ls5ob8' /* Enroll for the best medvarsity... */,
-                                                                    ),
-                                                                    style: FlutterFlowTheme.of(
-                                                                            context)
-                                                                        .bodyText1
-                                                                        .override(
-                                                                          fontFamily:
-                                                                              'SF Pro',
-                                                                          color:
-                                                                              Color(0xFF626168),
-                                                                          fontSize:
-                                                                              14,
-                                                                          fontWeight:
-                                                                              FontWeight.normal,
-                                                                          useGoogleFonts:
-                                                                              false,
-                                                                        ),
-                                                                  ),
-                                                                ),
-                                                                Padding(
-                                                                  padding: EdgeInsetsDirectional
-                                                                      .fromSTEB(
-                                                                          0,
-                                                                          30,
-                                                                          0,
-                                                                          30),
-                                                                  child:
-                                                                      FFButtonWidget(
-                                                                    onPressed:
-                                                                        () {
-                                                                      print(
-                                                                          'Button pressed ...');
-                                                                    },
-                                                                    text: FFLocalizations.of(
-                                                                            context)
-                                                                        .getText(
-                                                                      'u60dnng2' /* Share App */,
-                                                                    ),
-                                                                    options:
-                                                                        FFButtonOptions(
-                                                                      width:
-                                                                          130,
-                                                                      height:
-                                                                          40,
-                                                                      color: Color(
-                                                                          0xFF3C439B),
-                                                                      textStyle: FlutterFlowTheme.of(
-                                                                              context)
-                                                                          .subtitle2
-                                                                          .override(
-                                                                            fontFamily:
-                                                                                'SF Pro',
-                                                                            color:
-                                                                                Colors.white,
-                                                                            fontWeight:
-                                                                                FontWeight.w300,
-                                                                            useGoogleFonts:
-                                                                                false,
-                                                                          ),
-                                                                      borderSide:
-                                                                          BorderSide(
-                                                                        color: Colors
-                                                                            .transparent,
-                                                                        width:
-                                                                            1,
-                                                                      ),
-                                                                      borderRadius:
-                                                                          12,
-                                                                    ),
-                                                                  ),
-                                                                ),
-                                                              ],
-                                                            ),
-                                                          ),
-                                                        ),
-                                                      ),
-                                                      Padding(
-                                                        padding:
-                                                            EdgeInsetsDirectional
-                                                                .fromSTEB(30,
-                                                                    20, 30, 20),
-                                                        child: Container(
-                                                          width:
-                                                              double.infinity,
-                                                          decoration:
-                                                              BoxDecoration(
-                                                            color: Color(
-                                                                0x00EEEEEE),
-                                                          ),
-                                                          child:
-                                                              SvgPicture.asset(
-                                                            'assets/images/Group_427319047.svg',
-                                                            width:
-                                                                MediaQuery.of(
-                                                                        context)
-                                                                    .size
-                                                                    .width,
-                                                            fit: BoxFit.cover,
-                                                          ),
-                                                        ),
-                                                      ),
-                                                      Container(
-                                                        width: MediaQuery.of(
-                                                                context)
-                                                            .size
-                                                            .width,
-                                                        decoration:
-                                                            BoxDecoration(
-                                                          color:
-                                                              Color(0x00EEEEEE),
-                                                        ),
-                                                        child: Row(
-                                                          mainAxisSize:
-                                                              MainAxisSize.max,
-                                                          mainAxisAlignment:
-                                                              MainAxisAlignment
-                                                                  .end,
-                                                          crossAxisAlignment:
-                                                              CrossAxisAlignment
-                                                                  .end,
-                                                          children: [
-                                                            SvgPicture.asset(
-                                                              'assets/images/image_3.svg',
-                                                              width: 200,
-                                                              height: 200,
-                                                              fit: BoxFit.cover,
-                                                            ),
-                                                          ],
-                                                        ),
-                                                      ),
-                                                    ],
-                                                  ),
-                                                ],
-                                              ),
-                                            ),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                  ),
-                                ],
                               ),
                             ),
                         ],

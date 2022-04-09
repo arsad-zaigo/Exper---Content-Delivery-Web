@@ -134,20 +134,6 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
-                                      FlutterFlowIconButton(
-                                        borderColor: Colors.transparent,
-                                        borderRadius: 30,
-                                        borderWidth: 1,
-                                        buttonSize: 25,
-                                        icon: Icon(
-                                          Icons.keyboard_arrow_down,
-                                          color: Color(0xFF626168),
-                                          size: 15,
-                                        ),
-                                        onPressed: () {
-                                          print('IconButton pressed ...');
-                                        },
-                                      ),
                                       SvgPicture.asset(
                                         'assets/images/Vector.svg',
                                         width: 20,
@@ -170,6 +156,20 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                                 useGoogleFonts: false,
                                               ),
                                         ),
+                                      ),
+                                      FlutterFlowIconButton(
+                                        borderColor: Colors.transparent,
+                                        borderRadius: 30,
+                                        borderWidth: 1,
+                                        buttonSize: 25,
+                                        icon: Icon(
+                                          Icons.keyboard_arrow_down,
+                                          color: Color(0xFF626168),
+                                          size: 15,
+                                        ),
+                                        onPressed: () {
+                                          print('IconButton pressed ...');
+                                        },
                                       ),
                                     ],
                                   ),

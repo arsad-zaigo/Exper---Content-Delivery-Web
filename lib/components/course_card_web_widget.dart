@@ -69,7 +69,7 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
               Expanded(
                 flex: 2,
                 child: Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(20, 10, 10, 20),
+                  padding: EdgeInsetsDirectional.fromSTEB(20, 10, 10, 30),
                   child: Container(
                     width: MediaQuery.of(context).size.width,
                     height: MediaQuery.of(context).size.height * 0.4,
@@ -178,7 +178,7 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
-                                  borderRadius: 12,
+                                  borderRadius: 20,
                                 ),
                               ),
                               Padding(

@@ -32,8 +32,6 @@ class _MiniCourseCardWebWidgetState extends State<MiniCourseCardWebWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 350,
-      height: 350,
       decoration: BoxDecoration(
         color: Color(0x00EEEEEE),
       ),
@@ -170,7 +168,7 @@ class _MiniCourseCardWebWidgetState extends State<MiniCourseCardWebWidget> {
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
-                                  borderRadius: 12,
+                                  borderRadius: 20,
                                 ),
                               ),
                               Padding(
