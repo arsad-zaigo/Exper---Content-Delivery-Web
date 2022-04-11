@@ -10,11 +10,13 @@ class MyLearningPathComponentWidget extends StatefulWidget {
     this.fillColor,
     this.title,
     this.description,
+    this.isLast,
   }) : super(key: key);
 
   final Color fillColor;
   final String title;
   final String description;
+  final bool isLast;
 
   @override
   _MyLearningPathComponentWidgetState createState() =>
@@ -43,21 +45,22 @@ class _MyLearningPathComponentWidgetState
                 ),
               ),
             ),
-            Expanded(
-              child: Container(
-                width: 8,
-                height: double.infinity,
-                decoration: BoxDecoration(
-                  color: Color(0xFFDEDEDE),
-                  borderRadius: BorderRadius.only(
-                    bottomLeft: Radius.circular(2),
-                    bottomRight: Radius.circular(2),
-                    topLeft: Radius.circular(0),
-                    topRight: Radius.circular(0),
+            if (!(widget.isLast) ?? true)
+              Expanded(
+                child: Container(
+                  width: 8,
+                  height: double.infinity,
+                  decoration: BoxDecoration(
+                    color: Color(0xFFDEDEDE),
+                    borderRadius: BorderRadius.only(
+                      bottomLeft: Radius.circular(2),
+                      bottomRight: Radius.circular(2),
+                      topLeft: Radius.circular(0),
+                      topRight: Radius.circular(0),
+                    ),
                   ),
                 ),
               ),
-            ),
           ],
         ),
         Expanded(

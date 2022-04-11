@@ -1607,9 +1607,9 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                               child: SizedBox(
                                 width: 70,
                                 height: 70,
-                                child: SpinKitCubeGrid(
+                                child: SpinKitFadingGrid(
                                   color:
-                                      FlutterFlowTheme.of(context).primaryColor,
+                                      FlutterFlowTheme.of(context).primaryCTA,
                                   size: 70,
                                 ),
                               ),

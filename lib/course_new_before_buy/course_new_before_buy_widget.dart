@@ -3,6 +3,7 @@ import '../components/course_number_card_widget.dart';
 import '../components/footer_widget.dart';
 import '../components/plain_card_widget.dart';
 import '../components/web_testo_widget.dart';
+import '../course_new_after_buy/course_new_after_buy_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
@@ -196,8 +197,14 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 0, 10, 0),
                                                 child: FFButtonWidget(
-                                                  onPressed: () {
-                                                    print('Button pressed ...');
+                                                  onPressed: () async {
+                                                    await Navigator.push(
+                                                      context,
+                                                      MaterialPageRoute(
+                                                        builder: (context) =>
+                                                            CourseNewAfterBuyWidget(),
+                                                      ),
+                                                    );
                                                   },
                                                   text: 'Buy Now',
                                                   options: FFButtonOptions(

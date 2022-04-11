@@ -67,8 +67,8 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                       color: Color(0xFF626168),
                                       size: 20,
                                     ),
-                                    onPressed: () {
-                                      print('IconButton pressed ...');
+                                    onPressed: () async {
+                                      Navigator.pop(context);
                                     },
                                   ),
                                   Text(
@@ -241,15 +241,16 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 10, 0, 0),
                                             child: LinearPercentIndicator(
-                                                percent: 0.5,
-                                                width: 400,
-                                                lineHeight: 6,
-                                                animation: true,
-                                                progressColor:
-                                                    Color(0xFF00BE57),
-                                                backgroundColor:
-                                                    Color(0xFFDEDEDE),
-                                                barRadius: Radius.circular(4)),
+                                              percent: 0.5,
+                                              width: 400,
+                                              lineHeight: 6,
+                                              animation: true,
+                                              progressColor: Color(0xFF00BE57),
+                                              backgroundColor:
+                                                  Color(0xFFDEDEDE),
+                                              barRadius: Radius.circular(4),
+                                              padding: EdgeInsets.zero,
+                                            ),
                                           ),
                                         ],
                                       ),
@@ -355,6 +356,7 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                     fillColor: Color(0xFFDEDEDE),
                                     title: 'Live Video Class',
                                     description: 'Dr. Rajeev Chedda',
+                                    isLast: true,
                                   ),
                                 ),
                               ],

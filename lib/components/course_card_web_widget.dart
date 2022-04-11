@@ -1,10 +1,9 @@
+import '../course_new_before_buy/course_new_before_buy_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../video_screen/video_screen_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class CourseCardWebWidget extends StatefulWidget {
@@ -116,8 +115,8 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
                               Padding(
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
-                                child: SvgPicture.asset(
-                                  'assets/images/Vector.svg',
+                                child: Image.asset(
+                                  'assets/images/Vector.png',
                                   width: 15,
                                   height: 15,
                                   fit: BoxFit.cover,
@@ -156,7 +155,7 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
                                       duration: Duration(milliseconds: 300),
                                       reverseDuration:
                                           Duration(milliseconds: 300),
-                                      child: VideoScreenWidget(),
+                                      child: CourseNewBeforeBuyWidget(),
                                     ),
                                   );
                                 },

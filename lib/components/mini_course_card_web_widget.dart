@@ -156,14 +156,8 @@ class _MiniCourseCardWebWidgetState extends State<MiniCourseCardWebWidget> {
                                   width: 130,
                                   height: 40,
                                   color: Colors.white,
-                                  textStyle: FlutterFlowTheme.of(context)
-                                      .subtitle2
-                                      .override(
-                                        fontFamily: 'SF Pro',
-                                        color: widget.bgcolor,
-                                        fontWeight: FontWeight.normal,
-                                        useGoogleFonts: false,
-                                      ),
+                                  textStyle:
+                                      FlutterFlowTheme.of(context).subtitle1,
                                   borderSide: BorderSide(
                                     color: Colors.transparent,
                                     width: 1,

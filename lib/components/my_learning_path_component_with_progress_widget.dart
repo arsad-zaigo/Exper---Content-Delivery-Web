@@ -191,13 +191,15 @@ class _MyLearningPathComponentWithProgressWidgetState
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                         child: LinearPercentIndicator(
-                            percent: 0.5,
-                            width: 400,
-                            lineHeight: 6,
-                            animation: true,
-                            progressColor: Color(0xFF00BE57),
-                            backgroundColor: Color(0xFFDEDEDE),
-                            barRadius: Radius.circular(4)),
+                          percent: 0.5,
+                          width: 400,
+                          lineHeight: 6,
+                          animation: true,
+                          progressColor: Color(0xFF00BE57),
+                          backgroundColor: Color(0xFFDEDEDE),
+                          barRadius: Radius.circular(4),
+                          padding: EdgeInsets.zero,
+                        ),
                       ),
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(10, 10, 0, 0),

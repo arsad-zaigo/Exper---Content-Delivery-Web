@@ -1116,10 +1116,10 @@ at you... */
                                                               width: 70,
                                                               height: 70,
                                                               child:
-                                                                  SpinKitCubeGrid(
+                                                                  SpinKitFadingGrid(
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .primaryColor,
+                                                                    .primaryCTA,
                                                                 size: 70,
                                                               ),
                                                             ),
@@ -1142,6 +1142,7 @@ at you... */
                                                               padding:
                                                                   EdgeInsets
                                                                       .zero,
+                                                              shrinkWrap: true,
                                                               scrollDirection:
                                                                   Axis.horizontal,
                                                               itemCount:
@@ -5368,10 +5369,10 @@ Webinars */
                                                               width: 70,
                                                               height: 70,
                                                               child:
-                                                                  SpinKitCubeGrid(
+                                                                  SpinKitFadingGrid(
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
-                                                                    .primaryColor,
+                                                                    .primaryCTA,
                                                                 size: 70,
                                                               ),
                                                             ),
@@ -5528,10 +5529,10 @@ Webinars */
                                                                   width: 70,
                                                                   height: 70,
                                                                   child:
-                                                                      SpinKitCubeGrid(
+                                                                      SpinKitFadingGrid(
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
-                                                                        .primaryColor,
+                                                                        .primaryCTA,
                                                                     size: 70,
                                                                   ),
                                                                 ),
@@ -6154,9 +6155,9 @@ Webinars */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitCubeGrid(
+                                                                            SpinKitFadingGrid(
                                                                           color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
+                                                                              FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
                                                                               70,
                                                                         ),
@@ -6363,9 +6364,9 @@ Webinars */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitCubeGrid(
+                                                                            SpinKitFadingGrid(
                                                                           color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
+                                                                              FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
                                                                               70,
                                                                         ),
@@ -6722,9 +6723,9 @@ our ... */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitCubeGrid(
+                                                                            SpinKitFadingGrid(
                                                                           color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
+                                                                              FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
                                                                               70,
                                                                         ),
@@ -6924,9 +6925,9 @@ our ... */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitCubeGrid(
+                                                                            SpinKitFadingGrid(
                                                                           color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
+                                                                              FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
                                                                               70,
                                                                         ),
@@ -7117,9 +7118,9 @@ our ... */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitCubeGrid(
+                                                                            SpinKitFadingGrid(
                                                                           color:
-                                                                              FlutterFlowTheme.of(context).primaryColor,
+                                                                              FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
                                                                               70,
                                                                         ),

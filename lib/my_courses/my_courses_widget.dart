@@ -1,6 +1,7 @@
 import '../components/actionbar_widget.dart';
 import '../components/course_card_web_widget.dart';
 import '../components/footer_widget.dart';
+import '../course_progress_page/course_progress_page_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -72,12 +73,23 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                   verticalDirection: VerticalDirection.down,
                                   clipBehavior: Clip.none,
                                   children: [
-                                    CourseCardWebWidget(
-                                      courseTitle:
-                                          'Fellowship in Critical Care Medicine ',
-                                      duration: '1 Year',
-                                      rating: '4.5',
-                                      price: '\$4700',
+                                    InkWell(
+                                      onTap: () async {
+                                        await Navigator.push(
+                                          context,
+                                          MaterialPageRoute(
+                                            builder: (context) =>
+                                                CourseProgressPageWidget(),
+                                          ),
+                                        );
+                                      },
+                                      child: CourseCardWebWidget(
+                                        courseTitle:
+                                            'Fellowship in Critical Care Medicine ',
+                                        duration: '1 Year',
+                                        rating: '4.5',
+                                        price: '\$4700',
+                                      ),
                                     ),
                                     CourseCardWebWidget(
                                       courseTitle:

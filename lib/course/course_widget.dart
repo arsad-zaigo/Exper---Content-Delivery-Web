@@ -277,9 +277,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                         child: SizedBox(
                                           width: 70,
                                           height: 70,
-                                          child: SpinKitCubeGrid(
+                                          child: SpinKitFadingGrid(
                                             color: FlutterFlowTheme.of(context)
-                                                .primaryColor,
+                                                .primaryCTA,
                                             size: 70,
                                           ),
                                         ),
