@@ -3,7 +3,9 @@ import '../flutter_flow/flutter_flow_icon_button.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
-import '../home_page/home_page_widget.dart';
+import '../home_page_copy/home_page_copy_widget.dart';
+import '../my_courses/my_courses_widget.dart';
+import '../view_courses_from_catgoery/view_courses_from_catgoery_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:flutter_svg/flutter_svg.dart';
@@ -32,8 +34,8 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
           mainAxisSize: MainAxisSize.max,
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            SvgPicture.asset(
-              'assets/images/logo_1.svg',
+            Image.asset(
+              'assets/images/logo_1.png',
               width: 200,
               height: 35,
               fit: BoxFit.fitHeight,
@@ -53,12 +55,11 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                       children: [
                         InkWell(
                           onTap: () async {
-                            await Navigator.pushAndRemoveUntil(
+                            await Navigator.push(
                               context,
                               MaterialPageRoute(
-                                builder: (context) => HomePageWidget(),
+                                builder: (context) => HomePageCopyWidget(),
                               ),
-                              (r) => false,
                             );
                           },
                           child: Container(
@@ -79,8 +80,8 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
-                                      SvgPicture.asset(
-                                        'assets/images/Vector.svg',
+                                      Image.asset(
+                                        'assets/images/Vector.png',
                                         width: 20,
                                         height: 20,
                                         fit: BoxFit.cover,
@@ -116,141 +117,168 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                         ),
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: Color(0x00EEEEEE),
-                            ),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0, 0, 0, 22),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment: CrossAxisAlignment.end,
-                                    children: [
-                                      FlutterFlowIconButton(
-                                        borderColor: Colors.transparent,
-                                        borderRadius: 30,
-                                        borderWidth: 1,
-                                        buttonSize: 25,
-                                        icon: Icon(
-                                          Icons.keyboard_arrow_down,
-                                          color: Color(0xFF626168),
-                                          size: 15,
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) =>
+                                      ViewCoursesFromCatgoeryWidget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0x00EEEEEE),
+                              ),
+                              child: Column(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: [
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 0, 0, 22),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.end,
+                                      children: [
+                                        Image.asset(
+                                          'assets/images/Vector_(1).png',
+                                          width: 20,
+                                          height: 22,
+                                          fit: BoxFit.cover,
                                         ),
-                                        onPressed: () {
-                                          print('IconButton pressed ...');
-                                        },
-                                      ),
-                                      SvgPicture.asset(
-                                        'assets/images/Vector.svg',
-                                        width: 20,
-                                        height: 22,
-                                        fit: BoxFit.cover,
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            10, 0, 0, 0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            '2oub1np0' /* Speciality  */,
+                                        Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  10, 0, 0, 0),
+                                          child: Text(
+                                            FFLocalizations.of(context).getText(
+                                              '2oub1np0' /* Speciality  */,
+                                            ),
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText1
+                                                .override(
+                                                  fontFamily: 'SF Pro',
+                                                  color: Color(0xFF626168),
+                                                  fontWeight: FontWeight.normal,
+                                                  useGoogleFonts: false,
+                                                ),
                                           ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyText1
-                                              .override(
-                                                fontFamily: 'SF Pro',
-                                                color: Color(0xFF626168),
-                                                fontWeight: FontWeight.normal,
-                                                useGoogleFonts: false,
-                                              ),
                                         ),
-                                      ),
-                                    ],
+                                        FlutterFlowIconButton(
+                                          borderColor: Colors.transparent,
+                                          borderRadius: 30,
+                                          borderWidth: 1,
+                                          buttonSize: 25,
+                                          icon: Icon(
+                                            Icons.keyboard_arrow_down,
+                                            color: Color(0xFF626168),
+                                            size: 15,
+                                          ),
+                                          onPressed: () {
+                                            print('IconButton pressed ...');
+                                          },
+                                        ),
+                                      ],
+                                    ),
                                   ),
-                                ),
-                                Image.network(
-                                  '',
-                                  width: 100,
-                                  height: 3,
-                                  fit: BoxFit.fill,
-                                ),
-                              ],
+                                  Image.network(
+                                    '',
+                                    width: 100,
+                                    height: 3,
+                                    fit: BoxFit.fill,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(30, 0, 0, 0),
-                          child: Container(
-                            width: 100,
-                            height: 100,
-                            decoration: BoxDecoration(
-                              color: Color(0x00EEEEEE),
-                            ),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.max,
-                              mainAxisAlignment: MainAxisAlignment.end,
-                              children: [
-                                Padding(
-                                  padding: EdgeInsetsDirectional.fromSTEB(
-                                      0, 0, 0, 22),
-                                  child: Row(
-                                    mainAxisSize: MainAxisSize.max,
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    crossAxisAlignment: CrossAxisAlignment.end,
-                                    children: [
-                                      SvgPicture.asset(
-                                        'assets/images/Vector.svg',
-                                        width: 20,
-                                        height: 22,
-                                        fit: BoxFit.cover,
-                                      ),
-                                      Padding(
-                                        padding: EdgeInsetsDirectional.fromSTEB(
-                                            10, 0, 0, 0),
-                                        child: Text(
-                                          FFLocalizations.of(context).getText(
-                                            'duqblng8' /* Explore */,
+                          child: InkWell(
+                            onTap: () async {
+                              await Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => MyCoursesWidget(),
+                                ),
+                              );
+                            },
+                            child: Container(
+                              width: 100,
+                              height: 100,
+                              decoration: BoxDecoration(
+                                color: Color(0x00EEEEEE),
+                              ),
+                              child: Column(
+                                mainAxisSize: MainAxisSize.max,
+                                mainAxisAlignment: MainAxisAlignment.end,
+                                children: [
+                                  Padding(
+                                    padding: EdgeInsetsDirectional.fromSTEB(
+                                        0, 0, 0, 22),
+                                    child: Row(
+                                      mainAxisSize: MainAxisSize.max,
+                                      mainAxisAlignment:
+                                          MainAxisAlignment.center,
+                                      crossAxisAlignment:
+                                          CrossAxisAlignment.end,
+                                      children: [
+                                        Image.asset(
+                                          'assets/images/Vector_(2).png',
+                                          width: 20,
+                                          height: 22,
+                                          fit: BoxFit.cover,
+                                        ),
+                                        Padding(
+                                          padding:
+                                              EdgeInsetsDirectional.fromSTEB(
+                                                  10, 0, 0, 0),
+                                          child: Text(
+                                            FFLocalizations.of(context).getText(
+                                              'duqblng8' /* Explore */,
+                                            ),
+                                            style: FlutterFlowTheme.of(context)
+                                                .bodyText1
+                                                .override(
+                                                  fontFamily: 'SF Pro',
+                                                  color: Color(0xFF626168),
+                                                  fontWeight: FontWeight.normal,
+                                                  useGoogleFonts: false,
+                                                ),
                                           ),
-                                          style: FlutterFlowTheme.of(context)
-                                              .bodyText1
-                                              .override(
-                                                fontFamily: 'SF Pro',
-                                                color: Color(0xFF626168),
-                                                fontWeight: FontWeight.normal,
-                                                useGoogleFonts: false,
-                                              ),
                                         ),
-                                      ),
-                                      FlutterFlowIconButton(
-                                        borderColor: Colors.transparent,
-                                        borderRadius: 30,
-                                        borderWidth: 1,
-                                        buttonSize: 25,
-                                        icon: Icon(
-                                          Icons.keyboard_arrow_down,
-                                          color: Color(0xFF626168),
-                                          size: 15,
+                                        FlutterFlowIconButton(
+                                          borderColor: Colors.transparent,
+                                          borderRadius: 30,
+                                          borderWidth: 1,
+                                          buttonSize: 25,
+                                          icon: Icon(
+                                            Icons.keyboard_arrow_down,
+                                            color: Color(0xFF626168),
+                                            size: 15,
+                                          ),
+                                          onPressed: () {
+                                            print('IconButton pressed ...');
+                                          },
                                         ),
-                                        onPressed: () {
-                                          print('IconButton pressed ...');
-                                        },
-                                      ),
-                                    ],
+                                      ],
+                                    ),
                                   ),
-                                ),
-                                Image.network(
-                                  '',
-                                  width: 100,
-                                  height: 3,
-                                  fit: BoxFit.fill,
-                                ),
-                              ],
+                                  Image.network(
+                                    '',
+                                    width: 100,
+                                    height: 3,
+                                    fit: BoxFit.fill,
+                                  ),
+                                ],
+                              ),
                             ),
                           ),
                         ),
@@ -274,8 +302,8 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
-                                      SvgPicture.asset(
-                                        'assets/images/Vector.svg',
+                                      Image.asset(
+                                        'assets/images/Vector_(3).png',
                                         width: 20,
                                         height: 22,
                                         fit: BoxFit.cover,

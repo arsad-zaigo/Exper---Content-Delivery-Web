@@ -162,7 +162,7 @@ class _MiniCourseCardWidgetState extends State<MiniCourseCardWidget> {
                                     color: Colors.transparent,
                                     width: 1,
                                   ),
-                                  borderRadius: 12,
+                                  borderRadius: 20,
                                 ),
                               ),
                               Padding(

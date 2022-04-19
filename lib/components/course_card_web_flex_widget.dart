@@ -32,8 +32,8 @@ class _CourseCardWebFlexWidgetState extends State<CourseCardWebFlexWidget> {
     return Padding(
       padding: EdgeInsetsDirectional.fromSTEB(0, 0, 10, 0),
       child: Container(
-        width: MediaQuery.of(context).size.width * 0.7,
-        height: MediaQuery.of(context).size.height * 0.9,
+        width: double.infinity,
+        height: double.infinity,
         decoration: BoxDecoration(
           color: Color(0x00FCDADA),
         ),

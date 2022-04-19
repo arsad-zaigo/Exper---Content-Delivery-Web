@@ -1164,9 +1164,9 @@ class _LiveVideoPageFullScreenWidgetState
                               child: SizedBox(
                                 width: 70,
                                 height: 70,
-                                child: SpinKitCubeGrid(
+                                child: SpinKitFadingGrid(
                                   color:
-                                      FlutterFlowTheme.of(context).primaryColor,
+                                      FlutterFlowTheme.of(context).primaryCTA,
                                   size: 70,
                                 ),
                               ),
@@ -1190,24 +1190,31 @@ class _LiveVideoPageFullScreenWidgetState
                                 itemBuilder: (context, savedItemsIndex) {
                                   final savedItemsItem =
                                       savedItems[savedItemsIndex];
-                                  return MiniCourseCardWebWidget(
-                                    title: getJsonField(
-                                      savedItemsItem,
-                                      r'''$.title''',
-                                    ).toString(),
-                                    duriation: getJsonField(
-                                      savedItemsItem,
-                                      r'''$.year''',
-                                    ).toString(),
-                                    rating: getJsonField(
-                                      savedItemsItem,
-                                      r'''$.rating''',
-                                    ).toString(),
-                                    price: getJsonField(
-                                      savedItemsItem,
-                                      r'''$.price''',
-                                    ).toString(),
-                                    bgcolor: Color(0xFFF37F5A),
+                                  return Container(
+                                    width: 400,
+                                    height: 400,
+                                    decoration: BoxDecoration(
+                                      color: Color(0xFFEEEEEE),
+                                    ),
+                                    child: MiniCourseCardWebWidget(
+                                      title: getJsonField(
+                                        savedItemsItem,
+                                        r'''$.title''',
+                                      ).toString(),
+                                      duriation: getJsonField(
+                                        savedItemsItem,
+                                        r'''$.year''',
+                                      ).toString(),
+                                      rating: getJsonField(
+                                        savedItemsItem,
+                                        r'''$.rating''',
+                                      ).toString(),
+                                      price: getJsonField(
+                                        savedItemsItem,
+                                        r'''$.price''',
+                                      ).toString(),
+                                      bgcolor: Color(0xFFF37F5A),
+                                    ),
                                   );
                                 },
                               );

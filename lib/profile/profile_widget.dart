@@ -1750,10 +1750,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       child: SizedBox(
                                                         width: 70,
                                                         height: 70,
-                                                        child: SpinKitCubeGrid(
+                                                        child:
+                                                            SpinKitFadingGrid(
                                                           color: FlutterFlowTheme
                                                                   .of(context)
-                                                              .primaryColor,
+                                                              .primaryCTA,
                                                           size: 70,
                                                         ),
                                                       ),
@@ -1781,27 +1782,39 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                             itemsIndex) {
                                                           final itemsItem =
                                                               items[itemsIndex];
-                                                          return MiniCourseCardWebWidget(
-                                                            title: getJsonField(
-                                                              itemsItem,
-                                                              r'''$.title''',
-                                                            ).toString(),
-                                                            duriation:
-                                                                getJsonField(
-                                                              itemsItem,
-                                                              r'''$.year''',
-                                                            ).toString(),
-                                                            rating:
-                                                                getJsonField(
-                                                              itemsItem,
-                                                              r'''$.rating''',
-                                                            ).toString(),
-                                                            price: getJsonField(
-                                                              itemsItem,
-                                                              r'''$.price''',
-                                                            ).toString(),
-                                                            bgcolor: Color(
-                                                                0xFF9B59B6),
+                                                          return Container(
+                                                            width: 400,
+                                                            height: 400,
+                                                            decoration:
+                                                                BoxDecoration(
+                                                              color: Color(
+                                                                  0xFFEEEEEE),
+                                                            ),
+                                                            child:
+                                                                MiniCourseCardWebWidget(
+                                                              title:
+                                                                  getJsonField(
+                                                                itemsItem,
+                                                                r'''$.title''',
+                                                              ).toString(),
+                                                              duriation:
+                                                                  getJsonField(
+                                                                itemsItem,
+                                                                r'''$.year''',
+                                                              ).toString(),
+                                                              rating:
+                                                                  getJsonField(
+                                                                itemsItem,
+                                                                r'''$.rating''',
+                                                              ).toString(),
+                                                              price:
+                                                                  getJsonField(
+                                                                itemsItem,
+                                                                r'''$.price''',
+                                                              ).toString(),
+                                                              bgcolor: Color(
+                                                                  0xFF9B59B6),
+                                                            ),
                                                           );
                                                         },
                                                       );
@@ -1870,10 +1883,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       child: SizedBox(
                                                         width: 70,
                                                         height: 70,
-                                                        child: SpinKitCubeGrid(
+                                                        child:
+                                                            SpinKitFadingGrid(
                                                           color: FlutterFlowTheme
                                                                   .of(context)
-                                                              .primaryColor,
+                                                              .primaryCTA,
                                                           size: 70,
                                                         ),
                                                       ),
@@ -1988,10 +2002,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       child: SizedBox(
                                                         width: 70,
                                                         height: 70,
-                                                        child: SpinKitCubeGrid(
+                                                        child:
+                                                            SpinKitFadingGrid(
                                                           color: FlutterFlowTheme
                                                                   .of(context)
-                                                              .primaryColor,
+                                                              .primaryCTA,
                                                           size: 70,
                                                         ),
                                                       ),
@@ -2111,11 +2126,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                     child: SizedBox(
                                                       width: 70,
                                                       height: 70,
-                                                      child: SpinKitCubeGrid(
+                                                      child: SpinKitFadingGrid(
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)
-                                                                .primaryColor,
+                                                                .primaryCTA,
                                                         size: 70,
                                                       ),
                                                     ),

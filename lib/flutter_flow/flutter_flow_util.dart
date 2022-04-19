@@ -17,6 +17,7 @@ export '../app_state.dart';
 export 'dart:math' show min, max;
 export 'package:intl/intl.dart';
 export 'package:page_transition/page_transition.dart';
+export 'custom_icons.dart' show FFIcons;
 export 'internationalization.dart' show FFLocalizations;
 
 T valueOrDefault<T>(T value, T defaultValue) =>
