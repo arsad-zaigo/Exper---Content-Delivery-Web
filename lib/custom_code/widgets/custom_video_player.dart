@@ -44,6 +44,7 @@ class _CustomVideoPlayerState extends State<CustomVideoPlayer> {
             widget._playBackTime = _controller.value.position.inSeconds;
           });
         });
+
       });
   }
 

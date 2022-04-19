@@ -634,8 +634,8 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                 CrossAxisAlignment
                                                                     .start,
                                                             children: [
-                                                              Image.network(
-                                                                '',
+                                                              SvgPicture.asset(
+                                                                'assets/images/Group.svg',
                                                                 width: 25,
                                                                 height: 25,
                                                                 fit: BoxFit
@@ -740,8 +740,8 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                 CrossAxisAlignment
                                                                     .start,
                                                             children: [
-                                                              Image.network(
-                                                                '',
+                                                              SvgPicture.asset(
+                                                                'assets/images/Group.svg',
                                                                 width: 25,
                                                                 height: 25,
                                                                 fit: BoxFit
@@ -846,8 +846,8 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                 CrossAxisAlignment
                                                                     .start,
                                                             children: [
-                                                              Image.network(
-                                                                '',
+                                                              SvgPicture.asset(
+                                                                'assets/images/Group.svg',
                                                                 width: 25,
                                                                 height: 25,
                                                                 fit: BoxFit

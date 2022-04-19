@@ -23,11 +23,18 @@ enum BodyType {
 class ApiCallRecord extends Equatable {
   ApiCallRecord(this.callName, this.apiUrl, this.headers, this.params,
       this.body, this.bodyType);
+
+  /// API Call Name for Identifying API calls
   final String callName;
+  /// URL of the API From the CMS Webservices
   final String apiUrl;
+  /// Parse the header of the api calls
   final Map<String, dynamic> headers;
+  /// Parameter for the api calls
   final Map<String, dynamic> params;
+  /// Body - Payload of the api calls
   final String body;
+  /// Body type of the api calls - Ex: Multipart,Text/Json,etc
   final BodyType bodyType;
 
   @override

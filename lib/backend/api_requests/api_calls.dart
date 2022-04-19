@@ -4,6 +4,7 @@ import 'api_manager.dart';
 
 export 'api_manager.dart' show ApiCallResponse;
 
+/// Mock API call for Get courses data on dashboard
 class GetCoursesOnDashboardCall {
   static Future<ApiCallResponse> call() {
     return ApiManager.instance.makeApiCall(

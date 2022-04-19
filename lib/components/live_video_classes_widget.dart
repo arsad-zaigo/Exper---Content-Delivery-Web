@@ -49,7 +49,7 @@ class _LiveVideoClassesWidgetState extends State<LiveVideoClassesWidget> {
                 Align(
                   alignment: AlignmentDirectional(0.95, -1.73),
                   child: SvgPicture.asset(
-                    'assets/images/Group.svg',
+                    'assets/images/Group_3848939483.svg',
                     height: MediaQuery.of(context).size.height * 1,
                     fit: BoxFit.fill,
                   ),

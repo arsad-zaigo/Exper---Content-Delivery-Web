@@ -53,7 +53,7 @@ class _EventsCardWidgetState extends State<EventsCardWidget> {
                 Align(
                   alignment: AlignmentDirectional(0.95, -1.73),
                   child: SvgPicture.asset(
-                    'assets/images/Group.svg',
+                    'assets/images/Group_3848939483.svg',
                     width: 450,
                     height: 300,
                     fit: BoxFit.fill,
