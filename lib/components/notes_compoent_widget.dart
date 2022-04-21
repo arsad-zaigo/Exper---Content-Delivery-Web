@@ -24,7 +24,7 @@ class _NotesCompoentWidgetState extends State<NotesCompoentWidget> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      width: 300,
+      width: 500,
       height: double.infinity,
       decoration: BoxDecoration(
         color: Colors.white,

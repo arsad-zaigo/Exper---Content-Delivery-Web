@@ -64,7 +64,7 @@ class _ImmersiveMiniViewWidgetState extends State<ImmersiveMiniViewWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
               child: Container(
-                width: MediaQuery.of(context).size.width * 1.5,
+                width: double.infinity,
                 decoration: BoxDecoration(
                   color: Color(0x00EEEEEE),
                 ),
@@ -72,34 +72,41 @@ class _ImmersiveMiniViewWidgetState extends State<ImmersiveMiniViewWidget> {
                   mainAxisSize: MainAxisSize.max,
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Container(
-                      width: 300,
-                      height: 70,
-                      decoration: BoxDecoration(
-                        color: Color(0x00EEEEEE),
-                      ),
-                      child: FFButtonWidget(
-                        onPressed: () {
-                          print('Button pressed ...');
-                        },
-                        text: widget.button,
-                        options: FFButtonOptions(
-                          width: 130,
-                          height: 40,
-                          color: widget.buttonColor,
-                          textStyle:
-                              FlutterFlowTheme.of(context).subtitle2.override(
-                                    fontFamily: 'SF Pro',
-                                    color: Colors.white,
-                                    fontSize: 18,
-                                    fontWeight: FontWeight.normal,
-                                    useGoogleFonts: false,
-                                  ),
-                          borderSide: BorderSide(
-                            color: Colors.transparent,
-                            width: 1,
+                    Expanded(
+                      child: Padding(
+                        padding: EdgeInsetsDirectional.fromSTEB(40, 0, 40, 0),
+                        child: Container(
+                          decoration: BoxDecoration(
+                            color: Color(0x00EEEEEE),
                           ),
-                          borderRadius: 12,
+                          child: Padding(
+                            padding: EdgeInsetsDirectional.fromSTEB(2, 2, 2, 2),
+                            child: FFButtonWidget(
+                              onPressed: () {
+                                print('Button pressed ...');
+                              },
+                              text: widget.button,
+                              options: FFButtonOptions(
+                                width: double.infinity,
+                                height: 60,
+                                color: widget.buttonColor,
+                                textStyle: FlutterFlowTheme.of(context)
+                                    .subtitle2
+                                    .override(
+                                      fontFamily: 'SF Pro',
+                                      color: Colors.white,
+                                      fontSize: 18,
+                                      fontWeight: FontWeight.normal,
+                                      useGoogleFonts: false,
+                                    ),
+                                borderSide: BorderSide(
+                                  color: Colors.transparent,
+                                  width: 1,
+                                ),
+                                borderRadius: 12,
+                              ),
+                            ),
+                          ),
                         ),
                       ),
                     ),

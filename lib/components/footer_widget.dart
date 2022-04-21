@@ -44,7 +44,7 @@ class _FooterWidgetState extends State<FooterWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Learn free on the App',
+                          'Learn on the App',
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -57,7 +57,7 @@ class _FooterWidgetState extends State<FooterWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                           child: Text(
-                            'Download the lessons and learn anytime, anywhere from\n the free courses available on our app',
+                            'Download the lessons and learn anytime, anywhere from\n the courses available on our app',
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
