@@ -304,7 +304,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                   EdgeInsetsDirectional
                                                                       .fromSTEB(
                                                                           20,
-                                                                          0,
+                                                                          5,
                                                                           20,
                                                                           0),
                                                               child:
@@ -2156,6 +2156,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                         mainAxisSpacing: 10,
                                                         childAspectRatio: 1,
                                                       ),
+                                                      shrinkWrap: true,
                                                       scrollDirection:
                                                           Axis.horizontal,
                                                       itemCount: notes.length,
