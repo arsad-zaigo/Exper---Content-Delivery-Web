@@ -29,7 +29,14 @@ class FFAppState {
 
   List<String> sType = [];
 
-  List<String> typeDetials = ['Docter', 'Nurse'];
+  List<String> typeDetials = [
+    'Docter',
+    'Nurse',
+    'Example One',
+    'Example Two',
+    'Example Three',
+    'Example Four'
+  ];
 
   bool isPageFour = false;
 
@@ -50,6 +57,10 @@ class FFAppState {
     _accessToken = _value;
     prefs.setString('ff_accessToken', _value);
   }
+
+  String phoneNumber = '';
+
+  String countryCode = '';
 }
 
 LatLng _latLngFromString(String val) {

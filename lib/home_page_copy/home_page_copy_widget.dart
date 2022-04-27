@@ -11,7 +11,6 @@ import '../components/live_video_classes_web_widget.dart';
 import '../components/login_component_widget.dart';
 import '../components/mini_course_card_web_widget.dart';
 import '../components/simulation_web_mini_card_widget.dart';
-import '../components/test_dialog_widget.dart';
 import '../components/web_testo_widget.dart';
 import '../contact_program_main/contact_program_main_widget.dart';
 import '../events/events_widget.dart';
@@ -22,6 +21,7 @@ import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
 import '../live_video_classes1/live_video_classes1_widget.dart';
 import '../my_courses/my_courses_widget.dart';
+import '../partners_full_screen/partners_full_screen_widget.dart';
 import '../profile/profile_widget.dart';
 import '../simulation/simulation_widget.dart';
 import '../view_courses_from_catgoery/view_courses_from_catgoery_widget.dart';
@@ -464,23 +464,14 @@ class _HomePageCopyWidgetState extends State<HomePageCopyWidget>
                                                               child: InkWell(
                                                                 onTap:
                                                                     () async {
-                                                                  await showModalBottomSheet(
-                                                                    isScrollControlled:
-                                                                        true,
-                                                                    backgroundColor:
-                                                                        Colors
-                                                                            .transparent,
-                                                                    context:
-                                                                        context,
-                                                                    builder:
-                                                                        (context) {
-                                                                      return Padding(
-                                                                        padding:
-                                                                            MediaQuery.of(context).viewInsets,
-                                                                        child:
-                                                                            TestDialogWidget(),
-                                                                      );
-                                                                    },
+                                                                  await Navigator
+                                                                      .push(
+                                                                    context,
+                                                                    MaterialPageRoute(
+                                                                      builder:
+                                                                          (context) =>
+                                                                              PartnersFullScreenWidget(),
+                                                                    ),
                                                                   );
                                                                 },
                                                                 child:

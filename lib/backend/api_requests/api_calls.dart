@@ -74,3 +74,51 @@ class CatgoirtyMutipleCall {
     );
   }
 }
+
+class LoginWithPhoneNumberCall {
+  static Future<ApiCallResponse> call({
+    String mobileNumber = '',
+    String regionCode = '',
+  }) {
+    final body = '''
+{
+  "mobile_number": "8900123456",
+  "region_code": "+91"
+}''';
+    return ApiManager.instance.makeApiCall(
+      callName: 'loginWithPhoneNumber',
+      apiUrl:
+          'https://private-5d1556-contentdeliveryservice.apiary-mock.com/v1/eu/trigger/otp',
+      callType: ApiCallType.POST,
+      headers: {
+        'EXPER_DEVICE': 'Mobile',
+        'EXPER_PLATFORM': 'MA',
+      },
+      params: {
+        'mobile_number': mobileNumber,
+        'region_code': regionCode,
+      },
+      body: body,
+      bodyType: BodyType.JSON,
+      returnBody: true,
+    );
+  }
+
+  static dynamic message(dynamic response) => getJsonField(
+        response,
+        r'''$.message''',
+      );
+}
+
+class PartnersListCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'partnersList',
+      apiUrl: 'https://run.mocky.io/v3/b552523c-6ad2-463c-a2c1-311639a14418',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+}

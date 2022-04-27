@@ -30,7 +30,7 @@ class _LiveVideoClassCompoentSingleWidgetState
       height: double.infinity,
       decoration: BoxDecoration(
         color: FlutterFlowTheme.of(context).tertiaryColor,
-        borderRadius: BorderRadius.circular(10),
+        borderRadius: BorderRadius.circular(25),
       ),
       child: Column(
         mainAxisSize: MainAxisSize.max,

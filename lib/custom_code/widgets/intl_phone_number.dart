@@ -62,7 +62,10 @@ class _IntlPhoneNumberState extends State<IntlPhoneNumber> {
       keyboardType: TextInputType.phone,
       initialCountryCode: 'IN',
       onChanged: (phone) {
-        setState(() {});
+        setState(() {
+          FFAppState().phoneNumber = phone.completeNumber;
+          FFAppState().countryCode = phone.countryCode;
+        });
       },
     );
   }

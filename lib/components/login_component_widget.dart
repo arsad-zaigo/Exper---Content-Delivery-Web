@@ -26,18 +26,19 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
           .map((e) => e.key)
           .toList();
 
+  ApiCallResponse apistatus;
   List<String> checkboxGroupValues;
   TextEditingController textController1;
   TextEditingController textController2;
   TextEditingController textController3;
   TextEditingController textController4;
   TextEditingController textController5;
-  TextEditingController textController6;
   String dropDownValue;
-  TextEditingController textController9;
-  TextEditingController textController7;
   TextEditingController textController8;
-  final formKey = GlobalKey<FormState>();
+  TextEditingController textController6;
+  TextEditingController textController7;
+  final formKey1 = GlobalKey<FormState>();
+  final formKey2 = GlobalKey<FormState>();
 
   @override
   void initState() {
@@ -50,7 +51,6 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
     textController6 = TextEditingController();
     textController7 = TextEditingController();
     textController8 = TextEditingController();
-    textController9 = TextEditingController();
   }
 
   @override
@@ -170,26 +170,13 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                           borderRadius:
                                               BorderRadius.circular(8),
                                         ),
-                                        child: Padding(
-                                          padding:
-                                              EdgeInsetsDirectional.fromSTEB(
-                                                  10, 0, 10, 0),
-                                          child: TextFormField(
-                                            controller: textController1,
-                                            obscureText: false,
-                                            decoration: InputDecoration(
-                                              hintText: 'Enter mobile number',
-                                              enabledBorder: InputBorder.none,
-                                              focusedBorder: InputBorder.none,
-                                            ),
-                                            style: FlutterFlowTheme.of(context)
-                                                .bodyText1
-                                                .override(
-                                                  fontFamily: 'SF Pro',
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.normal,
-                                                  useGoogleFonts: false,
-                                                ),
+                                        child: Form(
+                                          key: formKey2,
+                                          autovalidateMode:
+                                              AutovalidateMode.disabled,
+                                          child: custom_widgets.IntlPhoneNumber(
+                                            width: double.infinity,
+                                            height: 50,
                                           ),
                                         ),
                                       ),
@@ -239,8 +226,44 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                         ),
                                         child: FFButtonWidget(
                                           onPressed: () async {
-                                            setState(() =>
-                                                FFAppState().isPageOne = true);
+                                            if (!formKey2.currentState
+                                                .validate()) {
+                                              return;
+                                            }
+
+                                            if ((apistatus?.succeeded ??
+                                                true)) {
+                                              apistatus =
+                                                  await LoginWithPhoneNumberCall
+                                                      .call(
+                                                mobileNumber:
+                                                    FFAppState().phoneNumber,
+                                                regionCode:
+                                                    FFAppState().countryCode,
+                                              );
+                                              setState(() => FFAppState()
+                                                  .isPageOne = true);
+                                            } else {
+                                              await showDialog(
+                                                context: context,
+                                                builder: (alertDialogContext) {
+                                                  return AlertDialog(
+                                                    title: Text(
+                                                        'Please enter the correct phone number'),
+                                                    actions: [
+                                                      TextButton(
+                                                        onPressed: () =>
+                                                            Navigator.pop(
+                                                                alertDialogContext),
+                                                        child: Text('Ok'),
+                                                      ),
+                                                    ],
+                                                  );
+                                                },
+                                              );
+                                            }
+
+                                            setState(() {});
                                           },
                                           text: 'Send OTP',
                                           options: FFButtonOptions(
@@ -361,7 +384,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       ),
                                     ),
                                     Form(
-                                      key: formKey,
+                                      key: formKey1,
                                       autovalidateMode:
                                           AutovalidateMode.disabled,
                                       child: Padding(
@@ -389,7 +412,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                       BorderRadius.circular(10),
                                                 ),
                                                 child: TextFormField(
-                                                  controller: textController2,
+                                                  controller: textController1,
                                                   obscureText: false,
                                                   decoration: InputDecoration(
                                                     enabledBorder:
@@ -420,6 +443,44 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                     }
                                                     return null;
                                                   },
+                                                ),
+                                              ),
+                                              Padding(
+                                                padding: EdgeInsetsDirectional
+                                                    .fromSTEB(16, 0, 0, 0),
+                                                child: Container(
+                                                  width: 50,
+                                                  height: 50,
+                                                  decoration: BoxDecoration(
+                                                    color: Color(0xFFEEEEEE),
+                                                    borderRadius:
+                                                        BorderRadius.circular(
+                                                            10),
+                                                  ),
+                                                  child: TextFormField(
+                                                    controller: textController2,
+                                                    obscureText: false,
+                                                    decoration: InputDecoration(
+                                                      enabledBorder:
+                                                          InputBorder.none,
+                                                      focusedBorder:
+                                                          InputBorder.none,
+                                                      filled: true,
+                                                    ),
+                                                    style: FlutterFlowTheme.of(
+                                                            context)
+                                                        .bodyText1
+                                                        .override(
+                                                          fontFamily: 'SF Pro',
+                                                          color:
+                                                              Color(0xFF202431),
+                                                          useGoogleFonts: false,
+                                                        ),
+                                                    textAlign: TextAlign.center,
+                                                    maxLines: 1,
+                                                    keyboardType:
+                                                        TextInputType.number,
+                                                  ),
                                                 ),
                                               ),
                                               Padding(
@@ -512,44 +573,6 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   ),
                                                   child: TextFormField(
                                                     controller: textController5,
-                                                    obscureText: false,
-                                                    decoration: InputDecoration(
-                                                      enabledBorder:
-                                                          InputBorder.none,
-                                                      focusedBorder:
-                                                          InputBorder.none,
-                                                      filled: true,
-                                                    ),
-                                                    style: FlutterFlowTheme.of(
-                                                            context)
-                                                        .bodyText1
-                                                        .override(
-                                                          fontFamily: 'SF Pro',
-                                                          color:
-                                                              Color(0xFF202431),
-                                                          useGoogleFonts: false,
-                                                        ),
-                                                    textAlign: TextAlign.center,
-                                                    maxLines: 1,
-                                                    keyboardType:
-                                                        TextInputType.number,
-                                                  ),
-                                                ),
-                                              ),
-                                              Padding(
-                                                padding: EdgeInsetsDirectional
-                                                    .fromSTEB(16, 0, 0, 0),
-                                                child: Container(
-                                                  width: 50,
-                                                  height: 50,
-                                                  decoration: BoxDecoration(
-                                                    color: Color(0xFFEEEEEE),
-                                                    borderRadius:
-                                                        BorderRadius.circular(
-                                                            10),
-                                                  ),
-                                                  child: TextFormField(
-                                                    controller: textController6,
                                                     obscureText: false,
                                                     decoration: InputDecoration(
                                                       enabledBorder:
@@ -830,7 +853,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                       BorderRadius.circular(5),
                                                 ),
                                                 child: TextFormField(
-                                                  controller: textController7,
+                                                  controller: textController6,
                                                   obscureText: false,
                                                   decoration: InputDecoration(
                                                     hintText: 'First Name*',
@@ -896,7 +919,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                             5),
                                                   ),
                                                   child: TextFormField(
-                                                    controller: textController8,
+                                                    controller: textController7,
                                                     obscureText: false,
                                                     decoration: InputDecoration(
                                                       hintText: 'Last Name*',
@@ -969,7 +992,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                       BorderRadius.circular(5),
                                                 ),
                                                 child: TextFormField(
-                                                  controller: textController9,
+                                                  controller: textController8,
                                                   obscureText: false,
                                                   decoration: InputDecoration(
                                                     hintText: 'Email*',
@@ -1255,7 +1278,8 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   .size
                                                   .height *
                                               2,
-                                          isVertical: false,
+                                          isVertical: true,
+                                          isWrapped: false,
                                         ),
                                       ),
                                     ),
