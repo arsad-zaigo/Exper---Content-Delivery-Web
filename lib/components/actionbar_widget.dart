@@ -152,7 +152,7 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                           'assets/images/Vector_(1).png',
                                           width: 20,
                                           height: 22,
-                                          fit: BoxFit.cover,
+                                          fit: BoxFit.contain,
                                         ),
                                         Padding(
                                           padding:
@@ -235,7 +235,7 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                           'assets/images/Vector_(2).png',
                                           width: 20,
                                           height: 22,
-                                          fit: BoxFit.cover,
+                                          fit: BoxFit.contain,
                                         ),
                                         Padding(
                                           padding:
@@ -319,7 +319,7 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                           'assets/images/Vector_(3).png',
                                           width: 20,
                                           height: 22,
-                                          fit: BoxFit.cover,
+                                          fit: BoxFit.contain,
                                         ),
                                         Padding(
                                           padding:

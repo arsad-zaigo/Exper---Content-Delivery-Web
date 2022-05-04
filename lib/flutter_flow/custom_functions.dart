@@ -13,3 +13,11 @@ String isNotificationEnabled(bool isActive) {
   else
     return 'DISABLED';
 }
+
+int isFontSmallChecker(bool isSmall) {
+  // Add your function code here!
+  if (isSmall)
+    return 12;
+  else
+    return 27;
+}

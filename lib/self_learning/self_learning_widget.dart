@@ -148,8 +148,8 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                     child: Row(
                                       mainAxisSize: MainAxisSize.max,
                                       children: [
-                                        SvgPicture.asset(
-                                          'assets/images/credit.svg',
+                                        Image.asset(
+                                          'assets/images/Group_427319131.png',
                                           width: 30,
                                           height: 30,
                                           fit: BoxFit.cover,
@@ -159,7 +159,7 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            '06',
+                                            '08',
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(

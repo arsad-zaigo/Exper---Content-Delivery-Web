@@ -40,3 +40,9 @@ export 'partner_detailed_page/partner_detailed_page_widget.dart'
 export 'learn_course_page/learn_course_page_widget.dart'
     show LearnCoursePageWidget;
 export 'self_learning/self_learning_widget.dart' show SelfLearningWidget;
+export 'assessments_guide_lines_page/assessments_guide_lines_page_widget.dart'
+    show AssessmentsGuideLinesPageWidget;
+export 'assessment_q_a_page/assessment_q_a_page_widget.dart'
+    show AssessmentQAPageWidget;
+export 'custom_payment_gateway/custom_payment_gateway_widget.dart'
+    show CustomPaymentGatewayWidget;
