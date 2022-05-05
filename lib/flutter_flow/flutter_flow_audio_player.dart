@@ -51,9 +51,7 @@ class _FlutterFlowAudioPlayerState extends State<FlutterFlowAudioPlayer> {
   @override
   void initState() {
     super.initState();
-    if (widget.audio != null) {
-      openPlayer();
-    }
+    openPlayer();
   }
 
   Future openPlayer() async {
@@ -72,14 +70,12 @@ class _FlutterFlowAudioPlayerState extends State<FlutterFlowAudioPlayer> {
 
   @override
   void dispose() {
-    _assetsAudioPlayer.dispose();
+    _assetsAudioPlayer?.dispose();
     super.dispose();
   }
 
-  Duration currentPosition(RealtimePlayingInfos infos) =>
-      infos?.currentPosition ?? const Duration(seconds: 0);
-  Duration duration(RealtimePlayingInfos infos) =>
-      infos?.duration ?? const Duration(seconds: 0);
+  Duration currentPosition(RealtimePlayingInfos infos) => infos.currentPosition;
+  Duration duration(RealtimePlayingInfos infos) => infos.duration;
 
   String playbackStateText(RealtimePlayingInfos infos) {
     final currentPositionString = durationToString(currentPosition(infos));
@@ -131,7 +127,7 @@ class _FlutterFlowAudioPlayerState extends State<FlutterFlowAudioPlayer> {
                               child: IconButton(
                                 onPressed: _assetsAudioPlayer.playOrPause,
                                 icon: Icon(
-                                  (isPlaying && infos != null)
+                                  (isPlaying)
                                       ? Icons.pause_circle_filled_rounded
                                       : Icons.play_circle_fill_rounded,
                                   color: widget.playbackButtonColor,
@@ -154,16 +150,13 @@ class _FlutterFlowAudioPlayerState extends State<FlutterFlowAudioPlayer> {
                     ],
                   ),
                 );
-                if (widget.elevation != null) {
-                  return Material(
-                      color: Colors.transparent,
-                      elevation: widget.elevation,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(10),
-                      ),
-                      child: childWidget);
-                }
-                return childWidget;
+                return Material(
+                    color: Colors.transparent,
+                    elevation: widget.elevation,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: childWidget);
               }));
 }
 
@@ -186,7 +179,7 @@ class PositionSeekWidget extends StatefulWidget {
 
 class _PositionSeekWidgetState extends State<PositionSeekWidget> {
   Duration _visibleValue;
-  bool listenOnlyUserInterraction = false;
+  bool listenOnlyUserInteraction = false;
   double get percent => widget.duration.inMilliseconds == 0
       ? 0
       : _visibleValue.inMilliseconds / widget.duration.inMilliseconds;
@@ -200,7 +193,7 @@ class _PositionSeekWidgetState extends State<PositionSeekWidget> {
   @override
   void didUpdateWidget(PositionSeekWidget oldWidget) {
     super.didUpdateWidget(oldWidget);
-    if (!listenOnlyUserInterraction) {
+    if (!listenOnlyUserInteraction) {
       _visibleValue = widget.currentPosition;
     }
   }
@@ -222,11 +215,11 @@ class _PositionSeekWidgetState extends State<PositionSeekWidget> {
           value: math.min(1.0, percent) *
               widget.duration.inMilliseconds.toDouble(),
           onChangeEnd: (newValue) => setState(() {
-            listenOnlyUserInterraction = false;
+            listenOnlyUserInteraction = false;
             widget.seekTo(_visibleValue);
           }),
           onChangeStart: (_) =>
-              setState(() => listenOnlyUserInterraction = true),
+              setState(() => listenOnlyUserInteraction = true),
           onChanged: (newValue) => setState(
               () => _visibleValue = Duration(milliseconds: newValue.floor())),
         ),

@@ -22,9 +22,9 @@ class SelfLearningWidget extends StatefulWidget {
 }
 
 class _SelfLearningWidgetState extends State<SelfLearningWidget> {
+  final scaffoldKey = GlobalKey<ScaffoldState>();
   TextEditingController textController1;
   TextEditingController textController2;
-  final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {

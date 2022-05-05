@@ -23,9 +23,9 @@ class LiveVideoClassesAttendScreenWidget extends StatefulWidget {
 
 class _LiveVideoClassesAttendScreenWidgetState
     extends State<LiveVideoClassesAttendScreenWidget> {
+  final scaffoldKey = GlobalKey<ScaffoldState>();
   TextEditingController textController1;
   TextEditingController textController2;
-  final scaffoldKey = GlobalKey<ScaffoldState>();
 
   @override
   void initState() {

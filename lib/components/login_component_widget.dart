@@ -26,8 +26,8 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
           .map((e) => e.key)
           .toList();
 
-  ApiCallResponse apistatus;
   List<String> checkboxGroupValues;
+  ApiCallResponse apistatus;
   TextEditingController textController1;
   TextEditingController textController2;
   TextEditingController textController3;
@@ -226,8 +226,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                         ),
                                         child: FFButtonWidget(
                                           onPressed: () async {
-                                            if (!formKey2.currentState
-                                                .validate()) {
+                                            if (formKey2.currentState == null ||
+                                                !formKey2.currentState
+                                                    .validate()) {
                                               return;
                                             }
 
@@ -435,7 +436,8 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   keyboardType:
                                                       TextInputType.number,
                                                   validator: (val) {
-                                                    if (val.isEmpty) {
+                                                    if (val == null ||
+                                                        val.isEmpty) {
                                                       return 'Field is required';
                                                     }
                                                     if (val.length < 1) {

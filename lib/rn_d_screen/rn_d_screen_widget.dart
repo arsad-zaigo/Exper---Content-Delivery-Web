@@ -84,7 +84,8 @@ class _RnDScreenWidgetState extends State<RnDScreenWidget> {
               ),
               FFButtonWidget(
                 onPressed: () async {
-                  if (!formKey.currentState.validate()) {
+                  if (formKey.currentState == null ||
+                      !formKey.currentState.validate()) {
                     return;
                   }
 

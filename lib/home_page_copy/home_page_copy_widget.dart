@@ -41,10 +41,10 @@ class HomePageCopyWidget extends StatefulWidget {
 
 class _HomePageCopyWidgetState extends State<HomePageCopyWidget>
     with TickerProviderStateMixin {
-  ApiCallResponse users;
-  final scaffoldKey = GlobalKey<ScaffoldState>();
   PageController pageViewController;
   TextEditingController textController;
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+  ApiCallResponse users;
   final animationsMap = {
     'listViewOnPageLoadAnimation': AnimationInfo(
       curve: Curves.easeOut,

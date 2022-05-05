@@ -47,10 +47,10 @@ class HomePageWidget extends StatefulWidget {
 
 class _HomePageWidgetState extends State<HomePageWidget>
     with TickerProviderStateMixin {
-  ApiCallResponse users;
-  final scaffoldKey = GlobalKey<ScaffoldState>();
   PageController pageViewController;
   TextEditingController textController;
+  final scaffoldKey = GlobalKey<ScaffoldState>();
+  ApiCallResponse users;
   final animationsMap = {
     'listViewOnPageLoadAnimation': AnimationInfo(
       curve: Curves.easeOut,
