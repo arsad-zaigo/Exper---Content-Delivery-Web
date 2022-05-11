@@ -6366,4 +6366,31 @@ final kTranslationsMap = <Map<String, Map<String, String>>>[
       'te': '',
     },
   },
+  // courseCardResumeWeb
+  {
+    'a8zqkm6h': {
+      'en': '50% Completed',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'i5tzauf3': {
+      'en': '\n',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+    'cyox0v3p': {
+      'en': 'Resume',
+      'hi': '',
+      'kn': '',
+      'ml': '',
+      'ta': '',
+      'te': '',
+    },
+  },
 ].reduce((a, b) => a..addAll(b));

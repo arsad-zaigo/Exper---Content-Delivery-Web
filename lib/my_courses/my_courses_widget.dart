@@ -1,4 +1,5 @@
 import '../components/actionbar_widget.dart';
+import '../components/course_card_resume_web_widget.dart';
 import '../components/course_card_web_widget.dart';
 import '../components/footer_widget.dart';
 import '../course_progress_page/course_progress_page_widget.dart';
@@ -92,16 +93,13 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                         rating: '4.5',
                                         price: '\$4700',
                                         imageUrl:
-                                            'http://94.177.203.98/expertestimages/stomch.png',
+                                            'https://elearningadmin.zaigoinfotech.com/media/liver.png',
                                       ),
                                     ),
-                                    CourseCardWebWidget(
-                                      courseTitle: 'Fellowship in Pulmonology',
-                                      duration: '1 Year',
-                                      rating: '4.5',
-                                      price: '\$4700',
+                                    CourseCardResumeWebWidget(
                                       imageUrl:
-                                          'https://drive.google.com/file/d/1qyXi6lP-SSohpWDrlp4QXbzT2V5XPWh1/view?usp=sharing',
+                                          'https://elearningadmin.zaigoinfotech.com/media/stomch.png',
+                                      courseTitle: 'Essentials of Cardiology',
                                     ),
                                   ],
                                 ),
