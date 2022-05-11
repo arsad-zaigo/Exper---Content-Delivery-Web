@@ -1,3 +1,4 @@
+import '../backend/api_requests/api_calls.dart';
 import '../components/actionbar_widget.dart';
 import '../components/footer_widget.dart';
 import '../flutter_flow/flutter_flow_drop_down.dart';
@@ -79,7 +80,9 @@ class _CustomPaymentGatewayWidgetState
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
                           child: Text(
-                            'My courses /  Cart ',
+                            FFLocalizations.of(context).getText(
+                              'ed87hqfn' /* My courses /  Cart  */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -95,7 +98,7 @@ class _CustomPaymentGatewayWidgetState
                   ),
                 ),
                 Padding(
-                  padding: EdgeInsetsDirectional.fromSTEB(100, 20, 100, 0),
+                  padding: EdgeInsetsDirectional.fromSTEB(100, 50, 100, 0),
                   child: Row(
                     mainAxisSize: MainAxisSize.max,
                     crossAxisAlignment: CrossAxisAlignment.start,
@@ -112,7 +115,9 @@ class _CustomPaymentGatewayWidgetState
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Payment',
+                                  FFLocalizations.of(context).getText(
+                                    'lw9tghas' /* Payment */,
+                                  ),
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
@@ -146,7 +151,10 @@ class _CustomPaymentGatewayWidgetState
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                'Payment Method',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'bebvipuw' /* Payment Method */,
+                                                ),
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -159,14 +167,54 @@ class _CustomPaymentGatewayWidgetState
                                                           useGoogleFonts: false,
                                                         ),
                                               ),
-                                              FlutterFlowDropDown(
-                                                options: ['Option 1'].toList(),
-                                                onChanged: (val) => setState(
-                                                    () => dropDownValue = val),
-                                                width: 250,
-                                                height: 50,
-                                                textStyle:
-                                                    FlutterFlowTheme.of(context)
+                                              FutureBuilder<ApiCallResponse>(
+                                                future:
+                                                    PaymentMethodCall.call(),
+                                                builder: (context, snapshot) {
+                                                  // Customize what your widget looks like when it's loading.
+                                                  if (!snapshot.hasData) {
+                                                    return Center(
+                                                      child: SizedBox(
+                                                        width: 70,
+                                                        height: 70,
+                                                        child: SpinKitRipple(
+                                                          color: FlutterFlowTheme
+                                                                  .of(context)
+                                                              .primaryCTA,
+                                                          size: 70,
+                                                        ),
+                                                      ),
+                                                    );
+                                                  }
+                                                  final dropDownPaymentMethodResponse =
+                                                      snapshot.data;
+                                                  return FlutterFlowDropDown(
+                                                    initialOption:
+                                                        dropDownValue ??=
+                                                            PaymentMethodCall
+                                                                .formattedText(
+                                                      (dropDownPaymentMethodResponse
+                                                              ?.jsonBody ??
+                                                          ''),
+                                                    ).toString(),
+                                                    options: PaymentMethodCall
+                                                            .formattedText(
+                                                      (dropDownPaymentMethodResponse
+                                                              ?.jsonBody ??
+                                                          ''),
+                                                    )
+                                                        .map<String>(
+                                                            (s) => s.toString())
+                                                        .toList()
+                                                        .toList(),
+                                                    onChanged: (val) =>
+                                                        setState(() =>
+                                                            dropDownValue =
+                                                                val),
+                                                    width: 250,
+                                                    height: 50,
+                                                    textStyle: FlutterFlowTheme
+                                                            .of(context)
                                                         .bodyText1
                                                         .override(
                                                           fontFamily: 'SF Pro',
@@ -176,16 +224,25 @@ class _CustomPaymentGatewayWidgetState
                                                               FontWeight.normal,
                                                           useGoogleFonts: false,
                                                         ),
-                                                hintText:
-                                                    'Choose Payment Methods',
-                                                fillColor: Colors.white,
-                                                elevation: 2,
-                                                borderColor: Color(0xFFDEDEDE),
-                                                borderWidth: 0,
-                                                borderRadius: 3,
-                                                margin: EdgeInsetsDirectional
-                                                    .fromSTEB(12, 4, 12, 4),
-                                                hidesUnderline: true,
+                                                    hintText:
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                      '8xwq5910' /* Choose Payment Methods */,
+                                                    ),
+                                                    fillColor: Colors.white,
+                                                    elevation: 2,
+                                                    borderColor:
+                                                        Color(0xFFDEDEDE),
+                                                    borderWidth: 0,
+                                                    borderRadius: 3,
+                                                    margin:
+                                                        EdgeInsetsDirectional
+                                                            .fromSTEB(
+                                                                12, 4, 12, 4),
+                                                    hidesUnderline: true,
+                                                  );
+                                                },
                                               ),
                                             ],
                                           ),
@@ -213,7 +270,11 @@ class _CustomPaymentGatewayWidgetState
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Recently used',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '7s3oi4rv' /* Recently used */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -309,7 +370,10 @@ class _CustomPaymentGatewayWidgetState
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'HDFC BANK LTD',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'ojszztlb' /* HDFC BANK LTD */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -327,7 +391,9 @@ class _CustomPaymentGatewayWidgetState
                                                                               0),
                                                                           child:
                                                                               Text(
-                                                                            '2345 **** **** ****',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'gfioqo7k' /* 2345 **** **** **** */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
                                                                                   color: Color(0xFF626168),
@@ -400,7 +466,10 @@ class _CustomPaymentGatewayWidgetState
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'HDFC BANK LTD',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'zfrvnw3o' /* HDFC BANK LTD */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -418,7 +487,9 @@ class _CustomPaymentGatewayWidgetState
                                                                               0),
                                                                           child:
                                                                               Text(
-                                                                            '2345 **** **** ****',
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'e8wkzg1n' /* 2345 **** **** **** */,
+                                                                            ),
                                                                             style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                   fontFamily: 'SF Pro',
                                                                                   color: Color(0xFF626168),
@@ -475,7 +546,12 @@ class _CustomPaymentGatewayWidgetState
                                                           print(
                                                               'Button pressed ...');
                                                         },
-                                                        text: 'Add New Card',
+                                                        text:
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                          'j8zkcqab' /* Add New Card */,
+                                                        ),
                                                         icon: Icon(
                                                           Icons.add,
                                                           size: 15,
@@ -546,7 +622,10 @@ class _CustomPaymentGatewayWidgetState
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                'Billing Detials',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ncid41hs' /* Billing Detials */,
+                                                ),
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -588,7 +667,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'First Name',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'sgwv3ehl' /* First Name */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -613,7 +696,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  '918qrm3e' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -705,6 +792,9 @@ class _CustomPaymentGatewayWidgetState
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
+                                                              keyboardType:
+                                                                  TextInputType
+                                                                      .name,
                                                             ),
                                                           ),
                                                         ),
@@ -730,7 +820,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Last  Name',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'taxrduu3' /* Last  Name */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -755,7 +849,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'psn4gz3b' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -847,6 +945,9 @@ class _CustomPaymentGatewayWidgetState
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
+                                                              keyboardType:
+                                                                  TextInputType
+                                                                      .name,
                                                             ),
                                                           ),
                                                         ),
@@ -884,7 +985,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Email',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '5mxxhkn7' /* Email */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -909,7 +1014,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'fzuufi6i' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1001,6 +1110,9 @@ class _CustomPaymentGatewayWidgetState
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
+                                                              keyboardType:
+                                                                  TextInputType
+                                                                      .emailAddress,
                                                             ),
                                                           ),
                                                         ),
@@ -1026,7 +1138,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Phone Number',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'ylpwjdcf' /* Phone Number */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1051,7 +1167,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'xdwtv23p' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1143,6 +1263,9 @@ class _CustomPaymentGatewayWidgetState
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
+                                                              keyboardType:
+                                                                  TextInputType
+                                                                      .phone,
                                                             ),
                                                           ),
                                                         ),
@@ -1180,7 +1303,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Apartment , suite, unit, etc. (optional)',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'sce30z5d' /* Apartment , suite, unit, etc. ... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1205,7 +1332,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  '5ymc3642' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1298,6 +1429,9 @@ class _CustomPaymentGatewayWidgetState
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
+                                                              keyboardType:
+                                                                  TextInputType
+                                                                      .multiline,
                                                             ),
                                                           ),
                                                         ),
@@ -1335,7 +1469,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Street Address',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'vh2f7aku' /* Street Address */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1360,7 +1498,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'touwo78i' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1452,6 +1594,9 @@ class _CustomPaymentGatewayWidgetState
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
+                                                              keyboardType:
+                                                                  TextInputType
+                                                                      .streetAddress,
                                                             ),
                                                           ),
                                                         ),
@@ -1477,7 +1622,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Zip',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '7ymayxac' /* Zip */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1502,7 +1651,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  '49am7yw1' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1631,7 +1784,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Street Address',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'v121phvc' /* Country */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1656,7 +1813,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'tndq2pti' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1773,7 +1934,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'State',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'cu49t6rl' /* State */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1798,7 +1963,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'biu28ghr' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1915,7 +2084,11 @@ class _CustomPaymentGatewayWidgetState
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'City',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'i6tsuetm' /* City */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1940,7 +2113,11 @@ class _CustomPaymentGatewayWidgetState
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                '*',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'ssiceu4g' /* * */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -2051,7 +2228,9 @@ class _CustomPaymentGatewayWidgetState
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 20, 0, 0),
                                   child: Text(
-                                    'Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our privacy policy.',
+                                    FFLocalizations.of(context).getText(
+                                      '0m9mm1fz' /* Your personal data will be use... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -2066,64 +2245,80 @@ class _CustomPaymentGatewayWidgetState
                                   mainAxisSize: MainAxisSize.max,
                                   children: [
                                     Expanded(
-                                      child: Theme(
-                                        data: ThemeData(
-                                          unselectedWidgetColor:
-                                              Color(0xFF95A1AC),
-                                        ),
-                                        child: CheckboxListTile(
-                                          value: checkboxListTileValue ??=
-                                              false,
-                                          onChanged: (newValue) => setState(
-                                              () => checkboxListTileValue =
-                                                  newValue),
-                                          title: Text(
-                                            'I have read and agree to the website terms and conditions *',
-                                            style: FlutterFlowTheme.of(context)
-                                                .title3
-                                                .override(
-                                                  fontFamily: 'SF Pro',
-                                                  color: Color(0xFF494F58),
-                                                  fontSize: 14,
-                                                  fontWeight: FontWeight.normal,
-                                                  useGoogleFonts: false,
-                                                ),
+                                      child: Padding(
+                                        padding: EdgeInsetsDirectional.fromSTEB(
+                                            0, 20, 0, 0),
+                                        child: Theme(
+                                          data: ThemeData(
+                                            unselectedWidgetColor:
+                                                Color(0xFF95A1AC),
                                           ),
-                                          tileColor: Color(0xFFF5F5F5),
-                                          activeColor:
-                                              FlutterFlowTheme.of(context)
-                                                  .primaryColor,
-                                          dense: false,
-                                          controlAffinity:
-                                              ListTileControlAffinity.leading,
+                                          child: CheckboxListTile(
+                                            value: checkboxListTileValue ??=
+                                                false,
+                                            onChanged: (newValue) => setState(
+                                                () => checkboxListTileValue =
+                                                    newValue),
+                                            title: Text(
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'q6d0ghv3' /* I have read and agree to the w... */,
+                                              ),
+                                              style:
+                                                  FlutterFlowTheme.of(context)
+                                                      .title3
+                                                      .override(
+                                                        fontFamily: 'SF Pro',
+                                                        color:
+                                                            Color(0xFF494F58),
+                                                        fontSize: 14,
+                                                        fontWeight:
+                                                            FontWeight.normal,
+                                                        useGoogleFonts: false,
+                                                      ),
+                                            ),
+                                            tileColor: Color(0x00F5F5F5),
+                                            activeColor:
+                                                FlutterFlowTheme.of(context)
+                                                    .primaryColor,
+                                            dense: false,
+                                            controlAffinity:
+                                                ListTileControlAffinity.leading,
+                                          ),
                                         ),
                                       ),
                                     ),
                                   ],
                                 ),
-                                FFButtonWidget(
-                                  onPressed: () {
-                                    print('Button pressed ...');
-                                  },
-                                  text: 'PROCEED TO CHECKOUT',
-                                  options: FFButtonOptions(
-                                    width: 280,
-                                    height: 50,
-                                    color: Color(0xFF3C439B),
-                                    textStyle: FlutterFlowTheme.of(context)
-                                        .subtitle2
-                                        .override(
-                                          fontFamily: 'SF Pro',
-                                          color: Colors.white,
-                                          fontSize: 14,
-                                          fontWeight: FontWeight.w500,
-                                          useGoogleFonts: false,
-                                        ),
-                                    borderSide: BorderSide(
-                                      color: Colors.transparent,
-                                      width: 1,
+                                Padding(
+                                  padding: EdgeInsetsDirectional.fromSTEB(
+                                      0, 20, 0, 100),
+                                  child: FFButtonWidget(
+                                    onPressed: () {
+                                      print('Button pressed ...');
+                                    },
+                                    text: FFLocalizations.of(context).getText(
+                                      'o7n8pb6z' /* PROCEED TO CHECKOUT */,
                                     ),
-                                    borderRadius: 12,
+                                    options: FFButtonOptions(
+                                      width: 280,
+                                      height: 50,
+                                      color: Color(0xFF3C439B),
+                                      textStyle: FlutterFlowTheme.of(context)
+                                          .subtitle2
+                                          .override(
+                                            fontFamily: 'SF Pro',
+                                            color: Colors.white,
+                                            fontSize: 14,
+                                            fontWeight: FontWeight.w500,
+                                            useGoogleFonts: false,
+                                          ),
+                                      borderSide: BorderSide(
+                                        color: Colors.transparent,
+                                        width: 1,
+                                      ),
+                                      borderRadius: 12,
+                                    ),
                                   ),
                                 ),
                               ],
@@ -2140,7 +2335,9 @@ class _CustomPaymentGatewayWidgetState
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Your Order',
+                                FFLocalizations.of(context).getText(
+                                  'v5752zri' /* Your Order */,
+                                ),
                                 textAlign: TextAlign.start,
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
@@ -2174,7 +2371,10 @@ class _CustomPaymentGatewayWidgetState
                                               MainAxisAlignment.spaceBetween,
                                           children: [
                                             Text(
-                                              'Your Course',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '9amf8vv1' /* Your Course */,
+                                              ),
                                               textAlign: TextAlign.start,
                                               style:
                                                   FlutterFlowTheme.of(context)
@@ -2231,7 +2431,11 @@ class _CustomPaymentGatewayWidgetState
                                                             .fromSTEB(
                                                                 0, 10, 0, 0),
                                                     child: Text(
-                                                      'Fellowship in Critical Care Medicine - 2021 Edition',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '7x2mqeff' /* Fellowship in Critical Care Me... */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyText1
@@ -2254,7 +2458,11 @@ class _CustomPaymentGatewayWidgetState
                                                             .fromSTEB(
                                                                 0, 10, 0, 0),
                                                     child: Text(
-                                                      '(*Price is Inclusive of Certificate , Advanced & fellowship Courses)',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'x4kf5lsf' /* (*Price is Inclusive of Certif... */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyText1
@@ -2277,7 +2485,11 @@ class _CustomPaymentGatewayWidgetState
                                                             .fromSTEB(
                                                                 0, 20, 0, 0),
                                                     child: Text(
-                                                      '₹120,000.00',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'aktgqefh' /* ₹120,000.00 */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyText1
@@ -2309,7 +2521,10 @@ class _CustomPaymentGatewayWidgetState
                                                 MainAxisAlignment.spaceBetween,
                                             children: [
                                               Text(
-                                                'Product',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'lnhzu6sp' /* Product */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -2324,7 +2539,10 @@ class _CustomPaymentGatewayWidgetState
                                                         ),
                                               ),
                                               Text(
-                                                'Add More',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '6rbc4j24' /* Add More */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -2384,7 +2602,11 @@ class _CustomPaymentGatewayWidgetState
                                                                 .fromSTEB(10, 0,
                                                                     0, 0),
                                                         child: Text(
-                                                          'Apply Coupon',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'miztyc3i' /* Apply Coupon */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -2424,7 +2646,9 @@ class _CustomPaymentGatewayWidgetState
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 20, 0, 0),
                                           child: Text(
-                                            'Cart Totals (1 Item)',
+                                            FFLocalizations.of(context).getText(
+                                              '8hz5axj4' /* Cart Totals (1 Item) */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -2445,7 +2669,10 @@ class _CustomPaymentGatewayWidgetState
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 20, 0, 0),
                                               child: Text(
-                                                'Subtotal',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'j5fcktj0' /* Subtotal */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -2464,7 +2691,10 @@ class _CustomPaymentGatewayWidgetState
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 20, 0, 0),
                                               child: Text(
-                                                '₹120,000.00',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '37tdgwbj' /* ₹120,000.00 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -2494,7 +2724,12 @@ class _CustomPaymentGatewayWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 20, 0, 0),
                                                 child: Text(
-                                                  'Goods & Service Tax (18%)\n(Estimated in India)',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'fvp458xs' /* Goods & Service Tax (18%)
+(Est... */
+                                                    ,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -2513,7 +2748,10 @@ class _CustomPaymentGatewayWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 20, 0, 0),
                                                 child: Text(
-                                                  '₹21,600.00',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'b1theja0' /* ₹21,600.00 */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -2545,7 +2783,10 @@ class _CustomPaymentGatewayWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 20, 0, 0),
                                                 child: Text(
-                                                  'Total',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'btm2mxuw' /* Total */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -2564,7 +2805,10 @@ class _CustomPaymentGatewayWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 20, 0, 0),
                                                 child: Text(
-                                                  '₹141,600.00',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '3ea8p2m9' /* ₹141,600.00 */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1

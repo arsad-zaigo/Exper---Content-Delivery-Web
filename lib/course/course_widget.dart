@@ -81,7 +81,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 0, 0, 20),
                                           child: Text(
-                                            'Fellowship in Critical Care\nMedicine - 2021 Edition',
+                                            FFLocalizations.of(context).getText(
+                                              'kd2fzbcn' /* Fellowship in Critical Care
+Me... */
+                                              ,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
@@ -104,7 +108,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                           mainAxisSize: MainAxisSize.max,
                                           children: [
                                             Text(
-                                              'An opportunity to learn new courses online just by one click Certificate Course in Vaccine Administration',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'dlb5ujk6' /* An opportunity to learn new co... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -160,7 +167,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  '₹ 14,799',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'pc1pi9fi' /* ₹ 14,799 */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -194,7 +204,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                   onPressed: () {
                                                     print('Button pressed ...');
                                                   },
-                                                  text: 'Buy Now',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '2lgt5iwn' /* Buy Now */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     width: 130,
                                                     height: 60,
@@ -223,7 +237,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                   onPressed: () {
                                                     print('Button pressed ...');
                                                   },
-                                                  text: 'Enquiry Now',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '2sy0dpuv' /* Enquiry Now */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     width: 150,
                                                     height: 60,
@@ -277,7 +295,7 @@ class _CourseWidgetState extends State<CourseWidget> {
                                         child: SizedBox(
                                           width: 70,
                                           height: 70,
-                                          child: SpinKitFadingGrid(
+                                          child: SpinKitRipple(
                                             color: FlutterFlowTheme.of(context)
                                                 .primaryCTA,
                                             size: 70,
@@ -364,19 +382,34 @@ class _CourseWidgetState extends State<CourseWidget> {
                                           indicatorWeight: 2,
                                           tabs: [
                                             Tab(
-                                              text: 'Overview',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                'v34tfsow' /* Overview */,
+                                              ),
                                             ),
                                             Tab(
-                                              text: 'Highlights',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                '01qtytvx' /* Highlights */,
+                                              ),
                                             ),
                                             Tab(
-                                              text: 'Curriculum',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                'i1fs8ohw' /* Curriculum */,
+                                              ),
                                             ),
                                             Tab(
-                                              text: 'Partner',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                '2srngvrq' /* Partner */,
+                                              ),
                                             ),
                                             Tab(
-                                              text: 'Faculty',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                'o635wwyo' /* Faculty */,
+                                              ),
                                             ),
                                           ],
                                         ),
@@ -387,7 +420,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(15, 15, 15, 15),
                                                 child: Text(
-                                                  'The Fellowship in Clinical Cardiology marks your entry into the prestigious field of cardiology. Cardiac disease is the most common cause of global mortality. Thus, there is a huge demand for medical graduates and general practitioners with a deep understanding of cardiology topics. \n\nThis course is the final step in becoming a cardiology expert and addresses the pathophysiological basis, clinical features, diagnosis, and evidence-based medical management for major cardiac diseases, permitting you to administer the optimum care to cardiac cases. The experience of 3 months of practical training in a leading corporate hospital guided by expert cardiologists gives you a much-needed clinical experience. \n\nThe Medvarsity Learning Design framework (Certificate, Advanced Certificate, and Fellowship) is based on Kirkpatrick’s model of e-learning and allows the systematic consumption and application of the content. \n\nThis course is certified by the AHERF, and our current alumni work at hospitals like Apollo, Medanta, Billroth Hospitals, and Columbia Asia Hospitals. \n\nWe at Medvarsity strive to equip every physician with the ability to fast-track their career and enable them to better serve the communities in which they practice. Join us, and let us impact healthcare through education.',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'm8f494h3' /* The Fellowship in Clinical Car... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -400,7 +436,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                 ),
                                               ),
                                               Text(
-                                                'Tab View 2',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'gn8xkgf7' /* Tab View 2 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -411,7 +450,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Tab View 3',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'hstvy31c' /* Tab View 3 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -422,7 +464,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Tab View 4',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '60tnnau9' /* Tab View 4 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -433,7 +478,10 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                         ),
                                               ),
                                               Text(
-                                                'Tab View 5',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'zv1oamnp' /* Tab View 5 */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -471,7 +519,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Reviews',
+                                          FFLocalizations.of(context).getText(
+                                            '3bbljmk3' /* Reviews */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
                                         ),
@@ -558,12 +608,18 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                                             .start,
                                                                     children: [
                                                                       Text(
-                                                                        'Vittorio Rivabella',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '6o05h2wx' /* Vittorio Rivabella */,
+                                                                        ),
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyText1,
                                                                       ),
                                                                       Text(
-                                                                        '4 days ago',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '2w01kztw' /* 4 days ago */,
+                                                                        ),
                                                                         style: FlutterFlowTheme.of(context)
                                                                             .bodyText1,
                                                                       ),
@@ -573,7 +629,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                               ),
                                                             ),
                                                             Text(
-                                                              'Hello World',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '3r5qslvr' /* Hello World */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
@@ -581,7 +641,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                           ],
                                                         ),
                                                         Text(
-                                                          'Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra.Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra ',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'rjcn88ja' /* Kailash Manasarovar tour / Yat... */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1,
@@ -619,7 +683,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             20, 20, 20, 20),
                                         child: Text(
-                                          'FAQs',
+                                          FFLocalizations.of(context).getText(
+                                            '8fov836m' /* FAQs */,
+                                          ),
                                           textAlign: TextAlign.start,
                                           style: FlutterFlowTheme.of(context)
                                               .subtitle1,
@@ -652,7 +718,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                       initialExpanded: false,
                                                       child: ExpandablePanel(
                                                         header: Text(
-                                                          'Course Related',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'wh1q2m0z' /* Course Related */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .title1
@@ -717,7 +787,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'lptebfe4' /* Lorem ipsum dolor sit amet, co... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -788,7 +862,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                       initialExpanded: false,
                                                       child: ExpandablePanel(
                                                         header: Text(
-                                                          'Course Related',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'rf1rhjc5' /* Course Related */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .title1
@@ -853,7 +931,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '7pvlxugq' /* Lorem ipsum dolor sit amet, co... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -924,7 +1006,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                       initialExpanded: false,
                                                       child: ExpandablePanel(
                                                         header: Text(
-                                                          'Course Related',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            't844vb4a' /* Course Related */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .title1
@@ -989,7 +1075,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'mro1h3bq' /* Lorem ipsum dolor sit amet, co... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1060,7 +1150,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                       initialExpanded: false,
                                                       child: ExpandablePanel(
                                                         header: Text(
-                                                          'Course Related',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '6pjart58' /* Course Related */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .title1
@@ -1125,7 +1219,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'z15pb10x' /* Lorem ipsum dolor sit amet, co... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1196,7 +1294,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                       initialExpanded: false,
                                                       child: ExpandablePanel(
                                                         header: Text(
-                                                          'Course Related',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '4jpjky6v' /* Course Related */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .title1
@@ -1261,7 +1363,11 @@ class _CourseWidgetState extends State<CourseWidget> {
                                                               MainAxisSize.max,
                                                           children: [
                                                             Text(
-                                                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'b43yngrp' /* Lorem ipsum dolor sit amet, co... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -1361,7 +1467,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Reviews',
+                                            FFLocalizations.of(context).getText(
+                                              '4g6f6zev' /* Reviews */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1393,7 +1501,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Reviews',
+                                            FFLocalizations.of(context).getText(
+                                              '4n2g50s8' /* Reviews */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1425,7 +1535,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Course Validity',
+                                            FFLocalizations.of(context).getText(
+                                              'yjnn5d4z' /* Course Validity */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1457,7 +1569,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Sample Certificate',
+                                            FFLocalizations.of(context).getText(
+                                              'jepkc05n' /* Sample Certificate */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1489,7 +1603,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Course Elgibility',
+                                            FFLocalizations.of(context).getText(
+                                              'fjkdzxkc' /* Course Elgibility */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1521,7 +1637,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Reviews',
+                                            FFLocalizations.of(context).getText(
+                                              'tm1dukou' /* Reviews */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1553,7 +1671,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Reviews',
+                                            FFLocalizations.of(context).getText(
+                                              'quxx2krc' /* Reviews */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),
@@ -1585,7 +1705,9 @@ class _CourseWidgetState extends State<CourseWidget> {
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Reviews',
+                                            FFLocalizations.of(context).getText(
+                                              'gygdwn8d' /* Reviews */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .subtitle1,
                                           ),

@@ -69,7 +69,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                       },
                                     ),
                                     Text(
-                                      'My courses  / Fellowship in Critical Care Medicine - 2021 Edition',
+                                      FFLocalizations.of(context).getText(
+                                        '93efwtcg' /* My courses  / Fellowship in Cr... */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -101,7 +103,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            '06',
+                                            FFLocalizations.of(context).getText(
+                                              '7qp528kz' /* 06 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -118,7 +122,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            'Credits ',
+                                            FFLocalizations.of(context).getText(
+                                              'qad9v6gb' /* Credits  */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -149,7 +155,10 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 0, 0, 0),
                                             child: Text(
-                                              '08',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'ac1lpx0p' /* 08 */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -169,7 +178,10 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 0, 0, 0),
                                             child: Text(
-                                              'Points',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'jrhto8nb' /* Points */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -216,7 +228,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(20, 0, 0, 0),
                                 child: Text(
-                                  'Marks: +1 ',
+                                  FFLocalizations.of(context).getText(
+                                    'trxow9rd' /* Marks: +1  */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -231,7 +245,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                                 child: Text(
-                                  '-0.25',
+                                  FFLocalizations.of(context).getText(
+                                    'dn60r67c' /* -0.25 */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -246,7 +262,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(80, 0, 0, 0),
                                 child: Text(
-                                  '1/20',
+                                  FFLocalizations.of(context).getText(
+                                    'dzdlzqx1' /* 1/20 */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -275,7 +293,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                                 child: Text(
-                                  '19:49',
+                                  FFLocalizations.of(context).getText(
+                                    'kj47jyi1' /* 19:49 */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -326,7 +346,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          '1. In reference to the transvalvular pressure gradient, which of the below value is the peak gradient for severe PS?',
+                          FFLocalizations.of(context).getText(
+                            'qofg0czx' /* 1. In reference to the transva... */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -339,7 +361,9 @@ class _AssessmentQAPageWidgetState extends State<AssessmentQAPageWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(15, 32, 0, 0),
                           child: Text(
-                            'Select an option',
+                            FFLocalizations.of(context).getText(
+                              'q4s88s5c' /* Select an option */,
+                            ),
                             textAlign: TextAlign.start,
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(

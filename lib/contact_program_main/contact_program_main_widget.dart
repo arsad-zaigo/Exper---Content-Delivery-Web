@@ -66,7 +66,9 @@ class _ContactProgramMainWidgetState extends State<ContactProgramMainWidget> {
                                     color: Color(0x00EEEEEE),
                                   ),
                                   child: Text(
-                                    'Contact Program',
+                                    FFLocalizations.of(context).getText(
+                                      '7hwtb86y' /* Contact Program */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -98,7 +100,10 @@ class _ContactProgramMainWidgetState extends State<ContactProgramMainWidget> {
                                         controller: textController,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          hintText: 'Search Here',
+                                          hintText: FFLocalizations.of(context)
+                                              .getText(
+                                            'v8vokl0y' /* Search Here */,
+                                          ),
                                           enabledBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
                                               color: Color(0xFFDEDEDE),
@@ -140,7 +145,11 @@ class _ContactProgramMainWidgetState extends State<ContactProgramMainWidget> {
                                         color: Color(0x00EEEEEE),
                                       ),
                                       child: FlutterFlowDropDown(
-                                        options: ['Trending Courses'].toList(),
+                                        options: [
+                                          FFLocalizations.of(context).getText(
+                                            '15vzocpa' /* Trending Courses */,
+                                          )
+                                        ].toList(),
                                         onChanged: (val) =>
                                             setState(() => dropDownValue = val),
                                         width: 200,
@@ -153,7 +162,10 @@ class _ContactProgramMainWidgetState extends State<ContactProgramMainWidget> {
                                               fontWeight: FontWeight.w500,
                                               useGoogleFonts: false,
                                             ),
-                                        hintText: 'Trending Courses',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          'a6n2ouzx' /* Trending Courses */,
+                                        ),
                                         fillColor: Colors.white,
                                         elevation: 2,
                                         borderColor: Colors.transparent,

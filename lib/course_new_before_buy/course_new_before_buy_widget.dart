@@ -87,7 +87,11 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 0, 0, 20),
                                           child: Text(
-                                            'Fellowship in Critical Care\nMedicine - 2021 Edition',
+                                            FFLocalizations.of(context).getText(
+                                              'ks4pdbwi' /* Fellowship in Critical Care
+Me... */
+                                              ,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
@@ -110,7 +114,10 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                           mainAxisSize: MainAxisSize.max,
                                           children: [
                                             Text(
-                                              'An opportunity to learn new courses online just by one click Certificate Course in Vaccine Administration',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '8j6s58nu' /* An opportunity to learn new co... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -166,7 +173,10 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  '₹ 14,799',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'l1jnzxsz' /* ₹ 14,799 */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -206,7 +216,11 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                       ),
                                                     );
                                                   },
-                                                  text: 'Buy Now',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '12b8bse6' /* Buy Now */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     width: 130,
                                                     height: 45,
@@ -235,7 +249,11 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                   onPressed: () {
                                                     print('Button pressed ...');
                                                   },
-                                                  text: 'Enquiry Now',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    's1q4myd1' /* Enquiry Now */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     width: 150,
                                                     height: 45,
@@ -327,7 +345,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                             child: Text(
-                              'Who is the Course for',
+                              FFLocalizations.of(context).getText(
+                                'unzqmy1a' /* Who is the Course for */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -380,7 +400,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             Text(
-                              'Meet your Instructor',
+                              FFLocalizations.of(context).getText(
+                                '3iomx3h3' /* Meet your Instructor */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -419,7 +441,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Critical Care',
+                                  FFLocalizations.of(context).getText(
+                                    'g97v0jax' /* Critical Care */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -433,7 +457,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 20, 0, 0),
                                   child: Text(
-                                    'Dr. Sai Praveen Haranath',
+                                    FFLocalizations.of(context).getText(
+                                      '4e6ntptg' /* Dr. Sai Praveen Haranath */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -449,7 +475,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 20, 0, 0),
                                   child: Text(
-                                    'Senior Consultant – Pulmonary and Critical Care Medicine,\n Apollo Hospitals',
+                                    FFLocalizations.of(context).getText(
+                                      '41jz5m8s' /* Senior Consultant – Pulmonary ... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -464,7 +492,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 20, 0, 0),
                                   child: Text(
-                                    'MBBS, AB (American Board Certified) Internal Medicine, Pulmonary\n and Critical Care Medicine, MPH, FCCP',
+                                    FFLocalizations.of(context).getText(
+                                      'abpfig63' /* MBBS, AB (American Board Certi... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -495,7 +525,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
                                 child: Text(
-                                  'Testimonials',
+                                  FFLocalizations.of(context).getText(
+                                    'w7pti5jj' /* Testimonials */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -615,7 +647,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                               child: Text(
-                                                                                'Efficient Collaborating',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '6k15ktnz' /* Efficient Collaborating */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0xFF202431),
@@ -627,7 +661,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'l5qxsody' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -664,7 +700,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Theresa Webb',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'ht3zkqfl' /* Theresa Webb */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -678,7 +716,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Manager - Engineering',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'rdbwm1ax' /* Manager - Engineering */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0xFF7F7F82),
@@ -782,7 +822,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                               child: Text(
-                                                                                'Efficient Collaborating',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '5ay0hko8' /* Efficient Collaborating */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0xFF202431),
@@ -794,7 +836,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '7jl55ywl' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -831,7 +875,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Theresa Webb',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '7qepvyd3' /* Theresa Webb */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -845,7 +891,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Manager - Engineering',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'q9xpimvs' /* Manager - Engineering */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0xFF7F7F82),
@@ -949,7 +997,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                               child: Text(
-                                                                                'Efficient Collaborating',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '50uw3py6' /* Efficient Collaborating */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0xFF202431),
@@ -961,7 +1011,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'oebake9m' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -998,7 +1050,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Theresa Webb',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  '8aardibh' /* Theresa Webb */,
+                                                                                ),
                                                                                 textAlign: TextAlign.center,
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
@@ -1012,7 +1066,9 @@ class _CourseNewBeforeBuyWidgetState extends State<CourseNewBeforeBuyWidget> {
                                                                             Padding(
                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                               child: Text(
-                                                                                'Manager - Engineering',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'djpsx7q4' /* Manager - Engineering */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0xFF7F7F82),

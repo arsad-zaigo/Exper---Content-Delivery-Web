@@ -120,10 +120,15 @@ class _LiveVideoPageFullScreenWidgetState
                                             color: Color(0xFFDEDEDE),
                                             shape: BoxShape.circle,
                                           ),
-                                          child: Icon(
-                                            Icons.chevron_left_outlined,
-                                            color: Color(0xFF787895),
-                                            size: 24,
+                                          child: InkWell(
+                                            onTap: () async {
+                                              Navigator.pop(context);
+                                            },
+                                            child: Icon(
+                                              Icons.chevron_left_outlined,
+                                              color: Color(0xFF787895),
+                                              size: 24,
+                                            ),
                                           ),
                                         ),
                                         Row(
@@ -172,7 +177,9 @@ class _LiveVideoPageFullScreenWidgetState
                                           color: Color(0x00EEEEEE),
                                         ),
                                         child: Text(
-                                          'Video class on Basics of Percutaneous Coronary Intervention',
+                                          FFLocalizations.of(context).getText(
+                                            'jqdrgd8a' /* Video class on Basics of Percu... */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -220,7 +227,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Skill Level',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'kqyh3ekh' /* Skill Level */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -238,7 +249,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Intermediate',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'sm0ta6n4' /* Intermediate */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -296,7 +311,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Students Enrolled',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'sb8nhe9o' /* Students Enrolled */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -313,7 +332,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                               ),
                                                         ),
                                                         Text(
-                                                          '143',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'zpfzzl98' /* 143 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -371,7 +394,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Credits',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'iy62f9g7' /* Credits */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -388,7 +415,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                               ),
                                                         ),
                                                         Text(
-                                                          '5',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'du8uz26b' /* 5 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -446,7 +477,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Start Date ',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'iqpqzdtn' /* Start Date  */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -464,7 +499,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                               ),
                                                     ),
                                                     Text(
-                                                      '30th Jan 2022',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '8vk2w0lf' /* 30th Jan 2022 */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyText1
@@ -518,7 +557,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Start Date ',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'yn2rr81a' /* Start Date  */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -536,7 +579,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '30th Jan 2022',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'gv7r1fvz' /* 30th Jan 2022 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -593,7 +640,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Total classes',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '741bwmn1' /* Total classes */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -611,7 +662,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '01',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '5m1v4iqn' /* 01 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -661,7 +716,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                         CrossAxisAlignment.end,
                                                     children: [
                                                       Text(
-                                                        '₹ 14,799 ',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '6nbx1v6j' /* ₹ 14,799  */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -682,7 +741,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                                 .fromSTEB(
                                                                     3, 0, 0, 0),
                                                         child: Text(
-                                                          '₹ 14,799',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'xvesimwf' /* ₹ 14,799 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -708,7 +771,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                             .fromSTEB(
                                                                 0, 5, 0, 0),
                                                     child: Text(
-                                                      '(Exluding All Taxes) ',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '5o7ztd1u' /* (Exluding All Taxes)  */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -734,7 +801,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                       print(
                                                           'Button pressed ...');
                                                     },
-                                                    text: 'Talk to us',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      '6q7a79pq' /* Talk to us */,
+                                                    ),
                                                     options: FFButtonOptions(
                                                       width: 150,
                                                       height: 50,
@@ -773,7 +844,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                         print(
                                                             'Button pressed ...');
                                                       },
-                                                      text: 'Enroll Now',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '9jccwep7' /* Enroll Now */,
+                                                      ),
                                                       options: FFButtonOptions(
                                                         width: 150,
                                                         height: 50,
@@ -839,8 +914,11 @@ class _LiveVideoPageFullScreenWidgetState
                                                           ),
                                                         );
                                                       },
-                                                      text:
-                                                          'Your live video class will start in : 03 Days & 06 Hours',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'ag6rgicv' /* Your live video class will sta... */,
+                                                      ),
                                                       options: FFButtonOptions(
                                                         width: 130,
                                                         height: 60,
@@ -889,7 +967,10 @@ class _LiveVideoPageFullScreenWidgetState
                                               color: Color(0x00EEEEEE),
                                             ),
                                             child: Text(
-                                              'About program',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'qejb8frv' /* About program */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -907,7 +988,10 @@ class _LiveVideoPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 8, 0, 0),
                                             child: Text(
-                                              'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their experiences and their vision for the future.The talks present great insights on how to sustain the... Read more',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                't2retmyr' /* The masterclass is a series of... */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -925,7 +1009,10 @@ class _LiveVideoPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'About Instructor',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '0rc404ng' /* About Instructor */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -979,7 +1066,10 @@ class _LiveVideoPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'Sample Certificate',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '51f12vxm' /* Sample Certificate */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -1021,7 +1111,10 @@ class _LiveVideoPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'Reviews',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '91on06ro' /* Reviews */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -1057,7 +1150,10 @@ class _LiveVideoPageFullScreenWidgetState
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 20, 0, 0),
                                               child: Text(
-                                                'View All',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'r92a6qb1' /* View All */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1087,7 +1183,10 @@ class _LiveVideoPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'FAQ',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'z3kwtetv' /* FAQ */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -1134,7 +1233,9 @@ class _LiveVideoPageFullScreenWidgetState
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
-                        'Saved courses',
+                        FFLocalizations.of(context).getText(
+                          'n4jp65i9' /* Saved courses */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF202431),
@@ -1164,7 +1265,7 @@ class _LiveVideoPageFullScreenWidgetState
                               child: SizedBox(
                                 width: 70,
                                 height: 70,
-                                child: SpinKitFadingGrid(
+                                child: SpinKitRipple(
                                   color:
                                       FlutterFlowTheme.of(context).primaryCTA,
                                   size: 70,

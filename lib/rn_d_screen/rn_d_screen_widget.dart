@@ -26,7 +26,9 @@ class _RnDScreenWidgetState extends State<RnDScreenWidget> {
         backgroundColor: FlutterFlowTheme.of(context).primaryColor,
         automaticallyImplyLeading: false,
         title: Text(
-          'Page Title',
+          FFLocalizations.of(context).getText(
+            'gu6e7wks' /* Page Title */,
+          ),
           style: FlutterFlowTheme.of(context).title2.override(
                 fontFamily: 'SF Pro',
                 color: Colors.white,
@@ -117,7 +119,9 @@ class _RnDScreenWidgetState extends State<RnDScreenWidget> {
                     );
                   }
                 },
-                text: 'Button',
+                text: FFLocalizations.of(context).getText(
+                  't9pcroeb' /* Button */,
+                ),
                 options: FFButtonOptions(
                   width: 130,
                   height: 40,

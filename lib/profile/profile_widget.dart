@@ -110,7 +110,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            'My Goals',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'qhji7zf5' /* My Goals */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -171,7 +175,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                         .start,
                                                                 children: [
                                                                   Text(
-                                                                    'Current Streak',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'e75b5koj' /* Current Streak */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -187,7 +195,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                         ),
                                                                   ),
                                                                   Text(
-                                                                    '3 Days',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'drtf84mw' /* 3 Days */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -244,7 +256,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .start,
                                                                   children: [
                                                                     Text(
-                                                                      'Longest Streak',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'ucpvpool' /* Longest Streak */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -260,7 +276,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '7 Days',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '96bcp9i0' /* 7 Days */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -470,7 +490,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                               Color(0x00EEEEEE),
                                                         ),
                                                         child: Text(
-                                                          'Activity',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'pmhk65xx' /* Activity */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -552,7 +576,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'nj947zkn' /* Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -570,7 +598,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '7 Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '0tfbivls' /* 7 Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -658,7 +690,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'qa4dfiga' /* Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -676,7 +712,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '7 Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'jj1fjbqn' /* 7 Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -764,7 +804,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'gm0w82b6' /* Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -782,7 +826,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '7 Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '7h3fyuwh' /* 7 Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -870,7 +918,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'rhribih4' /* Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -888,7 +940,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '7 Courses',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'nozeajsu' /* 7 Courses */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -938,7 +994,10 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                'Personal Details',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'jrgbskz6' /* Personal Details */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1010,7 +1069,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Email id',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '6aanz4xg' /* Email id */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1028,7 +1091,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      'john@nhslondon.com',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        '41dluox3' /* john@nhslondon.com */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1087,7 +1154,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Contact',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'x5m3ptjr' /* Contact */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1105,7 +1176,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '+91 7894005897',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'c2j8b9ye' /* +91 7894005897 */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1164,7 +1239,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Gender',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'zm8ntsno' /* Gender */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1182,7 +1261,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      'Male',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'u2s2s3r1' /* Male */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1241,7 +1324,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Location',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'verwaeh4' /* Location */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1259,7 +1346,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      'Hyderabad',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'd8mghe5r' /* Hyderabad */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1318,7 +1409,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           .spaceBetween,
                                                                   children: [
                                                                     Text(
-                                                                      'Interests',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'dyu8qpk1' /* Interests */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1336,7 +1431,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           ),
                                                                     ),
                                                                     Text(
-                                                                      '3 Interests',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'yc60vhif' /* 3 Interests */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -1407,7 +1506,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                                 MainAxisAlignment.center,
                                                                             children: [
                                                                               Text(
-                                                                                'Diabetes',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'tzfdyap0' /* Diabetes */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       fontWeight: FontWeight.normal,
@@ -1457,7 +1558,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                                 MainAxisAlignment.center,
                                                                             children: [
                                                                               Text(
-                                                                                'General Surgery',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'f0lwj9d8' /* General Surgery */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       fontWeight: FontWeight.normal,
@@ -1507,7 +1610,9 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                                 MainAxisAlignment.center,
                                                                             children: [
                                                                               Text(
-                                                                                'Ciritical Care',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  't88yhw13' /* Ciritical Care */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       fontWeight: FontWeight.normal,
@@ -1662,7 +1767,11 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                                           0,
                                                                           20),
                                                               child: Text(
-                                                                'INVITE NOW    >',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  'i05qvqyw' /* INVITE NOW    > */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1710,7 +1819,10 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                'Saved courses',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '5pe5y0ld' /* Saved courses */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1750,8 +1862,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       child: SizedBox(
                                                         width: 70,
                                                         height: 70,
-                                                        child:
-                                                            SpinKitFadingGrid(
+                                                        child: SpinKitRipple(
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .primaryCTA,
@@ -1844,7 +1955,10 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                'Saved courses',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '3neh5579' /* Saved courses */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1883,8 +1997,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       child: SizedBox(
                                                         width: 70,
                                                         height: 70,
-                                                        child:
-                                                            SpinKitFadingGrid(
+                                                        child: SpinKitRipple(
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .primaryCTA,
@@ -1963,7 +2076,10 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                'Saved Simulation',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'f4ezr7f3' /* Saved Simulation */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -2002,8 +2118,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                       child: SizedBox(
                                                         width: 70,
                                                         height: 70,
-                                                        child:
-                                                            SpinKitFadingGrid(
+                                                        child: SpinKitRipple(
                                                           color: FlutterFlowTheme
                                                                   .of(context)
                                                               .primaryCTA,
@@ -2089,7 +2204,10 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                             mainAxisSize: MainAxisSize.max,
                                             children: [
                                               Text(
-                                                'Saved Notes',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'g2i1ilyk' /* Saved Notes */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -2126,7 +2244,7 @@ class _ProfileWidgetState extends State<ProfileWidget> {
                                                     child: SizedBox(
                                                       width: 70,
                                                       height: 70,
-                                                      child: SpinKitFadingGrid(
+                                                      child: SpinKitRipple(
                                                         color:
                                                             FlutterFlowTheme.of(
                                                                     context)

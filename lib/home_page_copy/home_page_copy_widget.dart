@@ -1116,7 +1116,7 @@ at you... */
                                                               width: 70,
                                                               height: 70,
                                                               child:
-                                                                  SpinKitFadingGrid(
+                                                                  SpinKitRipple(
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryCTA,
@@ -2850,7 +2850,11 @@ at you... */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Select a course that you require',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'upmjk08e' /* Select a course that you requi... */,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -2902,7 +2906,13 @@ at you... */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Select date & time to\nbook counselling',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'el8x1lh6' /* Select date & time to
+book cou... */
+                                                                    ,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -2954,7 +2964,13 @@ at you... */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Understand the curriculum\nand know the course',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    '7w1y90of' /* Understand the curriculum
+and ... */
+                                                                    ,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -3006,7 +3022,13 @@ at you... */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Get Certification from\nMedvaristy & Apply for Jobs',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'ba084f3f' /* Get Certification from
+Medvari... */
+                                                                    ,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -3047,7 +3069,12 @@ at you... */
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 100, 0, 0),
                                                 child: Text(
-                                                  'Why choose us?\n',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'verczjhx' /* Why choose us?
+ */
+                                                    ,
+                                                  ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -3064,7 +3091,10 @@ at you... */
                                                 ),
                                               ),
                                               Text(
-                                                'Amet minim mollit non deserunt ullamco est sit aliqua dolor  do amet sint. Velit officia consequat duis enim velit mollit. ',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'kkv6hhji' /* Amet minim mollit non deserunt... */,
+                                                ),
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -3159,7 +3189,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Certification Ready',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '9ppnjgqo' /* Certification Ready */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3182,7 +3215,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Select a course that you require',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'vxsx3qru' /* Select a course that you requi... */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3230,7 +3266,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Contact Program',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'ksoj3ij1' /* Contact Program */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3253,7 +3292,12 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Understand the curriculum\nand know the course',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'pb9gd5jn' /* Understand the curriculum
+and ... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3301,7 +3345,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Gamification',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'hw9kr7s5' /* Gamification */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3324,7 +3371,12 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Get Certification from\nMedvaristy & Apply for Jobs',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'd9syq1gv' /* Get Certification from
+Medvari... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3427,7 +3479,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Simulation Program',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'vm0r6kwh' /* Simulation Program */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3450,7 +3505,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Select a course that you require',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'uh71lbu5' /* Select a course that you requi... */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3498,7 +3556,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Accurate Reports',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'ykr0k01f' /* Accurate Reports */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3521,7 +3582,12 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Understand the curriculum\nand know the course',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'ejktvqhx' /* Understand the curriculum
+and ... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3569,7 +3635,10 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Best Course Prices',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '6ocr3alg' /* Best Course Prices */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3592,7 +3661,12 @@ at you... */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Get Certification from\nMedvaristy & Apply for Jobs',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'pqd2x25t' /* Get Certification from
+Medvari... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3642,7 +3716,10 @@ at you... */
                                                   MainAxisAlignment.center,
                                               children: [
                                                 Text(
-                                                  'Numbers that matter',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'xtq960s5' /* Numbers that matter */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -3670,7 +3747,11 @@ at you... */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '10000+',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              't5uaq03z' /* 10000+ */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3696,7 +3777,11 @@ at you... */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Courses Completed',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'e3r78eyi' /* Courses Completed */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3722,7 +3807,11 @@ at you... */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '1980+',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'e8op24lv' /* 1980+ */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3748,7 +3837,11 @@ at you... */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Happy customers',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'urcqmme3' /* Happy customers */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3774,7 +3867,11 @@ at you... */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '700',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'wyu2lav1' /* 700 */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3800,7 +3897,11 @@ at you... */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Certified Instructors',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'ox50vz52' /* Certified Instructors */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3826,7 +3927,11 @@ at you... */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '100+',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '4k1otlug' /* 100+ */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3852,7 +3957,11 @@ at you... */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Certifications',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '4jj4wwzd' /* Certifications */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3893,7 +4002,10 @@ at you... */
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 40, 0, 0),
                                                 child: Text(
-                                                  'Testimonials',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '00gfgzov' /* Testimonials */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -4002,7 +4114,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                                               child: Text(
-                                                                                                'Efficient Collaborating',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '8nq09awy' /* Efficient Collaborating */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF202431),
@@ -4014,7 +4128,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'ir2tn99l' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4051,7 +4167,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Theresa Webb',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '4xk5k1hi' /* Theresa Webb */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4065,7 +4183,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Manager - Engineering',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'fhopdyrf' /* Manager - Engineering */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF7F7F82),
@@ -4147,7 +4267,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                                               child: Text(
-                                                                                                'Efficient Collaborating',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'm8wn94uv' /* Efficient Collaborating */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF202431),
@@ -4159,7 +4281,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '8dby66cj' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4196,7 +4320,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Theresa Webb',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'nn8r28fz' /* Theresa Webb */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4210,7 +4336,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Manager - Engineering',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '0xts8d5p' /* Manager - Engineering */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF7F7F82),
@@ -4292,7 +4420,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                                               child: Text(
-                                                                                                'Efficient Collaborating',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'b3jztcgu' /* Efficient Collaborating */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF202431),
@@ -4304,7 +4434,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'yk6pp7o1' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4341,7 +4473,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Theresa Webb',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'a1vkpwwc' /* Theresa Webb */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4355,7 +4489,9 @@ at you... */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Manager - Engineering',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'dog1y9bv' /* Manager - Engineering */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF7F7F82),
@@ -4636,7 +4772,10 @@ at you... */
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Medvarsity Support',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'li9cdm7a' /* Medvarsity Support */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -4781,7 +4920,11 @@ at you... */
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Frequently asked questions',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'pik15msu' /* Frequently asked questions */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -4952,7 +5095,10 @@ at you... */
                                                                             20),
                                                                         child:
                                                                             Text(
-                                                                          'INVITE NOW >',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'h6cjoek9' /* INVITE NOW > */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(

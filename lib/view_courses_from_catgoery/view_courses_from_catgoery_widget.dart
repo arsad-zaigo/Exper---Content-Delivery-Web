@@ -77,7 +77,9 @@ class _ViewCoursesFromCatgoeryWidgetState
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       20, 0, 0, 0),
                                   child: Text(
-                                    'Course List',
+                                    FFLocalizations.of(context).getText(
+                                      'g3dbh9jq' /* Course List */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -112,7 +114,9 @@ class _ViewCoursesFromCatgoeryWidgetState
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Categories',
+                                          FFLocalizations.of(context).getText(
+                                            '1nsvm0an' /* Categories */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -180,7 +184,9 @@ class _ViewCoursesFromCatgoeryWidgetState
                                             CrossAxisAlignment.start,
                                         children: [
                                           Text(
-                                            'Cardiology',
+                                            FFLocalizations.of(context).getText(
+                                              'oc4f8g1r' /* Cardiology */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(

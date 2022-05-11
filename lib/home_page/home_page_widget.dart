@@ -1116,7 +1116,7 @@ at you... */
                                                               width: 70,
                                                               height: 70,
                                                               child:
-                                                                  SpinKitFadingGrid(
+                                                                  SpinKitRipple(
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryCTA,
@@ -2791,7 +2791,11 @@ Webinars */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Select a course that you require',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'uftq2mqa' /* Select a course that you requi... */,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -2843,7 +2847,13 @@ Webinars */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Select date & time to\nbook counselling',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    '88x3qd8u' /* Select date & time to
+book cou... */
+                                                                    ,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -2895,7 +2905,13 @@ Webinars */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Understand the curriculum\nand know the course',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    '6ef2sj22' /* Understand the curriculum
+and ... */
+                                                                    ,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -2947,7 +2963,13 @@ Webinars */
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Get Certification from\nMedvaristy & Apply for Jobs',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'fqjku3ly' /* Get Certification from
+Medvari... */
+                                                                    ,
+                                                                  ),
                                                                   textAlign:
                                                                       TextAlign
                                                                           .center,
@@ -2988,7 +3010,12 @@ Webinars */
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 100, 0, 0),
                                                 child: Text(
-                                                  'Why choose us?\n',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '6q2rqozf' /* Why choose us?
+ */
+                                                    ,
+                                                  ),
                                                   textAlign: TextAlign.center,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -3005,7 +3032,10 @@ Webinars */
                                                 ),
                                               ),
                                               Text(
-                                                'Amet minim mollit non deserunt ullamco est sit aliqua dolor  do amet sint. Velit officia consequat duis enim velit mollit. ',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'uglo70o3' /* Amet minim mollit non deserunt... */,
+                                                ),
                                                 textAlign: TextAlign.center,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -3101,7 +3131,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Certification Ready',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'zhtmu316' /* Certification Ready */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3124,7 +3157,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Select a course that you require',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '0dme8g0z' /* Select a course that you requi... */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3173,7 +3209,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Contact Program',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '3tzf7f2u' /* Contact Program */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3196,7 +3235,12 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Understand the curriculum\nand know the course',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'zxcl5gg1' /* Understand the curriculum
+and ... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3245,7 +3289,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Gamification',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'vgryf8ii' /* Gamification */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3268,7 +3315,12 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Get Certification from\nMedvaristy & Apply for Jobs',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          '8w2krp0v' /* Get Certification from
+Medvari... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3372,7 +3424,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Simulation Program',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'imfwpkhx' /* Simulation Program */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3395,7 +3450,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Select a course that you require',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'vm7d6pvs' /* Select a course that you requi... */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3444,7 +3502,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Accurate Reports',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'jhpzxoaf' /* Accurate Reports */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3467,7 +3528,12 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Understand the curriculum\nand know the course',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'ux3wjxdx' /* Understand the curriculum
+and ... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3516,7 +3582,10 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Best Course Prices',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'hs417cgh' /* Best Course Prices */,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3539,7 +3608,12 @@ Webinars */
                                                                               0),
                                                                       child:
                                                                           Text(
-                                                                        'Get Certification from\nMedvaristy & Apply for Jobs',
+                                                                        FFLocalizations.of(context)
+                                                                            .getText(
+                                                                          'aitdsnre' /* Get Certification from
+Medvari... */
+                                                                          ,
+                                                                        ),
                                                                         textAlign:
                                                                             TextAlign.center,
                                                                         style: FlutterFlowTheme.of(context)
@@ -3589,7 +3663,10 @@ Webinars */
                                                   MainAxisAlignment.center,
                                               children: [
                                                 Text(
-                                                  'Numbers that matter',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '2vrohayl' /* Numbers that matter */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -3617,7 +3694,11 @@ Webinars */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '10000+',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'uk61pht6' /* 10000+ */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3643,7 +3724,11 @@ Webinars */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Courses Completed',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'javcj2z0' /* Courses Completed */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3669,7 +3754,11 @@ Webinars */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '1980+',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'a4c8w7zf' /* 1980+ */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3695,7 +3784,11 @@ Webinars */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Happy customers',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'vttjxagf' /* Happy customers */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3721,7 +3814,11 @@ Webinars */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '700',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'bp3bdmqh' /* 700 */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3747,7 +3844,11 @@ Webinars */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Certified Instructors',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'n3u4oyuq' /* Certified Instructors */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3773,7 +3874,11 @@ Webinars */
                                                             MainAxisSize.max,
                                                         children: [
                                                           Text(
-                                                            '100+',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'owieotxx' /* 100+ */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -3799,7 +3904,11 @@ Webinars */
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Certifications',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                't002hck1' /* Certifications */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -3840,7 +3949,10 @@ Webinars */
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 40, 0, 0),
                                                 child: Text(
-                                                  'Testimonials',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '01mhro13' /* Testimonials */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -3949,7 +4061,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                                               child: Text(
-                                                                                                'Efficient Collaborating',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'ij375hoc' /* Efficient Collaborating */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF202431),
@@ -3961,7 +4075,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '1t6qu9bw' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -3998,7 +4114,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Theresa Webb',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '318vwz5b' /* Theresa Webb */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4012,7 +4130,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Manager - Engineering',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'jw2es8ws' /* Manager - Engineering */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF7F7F82),
@@ -4094,7 +4214,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                                               child: Text(
-                                                                                                'Efficient Collaborating',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'x78fcd4d' /* Efficient Collaborating */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF202431),
@@ -4106,7 +4228,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'x2dq6ehh' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4143,7 +4267,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Theresa Webb',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'aweqsn4s' /* Theresa Webb */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4157,7 +4283,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Manager - Engineering',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '4kfj4xi0' /* Manager - Engineering */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF7F7F82),
@@ -4239,7 +4367,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                                                                               child: Text(
-                                                                                                'Efficient Collaborating',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  '7lvox5of' /* Efficient Collaborating */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF202431),
@@ -4251,7 +4381,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'shyct4tj' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4288,7 +4420,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Theresa Webb',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'g4dwh9b5' /* Theresa Webb */,
+                                                                                                ),
                                                                                                 textAlign: TextAlign.center,
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
@@ -4302,7 +4436,9 @@ Webinars */
                                                                                             Padding(
                                                                                               padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                                                                               child: Text(
-                                                                                                'Manager - Engineering',
+                                                                                                FFLocalizations.of(context).getText(
+                                                                                                  'vtzg9fd8' /* Manager - Engineering */,
+                                                                                                ),
                                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                                       fontFamily: 'SF Pro',
                                                                                                       color: Color(0xFF7F7F82),
@@ -4583,7 +4719,10 @@ Webinars */
                                                                               .start,
                                                                       children: [
                                                                         Text(
-                                                                          'Medvarsity Support',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'k6pwsvqz' /* Medvarsity Support */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -4728,7 +4867,11 @@ Webinars */
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Frequently asked questions',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'tpexbrto' /* Frequently asked questions */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -4812,7 +4955,9 @@ Webinars */
                                                                                 10),
                                                                             child:
                                                                                 Text(
-                                                                              'Course related',
+                                                                              FFLocalizations.of(context).getText(
+                                                                                'l2zt68on' /* Course related */,
+                                                                              ),
                                                                               style: FlutterFlowTheme.of(context).title1.override(
                                                                                     fontFamily: 'SF Pro',
                                                                                     color: Color(0xFF7F7F82),
@@ -4839,7 +4984,9 @@ Webinars */
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                                                                 child: Text(
-                                                                                  'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+                                                                                  FFLocalizations.of(context).getText(
+                                                                                    'nxwc8sqs' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                  ),
                                                                                   style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                         fontFamily: 'SF Pro',
                                                                                         color: Color(0x8A000000),
@@ -4856,7 +5003,9 @@ Webinars */
                                                                                 MainAxisSize.max,
                                                                             children: [
                                                                               Text(
-                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'p9tpahqv' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0x8A000000),
@@ -4930,7 +5079,9 @@ Webinars */
                                                                                 10),
                                                                             child:
                                                                                 Text(
-                                                                              'Course related',
+                                                                              FFLocalizations.of(context).getText(
+                                                                                '0rwd9uj5' /* Course related */,
+                                                                              ),
                                                                               style: FlutterFlowTheme.of(context).title1.override(
                                                                                     fontFamily: 'SF Pro',
                                                                                     color: Color(0xFF7F7F82),
@@ -4957,7 +5108,9 @@ Webinars */
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                                                                 child: Text(
-                                                                                  'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+                                                                                  FFLocalizations.of(context).getText(
+                                                                                    '8gflxjzv' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                  ),
                                                                                   style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                         fontFamily: 'SF Pro',
                                                                                         color: Color(0x8A000000),
@@ -4974,7 +5127,9 @@ Webinars */
                                                                                 MainAxisSize.max,
                                                                             children: [
                                                                               Text(
-                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'a0k8nq58' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0x8A000000),
@@ -5048,7 +5203,9 @@ Webinars */
                                                                                 10),
                                                                             child:
                                                                                 Text(
-                                                                              'Course related',
+                                                                              FFLocalizations.of(context).getText(
+                                                                                'jdh69qhm' /* Course related */,
+                                                                              ),
                                                                               style: FlutterFlowTheme.of(context).title1.override(
                                                                                     fontFamily: 'SF Pro',
                                                                                     color: Color(0xFF7F7F82),
@@ -5075,7 +5232,9 @@ Webinars */
                                                                               child: Padding(
                                                                                 padding: EdgeInsetsDirectional.fromSTEB(0, 8, 0, 0),
                                                                                 child: Text(
-                                                                                  'Lorem ipsum dolor sit amet, consectetur adipiscing...',
+                                                                                  FFLocalizations.of(context).getText(
+                                                                                    'zds5e9se' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                  ),
                                                                                   style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                         fontFamily: 'SF Pro',
                                                                                         color: Color(0x8A000000),
@@ -5092,7 +5251,9 @@ Webinars */
                                                                                 MainAxisSize.max,
                                                                             children: [
                                                                               Text(
-                                                                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+                                                                                FFLocalizations.of(context).getText(
+                                                                                  'dmn8hs3e' /* Lorem ipsum dolor sit amet, co... */,
+                                                                                ),
                                                                                 style: FlutterFlowTheme.of(context).bodyText1.override(
                                                                                       fontFamily: 'SF Pro',
                                                                                       color: Color(0x8A000000),
@@ -5260,7 +5421,10 @@ Webinars */
                                                                             20),
                                                                         child:
                                                                             Text(
-                                                                          'INVITE NOW >',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                            'y61rrr6q' /* INVITE NOW > */,
+                                                                          ),
                                                                           style: FlutterFlowTheme.of(context)
                                                                               .bodyText1
                                                                               .override(
@@ -5369,7 +5533,7 @@ Webinars */
                                                               width: 70,
                                                               height: 70,
                                                               child:
-                                                                  SpinKitFadingGrid(
+                                                                  SpinKitRipple(
                                                                 color: FlutterFlowTheme.of(
                                                                         context)
                                                                     .primaryCTA,
@@ -5529,7 +5693,7 @@ Webinars */
                                                                   width: 70,
                                                                   height: 70,
                                                                   child:
-                                                                      SpinKitFadingGrid(
+                                                                      SpinKitRipple(
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .primaryCTA,
@@ -6155,7 +6319,7 @@ Webinars */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitFadingGrid(
+                                                                            SpinKitRipple(
                                                                           color:
                                                                               FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
@@ -6364,7 +6528,7 @@ Webinars */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitFadingGrid(
+                                                                            SpinKitRipple(
                                                                           color:
                                                                               FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
@@ -6723,7 +6887,7 @@ our ... */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitFadingGrid(
+                                                                            SpinKitRipple(
                                                                           color:
                                                                               FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
@@ -6925,7 +7089,7 @@ our ... */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitFadingGrid(
+                                                                            SpinKitRipple(
                                                                           color:
                                                                               FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:
@@ -7118,7 +7282,7 @@ our ... */
                                                                         height:
                                                                             70,
                                                                         child:
-                                                                            SpinKitFadingGrid(
+                                                                            SpinKitRipple(
                                                                           color:
                                                                               FlutterFlowTheme.of(context).primaryCTA,
                                                                           size:

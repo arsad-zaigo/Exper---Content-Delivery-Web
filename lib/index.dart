@@ -26,9 +26,9 @@ export 'course_new_before_buy/course_new_before_buy_widget.dart'
     show CourseNewBeforeBuyWidget;
 export 'course_new_after_buy/course_new_after_buy_widget.dart'
     show CourseNewAfterBuyWidget;
+export 'my_courses/my_courses_widget.dart' show MyCoursesWidget;
 export 'view_courses_from_catgoery/view_courses_from_catgoery_widget.dart'
     show ViewCoursesFromCatgoeryWidget;
-export 'my_courses/my_courses_widget.dart' show MyCoursesWidget;
 export 'course_progress_page/course_progress_page_widget.dart'
     show CourseProgressPageWidget;
 export 'partners_full_screen/partners_full_screen_widget.dart'

@@ -49,7 +49,9 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'My Courses',
+                                FFLocalizations.of(context).getText(
+                                  'mdeoakxd' /* My Courses */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -126,7 +128,9 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                           CrossAxisAlignment.start,
                                       children: [
                                         Text(
-                                          'Upskill. Anytime. Anywhere',
+                                          FFLocalizations.of(context).getText(
+                                            '2gyrw337' /* Upskill. Anytime. Anywhere */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -142,7 +146,9 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 20, 0, 0),
                                           child: Text(
-                                            'Download the lessons to learn anytime, anywhere from the best courses available on our app',
+                                            FFLocalizations.of(context).getText(
+                                              '8atjjfd2' /* Download the lessons to learn ... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -159,7 +165,9 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 20, 0, 0),
                                           child: Text(
-                                            'Scan this QR code on your camera app to download the app',
+                                            FFLocalizations.of(context).getText(
+                                              'mhk3rw9b' /* Scan this QR code on your came... */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -187,7 +195,10 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                                 fit: BoxFit.cover,
                                               ),
                                               Text(
-                                                'OR',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'y6h85vir' /* OR */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -297,7 +308,10 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 10),
                                             child: Text(
-                                              'INVITE NOW >',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'dw2w40xi' /* INVITE NOW > */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1

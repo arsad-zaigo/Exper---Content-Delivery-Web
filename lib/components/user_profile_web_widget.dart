@@ -74,7 +74,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Dr. John Meridian',
+                          FFLocalizations.of(context).getText(
+                            'kw3u8yjg' /* Dr. John Meridian */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -84,7 +86,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                                   ),
                         ),
                         Text(
-                          'Pulmonologist',
+                          FFLocalizations.of(context).getText(
+                            'l5h1dcz5' /* Pulmonologist */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -106,7 +110,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                           child: Text(
-                            'Credits Earned',
+                            FFLocalizations.of(context).getText(
+                              '8q8f8arc' /* Credits Earned */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -117,7 +123,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                           ),
                         ),
                         Text(
-                          '3200 credits',
+                          FFLocalizations.of(context).getText(
+                            'vjhlxm6l' /* 3200 credits */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -137,7 +145,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Total Points',
+                          FFLocalizations.of(context).getText(
+                            'w7ekjx7k' /* Total Points */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -147,7 +157,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                                   ),
                         ),
                         Text(
-                          '150 Points',
+                          FFLocalizations.of(context).getText(
+                            '2eogs3uj' /* 150 Points */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -167,7 +179,9 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
                   onPressed: () {
                     print('Button pressed ...');
                   },
-                  text: 'Edit Profile',
+                  text: FFLocalizations.of(context).getText(
+                    'pw9d8ruh' /* Edit Profile */,
+                  ),
                   icon: Icon(
                     Icons.edit_sharp,
                     size: 15,

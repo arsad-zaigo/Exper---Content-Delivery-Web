@@ -81,7 +81,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                     },
                                   ),
                                   Text(
-                                    'My courses  / Fellowship in Critical Care Medicine - 2021 Edition',
+                                    FFLocalizations.of(context).getText(
+                                      'ebyghvyr' /* My courses  / Fellowship in Cr... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -112,7 +114,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
-                                          '06',
+                                          FFLocalizations.of(context).getText(
+                                            'ui128e9m' /* 06 */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -128,7 +132,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
-                                          'Credits ',
+                                          FFLocalizations.of(context).getText(
+                                            '5utsmksv' /* Credits  */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -159,7 +165,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            '08',
+                                            FFLocalizations.of(context).getText(
+                                              'ulotbauq' /* 08 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -176,7 +184,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            'Points',
+                                            FFLocalizations.of(context).getText(
+                                              '21f21mvj' /* Points */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -290,13 +300,25 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                             indicatorColor: Color(0xFF3C439B),
                                             tabs: [
                                               Tab(
-                                                text: 'Notes',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  '1vnktke3' /* Notes */,
+                                                ),
                                               ),
                                               Tab(
-                                                text: 'Chat',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'h7hy95yk' /* Chat */,
+                                                ),
                                               ),
                                               Tab(
-                                                text: 'Attendees',
+                                                text:
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                  'xsoszhi5' /* Attendees */,
+                                                ),
                                               ),
                                             ],
                                           ),
@@ -345,7 +367,7 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                                                   width: 70,
                                                                   height: 70,
                                                                   child:
-                                                                      SpinKitFadingGrid(
+                                                                      SpinKitRipple(
                                                                     color: FlutterFlowTheme.of(
                                                                             context)
                                                                         .primaryCTA,
@@ -465,7 +487,10 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                                                     decoration:
                                                                         InputDecoration(
                                                                       hintText:
-                                                                          'Write notes here',
+                                                                          FFLocalizations.of(context)
+                                                                              .getText(
+                                                                        'p9tc7ls2' /* Write notes here */,
+                                                                      ),
                                                                       enabledBorder:
                                                                           UnderlineInputBorder(
                                                                         borderSide:
@@ -528,7 +553,11 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                                                           0.89,
                                                                           0.6),
                                                                   child: Text(
-                                                                    'Done',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'jichxujz' /* Done */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -573,7 +602,11 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                                                   .fromSTEB(20,
                                                                       20, 0, 0),
                                                           child: Text(
-                                                            'Rajeev shukla',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'rs4ovfxk' /* Rajeev shukla */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -614,7 +647,7 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                                                     width: 70,
                                                                     height: 70,
                                                                     child:
-                                                                        SpinKitFadingGrid(
+                                                                        SpinKitRipple(
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .primaryCTA,
@@ -698,7 +731,11 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                                                               decoration:
                                                                   InputDecoration(
                                                                 hintText:
-                                                                    'Write Here',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                  '68g77syc' /* Write Here */,
+                                                                ),
                                                                 enabledBorder:
                                                                     UnderlineInputBorder(
                                                                   borderSide:
@@ -798,7 +835,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Introduction to Cardiopulmonary Physiotherapy',
+                              FFLocalizations.of(context).getText(
+                                'gr4ot58j' /* Introduction to Cardiopulmonar... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -813,7 +852,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                               child: Text(
-                                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in.',
+                                FFLocalizations.of(context).getText(
+                                  'ij3o41k9' /* Lorem ipsum dolor sit amet, co... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -829,7 +870,9 @@ class _SelfLearningWidgetState extends State<SelfLearningWidget> {
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 60, 0, 0),
                               child: Text(
-                                'Announcements',
+                                FFLocalizations.of(context).getText(
+                                  '6evirf4a' /* Announcements */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(

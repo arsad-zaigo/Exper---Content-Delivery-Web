@@ -132,7 +132,11 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Enter your mobile number to \nstart learning',
+                                        FFLocalizations.of(context).getText(
+                                          '8c6h0tlq' /* Enter your mobile number to 
+s... */
+                                          ,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -147,7 +151,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Mobile Number',
+                                        FFLocalizations.of(context).getText(
+                                          'lhazj63u' /* Mobile Number */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -193,7 +199,12 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   checkboxGroupValues != null
                                                       ? checkboxGroupValues
                                                       : [],
-                                              options: ['Remember Me'].toList(),
+                                              options: [
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ebbynsup' /* Remember Me */,
+                                                )
+                                              ].toList(),
                                               onChanged: (val) => setState(() =>
                                                   checkboxGroupValues = val),
                                               activeColor: Color(0xFF626168),
@@ -266,7 +277,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
 
                                             setState(() {});
                                           },
-                                          text: 'Send OTP',
+                                          text: FFLocalizations.of(context)
+                                              .getText(
+                                            '7ahay991' /* Send OTP */,
+                                          ),
                                           options: FFButtonOptions(
                                             width: 130,
                                             height: 40,
@@ -358,7 +372,11 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Enter your mobile number to \nstart learning',
+                                        FFLocalizations.of(context).getText(
+                                          'i1tkux9o' /* Enter your mobile number to 
+s... */
+                                          ,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -373,7 +391,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Mobile Number',
+                                        FFLocalizations.of(context).getText(
+                                          '3vjji6x8' /* Mobile Number */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -438,10 +458,18 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   validator: (val) {
                                                     if (val == null ||
                                                         val.isEmpty) {
-                                                      return 'Field is required';
+                                                      return FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'vturrbt5' /* Field is required */,
+                                                      );
                                                     }
                                                     if (val.length < 1) {
-                                                      return 'Please enter the OTP';
+                                                      return FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'rsfhvfld' /* Please enter the OTP */,
+                                                      );
                                                     }
                                                     return null;
                                                   },
@@ -611,7 +639,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                         mainAxisSize: MainAxisSize.max,
                                         children: [
                                           Text(
-                                            'Didnt recieve OTP ?',
+                                            FFLocalizations.of(context).getText(
+                                              'd3cz0kwf' /* Didnt recieve OTP ? */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -626,7 +656,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 0, 0, 0),
                                             child: Text(
-                                              'Resend',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'vornin3x' /* Resend */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -654,7 +687,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                             setState(() =>
                                                 FFAppState().isPageTwo = true);
                                           },
-                                          text: 'Log In',
+                                          text: FFLocalizations.of(context)
+                                              .getText(
+                                            'awrc7hou' /* Log In */,
+                                          ),
                                           options: FFButtonOptions(
                                             width: 130,
                                             height: 40,
@@ -740,7 +776,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Create Profile',
+                                        FFLocalizations.of(context).getText(
+                                          'rdfy34j1' /* Create Profile */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -755,7 +793,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Add Personal Details',
+                                        FFLocalizations.of(context).getText(
+                                          'gb4hcu4o' /* Add Personal Details */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -803,7 +843,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 3, 0, 0),
                                               child: Text(
-                                                'Add',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ejz9gu9s' /* Add */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -825,7 +868,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Personal Details',
+                                        FFLocalizations.of(context).getText(
+                                          'oaan3dfy' /* Personal Details */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -858,7 +903,12 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   controller: textController6,
                                                   obscureText: false,
                                                   decoration: InputDecoration(
-                                                    hintText: 'First Name*',
+                                                    hintText:
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                      'x1quz3tk' /* First Name* */,
+                                                    ),
                                                     enabledBorder:
                                                         OutlineInputBorder(
                                                       borderSide: BorderSide(
@@ -924,7 +974,12 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                     controller: textController7,
                                                     obscureText: false,
                                                     decoration: InputDecoration(
-                                                      hintText: 'Last Name*',
+                                                      hintText:
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                        'mkhgpx2f' /* Last Name* */,
+                                                      ),
                                                       enabledBorder:
                                                           OutlineInputBorder(
                                                         borderSide: BorderSide(
@@ -997,7 +1052,12 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                   controller: textController8,
                                                   obscureText: false,
                                                   decoration: InputDecoration(
-                                                    hintText: 'Email*',
+                                                    hintText:
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                      '9iwocg7m' /* Email* */,
+                                                    ),
                                                     enabledBorder:
                                                         OutlineInputBorder(
                                                       borderSide: BorderSide(
@@ -1060,8 +1120,13 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                             5),
                                                   ),
                                                   child: FlutterFlowDropDown(
-                                                    options:
-                                                        ['Option 1'].toList(),
+                                                    options: [
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'n5k19u1h' /* Option 1 */,
+                                                      )
+                                                    ].toList(),
                                                     onChanged: (val) =>
                                                         setState(() =>
                                                             dropDownValue =
@@ -1079,7 +1144,12 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                               FontWeight.w500,
                                                           useGoogleFonts: false,
                                                         ),
-                                                    hintText: 'Speciality*',
+                                                    hintText:
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                      'bzvnvmn5' /* Speciality* */,
+                                                    ),
                                                     fillColor:
                                                         Color(0xFFF3F2F2),
                                                     elevation: 2,
@@ -1118,7 +1188,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 0, 40, 0),
                                               child: Text(
-                                                'Skip',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'ikdgeh7i' /* Skip */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1135,7 +1208,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 setState(() => FFAppState()
                                                     .isPageThree = true);
                                               },
-                                              text: 'Save & Next',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                '540iadpy' /* Save & Next */,
+                                              ),
                                               options: FFButtonOptions(
                                                 width: 150,
                                                 height: 40,
@@ -1223,7 +1299,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Create Profile',
+                                        FFLocalizations.of(context).getText(
+                                          'hu64ujpg' /* Create Profile */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -1238,7 +1316,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Select Preferences',
+                                        FFLocalizations.of(context).getText(
+                                          '7pddh1jt' /* Select Preferences */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -1303,7 +1383,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 0, 40, 0),
                                               child: Text(
-                                                'Skip',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '5ulfhoxm' /* Skip */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1320,7 +1403,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 setState(() => FFAppState()
                                                     .isPageFour = true);
                                               },
-                                              text: 'Save & Next',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                'j5e6ot2k' /* Save & Next */,
+                                              ),
                                               options: FFButtonOptions(
                                                 width: 150,
                                                 height: 40,
@@ -1408,7 +1494,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Create Profile',
+                                        FFLocalizations.of(context).getText(
+                                          'kvi1wdm9' /* Create Profile */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -1423,7 +1511,9 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 32, 0, 0),
                                       child: Text(
-                                        'Select Preferences',
+                                        FFLocalizations.of(context).getText(
+                                          '5nud84bu' /* Select Preferences */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -1466,7 +1556,7 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 child: SizedBox(
                                                   width: 70,
                                                   height: 70,
-                                                  child: SpinKitFadingGrid(
+                                                  child: SpinKitRipple(
                                                     color: FlutterFlowTheme.of(
                                                             context)
                                                         .primaryCTA,
@@ -1575,7 +1665,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 0, 40, 0),
                                               child: Text(
-                                                'Skip',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'g2lf5crx' /* Skip */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1597,7 +1690,10 @@ class _LoginComponentWidgetState extends State<LoginComponentWidget> {
                                                 setState(() => FFAppState()
                                                     .isPageTwo = false);
                                               },
-                                              text: 'Save & Next',
+                                              text: FFLocalizations.of(context)
+                                                  .getText(
+                                                'dhufp4jk' /* Save & Next */,
+                                              ),
                                               options: FFButtonOptions(
                                                 width: 150,
                                                 height: 40,

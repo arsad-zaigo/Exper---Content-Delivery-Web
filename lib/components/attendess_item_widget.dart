@@ -53,7 +53,9 @@ class _AttendessItemWidgetState extends State<AttendessItemWidget> {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'Name of the participant',
+                        FFLocalizations.of(context).getText(
+                          '2hbvewf3' /* Name of the participant */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF202431),
@@ -65,7 +67,9 @@ class _AttendessItemWidgetState extends State<AttendessItemWidget> {
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                         child: Text(
-                          'Joined at 06:45am',
+                          FFLocalizations.of(context).getText(
+                            'z4p0mhuy' /* Joined at 06:45am */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -92,7 +96,9 @@ class _AttendessItemWidgetState extends State<AttendessItemWidget> {
                     fit: BoxFit.contain,
                   ),
                   Text(
-                    'Chat',
+                    FFLocalizations.of(context).getText(
+                      'ge0mymjz' /* Chat */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText1.override(
                           fontFamily: 'SF Pro',
                           color: Color(0xFF59AC58),

@@ -48,7 +48,9 @@ class _PlainCardWidgetState extends State<PlainCardWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 10),
                     child: Text(
-                      'MODULE 1',
+                      FFLocalizations.of(context).getText(
+                        '1kkauykg' /* MODULE 1 */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF626168),
@@ -60,7 +62,11 @@ class _PlainCardWidgetState extends State<PlainCardWidget> {
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 0, 0, 15),
                     child: Text(
-                      'Introduction \n(Video Bytes)',
+                      FFLocalizations.of(context).getText(
+                        'r3wh8n59' /* Introduction 
+(Video Bytes) */
+                        ,
+                      ),
                       style: FlutterFlowTheme.of(context).subtitle1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF202431),
@@ -74,7 +80,9 @@ class _PlainCardWidgetState extends State<PlainCardWidget> {
                     mainAxisAlignment: MainAxisAlignment.spaceAround,
                     children: [
                       Text(
-                        '18 Lessons',
+                        FFLocalizations.of(context).getText(
+                          'dqka5ndg' /* 18 Lessons */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF626168),
@@ -83,7 +91,9 @@ class _PlainCardWidgetState extends State<PlainCardWidget> {
                             ),
                       ),
                       Text(
-                        '| 120 Videos  |',
+                        FFLocalizations.of(context).getText(
+                          'n2hqs22e' /* | 120 Videos  | */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF626168),
@@ -92,7 +102,9 @@ class _PlainCardWidgetState extends State<PlainCardWidget> {
                             ),
                       ),
                       Text(
-                        '05 Events',
+                        FFLocalizations.of(context).getText(
+                          '10007glh' /* 05 Events */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF626168),

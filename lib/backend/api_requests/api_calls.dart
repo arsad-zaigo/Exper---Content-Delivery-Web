@@ -122,3 +122,25 @@ class PartnersListCall {
     );
   }
 }
+
+class PaymentMethodCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'paymentMethod',
+      apiUrl: 'https://run.mocky.io/v3/93897bd9-2b94-4108-a8c8-f8ea49ee6e25',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+
+  static dynamic formattedText(dynamic response) => getJsonField(
+        response,
+        r'''$[*].formattedType''',
+      );
+  static dynamic type(dynamic response) => getJsonField(
+        response,
+        r'''$[*].type''',
+      );
+}

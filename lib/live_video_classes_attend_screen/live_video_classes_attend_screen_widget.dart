@@ -64,7 +64,9 @@ class _LiveVideoClassesAttendScreenWidgetState
                           padding:
                               EdgeInsetsDirectional.fromSTEB(60, 20, 20, 20),
                           child: Text(
-                            'Fellowship in Clinical Cardiology ',
+                            FFLocalizations.of(context).getText(
+                              '89n8098h' /* Fellowship in Clinical Cardiol... */,
+                            ),
                             style: FlutterFlowTheme.of(context).bodyText1,
                           ),
                         ),
@@ -101,7 +103,9 @@ class _LiveVideoClassesAttendScreenWidgetState
                                 },
                               ),
                               Text(
-                                'Back',
+                                FFLocalizations.of(context).getText(
+                                  'oz07uslm' /* Back */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -327,13 +331,25 @@ class _LiveVideoClassesAttendScreenWidgetState
                                               indicatorColor: Color(0xFF3C439B),
                                               tabs: [
                                                 Tab(
-                                                  text: 'Notes',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '84ezf9ea' /* Notes */,
+                                                  ),
                                                 ),
                                                 Tab(
-                                                  text: 'Chat',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '745bmq73' /* Chat */,
+                                                  ),
                                                 ),
                                                 Tab(
-                                                  text: 'Attendees',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    '8u0iq95c' /* Attendees */,
+                                                  ),
                                                 ),
                                               ],
                                             ),
@@ -383,7 +399,7 @@ class _LiveVideoClassesAttendScreenWidgetState
                                                                     width: 70,
                                                                     height: 70,
                                                                     child:
-                                                                        SpinKitFadingGrid(
+                                                                        SpinKitRipple(
                                                                       color: FlutterFlowTheme.of(
                                                                               context)
                                                                           .primaryCTA,
@@ -503,7 +519,9 @@ class _LiveVideoClassesAttendScreenWidgetState
                                                                       decoration:
                                                                           InputDecoration(
                                                                         hintText:
-                                                                            'Write notes here',
+                                                                            FFLocalizations.of(context).getText(
+                                                                          '7nmraajv' /* Write notes here */,
+                                                                        ),
                                                                         enabledBorder:
                                                                             UnderlineInputBorder(
                                                                           borderSide:
@@ -565,7 +583,11 @@ class _LiveVideoClassesAttendScreenWidgetState
                                                                             0.89,
                                                                             0.6),
                                                                     child: Text(
-                                                                      'Done',
+                                                                      FFLocalizations.of(
+                                                                              context)
+                                                                          .getText(
+                                                                        'eqnqpv8j' /* Done */,
+                                                                      ),
                                                                       style: FlutterFlowTheme.of(
                                                                               context)
                                                                           .bodyText1
@@ -613,7 +635,11 @@ class _LiveVideoClassesAttendScreenWidgetState
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Rajeev shukla',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'do407m8u' /* Rajeev shukla */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -660,7 +686,7 @@ class _LiveVideoClassesAttendScreenWidgetState
                                                                       height:
                                                                           70,
                                                                       child:
-                                                                          SpinKitFadingGrid(
+                                                                          SpinKitRipple(
                                                                         color: FlutterFlowTheme.of(context)
                                                                             .primaryCTA,
                                                                         size:
@@ -746,8 +772,11 @@ class _LiveVideoClassesAttendScreenWidgetState
                                                                     false,
                                                                 decoration:
                                                                     InputDecoration(
-                                                                  hintText:
-                                                                      'Write Here',
+                                                                  hintText: FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    '0ggocx8n' /* Write Here */,
+                                                                  ),
                                                                   enabledBorder:
                                                                       UnderlineInputBorder(
                                                                     borderSide:
@@ -848,7 +877,9 @@ class _LiveVideoClassesAttendScreenWidgetState
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Introduction to Cardiopulmonary Physiotherapy',
+                                FFLocalizations.of(context).getText(
+                                  'tqvcz5fw' /* Introduction to Cardiopulmonar... */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -863,7 +894,9 @@ class _LiveVideoClassesAttendScreenWidgetState
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                 child: Text(
-                                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in.',
+                                  FFLocalizations.of(context).getText(
+                                    'nj273nxa' /* Lorem ipsum dolor sit amet, co... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -888,7 +921,9 @@ class _LiveVideoClassesAttendScreenWidgetState
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
                               child: Text(
-                                'Saved courses',
+                                FFLocalizations.of(context).getText(
+                                  '2h3k6ti2' /* Saved courses */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -922,7 +957,7 @@ class _LiveVideoClassesAttendScreenWidgetState
                                     child: SizedBox(
                                       width: 70,
                                       height: 70,
-                                      child: SpinKitFadingGrid(
+                                      child: SpinKitRipple(
                                         color: FlutterFlowTheme.of(context)
                                             .primaryCTA,
                                         size: 70,

@@ -68,7 +68,9 @@ class _AssessmentAnswersDialogComponentWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                             child: Text(
-                              'Answered',
+                              FFLocalizations.of(context).getText(
+                                'r1m9n6hf' /* Answered */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -121,7 +123,9 @@ class _AssessmentAnswersDialogComponentWidgetState
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                               child: Text(
-                                'Answered',
+                                FFLocalizations.of(context).getText(
+                                  'gm6h2x3w' /* Answered */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -172,7 +176,9 @@ class _AssessmentAnswersDialogComponentWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                             child: Text(
-                              'Answered',
+                              FFLocalizations.of(context).getText(
+                                'eogw1wnm' /* Answered */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -220,7 +226,9 @@ class _AssessmentAnswersDialogComponentWidgetState
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                           child: Text(
-                            'Answered',
+                            FFLocalizations.of(context).getText(
+                              'bksqteww' /* Answered */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -239,7 +247,9 @@ class _AssessmentAnswersDialogComponentWidgetState
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0, 50, 0, 0),
               child: Text(
-                'General Awareness',
+                FFLocalizations.of(context).getText(
+                  '2dtigb5u' /* General Awareness */,
+                ),
                 style: FlutterFlowTheme.of(context).bodyText1.override(
                       fontFamily: 'SF Pro',
                       color: Color(0xFF626168),

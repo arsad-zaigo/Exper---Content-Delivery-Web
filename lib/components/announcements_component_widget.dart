@@ -59,7 +59,9 @@ class _AnnouncementsComponentWidgetState
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
                     Text(
-                      'Medvarsity',
+                      FFLocalizations.of(context).getText(
+                        '951lstk5' /* Medvarsity */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF202431),
@@ -69,7 +71,9 @@ class _AnnouncementsComponentWidgetState
                           ),
                     ),
                     Text(
-                      '2 Days ago',
+                      FFLocalizations.of(context).getText(
+                        'uc1s6acg' /* 2 Days ago */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF7F7F82),
@@ -80,7 +84,9 @@ class _AnnouncementsComponentWidgetState
                     Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 10),
                       child: Text(
-                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in.',
+                        FFLocalizations.of(context).getText(
+                          'flm85kg2' /* Lorem ipsum dolor sit amet, co... */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF7F7F82),
@@ -119,7 +125,10 @@ class _AnnouncementsComponentWidgetState
                                 autofocus: true,
                                 obscureText: false,
                                 decoration: InputDecoration(
-                                  labelText: 'Add your comment here',
+                                  labelText:
+                                      FFLocalizations.of(context).getText(
+                                    '5v0opn3b' /* Add your comment here */,
+                                  ),
                                   enabledBorder: OutlineInputBorder(
                                     borderSide: BorderSide(
                                       color: Color(0xFFDEDEDE),

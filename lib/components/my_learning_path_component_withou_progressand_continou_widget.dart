@@ -96,7 +96,9 @@ class _MyLearningPathComponentWithouProgressandContinouWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                             child: Text(
-                              '4 Videos',
+                              FFLocalizations.of(context).getText(
+                                '548xx4zr' /* 4 Videos */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -124,7 +126,9 @@ class _MyLearningPathComponentWithouProgressandContinouWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                             child: Text(
-                              '4 Videos',
+                              FFLocalizations.of(context).getText(
+                                '7u7al2vd' /* 4 Videos */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -152,7 +156,9 @@ class _MyLearningPathComponentWithouProgressandContinouWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                             child: Text(
-                              '4 Videos',
+                              FFLocalizations.of(context).getText(
+                                '4kjt8yia' /* 4 Videos */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(

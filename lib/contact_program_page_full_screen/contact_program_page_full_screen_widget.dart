@@ -99,10 +99,15 @@ class _ContactProgramPageFullScreenWidgetState
                                             color: Color(0xFFDEDEDE),
                                             shape: BoxShape.circle,
                                           ),
-                                          child: Icon(
-                                            Icons.chevron_left_outlined,
-                                            color: Color(0xFF787895),
-                                            size: 24,
+                                          child: InkWell(
+                                            onTap: () async {
+                                              Navigator.pop(context);
+                                            },
+                                            child: Icon(
+                                              Icons.chevron_left_outlined,
+                                              color: Color(0xFF787895),
+                                              size: 24,
+                                            ),
                                           ),
                                         ),
                                         Row(
@@ -155,7 +160,10 @@ class _ContactProgramPageFullScreenWidgetState
                                               color: Color(0x00EEEEEE),
                                             ),
                                             child: Text(
-                                              'Conferance on  Cardiopulmonary Physio',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '5tnnp8u5' /* Conferance on  Cardiopulmonary... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -179,7 +187,10 @@ class _ContactProgramPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 5, 0, 0),
                                             child: Text(
-                                              'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their ... Read more',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'qvuhvahu' /* The masterclass is a series of... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -233,7 +244,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Skill Level',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'v8nlozub' /* Skill Level */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -251,7 +266,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                                 ),
                                                       ),
                                                       Text(
-                                                        'Intermediate',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'eazexlji' /* Intermediate */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -309,7 +328,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Students Enrolled',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'n34vieg2' /* Students Enrolled */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -326,7 +349,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                               ),
                                                         ),
                                                         Text(
-                                                          '143',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'n9bc31us' /* 143 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -384,7 +411,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Credits',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'u1zrfk1w' /* Credits */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -401,7 +432,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                               ),
                                                         ),
                                                         Text(
-                                                          '5',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'fqg2i51u' /* 5 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -459,7 +494,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                       CrossAxisAlignment.start,
                                                   children: [
                                                     Text(
-                                                      'Start Date ',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '33zuc0p5' /* Start Date  */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -477,7 +516,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                               ),
                                                     ),
                                                     Text(
-                                                      '30th Jan 2022',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'xq24eghk' /* 30th Jan 2022 */,
+                                                      ),
                                                       style: FlutterFlowTheme
                                                               .of(context)
                                                           .bodyText1
@@ -531,7 +574,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Start Time ',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'k9eav3iq' /* Start Time  */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -549,7 +596,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '06:30 PM',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'tr3vmg4h' /* 06:30 PM */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -606,7 +657,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                             .start,
                                                     children: [
                                                       Text(
-                                                        'Total classes',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          'm9dy6old' /* Total classes */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -624,7 +679,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                                 ),
                                                       ),
                                                       Text(
-                                                        '01',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          '9mum5uua' /* 01 */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -674,7 +733,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                         CrossAxisAlignment.end,
                                                     children: [
                                                       Text(
-                                                        '₹ 14,799 ',
+                                                        FFLocalizations.of(
+                                                                context)
+                                                            .getText(
+                                                          's0u4fihk' /* ₹ 14,799  */,
+                                                        ),
                                                         style:
                                                             FlutterFlowTheme.of(
                                                                     context)
@@ -695,7 +758,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                                 .fromSTEB(
                                                                     3, 0, 0, 0),
                                                         child: Text(
-                                                          '₹ 14,799',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'kc8tr9cv' /* ₹ 14,799 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -721,7 +788,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                             .fromSTEB(
                                                                 0, 5, 0, 0),
                                                     child: Text(
-                                                      '(Exluding All Taxes) ',
+                                                      FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'zd4bhm71' /* (Exluding All Taxes)  */,
+                                                      ),
                                                       style:
                                                           FlutterFlowTheme.of(
                                                                   context)
@@ -747,7 +818,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                       print(
                                                           'Button pressed ...');
                                                     },
-                                                    text: 'Talk to us',
+                                                    text: FFLocalizations.of(
+                                                            context)
+                                                        .getText(
+                                                      'fipkq6ff' /* Talk to us */,
+                                                    ),
                                                     options: FFButtonOptions(
                                                       width: 150,
                                                       height: 50,
@@ -786,7 +861,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                         print(
                                                             'Button pressed ...');
                                                       },
-                                                      text: 'Enroll Now',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        'u5ednnrp' /* Enroll Now */,
+                                                      ),
                                                       options: FFButtonOptions(
                                                         width: 150,
                                                         height: 50,
@@ -852,8 +931,11 @@ class _ContactProgramPageFullScreenWidgetState
                                                           ),
                                                         );
                                                       },
-                                                      text:
-                                                          'Your live video class will start in : 03 Days & 06 Hours',
+                                                      text: FFLocalizations.of(
+                                                              context)
+                                                          .getText(
+                                                        '5re79o6h' /* Your live video class will sta... */,
+                                                      ),
                                                       options: FFButtonOptions(
                                                         width: 130,
                                                         height: 60,
@@ -902,7 +984,10 @@ class _ContactProgramPageFullScreenWidgetState
                                               color: Color(0x00EEEEEE),
                                             ),
                                             child: Text(
-                                              'About program',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                '07r5mesx' /* About program */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -920,7 +1005,10 @@ class _ContactProgramPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 8, 0, 0),
                                             child: Text(
-                                              'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their experiences and their vision for the future.The talks present great insights on how to sustain the... Read more',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'e3btnr0v' /* The masterclass is a series of... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -940,7 +1028,10 @@ class _ContactProgramPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'About Instructor',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'wnocafhs' /* About Instructor */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -994,7 +1085,10 @@ class _ContactProgramPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'Sample Certificate',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'lz4w4ru9' /* Sample Certificate */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -1036,7 +1130,10 @@ class _ContactProgramPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'Reviews',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'pmpwgoa1' /* Reviews */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -1072,7 +1169,10 @@ class _ContactProgramPageFullScreenWidgetState
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 20, 0, 0),
                                               child: Text(
-                                                'View All',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '3hcs3fej' /* View All */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -1102,7 +1202,10 @@ class _ContactProgramPageFullScreenWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'FAQ',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'akooq0t3' /* FAQ */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -1149,7 +1252,9 @@ class _ContactProgramPageFullScreenWidgetState
                     mainAxisSize: MainAxisSize.max,
                     children: [
                       Text(
-                        'Saved courses',
+                        FFLocalizations.of(context).getText(
+                          '907k9a6q' /* Saved courses */,
+                        ),
                         style: FlutterFlowTheme.of(context).bodyText1.override(
                               fontFamily: 'SF Pro',
                               color: Color(0xFF202431),
@@ -1179,7 +1284,7 @@ class _ContactProgramPageFullScreenWidgetState
                               child: SizedBox(
                                 width: 70,
                                 height: 70,
-                                child: SpinKitFadingGrid(
+                                child: SpinKitRipple(
                                   color:
                                       FlutterFlowTheme.of(context).primaryCTA,
                                   size: 70,

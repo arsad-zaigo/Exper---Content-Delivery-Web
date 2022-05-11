@@ -87,7 +87,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 0, 0, 20),
                                           child: Text(
-                                            'Fellowship in Critical Care\nMedicine - 2021 Edition',
+                                            FFLocalizations.of(context).getText(
+                                              '3bbpgsv9' /* Fellowship in Critical Care
+Me... */
+                                              ,
+                                            ),
                                             textAlign: TextAlign.start,
                                             style: FlutterFlowTheme.of(context)
                                                 .title1
@@ -110,7 +114,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                           mainAxisSize: MainAxisSize.max,
                                           children: [
                                             Text(
-                                              'An opportunity to learn new courses online just by one click Certificate Course in Vaccine Administration',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'u0q7asrw' /* An opportunity to learn new co... */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -166,7 +173,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                               mainAxisSize: MainAxisSize.max,
                                               children: [
                                                 Text(
-                                                  '₹ 14,799',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'o21ufsos' /* ₹ 14,799 */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -200,7 +210,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   onPressed: () {
                                                     print('Button pressed ...');
                                                   },
-                                                  text: 'Buy Now',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'cj2vtzfa' /* Buy Now */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     width: 130,
                                                     height: 45,
@@ -229,7 +243,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   onPressed: () {
                                                     print('Button pressed ...');
                                                   },
-                                                  text: 'Enquiry Now',
+                                                  text: FFLocalizations.of(
+                                                          context)
+                                                      .getText(
+                                                    'eim0b0lw' /* Enquiry Now */,
+                                                  ),
                                                   options: FFButtonOptions(
                                                     width: 150,
                                                     height: 45,
@@ -360,7 +378,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                 CrossAxisAlignment.start,
                                             children: [
                                               Text(
-                                                'What you’ll learn',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  'hc1tlpsu' /* What you’ll learn */,
+                                                ),
                                                 textAlign: TextAlign.start,
                                                 style:
                                                     FlutterFlowTheme.of(context)
@@ -379,7 +400,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 16, 0, 0),
                                                 child: Text(
-                                                  'The intensive care unit (ICU) is an area specialized where skilled personnel and sophisticated equipment are readily available to manage critically ill patients. It is the most expensive, technologically advanced, and resource-intensive area of medical care. The current trend is that the anesthesia and internal medicine departments share the responsibility of managing these beds. There is a strong demand to increase the ICU beds in all hospitals due to the rise in the aging population and the increasing burden of diseases. However, there is a paucity of trained specialists in critical care medicine.\n\nThe Certificate in Critical Care Medicine is designed to address this acute shortage of trained professionals to manage critical care units. It will impart the knowledge and skills needed to provide critical care to patients admitted to the ICU.\n\nIn this course, you will learn: \n· Functioning of the ICU\n· Skills required for resuscitation\n· Initial management of acutely ill patients\n·  Investigations ordered in the ICU and their interpretation\n· To gain practical knowledge about the usage of fluids, blood products, and drugs in the ICU\n·  To manage some common problems seen in the ICU, such as acid-base and electrolyte abnormalities',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'i3uaakq3' /* The intensive care unit (ICU) ... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -427,7 +451,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Learning Path',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'shw5eof7' /* Learning Path */,
+                                                  ),
                                                   textAlign: TextAlign.start,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -516,7 +543,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Description',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '7142kcix' /* Description */,
+                                                  ),
                                                   textAlign: TextAlign.start,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -535,7 +565,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 16, 0, 0),
                                                   child: Text(
-                                                    'The Fellowship in Clinical Cardiology marks your entry into the prestigious field of cardiology. Cardiac disease is the most common cause of global mortality. Thus, there is a huge demand for medical graduates and general practitioners with a deep understanding of cardiology topics.\n\nThis course is the final step in becoming a cardiology expert and addresses the pathophysiological basis, clinical features, diagnosis, and evidence-based medical management for major cardiac diseases, permitting you to administer the optimum care to cardiac cases. The experience of 3 months of practical training in a leading corporate hospital guided by expert cardiologists gives you a much-needed clinical experience.\n\nThe Medvarsity Learning Design framework (Certificate, Advanced Certificate, and Fellowship) is based on Kirkpatrick’s model of e-learning and allows the systematic consumption and application of the content. \n\nThis course is certified by the AHERF, and our current alumni work at hospitals like Apollo, Medanta, Billroth Hospitals, and Columbia Asia Hospitals.\n\nWe at Medvarsity strive to equip every physician with the ability to fast-track their career and enable them to better serve the communities in which they practice. Join us, and let us impact healthcare through education.\n',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'nnn9i3i2' /* The Fellowship in Clinical Car... */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText1
@@ -584,7 +617,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   CrossAxisAlignment.start,
                                               children: [
                                                 Text(
-                                                  'Learning is better with cohorts',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'y532lk42' /* Learning is better with cohort... */,
+                                                  ),
                                                   textAlign: TextAlign.start,
                                                   style: FlutterFlowTheme.of(
                                                           context)
@@ -622,7 +658,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                     color: Color(0x00EEEEEE),
                                                   ),
                                                   child: Text(
-                                                    'Powerful Framework',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'ta0jmrpl' /* Powerful Framework */,
+                                                    ),
                                                     textAlign: TextAlign.center,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -640,7 +679,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 16, 0, 0),
                                                   child: Text(
-                                                    'The Fellowship in Clinical Cardiology marks your entry into the prestigious field of cardiology. Cardiac disease is the most common cause of global mortality. Thus, there is a huge demand for medical graduates and general practitioners with a deep understanding of cardiology topics.',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'n8b05u1f' /* The Fellowship in Clinical Car... */,
+                                                    ),
                                                     textAlign: TextAlign.center,
                                                     style: FlutterFlowTheme.of(
                                                             context)
@@ -676,7 +718,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'Reviews',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'a0z7q8u3' /* Reviews */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -712,7 +757,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                               padding: EdgeInsetsDirectional
                                                   .fromSTEB(0, 20, 0, 0),
                                               child: Text(
-                                                'View All',
+                                                FFLocalizations.of(context)
+                                                    .getText(
+                                                  '0tuqbs3h' /* View All */,
+                                                ),
                                                 style:
                                                     FlutterFlowTheme.of(context)
                                                         .bodyText1
@@ -742,7 +790,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     0, 20, 0, 0),
                                             child: Text(
-                                              'FAQ',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'ea3eockn' /* FAQ */,
+                                              ),
                                               style: FlutterFlowTheme.of(
                                                       context)
                                                   .bodyText1
@@ -829,7 +880,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              'Duration',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'c1tfpnle' /* Duration */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -846,7 +901,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                   ),
                                                             ),
                                                             Text(
-                                                              '12 Months',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'neemda3n' /* 12 Months */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -901,7 +960,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              'Level',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '1yzyj8c6' /* Level */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -918,7 +981,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                   ),
                                                             ),
                                                             Text(
-                                                              'Beginner',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '1rkh0u5i' /* Beginner */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -970,7 +1037,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Course Validity',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'c904a1zz' /* Course Validity */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -993,7 +1064,14 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                   .fromSTEB(0,
                                                                       10, 0, 0),
                                                           child: Text(
-                                                            '· 13 Months\n\n· There will be an extra charge for the extension of the course validity.',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '4wr8m9so' /* · 13 Months
+
+· There will be a... */
+                                                              ,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -1044,7 +1122,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Sample Certificate',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '6yzu5qw5' /* Sample Certificate */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -1113,7 +1195,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Course Elgibility',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'nykswf87' /* Course Elgibility */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -1136,7 +1222,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                   .fromSTEB(0,
                                                                       10, 0, 0),
                                                           child: Text(
-                                                            '• Students who completed Session 1 & Session 2.\n\n\n• MBBS graduates with MCI/State Medical Council registration.',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'eiyuo754' /* • Students who completed Sessi... */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -1187,7 +1277,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'EMI Options',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            '5hvn8ls5' /* EMI Options */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -1220,7 +1314,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                           0,
                                                                           0),
                                                               child: Text(
-                                                                'Starting at Rs.14,575/-                            ',
+                                                                FFLocalizations.of(
+                                                                        context)
+                                                                    .getText(
+                                                                  '4v0o6xjt' /* Starting at Rs.14,575/-       ... */,
+                                                                ),
                                                                 style: FlutterFlowTheme.of(
                                                                         context)
                                                                     .bodyText1
@@ -1240,7 +1338,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                               ),
                                                             ),
                                                             Text(
-                                                              'View more',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'cn68n821' /* View more */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1,
@@ -1279,7 +1381,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Available Payment Options',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'ye0pwiwi' /* Available Payment Options */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -1323,7 +1429,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                         .cover,
                                                                   ),
                                                                   Text(
-                                                                    'Credit / Debit',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'w43hwvt7' /* Credit / Debit */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1356,7 +1466,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                         .contain,
                                                                   ),
                                                                   Text(
-                                                                    'UPI',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '797tr80a' /* UPI */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1389,7 +1503,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                         .contain,
                                                                   ),
                                                                   Text(
-                                                                    'Netbanking',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      'gsb9falf' /* Netbanking */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1422,7 +1540,11 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                                         .contain,
                                                                   ),
                                                                   Text(
-                                                                    'Wallet',
+                                                                    FFLocalizations.of(
+                                                                            context)
+                                                                        .getText(
+                                                                      '4d6aqih2' /* Wallet */,
+                                                                    ),
                                                                     style: FlutterFlowTheme.of(
                                                                             context)
                                                                         .bodyText1
@@ -1540,7 +1662,10 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                                   padding: EdgeInsetsDirectional
                                                       .fromSTEB(0, 20, 0, 20),
                                                   child: Text(
-                                                    'INVITE NOW >',
+                                                    FFLocalizations.of(context)
+                                                        .getText(
+                                                      'jz7m11f5' /* INVITE NOW > */,
+                                                    ),
                                                     style: FlutterFlowTheme.of(
                                                             context)
                                                         .bodyText1
@@ -1571,7 +1696,9 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                                 color: Color(0x00EEEEEE),
                               ),
                               child: Text(
-                                'Saved courses',
+                                FFLocalizations.of(context).getText(
+                                  '0kjkr5eb' /* Saved courses */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -1607,7 +1734,7 @@ class _CourseNewAfterBuyWidgetState extends State<CourseNewAfterBuyWidget> {
                               child: SizedBox(
                                 width: 70,
                                 height: 70,
-                                child: SpinKitFadingGrid(
+                                child: SpinKitRipple(
                                   color:
                                       FlutterFlowTheme.of(context).primaryCTA,
                                   size: 70,

@@ -45,22 +45,29 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                         Row(
                           mainAxisSize: MainAxisSize.max,
                           children: [
-                            Container(
-                              width: 60,
-                              height: 60,
-                              clipBehavior: Clip.antiAlias,
-                              decoration: BoxDecoration(
-                                shape: BoxShape.circle,
-                              ),
-                              child: SvgPicture.asset(
-                                'assets/images/backbutton.svg',
+                            InkWell(
+                              onTap: () async {
+                                Navigator.pop(context);
+                              },
+                              child: Container(
+                                width: 60,
+                                height: 60,
+                                clipBehavior: Clip.antiAlias,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                ),
+                                child: SvgPicture.asset(
+                                  'assets/images/backbutton.svg',
+                                ),
                               ),
                             ),
                             Padding(
                               padding:
                                   EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                               child: Text(
-                                'Settings',
+                                FFLocalizations.of(context).getText(
+                                  'zc9cfq4y' /* Settings */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -105,7 +112,9 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0, 20, 0, 0),
                                         child: Text(
-                                          'Contact Us',
+                                          FFLocalizations.of(context).getText(
+                                            'b94j8wsg' /* Contact Us */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -150,7 +159,9 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 20, 0, 0),
                                           child: Text(
-                                            'Language',
+                                            FFLocalizations.of(context).getText(
+                                              'i9dmezbq' /* Language */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -239,7 +250,9 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   0, 20, 0, 0),
                                           child: Text(
-                                            'Notifications',
+                                            FFLocalizations.of(context).getText(
+                                              'vlrb4gxw' /* Notifications */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -306,7 +319,9 @@ class _SettingsWidgetState extends State<SettingsWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             0, 20, 0, 0),
                                         child: Text(
-                                          'Feedback ',
+                                          FFLocalizations.of(context).getText(
+                                            'ky8cgmsn' /* Feedback  */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(

@@ -72,7 +72,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                     },
                                   ),
                                   Text(
-                                    'My courses  / Fellowship in Critical Care Medicine - 2021 Edition',
+                                    FFLocalizations.of(context).getText(
+                                      'pfycgd7s' /* My courses  / Fellowship in Cr... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -103,7 +105,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
-                                          '06',
+                                          FFLocalizations.of(context).getText(
+                                            'mkfm80bm' /* 06 */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -119,7 +123,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
-                                          'Credits ',
+                                          FFLocalizations.of(context).getText(
+                                            'o8bry728' /* Credits  */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -150,7 +156,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            '06',
+                                            FFLocalizations.of(context).getText(
+                                              '08q0vf6p' /* 06 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -167,7 +175,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            'Points',
+                                            FFLocalizations.of(context).getText(
+                                              'mkq3kt5s' /* Points */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -198,7 +208,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                   crossAxisAlignment: CrossAxisAlignment.start,
                                   children: [
                                     Text(
-                                      'Fellowship in Critical Care Medicine - 2021 Edition',
+                                      FFLocalizations.of(context).getText(
+                                        'yseahp59' /* Fellowship in Critical Care Me... */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -221,7 +233,10 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 0, 0, 0),
                                             child: Text(
-                                              '20 % completed',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'p0ngiltl' /* 20 % completed */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -261,7 +276,9 @@ class _CourseProgressPageWidgetState extends State<CourseProgressPageWidget> {
                                   onPressed: () {
                                     print('Button pressed ...');
                                   },
-                                  text: 'Check Progress',
+                                  text: FFLocalizations.of(context).getText(
+                                    '442hvgnu' /* Check Progress */,
+                                  ),
                                   icon: Icon(
                                     FFIcons.kvector,
                                     size: 15,

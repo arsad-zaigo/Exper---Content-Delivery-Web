@@ -53,7 +53,9 @@ class _ChatCompontentWidgetState extends State<ChatCompontentWidget> {
                     children: [
                       Expanded(
                         child: Text(
-                          'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie ',
+                          FFLocalizations.of(context).getText(
+                            'zlgenqw9' /* Lorem ipsum dolor sit amet, co... */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -70,7 +72,9 @@ class _ChatCompontentWidgetState extends State<ChatCompontentWidget> {
                           color: Color(0x00EEEEEE),
                         ),
                         child: Text(
-                          '12:42',
+                          FFLocalizations.of(context).getText(
+                            'tz6xjfzs' /* 12:42 */,
+                          ),
                           textAlign: TextAlign.end,
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(

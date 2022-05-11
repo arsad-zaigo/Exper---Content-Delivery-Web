@@ -47,7 +47,9 @@ class _PartnersFullScreenWidgetState extends State<PartnersFullScreenWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 35, 0, 0),
                           child: Text(
-                            'Our Partners',
+                            FFLocalizations.of(context).getText(
+                              'xvhqevo4' /* Our Partners */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -67,7 +69,7 @@ class _PartnersFullScreenWidgetState extends State<PartnersFullScreenWidget> {
                                   child: SizedBox(
                                     width: 70,
                                     height: 70,
-                                    child: SpinKitFadingGrid(
+                                    child: SpinKitRipple(
                                       color: FlutterFlowTheme.of(context)
                                           .primaryCTA,
                                       size: 70,

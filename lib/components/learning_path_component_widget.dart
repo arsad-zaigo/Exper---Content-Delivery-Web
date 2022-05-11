@@ -109,7 +109,9 @@ class _LearningPathComponentWidgetState
               Padding(
                 padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                 child: Text(
-                  'Preview',
+                  FFLocalizations.of(context).getText(
+                    'w6fktv71' /* Preview */,
+                  ),
                   style: FlutterFlowTheme.of(context).bodyText1.override(
                         fontFamily: 'SF Pro',
                         color: Color(0xFF3C439B),

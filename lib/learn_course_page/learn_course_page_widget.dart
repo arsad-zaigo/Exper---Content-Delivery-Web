@@ -69,7 +69,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                                     },
                                   ),
                                   Text(
-                                    'My courses  / Fellowship in Critical Care Medicine - 2021 Edition',
+                                    FFLocalizations.of(context).getText(
+                                      'x56jnqqd' /* My courses  / Fellowship in Cr... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -100,7 +102,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
-                                          '06',
+                                          FFLocalizations.of(context).getText(
+                                            'u1l7ko3n' /* 06 */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -116,7 +120,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                                         padding: EdgeInsetsDirectional.fromSTEB(
                                             10, 0, 0, 0),
                                         child: Text(
-                                          'Credits ',
+                                          FFLocalizations.of(context).getText(
+                                            'yjdkd5hp' /* Credits  */,
+                                          ),
                                           style: FlutterFlowTheme.of(context)
                                               .bodyText1
                                               .override(
@@ -147,7 +153,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            '06',
+                                            FFLocalizations.of(context).getText(
+                                              'w3hjnb2j' /* 06 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -164,7 +172,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            'Points',
+                                            FFLocalizations.of(context).getText(
+                                              '2v24yri2' /* Points */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -202,7 +212,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Text(
-                            'My courses  / Fellowship in Critical Care Medicine - 2021 Edition>  Chapter 2',
+                            FFLocalizations.of(context).getText(
+                              'ofxvsp2b' /* My courses  / Fellowship in Cr... */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -215,7 +227,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
                             child: Text(
-                              'Introduction to Cardiopulmonary Physiotherapy',
+                              FFLocalizations.of(context).getText(
+                                'g44xj5cp' /* Introduction to Cardiopulmonar... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -230,7 +244,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                             child: Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.',
+                              FFLocalizations.of(context).getText(
+                                'y86dvdrj' /* Lorem ipsum dolor sit amet, co... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -317,7 +333,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                             child: Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.',
+                              FFLocalizations.of(context).getText(
+                                '6a796jpb' /* Lorem ipsum dolor sit amet, co... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -342,7 +360,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                             child: Text(
-                              'Section 1',
+                              FFLocalizations.of(context).getText(
+                                'pem7cldr' /* Section 1 */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -357,7 +377,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
                             child: Text(
-                              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis pellentesque molestie at enim sem in. Nisi feugiat quis rhoncus, eget mauris consectetur elementum tortor, praesent. Vestibulum, elit porta pellentesque tortor id ultrices. Ornare tincidunt turpis blandit lacus vestibulum id pellentesque. Enim porttitor non integer sapien volutpat dignissim tortor. Mollis varius rhoncus, diam dui ut fames. Morbi curabitur tortor sapien eu massa, vel, aliquet.',
+                              FFLocalizations.of(context).getText(
+                                'pv3oklat' /* Lorem ipsum dolor sit amet, co... */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -395,7 +417,9 @@ class _LearnCoursePageWidgetState extends State<LearnCoursePageWidget> {
                             padding:
                                 EdgeInsetsDirectional.fromSTEB(0, 20, 0, 20),
                             child: Text(
-                              'Resources',
+                              FFLocalizations.of(context).getText(
+                                'h8l7gd0s' /* Resources */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(

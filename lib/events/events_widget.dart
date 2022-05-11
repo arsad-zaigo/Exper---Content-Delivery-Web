@@ -65,7 +65,9 @@ class _EventsWidgetState extends State<EventsWidget> {
                                     color: Color(0x00EEEEEE),
                                   ),
                                   child: Text(
-                                    'Events',
+                                    FFLocalizations.of(context).getText(
+                                      '1djhn7wb' /* Events */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -97,7 +99,10 @@ class _EventsWidgetState extends State<EventsWidget> {
                                         controller: textController,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          hintText: 'Search Here',
+                                          hintText: FFLocalizations.of(context)
+                                              .getText(
+                                            'q2p7ly5e' /* Search Here */,
+                                          ),
                                           enabledBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
                                               color: Color(0xFFDEDEDE),
@@ -139,7 +144,11 @@ class _EventsWidgetState extends State<EventsWidget> {
                                         color: Color(0x00EEEEEE),
                                       ),
                                       child: FlutterFlowDropDown(
-                                        options: ['Trending Courses'].toList(),
+                                        options: [
+                                          FFLocalizations.of(context).getText(
+                                            'nslphu1b' /* Trending Courses */,
+                                          )
+                                        ].toList(),
                                         onChanged: (val) =>
                                             setState(() => dropDownValue = val),
                                         width: 200,
@@ -152,7 +161,10 @@ class _EventsWidgetState extends State<EventsWidget> {
                                               fontWeight: FontWeight.w500,
                                               useGoogleFonts: false,
                                             ),
-                                        hintText: 'Trending Courses',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          'c5aoijur' /* Trending Courses */,
+                                        ),
                                         fillColor: Colors.white,
                                         elevation: 2,
                                         borderColor: Colors.transparent,

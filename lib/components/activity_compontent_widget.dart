@@ -48,11 +48,15 @@ class _ActivityCompontentWidgetState extends State<ActivityCompontentWidget> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    'Hello World',
+                    FFLocalizations.of(context).getText(
+                      '8l8njdlz' /* Hello World */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText1,
                   ),
                   Text(
-                    'Hello World',
+                    FFLocalizations.of(context).getText(
+                      'mzn7h9c4' /* Hello World */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText1,
                   ),
                 ],

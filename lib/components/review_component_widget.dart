@@ -57,7 +57,9 @@ class _ReviewComponentWidgetState extends State<ReviewComponentWidget> {
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Text(
-                              'Vittorio Rivabella',
+                              FFLocalizations.of(context).getText(
+                                'bbo29vh6' /* Vittorio Rivabella */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -69,7 +71,9 @@ class _ReviewComponentWidgetState extends State<ReviewComponentWidget> {
                                   ),
                             ),
                             Text(
-                              '4 days ago',
+                              FFLocalizations.of(context).getText(
+                                'kx6g2nsb' /* 4 days ago */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -93,7 +97,9 @@ class _ReviewComponentWidgetState extends State<ReviewComponentWidget> {
                     progressColor: Color(0xFFE5BD72),
                     backgroundColor: Color(0xFFF1F4F8),
                     center: Text(
-                      '2.5',
+                      FFLocalizations.of(context).getText(
+                        'bkv6e9u4' /* 2.5 */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFFE5BD72),
@@ -115,7 +121,9 @@ class _ReviewComponentWidgetState extends State<ReviewComponentWidget> {
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                     child: Text(
-                      'Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra.Kailash Manasarovar tour / Yatra stop for visit due to Covid 19 and I hope open Kailash Yatra 2022 with vaccinated people. Kailash Manasarovar Yatra ',
+                      FFLocalizations.of(context).getText(
+                        'gkyixstq' /* Kailash Manasarovar tour / Yat... */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF7F7F82),

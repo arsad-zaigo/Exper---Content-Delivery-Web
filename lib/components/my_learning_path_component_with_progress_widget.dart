@@ -96,7 +96,9 @@ class _MyLearningPathComponentWithProgressWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                             child: Text(
-                              '4 Videos',
+                              FFLocalizations.of(context).getText(
+                                'oy8xgpk2' /* 4 Videos */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -124,7 +126,9 @@ class _MyLearningPathComponentWithProgressWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                             child: Text(
-                              '4 Videos',
+                              FFLocalizations.of(context).getText(
+                                'byt6yrgj' /* 4 Videos */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -152,7 +156,9 @@ class _MyLearningPathComponentWithProgressWidgetState
                           Padding(
                             padding: EdgeInsetsDirectional.fromSTEB(5, 0, 0, 0),
                             child: Text(
-                              '4 Videos',
+                              FFLocalizations.of(context).getText(
+                                '0f3ul24k' /* 4 Videos */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -177,7 +183,9 @@ class _MyLearningPathComponentWithProgressWidgetState
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                         child: Text(
-                          '20 % completed',
+                          FFLocalizations.of(context).getText(
+                            'ixvwnhmn' /* 20 % completed */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -204,7 +212,9 @@ class _MyLearningPathComponentWithProgressWidgetState
                       Padding(
                         padding: EdgeInsetsDirectional.fromSTEB(10, 10, 0, 0),
                         child: Text(
-                          'Continue Learning ',
+                          FFLocalizations.of(context).getText(
+                            '9bhbdtkt' /* Continue Learning  */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',

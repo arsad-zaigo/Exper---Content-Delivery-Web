@@ -44,7 +44,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'Learn on the App',
+                          FFLocalizations.of(context).getText(
+                            '4uts43l4' /* Learn on the App */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',
@@ -57,7 +59,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 20, 0, 0),
                           child: Text(
-                            'Download the lessons and learn anytime, anywhere from\n the courses available on our app',
+                            FFLocalizations.of(context).getText(
+                              'h3e9n9js' /* Download the lessons and learn... */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -71,7 +75,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 40, 0, 0),
                           child: Text(
-                            'Scan this QR code on your camera app to download the app',
+                            FFLocalizations.of(context).getText(
+                              'jqo0k8te' /* Scan this QR code on your came... */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -95,7 +101,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 padding: EdgeInsetsDirectional.fromSTEB(
                                     40, 20, 0, 10),
                                 child: Text(
-                                  'OR',
+                                  FFLocalizations.of(context).getText(
+                                    '6hxehj2l' /* OR */,
+                                  ),
                                   textAlign: TextAlign.start,
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
@@ -186,7 +194,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Follow us',
+                                    FFLocalizations.of(context).getText(
+                                      '738gfxuo' /* Follow us */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -231,7 +241,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Company',
+                                    FFLocalizations.of(context).getText(
+                                      'kyq8mhky' /* Company */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -246,7 +258,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 10, 0, 0),
                                     child: Text(
-                                      'About Us',
+                                      FFLocalizations.of(context).getText(
+                                        'aryp4w0f' /* About Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -261,7 +275,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Careers',
+                                      FFLocalizations.of(context).getText(
+                                        'lg8ow01k' /* Careers */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -276,7 +292,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'In the media',
+                                      FFLocalizations.of(context).getText(
+                                        'pdnegn6j' /* In the media */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -291,7 +309,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Alumni speak',
+                                      FFLocalizations.of(context).getText(
+                                        'vr01hv2e' /* Alumni speak */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -306,7 +326,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Contact  Us',
+                                      FFLocalizations.of(context).getText(
+                                        'gaaz7rt3' /* Contact  Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -324,7 +346,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Work with Us',
+                                    FFLocalizations.of(context).getText(
+                                      '9izmjymt' /* Work with Us */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -339,7 +363,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 10, 0, 0),
                                     child: Text(
-                                      'About Us',
+                                      FFLocalizations.of(context).getText(
+                                        '6thdvcnj' /* About Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -354,7 +380,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Careers',
+                                      FFLocalizations.of(context).getText(
+                                        'lehmq8fh' /* Careers */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -369,7 +397,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'In the media',
+                                      FFLocalizations.of(context).getText(
+                                        '7gjlie01' /* In the media */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -384,7 +414,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Alumni speak',
+                                      FFLocalizations.of(context).getText(
+                                        'rbdvtfdm' /* Alumni speak */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -399,7 +431,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Contact  Us',
+                                      FFLocalizations.of(context).getText(
+                                        'pdk1jqhc' /* Contact  Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -417,7 +451,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Discover',
+                                    FFLocalizations.of(context).getText(
+                                      'p4hb3o50' /* Discover */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -432,7 +468,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 10, 0, 0),
                                     child: Text(
-                                      'About Us',
+                                      FFLocalizations.of(context).getText(
+                                        'q9czb7w4' /* About Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -447,7 +485,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Careers',
+                                      FFLocalizations.of(context).getText(
+                                        'mefirspt' /* Careers */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -462,7 +502,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'In the media',
+                                      FFLocalizations.of(context).getText(
+                                        'dblr2fv7' /* In the media */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -477,7 +519,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Alumni speak',
+                                      FFLocalizations.of(context).getText(
+                                        '2hs4wgrw' /* Alumni speak */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -492,7 +536,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Contact  Us',
+                                      FFLocalizations.of(context).getText(
+                                        'yxseycgm' /* Contact  Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -510,7 +556,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'For Business',
+                                    FFLocalizations.of(context).getText(
+                                      '5o4va38y' /* For Business */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -525,7 +573,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 10, 0, 0),
                                     child: Text(
-                                      'About Us',
+                                      FFLocalizations.of(context).getText(
+                                        'l1hxl8p7' /* About Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -540,7 +590,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Careers',
+                                      FFLocalizations.of(context).getText(
+                                        'dswdhj62' /* Careers */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -555,7 +607,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'In the media',
+                                      FFLocalizations.of(context).getText(
+                                        'uqaqzayi' /* In the media */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -570,7 +624,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Alumni speak',
+                                      FFLocalizations.of(context).getText(
+                                        'aqazv1nt' /* Alumni speak */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -585,7 +641,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                     padding: EdgeInsetsDirectional.fromSTEB(
                                         0, 5, 0, 0),
                                     child: Text(
-                                      'Contact  Us',
+                                      FFLocalizations.of(context).getText(
+                                        'hyb4w7yl' /* Contact  Us */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -603,7 +661,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                 crossAxisAlignment: CrossAxisAlignment.start,
                                 children: [
                                   Text(
-                                    'Learn On the Go!',
+                                    FFLocalizations.of(context).getText(
+                                      '9xrsdwdz' /* Learn On the Go! */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -668,7 +728,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Trending Post Graduate Programs',
+                                  FFLocalizations.of(context).getText(
+                                    'hxdzvo9v' /* Trending Post Graduate Program... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -683,7 +745,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 5, 0, 0),
                                   child: Text(
-                                    'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
+                                    FFLocalizations.of(context).getText(
+                                      'f3h8y8kd' /* PMP Plus Certification Trainin... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -711,7 +775,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Trending Post Graduate Programs',
+                                  FFLocalizations.of(context).getText(
+                                    'm641f1x4' /* Trending Post Graduate Program... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -726,7 +792,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 5, 0, 0),
                                   child: Text(
-                                    'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
+                                    FFLocalizations.of(context).getText(
+                                      'x05fjojm' /* PMP Plus Certification Trainin... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -754,7 +822,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Trending Post Graduate Programs',
+                                  FFLocalizations.of(context).getText(
+                                    'gnfme2ev' /* Trending Post Graduate Program... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -769,7 +839,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 5, 0, 0),
                                   child: Text(
-                                    'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
+                                    FFLocalizations.of(context).getText(
+                                      '6osor5na' /* PMP Plus Certification Trainin... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -797,7 +869,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Trending Post Graduate Programs',
+                                  FFLocalizations.of(context).getText(
+                                    '1wpuc8eu' /* Trending Post Graduate Program... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -812,7 +886,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 5, 0, 0),
                                   child: Text(
-                                    'PMP Plus Certification Training Course | Big Data Engineer Course | Data Science Certification Course | Data Analyst Certification Course | Artificial Intelligence Course | Cloud Architect Certification Training Course | DevOps Engineer Certification Training Course | Advanced Digital Marketing Course | Cyber Security Expert Course | MEAN Stack Developer Course',
+                                    FFLocalizations.of(context).getText(
+                                      '1yav7rdp' /* PMP Plus Certification Trainin... */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -840,7 +916,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  '• Terms of Use',
+                                  FFLocalizations.of(context).getText(
+                                    'm0g9xxrc' /* • Terms of Use */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -855,7 +933,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       2, 0, 0, 0),
                                   child: Text(
-                                    '• Privacy Policy',
+                                    FFLocalizations.of(context).getText(
+                                      'qwhqqtea' /* • Privacy Policy */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -868,7 +948,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                   ),
                                 ),
                                 Text(
-                                  '• Refund Policy',
+                                  FFLocalizations.of(context).getText(
+                                    'ei2siyyt' /* • Refund Policy */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -880,7 +962,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '• Reschedule Policy',
+                                  FFLocalizations.of(context).getText(
+                                    'j5jrc8n3' /* • Reschedule Policy */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -892,7 +976,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                                       ),
                                 ),
                                 Text(
-                                  '• Country',
+                                  FFLocalizations.of(context).getText(
+                                    'lb2m4aol' /* • Country */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -919,7 +1005,9 @@ class _FooterWidgetState extends State<FooterWidget> {
                               mainAxisAlignment: MainAxisAlignment.center,
                               children: [
                                 Text(
-                                  '@ 2009-2021 - Simplilearn Solutions. All Rights Reserved. The certification names are the trademarks of their respective owners.\n',
+                                  FFLocalizations.of(context).getText(
+                                    'g36z4psy' /* @ 2009-2021 - Simplilearn Solu... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(

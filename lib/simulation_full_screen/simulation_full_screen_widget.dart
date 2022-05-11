@@ -162,7 +162,10 @@ class _SimulationFullScreenWidgetState
                                                   color: Color(0x00EEEEEE),
                                                 ),
                                                 child: Text(
-                                                  'Conferance on  Cardiopulmonary Physio',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '4hecqnbd' /* Conferance on  Cardiopulmonary... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -185,7 +188,10 @@ class _SimulationFullScreenWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 5, 0, 0),
                                                 child: Text(
-                                                  'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their ... Read more',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'cyp24n12' /* The masterclass is a series of... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -243,7 +249,11 @@ class _SimulationFullScreenWidgetState
                                                                 .start,
                                                         children: [
                                                           Text(
-                                                            'Skill Level',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '6y2cst5j' /* Skill Level */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -260,7 +270,11 @@ class _SimulationFullScreenWidgetState
                                                                 ),
                                                           ),
                                                           Text(
-                                                            'Intermediate',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              '531nrqdf' /* Intermediate */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -317,7 +331,11 @@ class _SimulationFullScreenWidgetState
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              'Students Enrolled',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'm6hxoa9y' /* Students Enrolled */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -334,7 +352,11 @@ class _SimulationFullScreenWidgetState
                                                                   ),
                                                             ),
                                                             Text(
-                                                              '143',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'x1uhgmx3' /* 143 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -393,7 +415,11 @@ class _SimulationFullScreenWidgetState
                                                                   .start,
                                                           children: [
                                                             Text(
-                                                              'Credits',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '8hv22nd3' /* Credits */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -410,7 +436,11 @@ class _SimulationFullScreenWidgetState
                                                                   ),
                                                             ),
                                                             Text(
-                                                              '5',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'gejrmlql' /* 5 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -473,7 +503,11 @@ class _SimulationFullScreenWidgetState
                                                               .start,
                                                       children: [
                                                         Text(
-                                                          'Start Date ',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'faxo79dg' /* Start Date  */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -490,7 +524,11 @@ class _SimulationFullScreenWidgetState
                                                               ),
                                                         ),
                                                         Text(
-                                                          '30th Jan 2022',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'a3qxer2p' /* 30th Jan 2022 */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -547,7 +585,11 @@ class _SimulationFullScreenWidgetState
                                                                 .start,
                                                         children: [
                                                           Text(
-                                                            'Start Time ',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'aard9znk' /* Start Time  */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -564,7 +606,11 @@ class _SimulationFullScreenWidgetState
                                                                 ),
                                                           ),
                                                           Text(
-                                                            '06:30 PM',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'v458hzww' /* 06:30 PM */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -622,7 +668,11 @@ class _SimulationFullScreenWidgetState
                                                                 .start,
                                                         children: [
                                                           Text(
-                                                            'Total classes',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'o6nphfxy' /* Total classes */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -639,7 +689,11 @@ class _SimulationFullScreenWidgetState
                                                                 ),
                                                           ),
                                                           Text(
-                                                            '01',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'rxro64rl' /* 01 */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -691,7 +745,11 @@ class _SimulationFullScreenWidgetState
                                                                 .end,
                                                         children: [
                                                           Text(
-                                                            '₹ 14,799 ',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'ty8xewf9' /* ₹ 14,799  */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -714,7 +772,11 @@ class _SimulationFullScreenWidgetState
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              '₹ 14,799',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                'afy8b9qe' /* ₹ 14,799 */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -741,7 +803,11 @@ class _SimulationFullScreenWidgetState
                                                                 .fromSTEB(
                                                                     0, 5, 0, 0),
                                                         child: Text(
-                                                          '(Exluding All Taxes) ',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'f7qraegy' /* (Exluding All Taxes)  */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -767,7 +833,12 @@ class _SimulationFullScreenWidgetState
                                                           print(
                                                               'Button pressed ...');
                                                         },
-                                                        text: 'Talk to us',
+                                                        text:
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                          'plq3qv28' /* Talk to us */,
+                                                        ),
                                                         options:
                                                             FFButtonOptions(
                                                           width: 150,
@@ -810,7 +881,11 @@ class _SimulationFullScreenWidgetState
                                                             print(
                                                                 'Button pressed ...');
                                                           },
-                                                          text: 'Enroll Now',
+                                                          text: FFLocalizations
+                                                                  .of(context)
+                                                              .getText(
+                                                            '2e187ln1' /* Enroll Now */,
+                                                          ),
                                                           options:
                                                               FFButtonOptions(
                                                             width: 150,
@@ -882,8 +957,11 @@ class _SimulationFullScreenWidgetState
                                                               ),
                                                             );
                                                           },
-                                                          text:
-                                                              'Your live video class will start in : 03 Days & 06 Hours',
+                                                          text: FFLocalizations
+                                                                  .of(context)
+                                                              .getText(
+                                                            '9qn2dkkc' /* Your live video class will sta... */,
+                                                          ),
                                                           options:
                                                               FFButtonOptions(
                                                             width: 130,
@@ -936,7 +1014,10 @@ class _SimulationFullScreenWidgetState
                                                   color: Color(0x00EEEEEE),
                                                 ),
                                                 child: Text(
-                                                  'Workshop Overview',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'fsqym85k' /* Workshop Overview */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -955,7 +1036,10 @@ class _SimulationFullScreenWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 8, 0, 0),
                                                 child: Text(
-                                                  'The masterclass is a series of talks from the leaders, clinicians, academicians, and other pioneers from the healthcare sector. The summarised collection of conversations are crucial lessons on their experiences and their vision for the future.The talks present great insights on how to sustain the... Read more',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    '6cdaf6rw' /* The masterclass is a series of... */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1
@@ -992,7 +1076,11 @@ class _SimulationFullScreenWidgetState
                                                                 .fromSTEB(0, 10,
                                                                     0, 10),
                                                         child: Text(
-                                                          'Programme Outline',
+                                                          FFLocalizations.of(
+                                                                  context)
+                                                              .getText(
+                                                            'z26jtdlz' /* Programme Outline */,
+                                                          ),
                                                           style: FlutterFlowTheme
                                                                   .of(context)
                                                               .bodyText1
@@ -1055,7 +1143,10 @@ class _SimulationFullScreenWidgetState
                                                 padding: EdgeInsetsDirectional
                                                     .fromSTEB(0, 20, 0, 0),
                                                 child: Text(
-                                                  'Sample Certificate',
+                                                  FFLocalizations.of(context)
+                                                      .getText(
+                                                    'trl8duvb' /* Sample Certificate */,
+                                                  ),
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyText1

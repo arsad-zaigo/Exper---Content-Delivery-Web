@@ -68,7 +68,9 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                     color: Color(0x00EEEEEE),
                                   ),
                                   child: Text(
-                                    'Live Video Classes',
+                                    FFLocalizations.of(context).getText(
+                                      'vmdqfrvs' /* Live Video Classes */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -100,7 +102,10 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                         controller: textController,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          hintText: 'Search Here',
+                                          hintText: FFLocalizations.of(context)
+                                              .getText(
+                                            '8q1g7o7d' /* Search Here */,
+                                          ),
                                           enabledBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
                                               color: Color(0xFFDEDEDE),
@@ -142,7 +147,11 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                         color: Color(0x00EEEEEE),
                                       ),
                                       child: FlutterFlowDropDown(
-                                        options: ['Trending Courses'].toList(),
+                                        options: [
+                                          FFLocalizations.of(context).getText(
+                                            'j5erxtes' /* Trending Courses */,
+                                          )
+                                        ].toList(),
                                         onChanged: (val) =>
                                             setState(() => dropDownValue = val),
                                         width: 200,
@@ -155,7 +164,10 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                               fontWeight: FontWeight.w500,
                                               useGoogleFonts: false,
                                             ),
-                                        hintText: 'Trending Courses',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          't770l24d' /* Trending Courses */,
+                                        ),
                                         fillColor: Colors.white,
                                         elevation: 2,
                                         borderColor: Colors.transparent,
@@ -217,7 +229,7 @@ class _LiveVideoClasses1WidgetState extends State<LiveVideoClasses1Widget> {
                                                   child: SizedBox(
                                                     width: 70,
                                                     height: 70,
-                                                    child: SpinKitFadingGrid(
+                                                    child: SpinKitRipple(
                                                       color:
                                                           FlutterFlowTheme.of(
                                                                   context)

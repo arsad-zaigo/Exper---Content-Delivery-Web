@@ -57,7 +57,9 @@ class _WebTestoWidgetState extends State<WebTestoWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                           child: Text(
-                            'Efficient Collaborating',
+                            FFLocalizations.of(context).getText(
+                              'hy9ffrvx' /* Efficient Collaborating */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',
@@ -70,7 +72,9 @@ class _WebTestoWidgetState extends State<WebTestoWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                           child: Text(
-                            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem.',
+                            FFLocalizations.of(context).getText(
+                              '0mkob6ud' /* Lorem ipsum dolor sit amet, co... */,
+                            ),
                             textAlign: TextAlign.center,
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
@@ -109,7 +113,9 @@ class _WebTestoWidgetState extends State<WebTestoWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                           child: Text(
-                            'Theresa Webb',
+                            FFLocalizations.of(context).getText(
+                              'cx8ncrtd' /* Theresa Webb */,
+                            ),
                             textAlign: TextAlign.center,
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
@@ -124,7 +130,9 @@ class _WebTestoWidgetState extends State<WebTestoWidget> {
                         Padding(
                           padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                           child: Text(
-                            'Manager - Engineering',
+                            FFLocalizations.of(context).getText(
+                              'nvyo61f9' /* Manager - Engineering */,
+                            ),
                             style:
                                 FlutterFlowTheme.of(context).bodyText1.override(
                                       fontFamily: 'SF Pro',

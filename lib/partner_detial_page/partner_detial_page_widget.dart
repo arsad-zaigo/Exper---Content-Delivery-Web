@@ -80,7 +80,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 10),
                                       child: Text(
-                                        'Sahiyadri Hospitals',
+                                        FFLocalizations.of(context).getText(
+                                          'wndo1wx3' /* Sahiyadri Hospitals */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -95,7 +97,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                                       padding: EdgeInsetsDirectional.fromSTEB(
                                           0, 0, 0, 20),
                                       child: Text(
-                                        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. \nSed quis pellentesque molestie at enim sem in.',
+                                        FFLocalizations.of(context).getText(
+                                          '9dpw97wr' /* Lorem ipsum dolor sit amet, co... */,
+                                        ),
                                         style: FlutterFlowTheme.of(context)
                                             .bodyText1
                                             .override(
@@ -132,7 +136,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Trending Courses',
+                              FFLocalizations.of(context).getText(
+                                '52zrt4y5' /* Trending Courses */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -143,7 +149,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                                   ),
                             ),
                             Text(
-                              'View All',
+                              FFLocalizations.of(context).getText(
+                                'va16m5vh' /* View All */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -232,7 +240,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Trending Simulation',
+                              FFLocalizations.of(context).getText(
+                                'xqbaf1uz' /* Trending Simulation */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -243,7 +253,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                                   ),
                             ),
                             Text(
-                              'View All',
+                              FFLocalizations.of(context).getText(
+                                '32uvym7v' /* View All */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -275,7 +287,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Live Video Classes',
+                              FFLocalizations.of(context).getText(
+                                '11o4o4zs' /* Live Video Classes */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -286,7 +300,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                                   ),
                             ),
                             Text(
-                              'View All',
+                              FFLocalizations.of(context).getText(
+                                '6pu0rr0k' /* View All */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -354,7 +370,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
                           children: [
                             Text(
-                              'Contact Program',
+                              FFLocalizations.of(context).getText(
+                                'g8ntht2j' /* Contact Program */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(
@@ -365,7 +383,9 @@ class _PartnerDetialPageWidgetState extends State<PartnerDetialPageWidget> {
                                   ),
                             ),
                             Text(
-                              'View All',
+                              FFLocalizations.of(context).getText(
+                                'p0ewn1yp' /* View All */,
+                              ),
                               style: FlutterFlowTheme.of(context)
                                   .bodyText1
                                   .override(

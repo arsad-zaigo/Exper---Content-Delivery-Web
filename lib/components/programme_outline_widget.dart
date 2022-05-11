@@ -41,7 +41,9 @@ class _ProgrammeOutlineWidgetState extends State<ProgrammeOutlineWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(10, 0, 0, 0),
                   child: Text(
-                    '09:00 am - 09:30 am',
+                    FFLocalizations.of(context).getText(
+                      '4hxd74sp' /* 09:00 am - 09:30 am */,
+                    ),
                     style: FlutterFlowTheme.of(context).bodyText1.override(
                           fontFamily: 'SF Pro',
                           color: Color(0xFF7F7F82),
@@ -55,7 +57,9 @@ class _ProgrammeOutlineWidgetState extends State<ProgrammeOutlineWidget> {
             Padding(
               padding: EdgeInsetsDirectional.fromSTEB(0, 5, 0, 0),
               child: Text(
-                'Registrations and breakfast',
+                FFLocalizations.of(context).getText(
+                  'kqmc1aqy' /* Registrations and breakfast */,
+                ),
                 style: FlutterFlowTheme.of(context).bodyText1.override(
                       fontFamily: 'SF Pro',
                       color: Color(0xFF626168),

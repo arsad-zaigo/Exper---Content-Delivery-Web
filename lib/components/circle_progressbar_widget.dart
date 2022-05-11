@@ -29,7 +29,9 @@ class _CircleProgressbarWidgetState extends State<CircleProgressbarWidget> {
       progressColor: FlutterFlowTheme.of(context).primaryColor,
       backgroundColor: Color(0xFFF1F4F8),
       center: Text(
-        '2.4',
+        FFLocalizations.of(context).getText(
+          'tl461tf8' /* 2.4 */,
+        ),
         style: FlutterFlowTheme.of(context).bodyText1.override(
               fontFamily: 'SF Pro',
               color: FlutterFlowTheme.of(context).primaryColor,

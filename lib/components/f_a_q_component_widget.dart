@@ -41,7 +41,9 @@ class _FAQComponentWidgetState extends State<FAQComponentWidget> {
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
                         Text(
-                          'FAQ',
+                          FFLocalizations.of(context).getText(
+                            'r7xk6i6q' /* FAQ */,
+                          ),
                           style:
                               FlutterFlowTheme.of(context).bodyText1.override(
                                     fontFamily: 'SF Pro',

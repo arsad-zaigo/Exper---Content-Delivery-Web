@@ -64,7 +64,9 @@ class _SimulationWidgetState extends State<SimulationWidget> {
                                     color: Color(0x00EEEEEE),
                                   ),
                                   child: Text(
-                                    'Simulations',
+                                    FFLocalizations.of(context).getText(
+                                      'g0h6audp' /* Simulations */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
@@ -96,7 +98,10 @@ class _SimulationWidgetState extends State<SimulationWidget> {
                                         controller: textController,
                                         obscureText: false,
                                         decoration: InputDecoration(
-                                          hintText: 'Search Here',
+                                          hintText: FFLocalizations.of(context)
+                                              .getText(
+                                            'k77i1w7s' /* Search Here */,
+                                          ),
                                           enabledBorder: OutlineInputBorder(
                                             borderSide: BorderSide(
                                               color: Color(0xFFDEDEDE),
@@ -138,7 +143,11 @@ class _SimulationWidgetState extends State<SimulationWidget> {
                                         color: Color(0x00EEEEEE),
                                       ),
                                       child: FlutterFlowDropDown(
-                                        options: ['Trending Courses'].toList(),
+                                        options: [
+                                          FFLocalizations.of(context).getText(
+                                            'o734z33j' /* Trending Courses */,
+                                          )
+                                        ].toList(),
                                         onChanged: (val) =>
                                             setState(() => dropDownValue = val),
                                         width: 200,
@@ -151,7 +160,10 @@ class _SimulationWidgetState extends State<SimulationWidget> {
                                               fontWeight: FontWeight.w500,
                                               useGoogleFonts: false,
                                             ),
-                                        hintText: 'Trending Courses',
+                                        hintText:
+                                            FFLocalizations.of(context).getText(
+                                          'x7puwzwl' /* Trending Courses */,
+                                        ),
                                         fillColor: Colors.white,
                                         elevation: 2,
                                         borderColor: Colors.transparent,

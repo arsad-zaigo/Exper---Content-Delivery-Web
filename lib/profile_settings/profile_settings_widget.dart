@@ -57,22 +57,29 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                           Row(
                             mainAxisSize: MainAxisSize.max,
                             children: [
-                              Container(
-                                width: 60,
-                                height: 60,
-                                clipBehavior: Clip.antiAlias,
-                                decoration: BoxDecoration(
-                                  shape: BoxShape.circle,
-                                ),
-                                child: SvgPicture.asset(
-                                  'assets/images/backbutton.svg',
+                              InkWell(
+                                onTap: () async {
+                                  Navigator.pop(context);
+                                },
+                                child: Container(
+                                  width: 60,
+                                  height: 60,
+                                  clipBehavior: Clip.antiAlias,
+                                  decoration: BoxDecoration(
+                                    shape: BoxShape.circle,
+                                  ),
+                                  child: SvgPicture.asset(
+                                    'assets/images/backbutton.svg',
+                                  ),
                                 ),
                               ),
                               Padding(
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(24, 0, 0, 0),
                                 child: Text(
-                                  'Edit Profile',
+                                  FFLocalizations.of(context).getText(
+                                    'sw658264' /* Edit Profile */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -161,7 +168,11 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                             0,
                                                                             0),
                                                                 child: Text(
-                                                                  'Add',
+                                                                  FFLocalizations.of(
+                                                                          context)
+                                                                      .getText(
+                                                                    'vf72mky0' /* Add */,
+                                                                  ),
                                                                   style: FlutterFlowTheme.of(
                                                                           context)
                                                                       .bodyText1
@@ -186,7 +197,11 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                   .fromSTEB(0,
                                                                       32, 0, 0),
                                                           child: Text(
-                                                            'Personal Details',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'an09p1uq' /* Personal Details */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -245,7 +260,9 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                         decoration:
                                                                             InputDecoration(
                                                                           hintText:
-                                                                              'First Name*',
+                                                                              FFLocalizations.of(context).getText(
+                                                                            '5xlhbibq' /* First Name* */,
+                                                                          ),
                                                                           enabledBorder:
                                                                               OutlineInputBorder(
                                                                             borderSide:
@@ -313,7 +330,9 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                           decoration:
                                                                               InputDecoration(
                                                                             hintText:
-                                                                                'Last Name*',
+                                                                                FFLocalizations.of(context).getText(
+                                                                              'n5fgowfj' /* Last Name* */,
+                                                                            ),
                                                                             enabledBorder:
                                                                                 OutlineInputBorder(
                                                                               borderSide: BorderSide(
@@ -386,7 +405,9 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                         decoration:
                                                                             InputDecoration(
                                                                           hintText:
-                                                                              'Email*',
+                                                                              FFLocalizations.of(context).getText(
+                                                                            '45d9bxzi' /* Email* */,
+                                                                          ),
                                                                           enabledBorder:
                                                                               OutlineInputBorder(
                                                                             borderSide:
@@ -449,7 +470,9 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                             FlutterFlowDropDown(
                                                                           options:
                                                                               [
-                                                                            'Option 1'
+                                                                            FFLocalizations.of(context).getText(
+                                                                              'k1ukq710' /* Option 1 */,
+                                                                            )
                                                                           ].toList(),
                                                                           onChanged: (val) =>
                                                                               setState(() => dropDownValue = val),
@@ -466,7 +489,9 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                                 useGoogleFonts: false,
                                                                               ),
                                                                           hintText:
-                                                                              'Speciality*',
+                                                                              FFLocalizations.of(context).getText(
+                                                                            'r7a4mq72' /* Speciality* */,
+                                                                          ),
                                                                           fillColor:
                                                                               Color(0xFFF3F2F2),
                                                                           elevation:
@@ -570,7 +595,11 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'Select your subject interests',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '8zm6f9u0' /* Select your subject interests */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -598,7 +627,11 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                         0,
                                                                         0),
                                                             child: Text(
-                                                              'We will recommend contents based on your interest',
+                                                              FFLocalizations.of(
+                                                                      context)
+                                                                  .getText(
+                                                                '1hropjgx' /* We will recommend contents bas... */,
+                                                              ),
                                                               style: FlutterFlowTheme
                                                                       .of(context)
                                                                   .bodyText1
@@ -729,7 +762,11 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                   .fromSTEB(0,
                                                                       32, 0, 0),
                                                           child: Text(
-                                                            'Select your subject interests',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'obswki41' /* Select your subject interests */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1
@@ -753,7 +790,11 @@ class _ProfileSettingsWidgetState extends State<ProfileSettingsWidget> {
                                                                   .fromSTEB(0,
                                                                       8, 0, 0),
                                                           child: Text(
-                                                            'We will recommend contents based on your interest',
+                                                            FFLocalizations.of(
+                                                                    context)
+                                                                .getText(
+                                                              'u5b7yvdv' /* We will recommend contents bas... */,
+                                                            ),
                                                             style: FlutterFlowTheme
                                                                     .of(context)
                                                                 .bodyText1

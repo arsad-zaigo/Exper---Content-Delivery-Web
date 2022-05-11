@@ -71,7 +71,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                       },
                                     ),
                                     Text(
-                                      'My courses  / Fellowship in Critical Care Medicine - 2021 Edition',
+                                      FFLocalizations.of(context).getText(
+                                        'wjqriyfl' /* My courses  / Fellowship in Cr... */,
+                                      ),
                                       style: FlutterFlowTheme.of(context)
                                           .bodyText1
                                           .override(
@@ -103,7 +105,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            '06',
+                                            FFLocalizations.of(context).getText(
+                                              'bgpfyejb' /* 06 */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -120,7 +124,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                               EdgeInsetsDirectional.fromSTEB(
                                                   10, 0, 0, 0),
                                           child: Text(
-                                            'Credits ',
+                                            FFLocalizations.of(context).getText(
+                                              'l1wt00jh' /* Credits  */,
+                                            ),
                                             style: FlutterFlowTheme.of(context)
                                                 .bodyText1
                                                 .override(
@@ -151,7 +157,10 @@ class _AssessmentsGuideLinesPageWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 0, 0, 0),
                                             child: Text(
-                                              '08',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'nlid1f5x' /* 08 */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -171,7 +180,10 @@ class _AssessmentsGuideLinesPageWidgetState
                                                 EdgeInsetsDirectional.fromSTEB(
                                                     10, 0, 0, 0),
                                             child: Text(
-                                              'Points',
+                                              FFLocalizations.of(context)
+                                                  .getText(
+                                                'p9igdwmc' /* Points */,
+                                              ),
                                               style:
                                                   FlutterFlowTheme.of(context)
                                                       .bodyText1
@@ -201,7 +213,9 @@ class _AssessmentsGuideLinesPageWidgetState
                   Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(100, 50, 0, 0),
                     child: Text(
-                      'GUIDELINES',
+                      FFLocalizations.of(context).getText(
+                        'pz97tb0q' /* GUIDELINES */,
+                      ),
                       style: FlutterFlowTheme.of(context).bodyText1.override(
                             fontFamily: 'SF Pro',
                             color: Color(0xFF202431),
@@ -223,7 +237,9 @@ class _AssessmentsGuideLinesPageWidgetState
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
                               Text(
-                                'Module 1 - Assessment',
+                                FFLocalizations.of(context).getText(
+                                  'hruqf56t' /* Module 1 - Assessment */,
+                                ),
                                 style: FlutterFlowTheme.of(context)
                                     .bodyText1
                                     .override(
@@ -237,7 +253,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                 child: Text(
-                                  'This quiz has a limit of 20 mins. Time will count down from the moment you start your attempt and you must submit before it expires. Are you sure that you wish to start now?\n\nThe test cannot be paused.',
+                                  FFLocalizations.of(context).getText(
+                                    '45ch3xsg' /* This quiz has a limit of 20 mi... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -252,7 +270,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
                                 child: Text(
-                                  'Instructions:',
+                                  FFLocalizations.of(context).getText(
+                                    'vb9h4ykm' /* Instructions: */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -267,7 +287,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                 padding:
                                     EdgeInsetsDirectional.fromSTEB(0, 10, 0, 0),
                                 child: Text(
-                                  'You can skip questions. You can flag questions and skip back to questions.\nType of questions: random\nNo of questions: 20',
+                                  FFLocalizations.of(context).getText(
+                                    '3yrnord4' /* You can skip questions. You ca... */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -285,7 +307,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                   onPressed: () {
                                     print('Button pressed ...');
                                   },
-                                  text: 'Start Attempt',
+                                  text: FFLocalizations.of(context).getText(
+                                    '8f3k439y' /* Start Attempt */,
+                                  ),
                                   options: FFButtonOptions(
                                     width: 130,
                                     height: 40,
@@ -319,7 +343,9 @@ class _AssessmentsGuideLinesPageWidgetState
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  'Time',
+                                  FFLocalizations.of(context).getText(
+                                    'hap6y74c' /* Time */,
+                                  ),
                                   style: FlutterFlowTheme.of(context)
                                       .bodyText1
                                       .override(
@@ -333,7 +359,9 @@ class _AssessmentsGuideLinesPageWidgetState
                                   padding: EdgeInsetsDirectional.fromSTEB(
                                       0, 10, 0, 0),
                                   child: Text(
-                                    '20 Mins',
+                                    FFLocalizations.of(context).getText(
+                                      '6fuydrta' /* 20 Mins */,
+                                    ),
                                     style: FlutterFlowTheme.of(context)
                                         .bodyText1
                                         .override(
