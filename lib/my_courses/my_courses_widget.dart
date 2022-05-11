@@ -91,14 +91,17 @@ class _MyCoursesWidgetState extends State<MyCoursesWidget> {
                                         duration: '1 Year',
                                         rating: '4.5',
                                         price: '\$4700',
+                                        imageUrl:
+                                            'http://94.177.203.98/expertestimages/stomch.png',
                                       ),
                                     ),
                                     CourseCardWebWidget(
-                                      courseTitle:
-                                          'Fellowship in Critical Care Medicine ',
+                                      courseTitle: 'Fellowship in Pulmonology',
                                       duration: '1 Year',
                                       rating: '4.5',
                                       price: '\$4700',
+                                      imageUrl:
+                                          'https://drive.google.com/file/d/1qyXi6lP-SSohpWDrlp4QXbzT2V5XPWh1/view?usp=sharing',
                                     ),
                                   ],
                                 ),

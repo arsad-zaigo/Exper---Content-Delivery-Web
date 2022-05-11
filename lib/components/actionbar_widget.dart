@@ -82,7 +82,7 @@ class _ActionbarWidgetState extends State<ActionbarWidget> {
                                     crossAxisAlignment: CrossAxisAlignment.end,
                                     children: [
                                       Image.asset(
-                                        'assets/images/Vector.png',
+                                        'assets/images/Vector(2).png',
                                         width: 20,
                                         height: 20,
                                         fit: BoxFit.cover,

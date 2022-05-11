@@ -203,7 +203,7 @@ class _HomePageCopyWidgetState extends State<HomePageCopyWidget>
                                                                       children: [
                                                                         Image
                                                                             .asset(
-                                                                          'assets/images/Vector.png',
+                                                                          'assets/images/Vector(2).png',
                                                                           width:
                                                                               20,
                                                                           height:
@@ -1105,7 +1105,7 @@ at you... */
                                                     child: FutureBuilder<
                                                         ApiCallResponse>(
                                                       future:
-                                                          GetCoursesOnDashboardCall
+                                                          GetCourseOnDashboardTwoCall
                                                               .call(),
                                                       builder:
                                                           (context, snapshot) {
@@ -1125,13 +1125,13 @@ at you... */
                                                             ),
                                                           );
                                                         }
-                                                        final listViewGetCoursesOnDashboardResponse =
+                                                        final listViewGetCourseOnDashboardTwoResponse =
                                                             snapshot.data;
                                                         return Builder(
                                                           builder: (context) {
                                                             final homeItems =
                                                                 getJsonField(
-                                                                      (listViewGetCoursesOnDashboardResponse
+                                                                      (listViewGetCourseOnDashboardTwoResponse
                                                                               ?.jsonBody ??
                                                                           ''),
                                                                       r'''$[*]''',
@@ -1160,9 +1160,21 @@ at you... */
                                                                   ).toString(),
                                                                   duration:
                                                                       '2 Hours',
-                                                                  rating: '4.5',
+                                                                  rating:
+                                                                      getJsonField(
+                                                                    homeItemsItem,
+                                                                    r'''$.rating''',
+                                                                  ).toString(),
                                                                   price:
-                                                                      '\$400000',
+                                                                      getJsonField(
+                                                                    homeItemsItem,
+                                                                    r'''$.price''',
+                                                                  ).toString(),
+                                                                  imageUrl:
+                                                                      getJsonField(
+                                                                    homeItemsItem,
+                                                                    r'''$.imageurl''',
+                                                                  ),
                                                                 );
                                                               },
                                                             ).animated([
@@ -1928,6 +1940,8 @@ at you... */
                                                                   rating: '4.5',
                                                                   price:
                                                                       '\$6000',
+                                                                  imageUrl:
+                                                                      'https://elearningadmin.zaigoinfotech.com/media/hreat.png',
                                                                 ),
                                                               ),
                                                             ),

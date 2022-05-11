@@ -1,6 +1,7 @@
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
+import '../profile_settings/profile_settings_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -176,8 +177,13 @@ class _UserProfileWebWidgetState extends State<UserProfileWebWidget> {
               Align(
                 alignment: AlignmentDirectional(0.86, -0.83),
                 child: FFButtonWidget(
-                  onPressed: () {
-                    print('Button pressed ...');
+                  onPressed: () async {
+                    await Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => ProfileSettingsWidget(),
+                      ),
+                    );
                   },
                   text: FFLocalizations.of(context).getText(
                     'pw9d8ruh' /* Edit Profile */,

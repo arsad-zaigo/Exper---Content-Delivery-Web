@@ -13,12 +13,14 @@ class CourseCardWebWidget extends StatefulWidget {
     this.duration,
     this.rating,
     this.price,
+    this.imageUrl,
   }) : super(key: key);
 
   final String courseTitle;
   final String duration;
   final String rating;
   final String price;
+  final String imageUrl;
 
   @override
   _CourseCardWebWidgetState createState() => _CourseCardWebWidgetState();
@@ -32,9 +34,7 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
       child: Container(
         width: 300,
         height: 500,
-        decoration: BoxDecoration(
-          color: Color(0x00FD6D6B),
-        ),
+        decoration: BoxDecoration(),
         child: Card(
           clipBehavior: Clip.antiAliasWithSaveLayer,
           color: Color(0xFFFCDADA),
@@ -56,8 +56,11 @@ class _CourseCardWebWidgetState extends State<CourseCardWebWidget> {
                   ),
                   child: Padding(
                     padding: EdgeInsetsDirectional.fromSTEB(0, 10, 0, 30),
-                    child: Image.asset(
-                      'assets/images/Pngtreebody_lungs_2845930.png',
+                    child: Image.network(
+                      valueOrDefault<String>(
+                        widget.imageUrl,
+                        'https://elearningadmin.zaigoinfotech.com/media/hreat.png',
+                      ),
                       width: 100,
                       height: 60,
                       fit: BoxFit.scaleDown,

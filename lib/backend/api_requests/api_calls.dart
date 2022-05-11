@@ -144,3 +144,16 @@ class PaymentMethodCall {
         r'''$[*].type''',
       );
 }
+
+class GetCourseOnDashboardTwoCall {
+  static Future<ApiCallResponse> call() {
+    return ApiManager.instance.makeApiCall(
+      callName: 'getCourseOnDashboardTwo',
+      apiUrl: 'https://run.mocky.io/v3/d219b060-e324-4215-ac78-ab45326b4f57',
+      callType: ApiCallType.GET,
+      headers: {},
+      params: {},
+      returnBody: true,
+    );
+  }
+}

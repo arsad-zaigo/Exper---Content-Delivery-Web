@@ -1164,6 +1164,8 @@ at you... */
                                                                   rating: '4.5',
                                                                   price:
                                                                       '\$400000',
+                                                                  imageUrl:
+                                                                      'csasacsa',
                                                                 );
                                                               },
                                                             ).animated([
