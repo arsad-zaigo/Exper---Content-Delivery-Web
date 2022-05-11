@@ -1,4 +1,4 @@
-import '../course_new_before_buy/course_new_before_buy_widget.dart';
+import '../course_progress_page/course_progress_page_widget.dart';
 import '../flutter_flow/flutter_flow_theme.dart';
 import '../flutter_flow/flutter_flow_util.dart';
 import '../flutter_flow/flutter_flow_widgets.dart';
@@ -159,7 +159,7 @@ class _CourseCardResumeWebWidgetState extends State<CourseCardResumeWebWidget> {
                                       duration: Duration(milliseconds: 300),
                                       reverseDuration:
                                           Duration(milliseconds: 300),
-                                      child: CourseNewBeforeBuyWidget(),
+                                      child: CourseProgressPageWidget(),
                                     ),
                                   );
                                 },
